@@ -76,13 +76,93 @@ The environment variable `DEFOCUS_ROOT` points to `~/csc2529`. The code finds `d
 
 Data, weights and results are never committed to the repository.
 
+> **Storage is not settled yet.** The home quota is only about 10 GB (section 7), while the data, the environment and the weights together need about 95 GB. Sections 4 and 5 assume everything lives in the home folder; the paths will change once we get more space. The commands in section 4 have not yet been run on the cluster.
+
 ## 4. Environment
 
-TODO. The cluster has no conda and no Docker or Apptainer; the plan is a Miniforge installation in your home with one environment for the project, described by `environment.yml` in this repository.
+Each person has their own environment in their own home. Conda only provides Python 3.11; every package comes from `requirements.txt` through pip.
+
+Run the installation on a CPU node, not on `comps0`:
+
+```bash
+srun --partition=cpunodes -c 4 --mem=8G -t 2:00:00 --pty bash --login
+```
+
+Install Miniforge (a conda distribution) into `~/miniforge3`. This does not change `~/.bashrc`:
+
+```bash
+wget -O /tmp/miniforge_$USER.sh https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
+bash /tmp/miniforge_$USER.sh -b -p ~/miniforge3
+rm /tmp/miniforge_$USER.sh
+```
+
+Create the environment and install the packages:
+
+```bash
+~/miniforge3/bin/conda create -y -n defocus-vlm python=3.11
+source ~/miniforge3/bin/activate defocus-vlm
+cd ~/csc2529/defocus-vlm
+pip install --no-cache-dir -r requirements.txt
+conda clean -y -a
+```
+
+Activate it in every new shell and at the top of every Slurm job:
+
+```bash
+source ~/miniforge3/bin/activate defocus-vlm
+```
+
+Rules:
+
+- Packages are added when code first needs them. Add the package with a fixed version (`name==x.y.z`) to `requirements.txt` in the same commit as the code that first imports it.
+- After pulling a commit that changed `requirements.txt`, run `pip install --no-cache-dir -r requirements.txt` again.
+- Never install packages inside a job: it is slow, holds the GPU while doing nothing, and can silently change versions between runs.
+- Versions match the pilot runs. The environment takes about 8 to 10 GB.
 
 ## 5. Data and model weights
 
-TODO.
+### HDC2021
+
+The Helsinki Deblur Challenge 2021 data is on Zenodo (CC BY 4.0):
+
+| Split | Zenodo record | Files | Size |
+|---|---|---|---|
+| training | 4916176 (version 1.1) | 20 zips, one per defocus step 0 to 19 | 49.6 GB |
+| test | 5713637 | 4 zips, five steps each | 13.3 GB |
+
+Do not use record 4772280: it is an older version of the training set with steps 0 to 9 only.
+
+Download with a job on a CPU node (submit from the repository root; the argument is `test`, `train` or `all`):
+
+```bash
+cd ~/csc2529/defocus-vlm
+sbatch -o ~/csc2529/logs/%x_%j.out slurm/download_hdc.sbatch all
+```
+
+For each zip, `scripts/download_hdc.py` downloads it (resuming a partial download), checks its MD5 against the value Zenodo publishes, extracts it, and deletes the zip. If the job stops, submit it again: zips already extracted are skipped. At about 10 MB/s, the test set takes about 25 minutes. Extracted files take about 1.3 times the zip size.
+
+Result:
+
+```
+~/csc2529/data/hdc2021/
+  test/steps_0_to_4/CAM01_focused/    sharp photos
+  test/steps_0_to_4/CAM02_blurred/    the same scenes, defocused
+  test/steps_5_to_9/ ...
+  train/ ...
+  _downloads/                         partial downloads, empty when finished
+```
+
+In the test set, each step has 40 text images (each with a `.txt` transcription), 15 natural images, 1 QR code and 3 PSF calibration targets, in both camera folders. File names start with `focusStep_N_`.
+
+### Model weights
+
+The reader is `Qwen/Qwen2-VL-2B-Instruct` from Hugging Face (about 4.5 GB), stored in `~/csc2529/models/Qwen2-VL-2B-Instruct`. Download it inside the environment with the version fixed to one Hub commit, so that everyone uses identical weights:
+
+```bash
+python -c "from huggingface_hub import snapshot_download; snapshot_download('Qwen/Qwen2-VL-2B-Instruct', revision='COMMIT', local_dir='$HOME/csc2529/models/Qwen2-VL-2B-Instruct')"
+```
+
+TODO: the commit hash, once the weights are downloaded. Weights used by deepinv (DRUNet, RAM) will be added when that code is written.
 
 ## 6. Running jobs
 
@@ -208,6 +288,7 @@ scancel JOB_ID
   - RTX A4500, 20 GB: 16 nodes, but only 4 cores and 29 GB of memory each. Good for debugging and evaluation when the 4090s are busy.
   - RTX A6000, 48 GB: 2 nodes. RTX A2000 and A4000 nodes also exist.
 - GPU nodes can reach the internet (Zenodo and Hugging Face were checked), so data and weights can be downloaded inside a job.
-- The home directory is a network folder, the same on every machine. It sits on a 600 GB volume shared with other users; the personal quota is unknown.
+- The home directory is a network folder, the same on every machine. Each user can store only about 10 GB there: a download stopped with "Disk quota exceeded" at about 11 GB. The `quota` command is not installed. When the quota is full, every write fails, including the job's own output file, so the job stops without an error message.
+- GPU driver 595.71 (CUDA 13.2).
 - Each GPU node also has a local disk (`/tmp` had about 170 GB free on `gpunode33`, and there is `/scratch`). It is faster than the home directory but not kept between jobs: copy data there at the start of a job if reading speed matters.
 - No conda, Docker or Apptainer is installed. The system Python is 3.14.
