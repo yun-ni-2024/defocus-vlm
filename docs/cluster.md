@@ -86,19 +86,78 @@ TODO.
 
 ## 6. Running jobs
 
-See which GPUs are free:
+### Why jobs are submitted
+
+There are about 25 GPU machines and many users. Nobody logs in to a GPU machine and starts a program directly: two programs on the same GPU would run out of memory together. Instead, the scheduler, **Slurm**, hands out machines:
+
+- you tell Slurm what to run and how many resources it needs;
+- Slurm finds a machine with those resources free and starts your program there;
+- if nothing is free, your job waits in a queue and starts on its own when space opens up.
+
+"Submitting a job" means handing Slurm that request. See which GPUs are free right now:
 
 ```bash
 slurm_report -g
 ```
 
-**Interactive session**, for debugging. You get a shell on a GPU node; it ends when you `exit`, when the time runs out, or when your SSH connection drops. The GPU stays reserved for you until then, so `exit` as soon as you are done.
+### What to ask for
+
+| Option | Meaning | Typical value for us |
+|---|---|---|
+| `--partition=gpunodes` | which group of machines | always `gpunodes` |
+| `--gres=gpu:TYPE:1` | which GPU and how many | `gpu:rtx_4090:1` |
+| `-c N` | CPU cores | 4 to 8 |
+| `--mem=SIZE` | system memory (not GPU memory) | `16G` to `32G` |
+| `-t TIME` | time limit, in minutes or as `H:MM:SS` | `30` for debugging, `24:00:00` for training |
+| `-J NAME` | a name for the job | e.g. `c_lora_sim` |
+| `-o FILE` | where the program's output goes; `%x` becomes the job name, `%j` the job ID | `/u/YOUR_USERNAME/csc2529/logs/%x_%j.out` |
+
+The resources are both reserved for you and a hard limit: nobody else can use them while your job runs, but a job that uses more memory than it asked for is killed, and a job that runs past its time limit is stopped. Without `-c` and `--mem`, a job gets only 1 core and 1 GB.
+
+GPU types accepted by `--gres` (checked on 2026-11-05): `rtx_4090`, `rtx_a4500`, `rtx_a6000`, `rtx_a4000`, `rtx_a2000`. If all 4090s are busy, `rtx_a4500` (20 GB) is the usual fallback.
+
+### Interactive session: `srun`
+
+Asks for resources and gives you a shell on the GPU machine. Your prompt changes to something like `YOUR_USERNAME@gpunode33`, and you type commands as if you were sitting at that machine.
 
 ```bash
 srun --partition=gpunodes -c 4 --mem=16G --gres=gpu:rtx_4090:1 -t 30 --pty bash --login
 ```
 
-**Batch job**, for anything long. It runs on its own after you submit it; you can log out.
+Use it for debugging and short tests. It ends when you `exit`, when the time runs out, or when your SSH connection drops, so it cannot be used for long training. The GPU stays reserved for you until it ends: `exit` as soon as you are done.
+
+### Batch job: `sbatch`
+
+Write the resource request and the commands into one file and hand it to Slurm. You can log out afterwards; the job runs on its own. A minimal example, `hello.sbatch`:
+
+```bash
+#!/bin/bash
+#SBATCH --partition=gpunodes
+#SBATCH --gres=gpu:rtx_4090:1
+#SBATCH -c 4
+#SBATCH --mem=16G
+#SBATCH -t 10
+#SBATCH -J hello
+#SBATCH -o /u/YOUR_USERNAME/csc2529/logs/%x_%j.out
+
+hostname
+nvidia-smi -L
+echo "done"
+```
+
+- Lines starting with `#SBATCH` are the resource request from the table above.
+- The other lines are the commands to run. In real jobs they activate the environment and run a script from this repository.
+- Write the `-o` path in full. `~` is not expanded inside `#SBATCH` lines, and the folder must already exist.
+
+Submit it:
+
+```bash
+sbatch hello.sbatch
+```
+
+Slurm replies `Submitted batch job 229485`; the number is the job ID. This exact example ran on `gpunode5` and its output file contained the node name, the GPU and `done`.
+
+In the project, the resource requests live in templates in `slurm/` and the experiment is chosen by a config file:
 
 ```bash
 sbatch slurm/TEMPLATE.sbatch configs/EXPERIMENT.yaml
@@ -106,13 +165,39 @@ sbatch slurm/TEMPLATE.sbatch configs/EXPERIMENT.yaml
 
 TODO: the templates in `slurm/`.
 
-Checking and stopping jobs:
+### After submitting
+
+A job goes through these states:
+
+```
+PENDING (waiting) -> RUNNING (on some gpunode) -> COMPLETED
+                                                  or FAILED (the program stopped with an error)
+                                                  or TIMEOUT (stopped at the time limit)
+```
+
+List your jobs that have not finished yet, with their state and machine:
 
 ```bash
 squeue -u $USER
-tail -f ~/csc2529/logs/OUTPUT_FILE
+```
+
+Everything the program prints, including error messages, goes to the `-o` file. Follow it while the job runs (Ctrl-C stops watching, not the job):
+
+```bash
+tail -f /u/YOUR_USERNAME/csc2529/logs/hello_229485.out
+```
+
+Cancel a job:
+
+```bash
 scancel JOB_ID
 ```
+
+### How a batch job differs from running a program on your own computer
+
+1. It cannot ask you anything while it runs. Every setting must be fixed beforehand, which is why experiments are described by config files.
+2. You do not see errors as they happen. After submitting, check that the job started and read the first lines of its output file.
+3. It runs on another machine, but it reads and writes the same `~/csc2529` as every other machine, so its results appear on `comps0` straight away.
 
 ## 7. Cluster facts (checked on 2026-11-05)
 
