@@ -175,6 +175,26 @@ python -c "from huggingface_hub import snapshot_download; snapshot_download('Qwe
 
 Weights used by deepinv (DRUNet, RAM) will be added when that code is written.
 
+### Using the shared copy instead of downloading
+
+The data and the Qwen2-VL weights are already downloaded in `/w/20261/yni/csc2529`, and every cluster user can read (but not change) them. Instead of downloading your own copy, link to them from your own `DEFOCUS_ROOT`, so the code finds them at the usual paths:
+
+```bash
+mkdir -p /w/20261/$USER/csc2529/models
+ln -s /w/20261/yni/csc2529/data /w/20261/$USER/csc2529/data
+ln -s /w/20261/yni/csc2529/models/Qwen2-VL-2B-Instruct /w/20261/$USER/csc2529/models/Qwen2-VL-2B-Instruct
+```
+
+| | Shared or your own |
+|---|---|
+| HDC2021 data, Qwen2-VL weights | shared, read-only; this saves 3.5 hours and 74 GB, and everyone uses identical files |
+| conda environment (section 4) | your own: installing packages writes into it |
+| `runs/`, and the caches `HF_HOME` and `TORCH_HOME` | your own: jobs write there |
+
+- Link only the Qwen2-VL folder, not the whole `models/` folder. The caches live under `models/`, and writing them into someone else's folder fails.
+- The shared folders must not be moved or deleted while anyone links to them.
+- Files written to `/w/20261` can be read by every cluster user by default, including results in `runs/`.
+
 ## 6. Running jobs
 
 ### Why jobs are submitted
