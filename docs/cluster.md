@@ -302,6 +302,7 @@ scancel JOB_ID
 - The home directory is a network folder, the same on every machine. Each user can store only about 10 GB there: a download stopped with "Disk quota exceeded" at about 11 GB. The `quota` command is not installed. When the quota is full, every write fails, including the job's own output file, so the job stops without an error message.
 - `/w/20261/YOUR_USERNAME` and `/w/20262/YOUR_USERNAME` are personal storage folders created for every MScAC student. Each sits on a 1.5 TB volume shared by about 120 students; the previous year's folders still exist, so they last at least a year. The personal limit there is unknown: about 80 GB were stored without an error (checked 2026-11-08). We use `/w/20261` only.
 - GPU driver 595.71 (CUDA 13.2).
+- Qwen2-VL-2B in bfloat16 loads in about 10 s and reads one image with at most 4.5 GB of GPU memory (checked on an RTX 4090, 2026-11-08). For inference only, the 20 GB `rtx_a4500` is more than enough.
 - Each machine also has its own local disk: `/tmp`, and `/nobackup` (which points to `/var/tmp`); on `gpunode29` about 390 GB were free. Other machines cannot see it, so it only serves as a fast cache within one job.
 - On GPU nodes, `/scratch` is a temporary disk shared by all GPU nodes (2.2 TB, 95% full). Its folders are named after their deletion date, such as `expires-2026-Nov-16`; do not keep anything there.
 - No conda, Docker or Apptainer is installed. The system Python is 3.14.
