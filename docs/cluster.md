@@ -63,24 +63,27 @@ Keeping the copies in sync:
 
 ## 3. Folder layout on the cluster
 
+The home folder holds only about 10 GB (section 7). Code and Slurm output files stay in the home folder; everything large goes to the personal storage folder `/w/20261/YOUR_USERNAME`. Every MScAC student has this folder, and every machine (`comps0`, GPU nodes, CPU nodes) sees it.
+
 ```
-~/csc2529/
-  defocus-vlm/   this repository
-  data/          HDC2021, downloaded once, treated as read-only
-  models/        pretrained weights
-  runs/          one folder per experiment run: config, git commit, logs, checkpoints, predictions
-  logs/          Slurm output files
+~/csc2529/                       home folder, small files only
+  defocus-vlm/                   this repository
+  logs/                          Slurm output files
+/w/20261/YOUR_USERNAME/
+  miniforge3/                    conda and the project environment (section 4)
+  csc2529/                       DEFOCUS_ROOT
+    data/hdc2021/                HDC2021, downloaded once, treated as read-only (section 5)
+    models/                      pretrained weights (section 5)
+    runs/                        one folder per experiment run: config, git commit, logs, checkpoints, predictions
 ```
 
-The environment variable `DEFOCUS_ROOT` points to `~/csc2529`. The code finds `data/`, `models/` and `runs/` from it, so no path is written into the code.
+The environment variable `DEFOCUS_ROOT` points to `/w/20261/YOUR_USERNAME/csc2529`. The code finds `data/`, `models/` and `runs/` from it, so no path is written into the code. When `DEFOCUS_ROOT` is not set, the scripts use this same location.
 
 Data, weights and results are never committed to the repository.
 
-> **Storage is not settled yet.** The home quota is only about 10 GB (section 7), while the data, the environment and the weights together need about 95 GB. Sections 4 and 5 assume everything lives in the home folder; the paths will change once we get more space. The commands in section 4 have not yet been run on the cluster.
-
 ## 4. Environment
 
-Each person has their own environment in their own home. Conda only provides Python 3.11; every package comes from `requirements.txt` through pip.
+Each person has their own environment in their own storage folder. Conda only provides Python 3.11; every package comes from `requirements.txt` through pip.
 
 Run the installation on a CPU node, not on `comps0`:
 
@@ -88,28 +91,31 @@ Run the installation on a CPU node, not on `comps0`:
 srun --partition=cpunodes -c 4 --mem=8G -t 2:00:00 --pty bash --login
 ```
 
-Install Miniforge (a conda distribution) into `~/miniforge3`. This does not change `~/.bashrc`:
+Install Miniforge (a conda distribution) into `/w/20261/$USER/miniforge3`. This does not change `~/.bashrc`:
 
 ```bash
 wget -O /tmp/miniforge_$USER.sh https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
-bash /tmp/miniforge_$USER.sh -b -p ~/miniforge3
+bash /tmp/miniforge_$USER.sh -b -p /w/20261/$USER/miniforge3
 rm /tmp/miniforge_$USER.sh
 ```
 
 Create the environment and install the packages:
 
 ```bash
-~/miniforge3/bin/conda create -y -n defocus-vlm python=3.11
-source ~/miniforge3/bin/activate defocus-vlm
+/w/20261/$USER/miniforge3/bin/conda create -y -n defocus-vlm python=3.11
+source /w/20261/$USER/miniforge3/bin/activate defocus-vlm
 cd ~/csc2529/defocus-vlm
 pip install --no-cache-dir -r requirements.txt
 conda clean -y -a
 ```
 
-Activate it in every new shell and at the top of every Slurm job:
+Run these lines in every new shell and at the top of every Slurm job. The last two keep the download caches of Hugging Face and PyTorch out of the home folder:
 
 ```bash
-source ~/miniforge3/bin/activate defocus-vlm
+source /w/20261/$USER/miniforge3/bin/activate defocus-vlm
+export DEFOCUS_ROOT=/w/20261/$USER/csc2529
+export HF_HOME=$DEFOCUS_ROOT/models/hf_home
+export TORCH_HOME=$DEFOCUS_ROOT/models/torch_home
 ```
 
 Rules:
@@ -117,7 +123,7 @@ Rules:
 - Packages are added when code first needs them. Add the package with a fixed version (`name==x.y.z`) to `requirements.txt` in the same commit as the code that first imports it.
 - After pulling a commit that changed `requirements.txt`, run `pip install --no-cache-dir -r requirements.txt` again.
 - Never install packages inside a job: it is slow, holds the GPU while doing nothing, and can silently change versions between runs.
-- Versions match the pilot runs. The environment takes about 8 to 10 GB.
+- Versions match the pilot runs. Miniforge with the environment takes about 6.5 GB. PyTorch is the CUDA 13.0 build, which the driver on the GPU nodes supports.
 
 ## 5. Data and model weights
 
@@ -139,30 +145,35 @@ cd ~/csc2529/defocus-vlm
 sbatch -o ~/csc2529/logs/%x_%j.out slurm/download_hdc.sbatch all
 ```
 
-For each zip, `scripts/download_hdc.py` downloads it (resuming a partial download), checks its MD5 against the value Zenodo publishes, extracts it, and deletes the zip. If the job stops, submit it again: zips already extracted are skipped. At about 10 MB/s, the test set takes about 25 minutes. Extracted files take about 1.3 times the zip size.
+For each zip, `scripts/download_hdc.py` downloads it (resuming a partial download), checks its MD5 against the value Zenodo publishes, extracts it, and deletes the zip. If the job stops, submit it again: zips already extracted are skipped. The full download took about 3.5 hours (4 to 10 MB/s) and takes 69 GB once extracted.
 
-Result:
+Result, under `/w/20261/YOUR_USERNAME/csc2529/data/hdc2021/`:
 
 ```
-~/csc2529/data/hdc2021/
-  test/steps_0_to_4/CAM01_focused/    sharp photos
-  test/steps_0_to_4/CAM02_blurred/    the same scenes, defocused
-  test/steps_5_to_9/ ...
-  train/ ...
-  _downloads/                         partial downloads, empty when finished
+test/
+  steps_0_to_4/CAM01_focused/    sharp photos of steps 0 to 4
+  steps_0_to_4/CAM02_blurred/    the same scenes, defocused
+  steps_5_to_9/  steps_10_to_14/  steps_15_to_19/
+train/
+  step0/Times/CAM01/             sharp photos
+  step0/Times/CAM02/             the same scenes, defocused
+  step0/Verdana/CAM01/  step0/Verdana/CAM02/
+  step1/ ... step19/
 ```
 
-In the test set, each step has 40 text images (each with a `.txt` transcription), 15 natural images, 1 QR code and 3 PSF calibration targets, in both camera folders. File names start with `focusStep_N_`.
+- Test set: in each camera folder, every step has 40 text images (each with a `.txt` transcription), 15 natural images, 1 QR code and 3 PSF calibration targets. File names start with `focusStep_N_`.
+- Training set: in each camera folder there are 100 text images (each with a `.txt` transcription) and 3 PSF calibration targets.
+- The `__MACOSX` folders come from the zip files and can be ignored.
 
 ### Model weights
 
-The reader is `Qwen/Qwen2-VL-2B-Instruct` from Hugging Face (about 4.5 GB), stored in `~/csc2529/models/Qwen2-VL-2B-Instruct`. Download it inside the environment with the version fixed to one Hub commit, so that everyone uses identical weights:
+The reader is `Qwen/Qwen2-VL-2B-Instruct` from Hugging Face (4.2 GB), fixed to Hub commit `895c3a49bc3fa70a340399125c650a463535e71c` so that everyone uses identical weights. Download it with the environment activated:
 
 ```bash
-python -c "from huggingface_hub import snapshot_download; snapshot_download('Qwen/Qwen2-VL-2B-Instruct', revision='COMMIT', local_dir='$HOME/csc2529/models/Qwen2-VL-2B-Instruct')"
+python -c "from huggingface_hub import snapshot_download; snapshot_download('Qwen/Qwen2-VL-2B-Instruct', revision='895c3a49bc3fa70a340399125c650a463535e71c', local_dir='/w/20261/$USER/csc2529/models/Qwen2-VL-2B-Instruct')"
 ```
 
-TODO: the commit hash, once the weights are downloaded. Weights used by deepinv (DRUNet, RAM) will be added when that code is written.
+Weights used by deepinv (DRUNet, RAM) will be added when that code is written.
 
 ## 6. Running jobs
 
@@ -279,7 +290,7 @@ scancel JOB_ID
 2. You do not see errors as they happen. After submitting, check that the job started and read the first lines of its output file.
 3. It runs on another machine, but it reads and writes the same `~/csc2529` as every other machine, so its results appear on `comps0` straight away.
 
-## 7. Cluster facts (checked on 2026-11-05)
+## 7. Cluster facts (checked on 2026-11-05 to 2026-11-08)
 
 - Partition `gpunodes`. Longest job: 5 days; a job without `-t` gets 12 hours. Jobs are not preempted.
 - Without `-c` and `--mem`, a GPU job gets only 1 core and 1 GB of memory, so always ask for what you need.
@@ -289,6 +300,8 @@ scancel JOB_ID
   - RTX A6000, 48 GB: 2 nodes. RTX A2000 and A4000 nodes also exist.
 - GPU nodes can reach the internet (Zenodo and Hugging Face were checked), so data and weights can be downloaded inside a job.
 - The home directory is a network folder, the same on every machine. Each user can store only about 10 GB there: a download stopped with "Disk quota exceeded" at about 11 GB. The `quota` command is not installed. When the quota is full, every write fails, including the job's own output file, so the job stops without an error message.
+- `/w/20261/YOUR_USERNAME` and `/w/20262/YOUR_USERNAME` are personal storage folders created for every MScAC student. Each sits on a 1.5 TB volume shared by about 120 students; the previous year's folders still exist, so they last at least a year. The personal limit there is unknown: about 80 GB were stored without an error (checked 2026-11-08). We use `/w/20261` only.
 - GPU driver 595.71 (CUDA 13.2).
-- Each GPU node also has a local disk (`/tmp` had about 170 GB free on `gpunode33`, and there is `/scratch`). It is faster than the home directory but not kept between jobs: copy data there at the start of a job if reading speed matters.
+- Each machine also has its own local disk: `/tmp`, and `/nobackup` (which points to `/var/tmp`); on `gpunode29` about 390 GB were free. Other machines cannot see it, so it only serves as a fast cache within one job.
+- On GPU nodes, `/scratch` is a temporary disk shared by all GPU nodes (2.2 TB, 95% full). Its folders are named after their deletion date, such as `expires-2026-Nov-16`; do not keep anything there.
 - No conda, Docker or Apptainer is installed. The system Python is 3.14.

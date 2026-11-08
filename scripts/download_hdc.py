@@ -9,7 +9,7 @@ For every zip file the script downloads it (resuming a partial download if one e
 checksum against the one Zenodo publishes, extracts it, and deletes the zip once extraction succeeded.
 A file that is already extracted is skipped, so the script can be re-run after an interruption.
 
-Layout produced under $DEFOCUS_ROOT (default ~/csc2529):
+Layout produced under $DEFOCUS_ROOT (default /w/20261/<username>/csc2529):
   data/hdc2021/train/<contents of the training zips>
   data/hdc2021/test/<contents of the test zips>
   data/hdc2021/_downloads/   partial downloads, removed when done
@@ -18,6 +18,7 @@ Usage:
   python3 scripts/download_hdc.py [test|train|all]
 Only the Python standard library is used, so it runs before any project environment exists.
 """
+import getpass
 import hashlib
 import json
 import os
@@ -132,7 +133,7 @@ def fetch_record(split, root):
 
     Args:
         split: "test" or "train".
-        root: the data folder, e.g. ~/csc2529/data/hdc2021.
+        root: the data folder, e.g. /w/20261/<username>/csc2529/data/hdc2021.
 
     Returns:
         None. Raises RuntimeError on a checksum mismatch.
@@ -172,8 +173,9 @@ def main():
     which = sys.argv[1] if len(sys.argv) > 1 else "all"
     if which not in ("test", "train", "all"):
         sys.exit("usage: python3 scripts/download_hdc.py [test|train|all]")
-    # all data lives under $DEFOCUS_ROOT/data/hdc2021
-    base = os.environ.get("DEFOCUS_ROOT", os.path.expanduser("~/csc2529"))
+    # all data lives under $DEFOCUS_ROOT/data/hdc2021; the default is the personal storage folder,
+    # because the home folder holds only about 10 GB
+    base = os.environ.get("DEFOCUS_ROOT", os.path.join("/w/20261", getpass.getuser(), "csc2529"))
     root = os.path.join(base, "data", "hdc2021")
     log(f"data folder: {root}")
     # the test set first: it is smaller and is needed for every final number
