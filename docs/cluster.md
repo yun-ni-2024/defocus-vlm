@@ -129,6 +129,8 @@ Rules:
 
 ### HDC2021
 
+What the images contain, file names and differences between the splits: `dataset.md`.
+
 The Helsinki Deblur Challenge 2021 data is on Zenodo (CC BY 4.0):
 
 | Split | Zenodo record | Files | Size |
