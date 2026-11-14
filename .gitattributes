@@ -1,0 +1,6 @@
+# Keep Unix line endings for files that run on the cluster, even when checked out on Windows
+*.sh     text eol=lf
+*.sbatch text eol=lf
+*.py     text eol=lf
+*.yaml   text eol=lf
+*.pdf    binary
