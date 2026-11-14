@@ -15,3 +15,15 @@ Data, model weights, checkpoints and results are not in this repository.
 ## Running on the CSLab cluster
 
 All experiments run on the CSLab GPU cluster. See `docs/cluster.md` for logging in, getting the code, the folder layout and submitting jobs.
+
+## Documentation
+
+- `docs/methods.md`: the four methods compared
+- `docs/dataset.md`: what is in HDC2021
+- `docs/evaluation.md`: the metric and what is reported
+- `docs/milestones.md`: plan and status
+- `docs/findings.md`: observations kept for the report
+- `docs/conventions.md`: how code, configs and runs are organised
+- `docs/glossary.md`: imaging terms in plain words
+- `docs/references.md`: papers and what each is used for
+- `docs/cluster.md`: running on the cluster
