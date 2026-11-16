@@ -8,6 +8,14 @@
 - `slurm/`: sbatch templates.
 - `docs/`: documentation, the findings log and design notes.
 
+Modules so far:
+
+| Module | Contents |
+|---|---|
+| `src/data/hdc.py` | `test_samples()`, `train_samples()`: lists of sharp/blurred pairs with step, font and transcription |
+| `src/data/image.py` | `load_tif()`, `to_pil()`: read a 16-bit photograph, convert it to an RGB image for the VLM |
+| `src/eval/metrics.py` | `char_accuracy()` |
+
 There is no `pyproject.toml` and nothing is installed with `pip install -e`. Each entry point adds the repository root to the import path and imports from `src`:
 
 ```python
