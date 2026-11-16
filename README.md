@@ -26,4 +26,6 @@ All experiments run on the CSLab GPU cluster. See `docs/cluster.md` for logging 
 - `docs/conventions.md`: how code, configs and runs are organised
 - `docs/glossary.md`: imaging terms in plain words
 - `docs/references.md`: papers and what each is used for
+- `docs/pilot.md`: pilot numbers from before the proposal
+- `docs/troubleshooting.md`: problems met so far and fixes
 - `docs/cluster.md`: running on the cluster
