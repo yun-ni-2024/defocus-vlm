@@ -149,6 +149,14 @@ sbatch -o ~/csc2529/logs/%x_%j.out slurm/download_hdc.sbatch all
 
 For each zip, `scripts/download_hdc.py` downloads it (resuming a partial download), checks its MD5 against the value Zenodo publishes, extracts it, and deletes the zip. If the job stops, submit it again: zips already extracted are skipped. The full download took about 3.5 hours (4 to 10 MB/s) and takes 69 GB once extracted.
 
+To check that the data is complete, run on a CPU node with the environment activated:
+
+```bash
+python scripts/check_data.py
+```
+
+It counts the sharp/blurred pairs of every step (40 per step in the test set, 200 in the training set), reads one pair per step, and ends with `all complete`.
+
 Result, under `/w/20261/YOUR_USERNAME/csc2529/data/hdc2021/`:
 
 ```
