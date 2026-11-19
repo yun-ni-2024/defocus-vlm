@@ -26,9 +26,11 @@ class QwenReader:
             prompt: instruction given with every image.
             device: "cuda" or "cpu".
         """
-        # transformers 5.x takes the pixel limits as size={"shortest_edge", "longest_edge"}
-        self.proc = AutoProcessor.from_pretrained(
-            path, size={"shortest_edge": min_pixels, "longest_edge": max_pixels})
+        self.proc = AutoProcessor.from_pretrained(path)
+        # transformers 5.x takes the pixel limits as size={"shortest_edge", "longest_edge"}. They
+        # only take effect when passed with every processor call (read()); given to
+        # from_pretrained they are silently ignored and the image keeps its full size.
+        self.size = {"shortest_edge": min_pixels, "longest_edge": max_pixels}
         # batched generation needs the padding on the left, so every prompt ends at the same place
         self.proc.tokenizer.padding_side = "left"
         self.model = Qwen2VLForConditionalGeneration.from_pretrained(
@@ -50,7 +52,7 @@ class QwenReader:
             List of strings, one per image, stripped of surrounding whitespace.
         """
         # tokenise the prompt once per image and turn the images into patches
-        inp = self.proc(text=[self.text] * len(images), images=images, padding=True,
+        inp = self.proc(text=[self.text] * len(images), images=images, size=self.size, padding=True,
                         return_tensors="pt").to(self.device)
         out = self.model.generate(**inp, max_new_tokens=self.max_new_tokens, do_sample=False)
         # keep only the newly generated tokens
