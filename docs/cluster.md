@@ -19,7 +19,7 @@ ssh YOUR_USERNAME@cs.toronto.edu
 ssh comps0.cs
 ```
 
-The hop from `apps0` to `comps0` does not ask for a password.
+The hop from `apps0` to `comps0` does not ask for a password. `comps1.cs` and `comps2.cs` are equivalent entry points; use one of them when `comps0` is closed for maintenance.
 
 Optional, to log in from your own computer without typing a password: create a key on your computer and append its public half to `~/.ssh/authorized_keys` on the cluster (this step asks for your password once).
 
@@ -278,13 +278,19 @@ sbatch hello.sbatch
 
 Slurm replies `Submitted batch job 229485`; the number is the job ID. This exact example ran on `gpunode5` and its output file contained the node name, the GPU and `done`.
 
-In the project, the resource requests live in templates in `slurm/` and the experiment is chosen by a config file:
+In the project, the resource requests live in templates in `slurm/` and the experiment is chosen by a config file. `slurm/gpu.sbatch` activates the environment, sets `DEFOCUS_ROOT` and the caches, and runs whatever Python script and arguments follow it. Submit from the repository root:
 
 ```bash
-sbatch slurm/TEMPLATE.sbatch configs/EXPERIMENT.yaml
+cd ~/csc2529/defocus-vlm
+sbatch -J baseline_a -o ~/csc2529/logs/%x_%j.out slurm/gpu.sbatch scripts/run_baseline.py configs/baseline_a.yaml
 ```
 
-TODO: the templates in `slurm/`.
+Its defaults are one RTX 4090, 4 cores, 16 GB of memory and 4 hours. Options on the command line override them, for example `--gres=gpu:rtx_a4500:1`, `--gres=gpu:1` (any free GPU) or `-t 30`.
+
+| Template | Use |
+|---|---|
+| `slurm/gpu.sbatch` | any GPU script with its config |
+| `slurm/download_hdc.sbatch` | downloading HDC2021 on a CPU node (section 5) |
 
 ### After submitting
 
