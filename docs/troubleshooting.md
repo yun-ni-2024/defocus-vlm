@@ -22,6 +22,8 @@ The Slurm accounting database is not reachable from `comps0`. Use `squeue -u $US
 
 Raised by transformers 5.19 when the Qwen2-VL processor gets `min_pixels`/`max_pixels`. It still works; new code should pass `size={'longest_edge': ..., 'shortest_edge': ...}` instead.
 
+Pass that `size` with every processor call, as `src/vlm/qwen.py` does. Given to `AutoProcessor.from_pretrained`, it is silently ignored and the image keeps its full size (a 1024 x 633 image became 46 x 74 patches instead of 32 x 52). Check with the `image_grid_thw` the processor returns.
+
 ## Warning: "You are sending unauthenticated requests to the HF Hub"
 
 Harmless. The weights are public; a Hugging Face token only raises the download rate limit.
