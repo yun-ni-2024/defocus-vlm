@@ -15,6 +15,11 @@ Modules so far:
 | `src/data/hdc.py` | `test_samples()`, `train_samples()`: lists of sharp/blurred pairs with step, font and transcription |
 | `src/data/image.py` | `load_tif()`, `to_pil()`: read a 16-bit photograph, convert it to an RGB image for the VLM |
 | `src/eval/metrics.py` | `char_accuracy()` |
+| `src/eval/summary.py` | `summarise()`: mean per step with a bootstrap 95% confidence interval |
+| `src/vlm/qwen.py` | `QwenReader`: frozen Qwen2-VL, a batch of images in, transcriptions out |
+| `src/utils/run.py` | `load_config()`, `new_run()`: run folder with config, git commit and host |
+
+Each run folder holds `config.yaml`, `meta.json` (start time, host, Slurm job, git commit, uncommitted changes), and the script's outputs, e.g. `predictions.csv` (one row per image) and `summary.csv` (one row per step).
 
 There is no `pyproject.toml` and nothing is installed with `pip install -e`. Each entry point adds the repository root to the import path and imports from `src`:
 
