@@ -30,6 +30,14 @@ Harmless. The weights are public; a Hugging Face token only raises the download 
 
 Harmless. The repository stores Unix line endings, and `.gitattributes` keeps them for scripts even in a Windows checkout.
 
+## `ssh comps0.cs`: "This machine is currently not available"
+
+`comps0` is closed for maintenance. `comps1.cs` and `comps2.cs` are equivalent: the same home folder, the same storage and the same Slurm queue (`comps3` was closed too on 2026-11-19).
+
+## A job waits with reason `(Priority)` or `(Resources)`
+
+All GPUs are taken. `--gres=gpu:1` accepts any free GPU type instead of waiting for a 4090.
+
 ## A shell script run over `ssh` skips its later commands
 
 A command inside the script (for example `ssh` or `git` asking for input) read the rest of the script from standard input. Add `< /dev/null` to such commands.
