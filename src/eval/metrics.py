@@ -23,7 +23,7 @@ def normalise(s, keep_whitespace=False):
 def char_accuracy(pred, truth, keep_whitespace=False):
     """Character accuracy: 1 - edit distance / length of the ground truth, clipped at 0.
 
-    Whether whitespace counts is still open (docs/evaluation.md), so it is a parameter.
+    Whether whitespace counts is not decided yet, so it is a parameter.
 
     Args:
         pred: the model's transcription.

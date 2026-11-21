@@ -1,7 +1,7 @@
 """Index the HDC2021 text images: which sharp and blurred files belong together and what they say.
 
 Only text images are indexed; calibration targets, natural photos and the QR code are skipped.
-Folder layout (see docs/dataset.md):
+Folder layout:
   train/step<N>/<Times|Verdana>/CAM01|CAM02/focusStep_<N>_<font>_size_30_sample_<k>.tif
   test/steps_<a>_to_<b>/CAM01_focused|CAM02_blurred/focusStep_<N>_<font>_size_30_sample_<k>.tif
 """

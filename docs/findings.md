@@ -25,3 +25,9 @@ Settings:
 - character accuracy: 1 minus the edit distance divided by the length of the ground truth, whitespace ignored.
 
 This was a one-off check, not an experiment: there is no run folder. The baseline experiment (a) will measure this systematically.
+
+## 2026-11-14
+
+### The training set has no digits, the test set does
+
+No transcription in the training set contains a digit; most lines in the test set contain at least one. A model trained only on the real training pairs (method (c), real version) never sees a blurred digit. Each test step has 20 Times and 20 Verdana text images.
