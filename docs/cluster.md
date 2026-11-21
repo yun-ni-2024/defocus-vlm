@@ -280,7 +280,7 @@ In the project, the resource requests live in templates in `slurm/` and the expe
 
 ```bash
 cd ~/csc2529/defocus-vlm
-sbatch -J baseline_a -o ~/csc2529/logs/%x_%j.out slurm/gpu.sbatch scripts/run_baseline.py configs/baseline_a.yaml
+sbatch -J baseline_a -o ~/csc2529/logs/%x_%j.out slurm/gpu.sbatch scripts/evaluate.py configs/baseline_a.yaml
 ```
 
 Its defaults are one RTX 4090, 4 cores, 16 GB of memory and 4 hours. Options on the command line override them, for example `--gres=gpu:rtx_a4500:1`, `--gres=gpu:1` (any free GPU) or `-t 30`.

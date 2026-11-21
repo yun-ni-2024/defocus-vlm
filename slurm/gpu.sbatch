@@ -1,7 +1,7 @@
 #!/bin/bash
 # Run one Python script with its arguments on a GPU node, inside the project environment.
 # Submit from the repository root:
-#   sbatch -J NAME -o ~/csc2529/logs/%x_%j.out slurm/gpu.sbatch scripts/run_baseline.py configs/baseline_a.yaml
+#   sbatch -J NAME -o ~/csc2529/logs/%x_%j.out slurm/gpu.sbatch scripts/evaluate.py configs/baseline_a.yaml
 # Options given on the command line override the defaults below, e.g. --gres=gpu:rtx_a4500:1 or -t 30.
 #SBATCH --partition=gpunodes
 #SBATCH --gres=gpu:rtx_4090:1

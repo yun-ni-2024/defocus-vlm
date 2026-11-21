@@ -14,7 +14,7 @@ class QwenReader:
     """
 
     def __init__(self, path, dtype="bfloat16", min_pixels=64 * 28 * 28, max_pixels=448 * 28 * 28,
-                 max_new_tokens=48, prompt=DEFAULT_PROMPT, device="cuda"):
+                 max_new_tokens=48, prompt=DEFAULT_PROMPT, device="cuda", lora=None):
         """Load the processor and the model.
 
         Args:
@@ -25,6 +25,8 @@ class QwenReader:
             max_new_tokens: longest transcription the model may write.
             prompt: instruction given with every image.
             device: "cuda" or "cpu".
+            lora: folder of a LoRA adapter trained for the vision encoder (slot 2, method (c)),
+                or None to keep the original encoder.
         """
         self.proc = AutoProcessor.from_pretrained(path)
         # transformers 5.x takes the pixel limits as size={"shortest_edge", "longest_edge"}. They
@@ -35,6 +37,12 @@ class QwenReader:
         self.proc.tokenizer.padding_side = "left"
         self.model = Qwen2VLForConditionalGeneration.from_pretrained(
             path, dtype=getattr(torch, dtype)).to(device).eval()
+        # slot 2: add the adapter to the vision encoder and merge it into the weights, so the rest
+        # of the class works the same with or without it
+        if lora is not None:
+            from peft import PeftModel  # only needed when an adapter is used
+            visual = PeftModel.from_pretrained(self.model.model.visual, str(lora))
+            self.model.model.visual = visual.merge_and_unload().eval()
         self.device = device
         self.max_new_tokens = max_new_tokens
         # the chat-formatted prompt is the same for every image
