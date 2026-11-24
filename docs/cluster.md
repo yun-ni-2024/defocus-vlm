@@ -79,7 +79,7 @@ The home folder holds only about 10 GB (section 7). Code and Slurm output files 
 
 The environment variable `DEFOCUS_ROOT` points to `/w/20261/YOUR_USERNAME/csc2529`. The code finds `data/`, `models/` and `runs/` from it, so no path is written into the code. When `DEFOCUS_ROOT` is not set, the scripts use this same location.
 
-Data, weights and results are never committed to the repository.
+Data, weights and run folders are never committed to the repository; only the final result of each method is copied into `assets/results/` (see `pipeline.md`).
 
 ## 4. Environment
 

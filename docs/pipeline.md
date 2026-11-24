@@ -57,3 +57,7 @@ Each run writes a new folder `$DEFOCUS_ROOT/runs/<name>_<time>/`:
 | `meta.json` | start time, machine, Slurm job, git commit and whether the code had uncommitted changes |
 | `predictions.csv` | one row per image: step, font, file, ground truth, prediction, score |
 | `summary.csv` | one row per step: number of images, mean score, confidence interval |
+
+## Final results
+
+Run folders stay in `$DEFOCUS_ROOT/runs/` and are not committed; there are many of them while a method is being tuned. The final test-set run of each method is copied, as a whole folder, into the repository as `assets/results/<config name>/` (for example `assets/results/baseline_a/`). If a final run is redone, its folder is replaced. Curves, tables and error analysis for the report are made from `assets/results/` only.

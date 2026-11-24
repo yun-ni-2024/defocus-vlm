@@ -10,7 +10,7 @@ CSC2529 Computational Imaging (Fall 2026) course project. Yun Ni, David Chen.
 - `slurm/`: sbatch templates for the CSLab cluster
 - `docs/`: experiment log and design notes
 
-Data, model weights, checkpoints and results are not in this repository.
+Data, model weights, checkpoints and intermediate runs are not in this repository; the final result of each method is in `assets/results/` (see `docs/pipeline.md`).
 
 ## Running on the CSLab cluster
 
