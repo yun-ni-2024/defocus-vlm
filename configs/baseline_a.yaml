@@ -24,4 +24,4 @@ data:
   limit_per_step: null                # null = all 40 images per step
 
 batch_size: 8
-keep_whitespace: false                # not decided yet; false ignores all spaces and line breaks
+keep_whitespace: false                # all spaces and line breaks are ignored when scoring

@@ -14,7 +14,7 @@ $$
 
 - The Levenshtein (edit) distance is the smallest number of single-character insertions, deletions and substitutions that turn one string into the other.
 - 1 means an exact match; 0 means nothing useful was read. Long invented outputs can make the distance larger than the ground truth, which is why the score is clipped at 0.
-- Whitespace: currently all spaces and line breaks are removed before comparing (`keep_whitespace: false`). This is not final.
+- Whitespace: all spaces and line breaks are removed before comparing (`keep_whitespace: false`).
 
 Example (test step 7, `focusStep_7_timesR_size_30_sample_0001`): ground truth `beZtuqe4du / ZagPvxR6Ys / ThSZ AKYWe`, prediction `Instagram / TagPeopleTo / ThisActing`, accuracy 0.17.
 
