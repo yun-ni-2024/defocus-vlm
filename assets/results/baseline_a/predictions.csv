@@ -1,0 +1,4095 @@
+step,font,number,file,truth,prediction,accuracy
+0,Times,1,focusStep_0_timesR_size_30_sample_0001.tif,"UbuJkRjtQY
+VFhh3nrV98
+fMEmU8cgR4","UbuJkRjtQY
+VFhh3nrV98
+fMEmU8cgR4",1.0
+0,Times,2,focusStep_0_timesR_size_30_sample_0002.tif,"HKLJZ9Yg7t
+JKfdi9T2t9
+f3qd 9ZVzn","HKLJZ9Yg7t
+JKfdi9T2t9
+f3qd 9ZVzn",1.0
+0,Times,3,focusStep_0_timesR_size_30_sample_0003.tif,"tBRKVNmwMK
+UDWN9yRN3U
+wBtQD4xb G","tBRKVNmwMK
+UDWN9yRN3U
+wBtQD4xbG",1.0
+0,Times,4,focusStep_0_timesR_size_30_sample_0004.tif,"q23geBA8zA
+ZVY3Nc4A7U
+Hc 8yJZ2DU","q23geBA8zA
+ZVY3Nc4A7U
+Hc 8yJZ2DU",1.0
+0,Times,5,focusStep_0_timesR_size_30_sample_0005.tif,"WTpCpYJEuf
+76HgXZZJdw
+UbuHYfgEzK","WTPCPYJEUf
+76HgXZZJdw
+UbuHYfgEzK",0.9
+0,Times,6,focusStep_0_timesR_size_30_sample_0006.tif,"CL mZLMrS 
+r2uraZPd3Q
+UgrpFeuDdL","CL mZLMrS
+r2uraZPd3Q
+UgrpFeuDdl",0.9643
+0,Times,7,focusStep_0_timesR_size_30_sample_0007.tif,"TP 6RXfxE5
+4UAfKUx7LF
+BdVDC2EXCw","TP
+6RXfxE5
+4UAFKUX7LF
+BdVDC2EXCw",0.931
+0,Times,8,focusStep_0_timesR_size_30_sample_0008.tif,"LuvujkThdx
+K4MMYZQkwg
+SGR YZ3B5n","LuvujkThdx
+K4MMYZQkwg
+SGR YZ3B5n",1.0
+0,Times,9,focusStep_0_timesR_size_30_sample_0009.tif,"NNEz rFZv6
+vhzN5eLSeH
+8RmC S86Ki","NNEz rFZv6
+vhzN5eLSeH
+8RmC S86Ki",1.0
+0,Times,10,focusStep_0_timesR_size_30_sample_0010.tif,"TiDGJAUmmR
+TMKAvAyEUR
+pj5P9 z67S","TIDGJAUmmR
+TMKAvAyEUR
+pj5P9 z67S",0.9655
+0,Times,11,focusStep_0_timesR_size_30_sample_0011.tif,"67UZvcJxqJ
+UQm6bMzZnL
+hk iSL8eER","67UZvcJxqJ
+UQm6bMzZnL
+hk iSL8eER",1.0
+0,Times,12,focusStep_0_timesR_size_30_sample_0012.tif,"cgJU9Zzx 2
+8uvcTkHjRR
+u222LhGjXx","cJU9Zzx 2
+8uvcTkHjRR
+u222LhGjXx",0.9655
+0,Times,13,focusStep_0_timesR_size_30_sample_0013.tif,"SDkpQUADjd
+UVH7PCKYEm
+hWVrXQZPHi","SDkpQUADjd
+UVH7PCKYEm
+hWVrXQZPHi",1.0
+0,Times,14,focusStep_0_timesR_size_30_sample_0014.tif,"ex4Pabcjy 
+aUpKaeGE4u
+Qn QmbZMcj","ex4Pabcjy
+aUpKaeGE4u
+Qn QmbZMcj",1.0
+0,Times,15,focusStep_0_timesR_size_30_sample_0015.tif,"XKwuGLi47D
+CwN6DrERc9
+pRYDM6prZx","XKwuGLi47D
+CwN6DrERc9
+pRYDM6prZx",1.0
+0,Times,16,focusStep_0_timesR_size_30_sample_0016.tif,"fCT87qkL6u
+myQLzzFLHd
+BkBkqAd9XK","fCT87qkL6u
+myQLzzFLHd
+BkBkqAd9XK",1.0
+0,Times,17,focusStep_0_timesR_size_30_sample_0017.tif,"wu S EqF h
+5q5P3nDJ4x
+E76YvcH94Q","wusEqFh
+5q5P3nDJ4x
+E76YvcH94Q",0.963
+0,Times,18,focusStep_0_timesR_size_30_sample_0018.tif,"yAuW8gtPTy
+ZTE6cJ9FTB
+ k5mLHGxaG","yAuW8gtPTy
+ZTE6cJ9FTB
+k5mLHGxaG",1.0
+0,Times,19,focusStep_0_timesR_size_30_sample_0019.tif,"95HMv4Xvsi
+xgUXGnhaey
+TpBZE9whAD","95HMv4Xvsi
+xgUXGnhaey
+TpBZE9whAD",1.0
+0,Times,20,focusStep_0_timesR_size_30_sample_0020.tif,"wT3624KWhp
+iBN4dUYbHg
+ZEk6xCpEpM","WT3624KWhp
+iBN4dUYbHg
+ZEk6xCpEpM",0.9667
+0,Verdana,1,focusStep_0_verdanaRef_size_30_sample_0001.tif,"By9diwbzBQ
+bcNiiqLZ2W
+ 2h2b 3yyk","By9diwbzBQ
+bcNiiqLZ2W
+2h2b 3yyk",1.0
+0,Verdana,2,focusStep_0_verdanaRef_size_30_sample_0002.tif,"v6k8ddx2 t
+uVmxBPU8dz
+VMAKLepqf","v6k8ddx2t
+uVmxBPU8dz
+VMAKLepqf",1.0
+0,Verdana,3,focusStep_0_verdanaRef_size_30_sample_0003.tif,"HeYdvNpNcJ
+8XnwVB2cgY
+jS9MaR9BGp","HeYdvNpNcJ
+8XnwVB2cgY
+jS9MaR9BGp",1.0
+0,Verdana,4,focusStep_0_verdanaRef_size_30_sample_0004.tif,"ekkB5CdV7L
+bQw7qkCRLs
+hbp4NLvWdE","ekkB5CdV7L
+bQw7qkCRLs
+hbp4NLvWdE",1.0
+0,Verdana,5,focusStep_0_verdanaRef_size_30_sample_0005.tif,"Qx ZfNZgAJ
+AesfrqEUSG
+EZ2U6AEELQ","QxZfNZgAJ
+AesfrqEUSG
+EZ2U6AEELQ",1.0
+0,Verdana,6,focusStep_0_verdanaRef_size_30_sample_0006.tif,"7XPiNr VWa
+mf9kWPfkNU
+zVaCKETbAx","7XPiNr VWa
+mf9kWPfkNU
+zVaCkETbAx",0.9655
+0,Verdana,7,focusStep_0_verdanaRef_size_30_sample_0007.tif,"X7U TQ56Z8
+aYwFewYRZc
+qFdDbQrrCg","X7U TQ56Z8
+aYwFewYRZc
+qFdDbQrrCg",1.0
+0,Verdana,8,focusStep_0_verdanaRef_size_30_sample_0008.tif,"JDTa5rkxvv
+qz25g8ZRFZ
+zjjHMvCPGC","JDTa5rkxvV
+qz25g8ZRFZ
+zjjHMvCPGC",0.9667
+0,Verdana,9,focusStep_0_verdanaRef_size_30_sample_0009.tif,"rTBWktJAzg
+7hsSDJk4zY
+Qp tCGYfhU","rTBWktJAzg
+7hsSDJk4zY
+Qp tCGYfhU",1.0
+0,Verdana,10,focusStep_0_verdanaRef_size_30_sample_0010.tif,"CWiZ44ka56
+4Nrkw8YpZz
+7JuxAKwCL9","CWiZ44ka56
+4NrkW8YpZz
+7JuxAKwCL9",0.9667
+0,Verdana,11,focusStep_0_verdanaRef_size_30_sample_0011.tif,"4frnneaJ7Y
+B9MhtdGPPu
+fjH5ctR y3","4frnneaJ7Y
+B9MhtdGPPu
+fjH5ctR
+y3",1.0
+0,Verdana,12,focusStep_0_verdanaRef_size_30_sample_0012.tif,"mxGJvie7wA
+bmQzagaxkG
+GvDF5JCgPn","mxGJvie7wA
+bmQzagaxkG
+GvDF5JCgPn",1.0
+0,Verdana,13,focusStep_0_verdanaRef_size_30_sample_0013.tif,"Qu9zRZTg72
+6GLqmbHaEd
+xQ6RJcHWiE","Qu9zRZTg72
+6GLqmbHaEd
+xQ6RJcHWiE",1.0
+0,Verdana,14,focusStep_0_verdanaRef_size_30_sample_0014.tif,"ByeCQM5SBe
+aHjRikDCTd
+hPe4dmsrrn","ByeCQM5SBe
+aHjRikDCTd
+hPe4dmsrrn",1.0
+0,Verdana,15,focusStep_0_verdanaRef_size_30_sample_0015.tif,"jK7wqn2p G
+fQrLuWGKdB
+Xm23zhRYED","jK7wqn2pG
+fQrLuWGKdB
+Xm23zhRYED",1.0
+0,Verdana,16,focusStep_0_verdanaRef_size_30_sample_0016.tif,"dhFy5RmbzT
+kUPJ78jwgn
+wmMB6DeyAr","dhFy5RmbzT
+kUPJ78jwgn
+wmMB6DeyAr",1.0
+0,Verdana,17,focusStep_0_verdanaRef_size_30_sample_0017.tif,"rtbn9Y7ThF
+gD466MwgdB
+5F ptbvXDD","rtbn9Y7ThF
+gD466MwgdB
+5F ptbvXDD",1.0
+0,Verdana,18,focusStep_0_verdanaRef_size_30_sample_0018.tif,"BVQiX2THcD
+WZuHLCucmd
+nh6 Xkrju9","BVQiX2THcD
+WZuHLCucmd
+nh6 Xkrju9",1.0
+0,Verdana,19,focusStep_0_verdanaRef_size_30_sample_0019.tif,"X tDKNA bR
+kzmvdz5dLB
+wK5U2pUzXb","X tDKNA bR
+kzmvdz5dLB
+wK5U2pUzXb",1.0
+0,Verdana,20,focusStep_0_verdanaRef_size_30_sample_0020.tif,"7UtTexCVNy
+Le88Dh3VwM
+ paepZAMtu","7UtTexCVNy
+Le88Dh3VwM
+paepZAMtu",1.0
+1,Times,1,focusStep_1_timesR_size_30_sample_0001.tif,"qgBus3nN9L
+2cXuPSKPVP
+NsSkeWWfA","qgBus3nN9L
+2cXuPSKPVP
+NsSkeWWfA",1.0
+1,Times,2,focusStep_1_timesR_size_30_sample_0002.tif,"XFm5TER qR
+gSj8k7yefL
+hdxbCimMTW","XFm5TER qR
+gSj8k7yefL
+hdxbCimMTW",1.0
+1,Times,3,focusStep_1_timesR_size_30_sample_0003.tif,"rNj3DZANP
+HfTrJsvMFD
+vCmzXxUaSp","rNj3DZANP
+HfTrJsvMFD
+vCmzXxUaSp",1.0
+1,Times,4,focusStep_1_timesR_size_30_sample_0004.tif,"3A4JQmhRaz
+sF6bNdhYyz
+8zPnK SkBU","3A4JQmhrAz
+sF6bNdhYyz
+8zPnK SkBU",0.931
+1,Times,5,focusStep_1_timesR_size_30_sample_0005.tif,"t24yhwAFak
+4R997FdGhV
+NBq6EFRDqU","t24yhwAFak
+4R997FdGhV
+NBq6EFRDqU",1.0
+1,Times,6,focusStep_1_timesR_size_30_sample_0006.tif,"JJNaaKfVDS
+Rvpdr92Q4W
+mZZ79DM ZT","JNNaaKfVDS
+Rvpdr92Q4W
+mZZ79DM ZT",0.9655
+1,Times,7,focusStep_1_timesR_size_30_sample_0007.tif,"UH2E2V2BFQ
+7eQLUDFPGR
+ArH QPnrde","UH2E2V2BFQ
+7eQLUDFPGR
+ArH QPnrde",1.0
+1,Times,8,focusStep_1_timesR_size_30_sample_0008.tif,"eztDypfM4P
+kYr9bmtdtg
+CiTC3n3MDu","eztDypfM4P
+kYr9bmtdtg
+CiTC3n3MDu",1.0
+1,Times,9,focusStep_1_timesR_size_30_sample_0009.tif,"DHssYPPdUu
+vNW6XMM9xc
+D5N3DjTNWf","DHssYPPdUu
+vNW6XMM9xc
+D5N3DjTNWf",1.0
+1,Times,10,focusStep_1_timesR_size_30_sample_0010.tif,"AkwgHyEhLt
+ywPqAD53bF
+A9cpr4UqDY","AkwgHyEhLt
+ywPqAD53bF
+A9cpr4UqDY",1.0
+1,Times,11,focusStep_1_timesR_size_30_sample_0011.tif,"6xXCf NntE
+pqbf7iKYZt
+8bG3aNGYas","6xXCf NntE
+pqbf7iKYZt
+8bG3aNGYas",1.0
+1,Times,12,focusStep_1_timesR_size_30_sample_0012.tif,"2w66Cwxv5 
+m83M45VYcM
+yhmchLqY6C","2w66Cwxv5
+m83M45VYcM
+yhmchLqY6C",1.0
+1,Times,13,focusStep_1_timesR_size_30_sample_0013.tif,"nb5TmKrdP9
+VecqV7FpYA
+QDX4RMz3Dw","nb5TmKrdP9
+Vecqv7FpYA
+QDX4RMz3Dw",0.9667
+1,Times,14,focusStep_1_timesR_size_30_sample_0014.tif,"S5cW9w7NGt
+YJgVmpEn5m
+phKKf6ftpE","S5cW9w7NGt
+YJgVmpEn5m
+phKKf6ftpE",1.0
+1,Times,15,focusStep_1_timesR_size_30_sample_0015.tif,"qu 5MS BQm
+a6NLKH2VWH
+GDG 9F4yAK","qu 5MS BQm
+a6NLKH2VWH
+GDG 9F4yAK",1.0
+1,Times,16,focusStep_1_timesR_size_30_sample_0016.tif,"MsBFpHH F3
+zn4UCJqwmA
+CjFKzYNX2e","MsBFpHH F3
+zn4UCJqwmA
+CjFKzYNX2e",1.0
+1,Times,17,focusStep_1_timesR_size_30_sample_0017.tif,"zhhjHm6QEC
+jkxHD2zuKJ
+ZiZ ZzM5LS","zhhjHm6QEC
+jkxHD2zuKJ
+ZiZ ZzM5LS",1.0
+1,Times,18,focusStep_1_timesR_size_30_sample_0018.tif,"tu CzQjykP
+angGBXTvYz
+KAv732ggvx","tuCzQjykP
+angGBXTvYZ
+KAv732ggvx",0.9655
+1,Times,19,focusStep_1_timesR_size_30_sample_0019.tif,"baiRCmKY a
+qCJbK6UqXk
+y5KJ6TFJ2G","bairCmKY
+qCJbK6UqXk
+y5KJ6TFJ2G",0.931
+1,Times,20,focusStep_1_timesR_size_30_sample_0020.tif,"c6PdB7wvjM
+dY42QKDXtY
+RrRvg8jr6r","c6PdB7wvjm
+dY42QKDXtY
+RrRvg8jr6r",0.9667
+1,Verdana,1,focusStep_1_verdanaRef_size_30_sample_0001.tif,"NU7ZtYiGYR
+5DiPQ6mYS9
+N6b62xUhfu","NU7ZtYiGYR
+5DiPQ6mYS9
+N6b62xUhfu",1.0
+1,Verdana,2,focusStep_1_verdanaRef_size_30_sample_0002.tif,"yDd7wk7MgC
+FPTYDQh3tD
+eJJAxDbAja","yDd7wk7MgC
+FPTYDQh3tD
+eJJAxDbAja",1.0
+1,Verdana,3,focusStep_1_verdanaRef_size_30_sample_0003.tif,"avs2dWcMT9
+Mt6UbkHNJh
+VM3UizZi99","avsl2dWcMT9
+Mt6UbkHNJh
+VM3UizZi99",0.9667
+1,Verdana,4,focusStep_1_verdanaRef_size_30_sample_0004.tif,"HryNE uvsA
+7KAqNRepaV
+YubXnhHauv","HryNE
+uvSA
+7KAqNRepaV
+YubXnhHauv",0.9655
+1,Verdana,5,focusStep_1_verdanaRef_size_30_sample_0005.tif,"Q8byxu5LWx
+DQcm3Ce2Si
+i84wsyVJ6P","Q8byxu5LWx
+DQcm3Ce2Si
+i84wsyVJ6P",1.0
+1,Verdana,6,focusStep_1_verdanaRef_size_30_sample_0006.tif,"6PHh59aC6q
+YazZuAmUkd
+ jcugSd xE","6PHh59aC6q
+YazZuAmUkd
+jcugSd xE",1.0
+1,Verdana,7,focusStep_1_verdanaRef_size_30_sample_0007.tif,"tLYMzKQkm6
+EEVaUa5eyK
+GLwPaKrVsF","tLYMzKQkm6
+EEVaUa5eyK
+GLwPaKrVsF",1.0
+1,Verdana,8,focusStep_1_verdanaRef_size_30_sample_0008.tif,"hL aHFDWJ9
+YjPyYVz9uy
+cx7Fj3mgEx","hL aHFDWJ9
+YjPyYVz9uy
+cx7Fj3mgEx",1.0
+1,Verdana,9,focusStep_1_verdanaRef_size_30_sample_0009.tif,"VQqGEBMZeF
+yBy3s2YHY2
+zpFHxtypvw","VQqGEBMZeF
+yBy3s2YHY2
+zpFHxtypvw",1.0
+1,Verdana,10,focusStep_1_verdanaRef_size_30_sample_0010.tif,"NmgDsWkMud
+yumpe9aqyT
+bBT8aD 2ST","NmgDsWkMud
+yumpe9aqqyT
+bBT8aD 2ST",0.9655
+1,Verdana,11,focusStep_1_verdanaRef_size_30_sample_0011.tif,"VcExgpgzPi
+UR3yXHAh5T
+5hHB3iU2ey","VcExgpgzPi
+UR3yXHAh5T
+5hHB3iU2ey",1.0
+1,Verdana,12,focusStep_1_verdanaRef_size_30_sample_0012.tif,"fBDKMg r9g
+9ma9tqGm26
+iSmJemeMak","fBDKMg r9g
+9ma9tqGm26
+iSmJemeMak",1.0
+1,Verdana,13,focusStep_1_verdanaRef_size_30_sample_0013.tif,"NPNLCJr9t4
+NqEysVHmUT
+VLWqPjr45e","NPNLCJr9t4
+NqEysVHmUT
+VLWqPjr45e",1.0
+1,Verdana,14,focusStep_1_verdanaRef_size_30_sample_0014.tif,"idCXFM3ttR
+PkFuhs7khy
+MPJqdeaxU7","idCXFM3ttR
+PkFuhs7khy
+MPJqdeaxU7",1.0
+1,Verdana,15,focusStep_1_verdanaRef_size_30_sample_0015.tif,"TyGPmmfaKX
+tiQbGrAjAV
+ryrKzjpTbe","TyGPmmfaKX
+tiQbGrAjAV
+ryrKzjpTbe",1.0
+1,Verdana,16,focusStep_1_verdanaRef_size_30_sample_0016.tif,"mVvhLmLezx
+XwCgqXLT3U
+h3JZPKnxKb","mVvhLmLezx
+XwCgqXLT3U
+h3JZPKnxKb",1.0
+1,Verdana,17,focusStep_1_verdanaRef_size_30_sample_0017.tif,"d4ETFWJjqj
+G7fWm5uWY2
+kHjDdy4SED","d4ETFWJjqj
+G7fWm5uWY2
+kHjDdy4SED",1.0
+1,Verdana,18,focusStep_1_verdanaRef_size_30_sample_0018.tif,"5JxKn9t87B
+qjjVqfh6zc
+bmkQwsA2DA","5JxKn9t87B
+qjjVqfh6zc
+bmkQwsA2DA",1.0
+1,Verdana,19,focusStep_1_verdanaRef_size_30_sample_0019.tif,"Z UsXd7cGQ
+HtF3VLNQx2
+iwuFhGnPzj","ZUsXd7cGQ
+HtF3VLNQx2
+iwuFhGnPzj",1.0
+1,Verdana,20,focusStep_1_verdanaRef_size_30_sample_0020.tif,"UMdwuaFYFz
+v888uDShhx
+M9CVjFsNWK","UMdwuaFYFz
+v888uDShhx
+M9CVjFsNWK",1.0
+2,Times,1,focusStep_2_timesR_size_30_sample_0001.tif,"gQY4bQQT8
+wSAc5W5suv
+9DzcRqaq4A","gQY4bQQT8
+wSAc5W5suv
+9DzcRqaq4A",1.0
+2,Times,2,focusStep_2_timesR_size_30_sample_0002.tif,"375s2DLHM 
+SBx8JhyLCf
+yd5FAZy9a5","375s2DLHM
+SBx8JhyLCf
+yd5FAZy9a5",1.0
+2,Times,3,focusStep_2_timesR_size_30_sample_0003.tif,"2NjJhrQ M 
+8TvJxffyeR
+5XXfRweVFU","2NjJhrQ M
+8TvJxffyeR
+5XXfRweVFU",1.0
+2,Times,4,focusStep_2_timesR_size_30_sample_0004.tif,"TGWEQK4pGQ
+AJHCME7vqk
+7K gzpqz9p","TGWEQK4pGQ
+AJHCME7vqk
+7K gzpqz9p",1.0
+2,Times,5,focusStep_2_timesR_size_30_sample_0005.tif,"arNWgEVtky
+wWt4QrH27Q
+YF PkR9kwV","arNWgEVtky
+wWt4QrH27Q
+YF PkR9kwV",1.0
+2,Times,6,focusStep_2_timesR_size_30_sample_0006.tif,"crTwDdM36 
+hRJ7BUMDBG
+sR4MdZkjUM","crTwDdM36
+hRJ7BUMDBG
+sR4MdZkjUM",1.0
+2,Times,7,focusStep_2_timesR_size_30_sample_0007.tif,"qHUbiFRLyn
+zvpSmKArsV
+28hNZXJFWD","qHUBiFRLyn
+zvpSmKArsv
+28hNZXJFWD",0.9333
+2,Times,8,focusStep_2_timesR_size_30_sample_0008.tif,"wDbC4DHjZ
+6WbSaWwCcC
+Ga4ufA6 ix","wDbC4DHjZ
+6WbSaWwCcC
+Ga4ufA6 ix",1.0
+2,Times,9,focusStep_2_timesR_size_30_sample_0009.tif,"C5ppgb bvM
+nnFLqC2Wez
+P5GzLPMsae","C5ppgb bvM
+nnFLqC2Wez
+P5GzLPMsae",1.0
+2,Times,10,focusStep_2_timesR_size_30_sample_0010.tif,"f4H4uLFaJY
+iBtGmnNbMy
+tEnj 2vdng","f4H4uLFaJY
+iBtGmnNbMy
+tEnj 2vdng",1.0
+2,Times,11,focusStep_2_timesR_size_30_sample_0011.tif,"rXKjMb vRX
+fe9zbyGqFd
+wbhZ5XBBdU","rXKjMb vRX
+fe9zbyGqFd
+wbhZ5XBBdU",1.0
+2,Times,12,focusStep_2_timesR_size_30_sample_0012.tif,"vN3StfP UN
+XWhwrRcG5K
+VWQafgu5eP","vN3StfP UN
+XWhwrRcG5K
+VWQafgu5eP",1.0
+2,Times,13,focusStep_2_timesR_size_30_sample_0013.tif,"CYAuTJNKg 
+D4SFc3N8v2
+39zzq2FnNz","CYAuTJNKg
+D4SFc3N8v2
+39zzq2FnNz",1.0
+2,Times,14,focusStep_2_timesR_size_30_sample_0014.tif,"mBcN7L t84
+pc5sVHLBhT
+CYfxdExhhA","mBcN7L t84
+pc5sVHLBhT
+CYfxdExhhA",1.0
+2,Times,15,focusStep_2_timesR_size_30_sample_0015.tif,"3dUTTDquin
+wt7NPRAaWe
+jkDA9 HDb6","3dUTTDquin
+wt7NPRAaWe
+jkDA9 HDb6",1.0
+2,Times,16,focusStep_2_timesR_size_30_sample_0016.tif,"kLXnYfzQgV
+crb48PjDG8
+WBT8ec85a3","kLXnYfzQgV
+crb48PjDG8
+WBT8ec85a3",1.0
+2,Times,17,focusStep_2_timesR_size_30_sample_0017.tif,"qk2uDUHBWg
+LQubDCEvqd
+g5GE77rbE7","qk2uDUHBWg
+LQubDCEvqd
+g5GE77rbE7",1.0
+2,Times,18,focusStep_2_timesR_size_30_sample_0018.tif,"wbszTLA3cL
+zLDe8ptw8T
+WES2c7VkWi","wbszTLA3cL
+zLDe8ptw8T
+WES2c7VkWi",1.0
+2,Times,19,focusStep_2_timesR_size_30_sample_0019.tif,"C7Een6x8b9
+kdRqwPN5gS
+sgk99ubP7U","C7Een6x8b9
+kdRqwPN5gS
+sgk99ubP7U",1.0
+2,Times,20,focusStep_2_timesR_size_30_sample_0020.tif,"wPqT5yAnnK
+WchB4jRz3j
+fqXuZ5iBab","wPqT5yAnnK
+WchB4jRz3j
+fqXuZ5iBab",1.0
+2,Verdana,1,focusStep_2_verdanaRef_size_30_sample_0001.tif,"bZmQQHhVw2
+P4zYTDvTaf
+TdMhizrpKz","bZmQQHhVw2
+P4zYTDvTaf
+TdmhizrpKz",0.9667
+2,Verdana,2,focusStep_2_verdanaRef_size_30_sample_0002.tif,"gNPfKVDrdF
+DL3wGHjLZ8
+VP QVVjY 9","gNPfKVDrdF
+DL3wGHjLZ8
+VP QVVjY 9",1.0
+2,Verdana,3,focusStep_2_verdanaRef_size_30_sample_0003.tif,"Z dFmep77t
+FLbFWx3x8X
+KkVT4NYfiN","Z dFmep77t
+FLbFWx3x8X
+KkVT4NYfiN",1.0
+2,Verdana,4,focusStep_2_verdanaRef_size_30_sample_0004.tif,"bb6mLbgzgD
+WEqKq9vDqt
+SLtx48HnAM","bb6mLbgzgD
+WEqKq9vDqt
+SLtx48HnAM",1.0
+2,Verdana,5,focusStep_2_verdanaRef_size_30_sample_0005.tif,"mfC9 HU337
+USPKGZHhbp
+iVpfgKdDLC","mfC9 HU337
+USPKGZHhbp
+iVpfgKdDLC",1.0
+2,Verdana,6,focusStep_2_verdanaRef_size_30_sample_0006.tif,"k5UDfiWahz
+Cb9LTRQNEK
+RT3z4MEmMY","k5UDfiWahz
+Cb9LTRQNEK
+RT3z4MEMMY",0.9667
+2,Verdana,7,focusStep_2_verdanaRef_size_30_sample_0007.tif,"k4JYM pF6Z
+RsLNLPvBki
+ iq7Xms3NS","k4JYM pF6Z
+RsLNLPvBki
+iq7Xms3NS",1.0
+2,Verdana,8,focusStep_2_verdanaRef_size_30_sample_0008.tif,"tXZFjKTywh
+k77drVtjf4
+XGJhn6Ht3v","tXZFjKTywh
+k77drVtjf4
+XGJhn6Ht3v",1.0
+2,Verdana,9,focusStep_2_verdanaRef_size_30_sample_0009.tif,"JpU5vXmN5F
+tEnTSGq3iE
+zyvw8zjLYd","JpU5vXmN5F
+tEnTSGq3iE
+zyvw8zjLYd",1.0
+2,Verdana,10,focusStep_2_verdanaRef_size_30_sample_0010.tif,"t6gRrxLaJL
+GGxtmcUt9j
+QvReWvvtPw","t6gRrxLaJL
+GGxtmcUt9j
+QvReWvvtPw",1.0
+2,Verdana,11,focusStep_2_verdanaRef_size_30_sample_0011.tif,"5UJCV5T8tH
+HSj58W7PMa
+5cDh4RydP9","5UJCV5T8tH
+HSj58W7PMa
+5cDh4RydP9",1.0
+2,Verdana,12,focusStep_2_verdanaRef_size_30_sample_0012.tif,"rNGdMhxNxC
+7XpwEhTFrT
+iLLtRjC5qH","rNGdMhxNxC
+7XpwEhTFrT
+iLLtRjC5qH",1.0
+2,Verdana,13,focusStep_2_verdanaRef_size_30_sample_0013.tif,"DJXPZJgzKJ
+yHUkPXhwDp
+rjnkU NDCH","DJXPZJgzKJ
+yHUKPXhwDp
+rjnkU NDCH",0.9655
+2,Verdana,14,focusStep_2_verdanaRef_size_30_sample_0014.tif,"qAsuSpTQGm
+ByXjBd2KS5
+pMi8Tnhm6w","qAsuSpTQGm
+ByXjBd2KS5
+pMi8Tnhm6w",1.0
+2,Verdana,15,focusStep_2_verdanaRef_size_30_sample_0015.tif,"YDg8ssmNiY
+DwtsvzXsbM
+V3XxhLVKm4","YDg8ssmNiY
+DwtsvzXsbM
+V3XxhLVKm4",1.0
+2,Verdana,16,focusStep_2_verdanaRef_size_30_sample_0016.tif,"LAQKTQQQfV
+cG58r2eqHG
+P4AMB JXtr","LAQKTQQQfV
+cG58r2eqHG
+P4AMB JXtr",1.0
+2,Verdana,17,focusStep_2_verdanaRef_size_30_sample_0017.tif,"nuwKcmL2fd
+ihvWJxAp5J
+aqkN VZmwe","nuwKcmL2fd
+ihvWJxAp5J
+aqkN VZmwe",1.0
+2,Verdana,18,focusStep_2_verdanaRef_size_30_sample_0018.tif,"w4t9 4DTEY
+thgqYYH5Uj
+H3ku3WEXRE","w4t9 4DTEY
+thgqYYH5Uj
+H3ku3WEXRE",1.0
+2,Verdana,19,focusStep_2_verdanaRef_size_30_sample_0019.tif,"u7yQhA4bs3
+cNkqfaJkLp
+6jEkX222Vk","u7yQhA4bs3
+cNkqfaJkLp
+6jEkX222Vk",1.0
+2,Verdana,20,focusStep_2_verdanaRef_size_30_sample_0020.tif,"CauiUTEvR9
+was5in5kDJ
+hRHdB97jYj","CauiUTEvR9
+was5in5kDJ
+hRHdB97jYj",1.0
+3,Times,1,focusStep_3_timesR_size_30_sample_0001.tif,"7fy4qb 4 
+UhiBHjvk6p
+srUhfzSggD","7fy4qb 4
+UhiBHjvk6p
+srUhfzSggD",1.0
+3,Times,2,focusStep_3_timesR_size_30_sample_0002.tif,"kY7CBDzxnM
+GSxiQNiDHB
+Ucf49Eud 6","kY7CBDzxnM
+GSxiQNidHB
+Ucf49Eud 6",0.9655
+3,Times,3,focusStep_3_timesR_size_30_sample_0003.tif,"i9rrckTkkD
+cuF3Q3MbDy
+z2FG4gS9RC","i9rrckTkkD
+cuF3Q3MbDy
+z2FG4gS9RC",1.0
+3,Times,4,focusStep_3_timesR_size_30_sample_0004.tif,"mPasiJByFe
+nd9DuhSQdf
+igtTFi9kA8","mpasiJByFe
+nd9DuhSQdf
+igtTFi9kA8",0.9667
+3,Times,5,focusStep_3_timesR_size_30_sample_0005.tif,"JWD5jnXK 
+L8XBAea3xn
+aCQpbchuP8","JWD5jnXK
+L8XBAea3xn
+aCQpbchuP8",1.0
+3,Times,6,focusStep_3_timesR_size_30_sample_0006.tif,"YgtLEAw2yi
+yU6WAicnFu
+YdqCew9Z e","YgtLEAw2yi
+yU6WAicnFu
+YdqCew9Z e",1.0
+3,Times,7,focusStep_3_timesR_size_30_sample_0007.tif,"tHyih9Q47C
+Uyte3YVeuA
+HZWirieHpk","tHyih9Q47C
+Uyte3YVeuA
+HZWiricHpk",0.9667
+3,Times,8,focusStep_3_timesR_size_30_sample_0008.tif,"fUX  5e3bz
+iNxAvJjJQn
+AXSe4Xu 3n","fUX 5e3bz
+iNxAvJjJQn
+AXSe4Xu 3n",1.0
+3,Times,9,focusStep_3_timesR_size_30_sample_0009.tif,"S6AY59sTXN
+UE3vUFah5g
+ GwNe74ceS","S6AY59sTXN
+UE3vUFah5g
+GwNe74ceS",1.0
+3,Times,10,focusStep_3_timesR_size_30_sample_0010.tif,"4Sztc23xf6
+gWWqvh5cKd
+djLzVtRizz","4Sztc23xf6
+gWWqvh5cKd
+djLzVtRizz",1.0
+3,Times,11,focusStep_3_timesR_size_30_sample_0011.tif,"HB 4cfEwW 
+9NYNeECMVb
+3vgerzfLt6","HB 4cfEwW
+9NYNeECMvb
+3vgerzflt6",0.9286
+3,Times,12,focusStep_3_timesR_size_30_sample_0012.tif,"Dvtj yMrbE
+VKz4hCqY76
+ vcAC5zEJh","Dvtj yMrbE
+VKz4hCqY76
+vcAC5zEJh",1.0
+3,Times,13,focusStep_3_timesR_size_30_sample_0013.tif,"bK8Y4mydvZ
+6KBigikpnq
+fu4Yh86T3Y","bK8Y4mydvZ
+6KBigikpnq
+fu4Yh86T3Y",1.0
+3,Times,14,focusStep_3_timesR_size_30_sample_0014.tif,"z EaDbNc52
+EinNzL3DRB
+ uRkd4keSx","z EaDbNc52
+EinNzL3DRB
+uRkd4keSx",1.0
+3,Times,15,focusStep_3_timesR_size_30_sample_0015.tif,"bXEGWbPcL9
+b5Vvg53pv9
+faN8y3tmXa","bXEGWbPcL9
+b5Vvg53pv9
+faN8y3tmXa",1.0
+3,Times,16,focusStep_3_timesR_size_30_sample_0016.tif,"MqgGFjEP8F
+ni7z23kxTi
+hyQx WUq6z","MqgGFjEP8F
+ni7z23kxTi
+hyQx WUq6z",1.0
+3,Times,17,focusStep_3_timesR_size_30_sample_0017.tif,"ycNu 32g w
+YqJzdnagBH
+EmT9cdaSGZ","ycNu 32g w
+YqJzdnagBH
+EmT9cdaSGZ",1.0
+3,Times,18,focusStep_3_timesR_size_30_sample_0018.tif,"f4sEVYbXFn
+HyTjXZkum7
+AKN4KWcjwM","f4sEVYbXFn
+HyTjXZkum7
+AKN4KWcjwM",1.0
+3,Times,19,focusStep_3_timesR_size_30_sample_0019.tif,"V7 mEcY2iy
+TsTminDzmg
+Zx4GM4EAxB","V7 mEcY2iy
+TsTminDzmg
+Zx4GM4EAXB",0.9655
+3,Times,20,focusStep_3_timesR_size_30_sample_0020.tif,"RTX nxMvgh
+HyZHvxpqmF
+ NkVVUeGFt","RTX nxMvgh
+HyZHvxpqmF
+NkVVUcGFt",0.9643
+3,Verdana,1,focusStep_3_verdanaRef_size_30_sample_0001.tif,"PH8KfUpLrA
+fufyG6udMG
+s8s X7gP2y","PH8KfUpLrA
+fufyG6udMG
+s8s X7gP2y",1.0
+3,Verdana,2,focusStep_3_verdanaRef_size_30_sample_0002.tif,"eSRbXi63H
+wYJD4j7Jb5
+U5DunJiEAK","eSRbXi63H
+wYJD4j7Jb5
+U5DunJiEAK",1.0
+3,Verdana,3,focusStep_3_verdanaRef_size_30_sample_0003.tif,"eVW6cAUKrn
+iQwdhECgtR
+UrdJBZHq4z","eVW6cAUKrn
+iQwdhECgtR
+UrdBZHq4z",0.9667
+3,Verdana,4,focusStep_3_verdanaRef_size_30_sample_0004.tif,"k2 Nwrkz Y
+hbyMVy3685
+gauv6gSdkd","k2 Nwrkz Y
+hbyMVy3685
+gauv6gSdkd",1.0
+3,Verdana,5,focusStep_3_verdanaRef_size_30_sample_0005.tif,"ZCHrJbmPnS
+ZW27Gk9Dmu
+4xY 5FARvx","ZCHRJbmPnS
+ZW27Gk9Dmu
+4xY 5FARvx",0.9655
+3,Verdana,6,focusStep_3_verdanaRef_size_30_sample_0006.tif,"k 9X3sA32n
+PdZtGUN2pm
+bUA4Pfw 8j","k 9X3sA32n
+PdZtGUN2pm
+bUA4Pfw 8j",1.0
+3,Verdana,7,focusStep_3_verdanaRef_size_30_sample_0007.tif,"cXUgKYVq p
+7LPgWtjPUD
+AsY8 v5c7P","cXUGKYVq
+p
+7LPgWtjPUD
+AsY8
+v5c7P",0.9643
+3,Verdana,8,focusStep_3_verdanaRef_size_30_sample_0008.tif,"mr9Ucseh s
+R9gMWmzxCL
+QMMsubargL","mr9Ucsehs
+R9gMWmzxCL
+QMMsubargL",1.0
+3,Verdana,9,focusStep_3_verdanaRef_size_30_sample_0009.tif,"GUfXnJ2n p
+ZQftEYdBii
+ UbYS4KM9c","GUFXnJ2n
+p
+ZQftEYdBii
+UbYS4KM9c",0.9643
+3,Verdana,10,focusStep_3_verdanaRef_size_30_sample_0010.tif,"KcXmn4K uk
+Mizyfg3FCq
+exr94Y2MUy","KcXmn4K uk
+Mizyfg3FCq
+exr94Y2MUy",1.0
+3,Verdana,11,focusStep_3_verdanaRef_size_30_sample_0011.tif,"VMVTw gLsx
+G9yL8SUHB2
+8te7EUTQPF","VMVTw gLsx
+G9yL8SUHB2
+8te7EUTQPF",1.0
+3,Verdana,12,focusStep_3_verdanaRef_size_30_sample_0012.tif,"iVr6pmzhaV
+FLAaCwWsJL
+cphqYhTiPb","iVr6pmzhaV
+FLAaCwWsJL
+cphqYhTiPb",1.0
+3,Verdana,13,focusStep_3_verdanaRef_size_30_sample_0013.tif,"QaVWUsQeU8
+tpYbX63mWf
+Av7J27nCXU","QaVWUsQeU8
+tpYbX63mWf
+Av7J27nCXU",1.0
+3,Verdana,14,focusStep_3_verdanaRef_size_30_sample_0014.tif,"YqWeFrJVar
+AKK2Cq3aTG
+RwAyrHvv7E","YqWeFrJVar
+AKK2Cq3aTG
+RwAyrHvv7E",1.0
+3,Verdana,15,focusStep_3_verdanaRef_size_30_sample_0015.tif,"raqkFh7DUw
+iY3ZENZFyA
+kc5J9An6Ma","raqkFh7DUw
+iY3ZENZFyA
+kc5J9An6Ma",1.0
+3,Verdana,16,focusStep_3_verdanaRef_size_30_sample_0016.tif,"5yDRMm y k
+HmWnRw6zRu
+EvEeXmrT6p","5yDRMMm yk
+HmWnRw6zRu
+EvEeXmrT6p",0.9643
+3,Verdana,17,focusStep_3_verdanaRef_size_30_sample_0017.tif,"y4RkvUNSd
+jYSEE7pcvu
+Lw9huyDQ8L","y4RkvUNsd
+jYSEE7pcvu
+Lw9huyDQ8L",0.9655
+3,Verdana,18,focusStep_3_verdanaRef_size_30_sample_0018.tif,"hByUVxa5Wm
+kziY8Y4Zpi
+yEEWU5g3fB","hByUVxa5Wm
+kziY8Y4Zpi
+yEEWU5g3fB",1.0
+3,Verdana,19,focusStep_3_verdanaRef_size_30_sample_0019.tif,"9wfVegG2y8
+MjLX7VBxus
+rJEEhJ8Ahr","9wfVegG2y8
+MjLX7VBxus
+rJEEhJ8Ahr",1.0
+3,Verdana,20,focusStep_3_verdanaRef_size_30_sample_0020.tif,"rXhF5cuCzC
+cBLvgv4gWS
+88zMdPrhLs","rXhF5cuCzC
+cBLvgv4gWS
+88zMdPrhLs",1.0
+4,Times,1,focusStep_4_timesR_size_30_sample_0001.tif,"MUFDAmPFsJ
+wd4KNPYg8Y
+sCDQkbh6m5","MUFDAmpFsJ
+wd4KNPYg8Y
+sCDQkbh6m5",0.9667
+4,Times,2,focusStep_4_timesR_size_30_sample_0002.tif,"JYcx5geeun
+BUi26BZB38
+ G vq4qbcg","JYcx5geeun
+BUi26BZB38
+G vq4qbcg",1.0
+4,Times,3,focusStep_4_timesR_size_30_sample_0003.tif,"nyunKVuUcn
+pkgsyfYmzf
+8TeMtHqUJq","nyunKVuUcn
+pkgsyfYmzf
+8TcMthqUJq",0.9333
+4,Times,4,focusStep_4_timesR_size_30_sample_0004.tif,"A FV sRACA
+s5Cp9bZZCb
+WWmcBbevCr","A FV sRACA
+s5Cp9bZZCb
+WWmcBbevCr",1.0
+4,Times,5,focusStep_4_timesR_size_30_sample_0005.tif,"DQJV5LEXqR
+9DieNysqeG
+ZQ3jnnSf7t","DQJV5LEXqR
+9DicNysqcG
+ZQ3jnnSf7t",0.9333
+4,Times,6,focusStep_4_timesR_size_30_sample_0006.tif,"tQAZrDE 2c
+hHtTcy4Hxq
+sWKhf9BJq6","tQAZrDE
+2c
+hHtTcy4Hxq
+sWKhf9BJq6",1.0
+4,Times,7,focusStep_4_timesR_size_30_sample_0007.tif,"Qiw5YZEfg
+kp2mvXHtP7
+U2rjhJfwq","Qiw5YZEfg
+kp2mvXHtP7
+U2rjhJfwq",1.0
+4,Times,8,focusStep_4_timesR_size_30_sample_0008.tif,"GhzeJsmdu 
+SwSG9yrESR
+P69vDjRes5","GhzcJsmdu
+SwSG9yrESR
+P69vDjRes5",0.9655
+4,Times,9,focusStep_4_timesR_size_30_sample_0009.tif,"GiyyNrNd8B
+nQXxBPDczU
+wFvQ9mtqq","GiyyNrd8B
+nQXxBPDczU
+wFvQ9mtqq",0.9655
+4,Times,10,focusStep_4_timesR_size_30_sample_0010.tif,"xS  H9M5UW
+DJQN9eKeXN
+8BzckWanX8","xS H9M5UW
+DJQN9cKeXN
+8BzckWanX8",0.9643
+4,Times,11,focusStep_4_timesR_size_30_sample_0011.tif,"5sihTQSsSK
+jRtvzdvWy7
+xxGM5Lj4By","5sihTQSsSK
+jRtvzdvWy7
+xxGM5Lj4By",1.0
+4,Times,12,focusStep_4_timesR_size_30_sample_0012.tif,"6KAKUD6wiv
+tY5qfhhUyK
+n2NrHJnyZT","6KAKUD6wiv
+ty5qfhhUyK
+n2NrHJnyZT",0.9667
+4,Times,13,focusStep_4_timesR_size_30_sample_0013.tif,"LfEfjV7tau
+FgsSrHAuFY
+ZihiNxvRmr","LIFEjV7tau
+FgsSrHAuFY
+ZihiNxvRmr",0.9
+4,Times,14,focusStep_4_timesR_size_30_sample_0014.tif,"3sHJRKabNi
+E9MnTqQCJZ
+x63c6wbk4A","3sHJRkabNi
+E9MnTqQCJZ
+x63c6wbk4A",0.9667
+4,Times,15,focusStep_4_timesR_size_30_sample_0015.tif,"m7nXyVYuA 
+JtzJhfRaEw
+P6zjnKDca2","m7nXyVYuA
+JtzJhfRaEw
+P6zjnKDca2",1.0
+4,Times,16,focusStep_4_timesR_size_30_sample_0016.tif,"iPgjUcVFGQ
+m9fhTwwHzP
+AUazbLY8vh","iPgjUcVFGQ
+m9fhTwwHzP
+AUazbLY8vh",1.0
+4,Times,17,focusStep_4_timesR_size_30_sample_0017.tif,"X7EZfsjyN7
+WDGwDGbavn
+LF4kLbRpgd","X7EZfsjyN7
+WDGwDGBavn
+LF4kLbRpgd",0.9667
+4,Times,18,focusStep_4_timesR_size_30_sample_0018.tif,"Umkd r3a9A
+5yUZcEeGk8
+Ux2H RGExR","Umkd r3a9A
+5yUZcEcGk8
+Ux2H RGExR",0.9643
+4,Times,19,focusStep_4_timesR_size_30_sample_0019.tif,"azBuJLPm4S
+T7pQJX78uj
+nvs9yMEDdq","azBuJLPm4S
+T7pQJX78uj
+nvs9yMEDdq",1.0
+4,Times,20,focusStep_4_timesR_size_30_sample_0020.tif,"6rj7R6SF5N
+VHS6LMcSR2
+u4bXSwQnp4","6rj7R6SF5N
+VHS6LMcSR2
+u4bXSwQnp4",1.0
+4,Verdana,1,focusStep_4_verdanaRef_size_30_sample_0001.tif,"NMg738MmsL
+msCWea3ARs
+sFxzXHK5ib","NMg738MmsL
+msCWea3ARs
+sFxzXHK5ib",1.0
+4,Verdana,2,focusStep_4_verdanaRef_size_30_sample_0002.tif,"pbu8j3YT5g
+wNUccgZELj
+ WzxULdUDy","Pbu8j3YT5g
+wNUccgZELj
+WzxULdUDy",0.9655
+4,Verdana,3,focusStep_4_verdanaRef_size_30_sample_0003.tif,"sUtLvPE4qP
+ShuGtBVVTZ
+8PBzVNmpjg","sUtLvPE4qP
+ShuGtBVVTZ
+8PBzVNmpjg",1.0
+4,Verdana,4,focusStep_4_verdanaRef_size_30_sample_0004.tif,"Kxyj2Ajqeh
+UY8GcDc6s2
+bwPz HGcjd","Kxyj2Ajqeh
+UY8GcDc6s2
+bwPz HGcjd",1.0
+4,Verdana,5,focusStep_4_verdanaRef_size_30_sample_0005.tif,"u3 pDAJasD
+5ztFWWQk5d
+A9hbprTdWz","u3 pDAJasD
+5ztFWWQk5d
+A9hbprTdWz",1.0
+4,Verdana,6,focusStep_4_verdanaRef_size_30_sample_0006.tif,"akFvsEmBLg
+7xYfkhnGcw
+wSbx8ARVHd","akFvsEmBLg
+7xYfkhnGcw
+wSbx8ARVHd",1.0
+4,Verdana,7,focusStep_4_verdanaRef_size_30_sample_0007.tif,"MtC fGDTRE
+VYzN4jpHtd
+jYV8iNjxVc","Mtc fGDTRE
+VYzN4jpHtd
+jYV8iNjxVc",0.9655
+4,Verdana,8,focusStep_4_verdanaRef_size_30_sample_0008.tif,"h ykLa9Bgw
+iwZ2ahwTxb
+czi2ig8G8F","h
+ykLa9Bgw
+iwZ2ahwTxb
+czi2ig8G8F",1.0
+4,Verdana,9,focusStep_4_verdanaRef_size_30_sample_0009.tif,"PB8Gz9vSEk
+3qShDVfMEj
+nizn SpRFd","PB8Gz9vSEk
+3qShDVfMEj
+nizn SpRFd",1.0
+4,Verdana,10,focusStep_4_verdanaRef_size_30_sample_0010.tif,"B7UU eam w
+cikW6y5xb6
+8KW rX tsj","B7UU earn w
+cikW6y5xb6
+8KW rX tsj",0.9231
+4,Verdana,11,focusStep_4_verdanaRef_size_30_sample_0011.tif,"PiWC897NXB
+ykmzPZ2DDm
+G ffbVercQ","PiWC897NXB
+ykmzPZ2DDm
+G ffbVercQ",1.0
+4,Verdana,12,focusStep_4_verdanaRef_size_30_sample_0012.tif,"x4niuW Mr
+YRaCrPBUVx
+u6mmyKNSRq","x4niuW Mr
+YRaCrPBUVx
+u6mmmyKNSRq",0.9643
+4,Verdana,13,focusStep_4_verdanaRef_size_30_sample_0013.tif,"dEJveZ2PUM
+LxmWxnkw4V
+uLB u9 AM4","dEJveZ2PUM
+LxMWxnk4V
+uLB u9 AM4",0.9286
+4,Verdana,14,focusStep_4_verdanaRef_size_30_sample_0014.tif,"MixkbmBLJ3
+hKpPhyZdR8
+YGQjajjzkm","MixkbmBLJ3
+hKpPhyZdR8
+YGQjajjzkm",1.0
+4,Verdana,15,focusStep_4_verdanaRef_size_30_sample_0015.tif,"Lit6fAHrgi
+aj3sNxsETD
+ a DH Vmx8","Lit6fAHrgi
+aj3sNxsETD
+a DH Vmx8",1.0
+4,Verdana,16,focusStep_4_verdanaRef_size_30_sample_0016.tif,"Wv4PXHYrwW
+GhWvEnY26y
+KAkDWNMgQA","Wv4PXHYrwW
+GhWvEnY26y
+KAkDWNMgQA",1.0
+4,Verdana,17,focusStep_4_verdanaRef_size_30_sample_0017.tif,"D3rZmhcWrE
+uDfwS2SsQb
+wFD8FENSzR","D3rZmhcWrE
+uDfws2SsQb
+wFD8FENSzR",0.9667
+4,Verdana,18,focusStep_4_verdanaRef_size_30_sample_0018.tif,"vvAMHw3dYB
+u5Pv64MYwj
+WV4DrjJNBy","vvaMHw3dYB
+u5Pv64MYwj
+WV4DrjJNBy",0.9667
+4,Verdana,19,focusStep_4_verdanaRef_size_30_sample_0019.tif,"MVGhX8PU3G
+GeG3BAC5C5
+KgejBdjWmm","MVGhX8PU3G
+GeG3BAC5C5
+KgejBdjWmm",1.0
+4,Verdana,20,focusStep_4_verdanaRef_size_30_sample_0020.tif,"sPHtggT8kY
+nQ66rDTtmR
+wJ82mn3DRZ","sPHtggT8kY
+nQ66rDTtmR
+wJ82mn3DRZ",1.0
+5,Times,1,focusStep_5_timesR_size_30_sample_0001.tif,"w5D28QeNeL
+J98kFGdmP7
+ xN5f3T378","w5D28QcNcL
+J98kFGdmP7
+xN5OT378",0.8621
+5,Times,2,focusStep_5_timesR_size_30_sample_0002.tif,"uGgWZ285ds
+fd34us8Myg
+C6inQayHqv","uGgWZ28Sds
+fd34us8Myg
+C6inQayFhq",0.8667
+5,Times,3,focusStep_5_timesR_size_30_sample_0003.tif,"HCXG7j3ziF
+WFWihDJwWU
+xspfKvGrEM","HCXG70zF
+WFWhDjWU
+xpfKvGrEM",0.7667
+5,Times,4,focusStep_5_timesR_size_30_sample_0004.tif,"Tn8 kpUTd
+QddKhg9k47
+Rp7PRnJ8ki","Tn8 kpUTd
+QddKhg9t47
+Rp7PRnJ8ski",0.9286
+5,Times,5,focusStep_5_timesR_size_30_sample_0005.tif,"MyCijb4pzm
+MsMvYJahQv
+JndbXjKZ3c","MyCijb4pzm
+MsMvYJahQv
+JndhXjKZ3c",0.9667
+5,Times,6,focusStep_5_timesR_size_30_sample_0006.tif,"XTTKPj7qu5
+uFtNJfuP3w
+rintGD7ekX","XTTKPj7qu5
+uFtNJfuP3w
+rintGD7ckX",0.9667
+5,Times,7,focusStep_5_timesR_size_30_sample_0007.tif,"4gPEpVLihs
+wEaqWSMnE7
+W 9GZHs2i5","4cPEpVLihs
+wEaqWSMnE7
+W 9G7Hk2i5",0.8966
+5,Times,8,focusStep_5_timesR_size_30_sample_0008.tif,"2D PByCjU8
+ccWbpaReTP
+WvxPzxnysf","2D PBjUS
+ccWbpaRcTP
+WvzPzunysf",0.7931
+5,Times,9,focusStep_5_timesR_size_30_sample_0009.tif,"V7H Wn7Cye
+9BdQFHaRSN
+ gbVEccf7M","V7H Wn7Cyc
+9BdQFHaRSN
+gbVEecf7M",0.9286
+5,Times,10,focusStep_5_timesR_size_30_sample_0010.tif,"MiUhDhpR5w
+QeEMTJK9Qi
+JtuveNZR7U","MiUhDhpR5w
+QeEMTJK9Qi
+JtiveNZR7U",0.9667
+5,Times,11,focusStep_5_timesR_size_30_sample_0011.tif,"icxLmi66MN
+WmyeiCFhZR
+ dC7QKeHpM","icxlmi66MN
+WmyeiCFhZR
+dC7QKc1HpM",0.8966
+5,Times,12,focusStep_5_timesR_size_30_sample_0012.tif,"DZMxMjDPCb
+TZCrZ4bHHN
+3fWE5e9gSZ","DZMxMjDPCb
+TZCzZ4bHHN
+3WE5c9gSZ",0.9
+5,Times,13,focusStep_5_timesR_size_30_sample_0013.tif,"ediCtwfECe
+YDPyNM7ejA
+nBXcCUXB7Q","ediCtwfECc
+YDPyNM7cJA
+nBXeCUXB7Q",0.8667
+5,Times,14,focusStep_5_timesR_size_30_sample_0014.tif,"WJ7UNiNSCY
+vypyuTfPGy
+vN CinXpAh","WJ7UNINSCY
+vypyuTIPGy
+vn CinXpAh",0.8966
+5,Times,15,focusStep_5_timesR_size_30_sample_0015.tif,"LL ZHekaB 
+rVy2nvgE6W
+iywK9ksNEB","LLZHekaB
+rNy2mvgE6W
+iwyK9ksNEB",0.8571
+5,Times,16,focusStep_5_timesR_size_30_sample_0016.tif,"eBsH9qNkMz
+GKRThwrnUZ
+zFySghwJ v","eBoJ19qNkMz
+GKRThwmUZ
+zFySglowJv",0.7586
+5,Times,17,focusStep_5_timesR_size_30_sample_0017.tif,"bU6t9rEdrj
+uVXbM6r2iD
+sh2FwvC7iw","bU6e9rEdrj
+uVXbM6e2iD
+sh2FwvC7rw",0.9
+5,Times,18,focusStep_5_timesR_size_30_sample_0018.tif,"Q9CMkfyT
+E2YZ2J3AQj
+NW9b8m6v v","Q9CMlyT
+E2YZ2J3AQj
+NW9b8m6v",0.8889
+5,Times,19,focusStep_5_timesR_size_30_sample_0019.tif,"tQ bTqrcae
+pKKTmchLdA
+BNu vgMmrV","IQ bTqtcac
+pKKTmchLdA
+BNu vgMmrV",0.8929
+5,Times,20,focusStep_5_timesR_size_30_sample_0020.tif,"CiExDjt3Mb
+XYJW4qBY8Q
+csh9p ayg3","CIEaDj3M6
+XYJW4qBY8Q
+csb9p2yg3",0.7931
+5,Verdana,1,focusStep_5_verdanaRef_size_30_sample_0001.tif,"U g2WLQgsy
+PApjPkZxMJ
+ 8zeCjNTC6","U g2WLQgsy
+PApjPkZxMJ
+8zeCjNTC6",1.0
+5,Verdana,2,focusStep_5_verdanaRef_size_30_sample_0002.tif,"y3fnsrf8da
+bWyZscD5D9
+3W9rnay eJ","y3fnsrf8da
+bWyZscD5D9
+3W9rnay eJ",1.0
+5,Verdana,3,focusStep_5_verdanaRef_size_30_sample_0003.tif,"FED6C7d jy
+vDmSEtcfuN
+7TubZA2bAn","FED6C7d jy
+vDmSEtcfuN
+7TubZA2bAn",1.0
+5,Verdana,4,focusStep_5_verdanaRef_size_30_sample_0004.tif,"WkxZPB7nSV
+5sHQCrLuTf
+N2u9raQTur","WixxZPB7nSV
+5sHQCrLuTF
+N2u9raQTur",0.9
+5,Verdana,5,focusStep_5_verdanaRef_size_30_sample_0005.tif,"8WHewgEQCJ
+L2QtS9t8Pg
+ NpRMkcwGB","8WHewgEQCJ
+L2QtS9t8Pg
+NpRMkcwGB",1.0
+5,Verdana,6,focusStep_5_verdanaRef_size_30_sample_0006.tif,"qSwNWxhfA5
+qwt735iDMN
+gcEGK6iX7m","qSwNWXhfA5
+qwt735iDMN
+gcEGK6iX7m",0.9667
+5,Verdana,7,focusStep_5_verdanaRef_size_30_sample_0007.tif,"Zwu q2L63z
+qKFssPYbLm
+ UVjLtd4db","Zwu q2L63z
+qKFssPYbLm
+UVjLtd4db",1.0
+5,Verdana,8,focusStep_5_verdanaRef_size_30_sample_0008.tif,"J3D56pFi t
+juuzBf3vQc
+ gfG4KXNNP","J3D56pFt
+juuzBF3vQc
+gfG4KXNNP",0.9286
+5,Verdana,9,focusStep_5_verdanaRef_size_30_sample_0009.tif,"p5W4nRBTUA
+dAwP4vFbFw
+z2RB XQmnz","p5W4nRBTUA
+dAwP4vFbFw
+z2RB XQmnz",1.0
+5,Verdana,10,focusStep_5_verdanaRef_size_30_sample_0010.tif,"bayqK  j N
+P3Sbq72NZw
+4uqGNLDs H","bayqK jN
+P3Sbq72NZw
+4uqGNLDs H",1.0
+5,Verdana,11,focusStep_5_verdanaRef_size_30_sample_0011.tif,"rwg4kY rhy
+hMYDpJnySx
+Lcb4HXer8V","rwg4kY rhy
+hMYDp)nySx
+Lcb4HXer8V",0.9655
+5,Verdana,12,focusStep_5_verdanaRef_size_30_sample_0012.tif,"GDgXqSNeKy
+dcySezcHFd
+gjMfs2vSAW","GDgXqSNeKy
+dcySezchFd
+gjMfs2vSAW",0.9667
+5,Verdana,13,focusStep_5_verdanaRef_size_30_sample_0013.tif,"iNEXWTiEPV
+B3zAVCBkyA
+fwRASYjKdH","iNEXWtIEPV
+B3zAVCBkyA
+fwRASYjKdH",0.9333
+5,Verdana,14,focusStep_5_verdanaRef_size_30_sample_0014.tif,"rv rrLsDdw
+MNyFEd2En3
+T dpSkAeCe","rv rrLsDdw
+MNyFEd2En3
+T dpSkAeCe",1.0
+5,Verdana,15,focusStep_5_verdanaRef_size_30_sample_0015.tif,"H5sLavE6fi
+GR4RjkaHQS
+695naZyGgX","H5sLavE6fi
+GR4RjkaHQS
+695naZyGgX",1.0
+5,Verdana,16,focusStep_5_verdanaRef_size_30_sample_0016.tif,"qaVakE2jia
+JMhcjP3xyE
+veTJL KgLU","qavakE2jia
+JMHcjp3xyE
+veTJL KgLU",0.8966
+5,Verdana,17,focusStep_5_verdanaRef_size_30_sample_0017.tif,"hdVTgEwM8
+JzMkVwqVVU
+nJwZgudY57","hdVTgEwMB
+JzMkVwqVVU
+nJwZgudY57",0.9655
+5,Verdana,18,focusStep_5_verdanaRef_size_30_sample_0018.tif,"W2cmtmAkrP
+gMsgjVBmx3
+FBL7yjyDB9","W2cmtmAkrP
+gMsgjVBmx3
+FBL7yjyOB9",0.9667
+5,Verdana,19,focusStep_5_verdanaRef_size_30_sample_0019.tif,"B9JSKds4eN
+Vmmt7ApcWH
+piF jS2357","B9JSKds4eN
+Vmm7ApcWH
+piF jS2357",0.9655
+5,Verdana,20,focusStep_5_verdanaRef_size_30_sample_0020.tif,"Wrs95bDGwF
+HnBZhqvDNc
+S8P4z2uyqE","Wrs95bDGwf
+HnB.ZhqvDNC
+S8P4z2uyqE",0.9
+6,Times,1,focusStep_6_timesR_size_30_sample_0001.tif,"95zu6JiN9n
+VLEkeajJE2
+9H8HVBy9Wu","9561N9
+VLHkuj112
+9181TVBy941s",0.4667
+6,Times,2,focusStep_6_timesR_size_30_sample_0002.tif,"bfjmZPPb R
+NAuSaKEkLr
+ N85hMDvGy","mgn/ZPPbR
+NAsaKELz
+NShMDgY",0.5357
+6,Times,3,focusStep_6_timesR_size_30_sample_0003.tif,"bFuAdyEYb3
+JRwZx8hVrj
+ac59ZZ4gEd","MnAdpEYh3
+JRs7z4hVj
+ac59774gFd",0.5667
+6,Times,4,focusStep_6_timesR_size_30_sample_0004.tif,"Rx37efvWGe
+cb8f39pZxf
+YxaMrkGT6g","RajTchWGe
+cm079p2d
+YoMaGThg",0.4
+6,Times,5,focusStep_6_timesR_size_30_sample_0005.tif,"iQdmGPUzTv
+dqzrKnQM6C
+i6x9ARWWfK","iQmGPUzTv
+AgrKnQM6C
+6JAIWTK",0.6667
+6,Times,6,focusStep_6_timesR_size_30_sample_0006.tif,"W52wXVYuaE
+DCT2HeRAaq
+JS38sVG2Hr","W32x64uSE
+DCT21HcRAaq
+JS38VG21Hr",0.6667
+6,Times,7,focusStep_6_timesR_size_30_sample_0007.tif,"ShrG6JTniP
+VCCKjfJFHz
+5GpfRyW5d3","SheGATnIP
+VCCg011TLz
+5Gp(RyWSd3",0.6
+6,Times,8,focusStep_6_timesR_size_30_sample_0008.tif,"SewuY3 SrR
+5td9w8BLLN
+5yXvKmsTJm","SevenY) SeR
+St09v481N
+SyX)KmThm",0.4483
+6,Times,9,focusStep_6_timesR_size_30_sample_0009.tif,"tEhQfzkAAP
+CLiPh9TnKD
+Zu8LsbYj9q","EQQAAP
+CLIPSTAKD
+7x81 6Y94",0.4667
+6,Times,10,focusStep_6_timesR_size_30_sample_0010.tif,"6BFci4muhS
+deFeDRG6cA
+aRLL7dcEEt","68F0d1m8A
+ArF0DRO4cA
+sR117a11",0.3333
+6,Times,11,focusStep_6_timesR_size_30_sample_0011.tif,"CiTZDy8Vhb
+XCip83ne4J
+Gbdqu2tmuY","Citizdyma
+XCaplinuGhagamoy",0.2667
+6,Times,12,focusStep_6_timesR_size_30_sample_0012.tif,"wLYWM2jyqn
+KAV2vc4zJL
+HAbsLE5vQ7","wLYWM2ygq
+KAV2o4eJL
+HAblE5wQ7",0.7
+6,Times,13,focusStep_6_timesR_size_30_sample_0013.tif,"GLjW3xq  R
+AW6UGTHAah
+mSbgkxeBgq","GL/MING R
+AWLUCTILAH
+onShakeRaq",0.3929
+6,Times,14,focusStep_6_timesR_size_30_sample_0014.tif,"hYjBjr7wS
+D9a5SDPJhk
+gmRL758fXe","HYjRr7vS
+D9x5NDPA
+gmRJL7500Xc",0.5517
+6,Times,15,focusStep_6_timesR_size_30_sample_0015.tif,"jHTkE7KCMQ
+WBGwrTHbCr
+T9SUvuLW36","HTML/CMS
+WBO
+WBO
+1951
+and
+W36",0.3333
+6,Times,16,focusStep_6_timesR_size_30_sample_0016.tif,"eGfGg8zEBe
+Cr67ZqcLa8
+aY6rJ4zEG2","cGgblBr
+c67q1at
+sY6j4G2",0.4
+6,Times,17,focusStep_6_timesR_size_30_sample_0017.tif,"ueBwgXFwX9
+LCwJJJcCCa
+wFn65ZVUQV","DgXvX9
+LCvllkCCs
+vF6ZVUQY",0.4667
+6,Times,18,focusStep_6_timesR_size_30_sample_0018.tif,"FdWwWG85Vr
+KJ27Uv72Rc
+QgFWgHZZed","funwgsy
+kjtuvzr
+qjwz1zzd",0.1
+6,Times,19,focusStep_6_timesR_size_30_sample_0019.tif,"XVsHmgqfL8
+qjqkZNvFLs
+Wpu2a3tazg","XVdImage1.8
+qigAznFLo
+Wipn2aRang",0.4
+6,Times,20,focusStep_6_timesR_size_30_sample_0020.tif,"2F4t7tQ2Sj
+GV9xHcwFzT
+HNu2XKShP5","2147029685777656485
+GV9JkLwPzT
+1HN2XK5MP5",0.2
+6,Verdana,1,focusStep_6_verdanaRef_size_30_sample_0001.tif,"nXNcBkKJY8
+gCpcHrgih4
+6ZK Y3qvsc","nXnncB4uK0Y8
+gCpcHrgih4
+62K Y3qvec",0.7586
+6,Verdana,2,focusStep_6_verdanaRef_size_30_sample_0002.tif,"AUGfLdxkK 
+9sxBj65Yuh
+47Cp D8sLg","AUGFL.8+kK
+9x+8j65Yuh
+47Cp DBsLg",0.7143
+6,Verdana,3,focusStep_6_verdanaRef_size_30_sample_0003.tif,"mnaw zjsDV
+ZQxYfYHZLQ
+jSyaCM7s7q","mnew zjsDV
+ZQx1mH2LQ
+j5yeCH7s7q",0.7241
+6,Verdana,4,focusStep_6_verdanaRef_size_30_sample_0004.tif,"txaRBfKbTw
+9tNV9S4YD3
+hM38jhbzab","ExaRBCbTw
+9NNV954YD3
+hM38jhbeab",0.8
+6,Verdana,5,focusStep_6_verdanaRef_size_30_sample_0005.tif,"R3dBfRSwVc
+4fYrWzUe7M
+bkU3La8aHX","8.3dBFRSmVc
+47yrWzUe7M
+baU3La6aHK",0.7
+6,Verdana,6,focusStep_6_verdanaRef_size_30_sample_0006.tif,"UuKQyhVQkc
+Bnb2BsPL25
+G WHqFB  M","UuikQythVQikc
+Bnb28sPL25
+G WHqFB M",0.8148
+6,Verdana,7,focusStep_6_verdanaRef_size_30_sample_0007.tif,"uLpRunLNt 
+chBrNVS5Dz
+4PUKYquUUX","ulpRuniLNT
+chBr11VSSOz
+4PUKYquUUX",0.7586
+6,Verdana,8,focusStep_6_verdanaRef_size_30_sample_0008.tif,"NYP6eW7J Q
+98HqxvEHTb
+c893tmFzLH","NYP6eW7JQ
+98HqwxvEHTB
+c93lmP2#LH",0.7586
+6,Verdana,9,focusStep_6_verdanaRef_size_30_sample_0009.tif,"SwiySHML7Y
+4VjFsdLkbm
+tv5hc2yLCK","Smily@HTML7Y
+4VjFsdLkbm
+tvShc2yLCK",0.8333
+6,Verdana,10,focusStep_6_verdanaRef_size_30_sample_0010.tif,"7i3wR eviP
+s8garWTuWV
+RMN75KUi Q","713mR, eviP
+s8garWTVWV
+RHN75KUIQ",0.7857
+6,Verdana,11,focusStep_6_verdanaRef_size_30_sample_0011.tif,"fst5TWvh35
+CgtFbasAus
+dK7PM3nPBL","fet5TWhvH35
+CgtFbasAus
+dk7PM3nPBL",0.8667
+6,Verdana,12,focusStep_6_verdanaRef_size_30_sample_0012.tif,"7K7jMsc5g5
+HqYX96i3fM
+sEiwTYXEnw","7k(7)Mac5g5
+HqYX96(3M
+sElmTYXEmw",0.7
+6,Verdana,13,focusStep_6_verdanaRef_size_30_sample_0013.tif,"RiPBXXS8nq
+DPtrLBSUuD
+j8f8BLnAgm","RIPB0X5Bng
+DPlrLBSUuO
+j8F8BLnAgm",0.7333
+6,Verdana,14,focusStep_6_verdanaRef_size_30_sample_0014.tif,"S59VDVUrpD
+tZPmnvMdfJ
+NFGcc6UZ2b","SS9VDVUrpd
+12PmmvHidF)
+NFGcc6U22b",0.6667
+6,Verdana,15,focusStep_6_verdanaRef_size_30_sample_0015.tif,"Tz3gFdSC2g
+8Ty2LQ7uTL
+nqFj5ie6X3","Tz3gFd5C2g
+8Ty2LQ7wTL
+mqf)5ie6X3",0.8333
+6,Verdana,16,focusStep_6_verdanaRef_size_30_sample_0016.tif,"njDuykaFLK
+nqV9nQmBVq
+mtKiVxP Dd","njDuykaFLK
+mqV9mQmBvq
+mtKIVx? Dd",0.8276
+6,Verdana,17,focusStep_6_verdanaRef_size_30_sample_0017.tif,"GJw8z7aMes
+FX8WRU2cYF
+a4PxEGb5HP","G)w857aMoc
+FX8WRU2cyF
+e4P+1Gb5HP",0.7333
+6,Verdana,18,focusStep_6_verdanaRef_size_30_sample_0018.tif,"rU727j YpX
+JwHWTRm5Vy
+kMuBrT3YPw","rU727] YpX
+2as9HlWTRm5Vv
+kMuBrT3YPw",0.7586
+6,Verdana,19,focusStep_6_verdanaRef_size_30_sample_0019.tif,"qudfU5TqwL
+j4LrwshAe3
+qJJmCn4v8U","qudfUSTqml
+j4LrwsAe3
+q11mCn4v8U",0.8
+6,Verdana,20,focusStep_6_verdanaRef_size_30_sample_0020.tif,"ptx6m8DSeU
+b72anPM9e4
+sN4KdnSkbh","px6m805eU
+b72anPWH9e4
+s1V4Kdn5khh",0.7
+7,Times,1,focusStep_7_timesR_size_30_sample_0001.tif,"beZtuqe4du
+ZagPvxR6Ys
+ThSZ AKYWe","Instagram
+TagPeopleTo
+ThisActing",0.1724
+7,Times,2,focusStep_7_timesR_size_30_sample_0002.tif,"A7Pbs cMzj
+zPRNRieHD2
+9QmmwqTMdE","ATM (My
+FEAR is 100%
+SOMETHING I'M
+NOT)",0.0
+7,Times,3,focusStep_7_timesR_size_30_sample_0003.tif,"t9Af ysR9D
+awwUdHQp8g
+aHYJZdVDY6","on yard
+meet high
+invades",0.1379
+7,Times,4,focusStep_7_timesR_size_30_sample_0004.tif,"sxyS42ufxV
+tx9K6v8cXw
+fgGWD Rit3","bogey
+bogey
+bogey",0.0345
+7,Times,5,focusStep_7_timesR_size_30_sample_0005.tif,"Mq4bKf43H8
+Papx78WDq6
+Y2KVPmRdPm","MyBakE 2020
+Page 70
+Day 4
+YEAH! 7pm 8:30pm",0.1
+7,Times,6,focusStep_7_timesR_size_30_sample_0006.tif,"q6WMTkSrR4
+jbcS5Qz3iY
+WmL9mwYnaX","JOMTISRA
+IN SHORT
+WINE ONE TANK",0.1667
+7,Times,7,focusStep_7_timesR_size_30_sample_0007.tif,"vT6JxD jnp
+j5jXTaXZp2
+W 34qd4vLh","+16AD jpy
+10135p
+3488-1h",0.2857
+7,Times,8,focusStep_7_timesR_size_30_sample_0008.tif,"V9Tr39Xerx
+qvbs55STm9
+eJJ3RM qPA","VOT 20kms
+gkhs151n0
+j13rem 5FA",0.1724
+7,Times,9,focusStep_7_timesR_size_30_sample_0009.tif,"xq9RExgwAL
+EjiDfWQMJp
+YgaHLEhaFp","you'll study
+8j10m@Mlp
+8j10m@Mlp
+8j10m@Mlp
+8j10m@Mlp",0.0
+7,Times,10,focusStep_7_timesR_size_30_sample_0010.tif,"paVv2ubWht
+fPuaCetUuq
+9N3ZmBNYXW",get%20out%20the%20Marketing%20system%20and%20get%20out%20of%20the%20system%20and%20,0.0
+7,Times,11,focusStep_7_timesR_size_30_sample_0011.tif,"F2PhZDcQjH
+tBwpwThe4M
+WPmZX2DjQL","PASD:QII
+Dope the M
+WnSCHOOL",0.3
+7,Times,12,focusStep_7_timesR_size_30_sample_0012.tif,"rKcertdpAR
+hdup5s8Ryk
+mwW9bJE cT","eKusuparA
+bHngp300y4
+mv%7h4u 1",0.1724
+7,Times,13,focusStep_7_timesR_size_30_sample_0013.tif,"UqGc6FNXSk
+YQTxs7pycg
+kk xFRTG J",lighter than you think,0.0357
+7,Times,14,focusStep_7_timesR_size_30_sample_0014.tif,"bKSvF6tMJt
+gBCXQ3jafy
+z6QYWKnxjh","yes, i can
+(800) 444-4444",0.0
+7,Times,15,focusStep_7_timesR_size_30_sample_0015.tif,"zD 7S6wtbU
+ctdqXnuwaj
+tQBReyYWPs","D Requiem
+agatnawj
+qayy17h",0.1724
+7,Times,16,focusStep_7_timesR_size_30_sample_0016.tif,"4nz2 rDrQg
+ukteBM8siS
+EE3Z6kXp3H","and 0.0
++800 888 555
+112 843 788",0.069
+7,Times,17,focusStep_7_timesR_size_30_sample_0017.tif,"dWxbt 2c4w
+bsF4W32J9v
+XzgPQuVmh5",John,0.069
+7,Times,18,focusStep_7_timesR_size_30_sample_0018.tif,"5zXQ FxH9n
+L8XGx4EpeC
+Va8rvLHx9F","100 Pounds
+1800+ Miles
+Valued $11,248",0.0345
+7,Times,19,focusStep_7_timesR_size_30_sample_0019.tif,"8bcbMPNQ8X
+PWnar4j8b6
+XHD RBEnCs",In the name of the father and the son,0.0
+7,Times,20,focusStep_7_timesR_size_30_sample_0020.tif,"3cKBMKwaW4
+v6PigHyMkq
+sLP8iWi2bQ","SERNANZÁN
+MUNICIPAL
+DE FRONTERA",0.0
+7,Verdana,1,focusStep_7_verdanaRef_size_30_sample_0001.tif,"4fdJF e8SV
+qdsNku2pW4
+WLPYRZ5nCf","#REUF eBOV
+#g66n6n6p6n6
+#WLPYR3$hCT",0.2414
+7,Verdana,2,focusStep_7_verdanaRef_size_30_sample_0002.tif,"MLVPvYK dN
+dDc6pFDXp7
+NeU3Qpc Rp","MLVPYTK ON
+Deeplongt
+ReiUQQc Ap",0.4286
+7,Verdana,3,focusStep_7_verdanaRef_size_30_sample_0003.tif,"P9bnasi8h
+QLHamnDBuY
+TV8pL6Ygx5","permission
+QLikeMmOBuy
+TV8pIL6Ypg+5",0.3793
+7,Verdana,4,focusStep_7_verdanaRef_size_30_sample_0004.tif,"YzgwcUSgNv
+fhJg6CzgCR
+PaG qzDvX","YegnaU8gtnw
+m8gCegCR
+PnG g00X",0.4286
+7,Verdana,5,focusStep_7_verdanaRef_size_30_sample_0005.tif,"QcKUDVdS4
+96NV3NfWTz
+ZGi7BRzrHQ","QKLUOVA4
+94W/2017WTE
+2017BRANQ",0.3448
+7,Verdana,6,focusStep_7_verdanaRef_size_30_sample_0006.tif,"jkRHF5NDhS
+LPdMHAuYuC
+CUEbcWEEXE","JAHNFRAUENS
+LPHYNHATUC
+CUECWEKEE",0.3667
+7,Verdana,7,focusStep_7_verdanaRef_size_30_sample_0007.tif,"g6Knv6hDJF
+bEHRWapgxr
+iSC DrWBcZ","gskvsh03f
+bennmager
+isc drwicz",0.3448
+7,Verdana,8,focusStep_7_verdanaRef_size_30_sample_0008.tif,"jPJLMkmdfg
+Kbn5bPz3CD
+jH3BpsnsU3","yP3LWarningf
+kandlute3CD
+yR3pansU3",0.3333
+7,Verdana,9,focusStep_7_verdanaRef_size_30_sample_0009.tif,"b KfcvmGFT
+VWshGJKSxi
+wz5MRVcRiG",Microsoft Visual Studio,0.1379
+7,Verdana,10,focusStep_7_verdanaRef_size_30_sample_0010.tif,"7HhB3hmsgC
+UUmEH9iuJm
+yLA r8rvNH",The text in the image is not clear and cannot be transcribed accurately.,0.0
+7,Verdana,11,focusStep_7_verdanaRef_size_30_sample_0011.tif,"4GTYk5Dwg6
+9uYmWn8U9X
+cPND6vFNmz","ACTIVATED
+DAYTIME+BLINK
+PMOS+FINNE",0.0667
+7,Verdana,12,focusStep_7_verdanaRef_size_30_sample_0012.tif,"C5e9skGxzG
+ZAgjMKxdJT
+ATha77MnHz","CheekyGoG
+2AggNkEeIT
+AtThe77White",0.3333
+7,Verdana,13,focusStep_7_verdanaRef_size_30_sample_0013.tif,"JMiFbMg8JT
+tQmNvTvJnG
+p4VgGPYTvX","JWlFbmgBTT
+BQmMwTwzHg
+e-RvGPIITwK",0.3333
+7,Verdana,14,focusStep_7_verdanaRef_size_30_sample_0014.tif,"VGL6M XgE9
+igs54C9hiQ
+yXryMD gTx","Volex Xge9
+ng5+Coniq
+yklmnd GTx",0.3929
+7,Verdana,15,focusStep_7_verdanaRef_size_30_sample_0015.tif,"QXxY76t7Lr
+jzyEVuscZD
+fzUDsaJ3zs","Qkay7677J
+JenEvans20
+FeruDoe130",0.2333
+7,Verdana,16,focusStep_7_verdanaRef_size_30_sample_0016.tif,"uFP4NNcyBf
+YxmU27hNen
+scU3CxeTD","unfailingof
+vamilarithion
+seubowtoTD",0.1034
+7,Verdana,17,focusStep_7_verdanaRef_size_30_sample_0017.tif,"nnV9FcXEtY
+tSmpXmhPSP
+kkXU JPVVK","HYPERCITY
+TEMPORUMPS
+MAXU JPVVK",0.3103
+7,Verdana,18,focusStep_7_verdanaRef_size_30_sample_0018.tif,"5BwK35FZLn
+hCEWnwJECb
+5yGzF jc8x","SANKOFELA
+NCEWHITED BYGOF JERX",0.3103
+7,Verdana,19,focusStep_7_verdanaRef_size_30_sample_0019.tif,"XAKGhe YsH
+Yu5mBWQier
+iGD9fY8rty",XANThe Yell Yum-Bowler IGOMINITY,0.3448
+7,Verdana,20,focusStep_7_verdanaRef_size_30_sample_0020.tif,"jGQUEEaB8
+ZRAc8bmrfF
+tt8ixGEak","jQQUEeR
+zRACiBmy
+nBnGek",0.3214
+8,Times,1,focusStep_8_timesR_size_30_sample_0001.tif,"4xUEuh8cyb
+tq6EbFNwsn
+hkFvL9v4wZ",88.11.11.11.11.11.11.11.11.11.11.11.11.11.11.11.,0.0
+8,Times,2,focusStep_8_timesR_size_30_sample_0002.tif,"vmY3h8gYcz
+2xY6U2FKBr
+z2Wa7jaP S","you'll think you
+can't breathe.",0.0345
+8,Times,3,focusStep_8_timesR_size_30_sample_0003.tif,"HFfQwLTV49
+dMu8BSK5KC
+abk22zb3 6","(130,171),(801,666)",0.0345
+8,Times,4,focusStep_8_timesR_size_30_sample_0004.tif,"pwArYZhe J
+4xEgJrFyNW
+9imMe9DJUc","mattie j
+nealson
+tobias.",0.069
+8,Times,5,focusStep_8_timesR_size_30_sample_0005.tif,"M8JTsM3RtZ
+SP8dSVRhy9
+gXcEYhbNkA","当
+你
+在
+这
+里
+时
+，",0.0
+8,Times,6,focusStep_8_timesR_size_30_sample_0006.tif,"kQVH72ZSBQ
+LRshh4KV4m
+ZBRXBXS6be","BONNIE FORD
+1 BARRINGTON ST
+3000 0000",0.0
+8,Times,7,focusStep_8_timesR_size_30_sample_0007.tif,"uKa946fiXP
+mu8J5cgQkJ
+ 2Ry97jju4",1. 2. 3. 4. 5. 6. 7. 8. 9. 10.,0.069
+8,Times,8,focusStep_8_timesR_size_30_sample_0008.tif,"hBNKcMRwtN
+Hjd8sqcAuH
+Tw rrzE6yH",当你的核心为你的核心,0.0
+8,Times,9,focusStep_8_timesR_size_30_sample_0009.tif,"kf2M7bxEKU
+sbup5DjH5Z
+BHNWyJa6AV",love this life,0.0333
+8,Times,10,focusStep_8_timesR_size_30_sample_0010.tif,"yAVQwxpffZ
+cybNwr3eiS
+yWijdDiHQT",The text in the image is not clear and cannot be transcribed.,0.0
+8,Times,11,focusStep_8_timesR_size_30_sample_0011.tif,"9LRUpcHxwx
+eJu5Ke9cc4
+Brk5aiBbv5",The text in the image is not clear and cannot be transcribed.,0.0
+8,Times,12,focusStep_8_timesR_size_30_sample_0012.tif,"gHB4YGNWJN
+KrbGiWP5NB
+iGfddB8JiM","GEOFFREY BROWN
+BLACKMINT AND
+GOLDENBERRY",0.0
+8,Times,13,focusStep_8_timesR_size_30_sample_0013.tif,"rAXHhCVqkK
+ph3yrtZW2h
+ BQNC5Bdej","VANDICVAC
+BROKEN
+RIGHT",0.1379
+8,Times,14,focusStep_8_timesR_size_30_sample_0014.tif,"bSWZvL6ZrN
+i9KaDZZQRs
+2bXiN6Vnej","BROUGHT TO YOU BY
+THE FUTURE OF
+THE WORLD",0.0
+8,Times,15,focusStep_8_timesR_size_30_sample_0015.tif,"WtCrE4L3B8
+377T2wmkFb
+6agUfLbncJ","NFC技术.380
+数字签名.380
+Google.380",0.1333
+8,Times,16,focusStep_8_timesR_size_30_sample_0016.tif,"Ap2Szpgqkk
+t9a5dFggJR
+eu5Dn5sAwu","AnThomasi
+Davids
+and
+the
+Society",0.0667
+8,Times,17,focusStep_8_timesR_size_30_sample_0017.tif,"dhj tghjr 
+tdn22AVHM2
+RUyryGzphz",the 1990s 2000s 2010s 2020s,0.1429
+8,Times,18,focusStep_8_timesR_size_30_sample_0018.tif,"qX4kg5jfAc
+yfbsCiyaqb
+2ixxEyqSZ",of the 1000 other things,0.0345
+8,Times,19,focusStep_8_timesR_size_30_sample_0019.tif,"UqtsqMqG47
+6v5fJZNMqp
+6R8 Ks6cLa","looking
+through
+the
+window",0.0
+8,Times,20,focusStep_8_timesR_size_30_sample_0020.tif,"cQ78Bxgn5e
+MaJhbpe4fq
+wKJ kqZGT9","<blockquote>
+    <p>What is the difference between a
+    <em>variable</em> and a <em>function</em>?</p>
+    <p>Variable: A <em>variable</em>",0.0
+8,Verdana,1,focusStep_8_verdanaRef_size_30_sample_0001.tif,"K73Hf2Ruub
+VW3RVG6B9z
+sp3Mv gLYF","not significant
+watercolor
+painting",0.0
+8,Verdana,2,focusStep_8_verdanaRef_size_30_sample_0002.tif,"qmHSYFALGg
+byxmvEXFzX
+8S  2WtH9w","universals
+barnweiler
+os jankowm",0.0357
+8,Verdana,3,focusStep_8_verdanaRef_size_30_sample_0003.tif,"54PXks2S73
+yCTrnDbfPE
+4rmB447DsS","Sarangkot
+Vivek
+Bhagat",0.0667
+8,Verdana,4,focusStep_8_verdanaRef_size_30_sample_0004.tif,"5qC8BAJ6a2
+vzEE7u8sMB
+Gs 9FvZFQZ",The Critical Role,0.0345
+8,Verdana,5,focusStep_8_verdanaRef_size_30_sample_0005.tif,"yEnyJDQ5hU
+WUaPw8vmmw
+U62k6Y5cpf",We're going to need a bigger boat.,0.0
+8,Verdana,6,focusStep_8_verdanaRef_size_30_sample_0006.tif,"dUHkHB69VP
+cT83uQuUxa
+pQ49JMdDDh","SUMMATION
+STRAIGHT
+SQUARE
+SUMMATION",0.0
+8,Verdana,7,focusStep_8_verdanaRef_size_30_sample_0007.tif,"Hi2hzPCcZs
+kaW6F6LwSm
+UJiDy6NkjU","MnRyGcFe
+NwRyGcFeMn
+NcWnMn",0.0667
+8,Verdana,8,focusStep_8_verdanaRef_size_30_sample_0008.tif,"cj3cfbiwGT
+h2BYMkwCvF
+yaLyD C85a","northwest
+reminisce
+of
+village",0.0345
+8,Verdana,9,focusStep_8_verdanaRef_size_30_sample_0009.tif,"KK9GxW6g8 
+jQCr5us9km
+RfQUm6k5N2",The text in the image is not clear and appears to be blurry. It is difficult to transcribe the text accurately.,0.0
+8,Verdana,10,focusStep_8_verdanaRef_size_30_sample_0010.tif,"vidCfxrjmK
+NKFVNH9Mr9
+ibf7YFXyS2",welcome,0.0333
+8,Verdana,11,focusStep_8_verdanaRef_size_30_sample_0011.tif,"i6V64aZfKi
+MNvGptcqFF
+BMDebbYGAd","synchronizing
+wanna/couldn't
+sync/now/gain",0.0
+8,Verdana,12,focusStep_8_verdanaRef_size_30_sample_0012.tif,"YNc36igWMq
+Th3iUpf9yu
+6z78fB6LPu",The 2021 1000 1000 1000 1000 1000 1000 1000 1000 1,0.0
+8,Verdana,13,focusStep_8_verdanaRef_size_30_sample_0013.tif,"6E8vf xDqg
+Bm5CSVKYc5
+Mc8fCjdTS","BEGIN YOUR
+CHALLENGE WITH
+MUST-LETS",0.0357
+8,Verdana,14,focusStep_8_verdanaRef_size_30_sample_0014.tif,"SNWsNTKp4T
+qprNHCGJz2
+4tCRSLV3EW","common sense
+empirical evidence",0.0
+8,Verdana,15,focusStep_8_verdanaRef_size_30_sample_0015.tif,"NhKWBJ3YFi
+mrbaFMt7ED
+iL3U2 heCg","unfamiliar path
+unintended
+long 100",0.0345
+8,Verdana,16,focusStep_8_verdanaRef_size_30_sample_0016.tif,"Qftq5VRbWi
+tjPptcUWTf
+2k8wsvpS27","OPRAGNAM
+SUPRAHANAM
+TE
+ZAHMAN",0.0333
+8,Verdana,17,focusStep_8_verdanaRef_size_30_sample_0017.tif,"2RY7sQuf7
+hfEQ9w2zMP
+GYFAeynZFb","without
+neither
+can
+anyone",0.069
+8,Verdana,18,focusStep_8_verdanaRef_size_30_sample_0018.tif,"KfMGKVBvTG
+rYXJbrMGZc
+SmVUTWJAe6","SYNTHETIC
+SYNTHETIC
+SYNTHETIC",0.1
+8,Verdana,19,focusStep_8_verdanaRef_size_30_sample_0019.tif,"XX2cidh5HC
+77y29fLfQx
+UNppsXgR x","Economic
+Trends
+and
+Policy",0.0345
+8,Verdana,20,focusStep_8_verdanaRef_size_30_sample_0020.tif,"yEMRnmiFba
+zfviaESVHc
+b6ECFtFUDw","WENSHUHUIFANG
+SHANGHAIHONGYUFLOW",0.0667
+9,Times,1,focusStep_9_timesR_size_30_sample_0001.tif,"yK4pjYyPQe
+xkvumuQDPW
+wmHjrN EqE","Anatole
+Dumas
+Maurice
+Le
+Gadagne",0.0345
+9,Times,2,focusStep_9_timesR_size_30_sample_0002.tif,"TqycF29WZq
+J48dKDm3H9
+wmFPvs5gP9","Lynx 100M/2
+a
+1000M/2
+and
+Philips",0.0667
+9,Times,3,focusStep_9_timesR_size_30_sample_0003.tif,"AAPHbXDgmw
+kYFHffBwuN
+3EHs96 GRR",- 6. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13.,0.0
+9,Times,4,focusStep_9_timesR_size_30_sample_0004.tif,"YdGzadNebK
+HbKtYzZXFE
+YitWvy3Q J","会将Google的搜索
+结果和你的搜索
+结果进行比较",0.069
+9,Times,5,focusStep_9_timesR_size_30_sample_0005.tif,"4RH47TxyDx
+L3cJFbeadg
+4GsSgBhqkK",The text in the image is not clear and cannot be transcribed.,0.0
+9,Times,6,focusStep_9_timesR_size_30_sample_0006.tif,"3A3B bknuq
+8KAg86etGt
+dEZjLeftGL",2013 10 10 10:00 10:00 10:00 10:00 10:00 10:00 1,0.0
+9,Times,7,focusStep_9_timesR_size_30_sample_0007.tif,"x2Wh5XGtbP
+YVSkt4GdEc
+Gjrbq2rneg","svalokup
+tyr-44-111
+cyrygyn",0.1
+9,Times,8,focusStep_9_timesR_size_30_sample_0008.tif,"vjYs64YKEg
+cPMeQHR8cc
+qVe RJ 3nR","- 今
+- 你
+- 们
+- 的
+- 话
+- 都
+- 是
+- 你
+- 的
+- 事
+- 了
+- 你
+- 的",0.0
+9,Times,9,focusStep_9_timesR_size_30_sample_0009.tif,"93i  nzUeh
+eNNZqyjZkp
+F W5g2Zrvr","All, which
+were
+not
+in
+the
+night.",0.037
+9,Times,10,focusStep_9_timesR_size_30_sample_0010.tif,"dHuUtrYa2n
+5XiC24WmaE
+XYg2HAxyB7","ABCD
+EFGH
+IJKL
+MNO
+PQRS
+TUVW
+XYZ",0.0
+9,Times,11,focusStep_9_timesR_size_30_sample_0011.tif,"w6PWuY uaw
+fCXgcx9DHu
+Z3sYKmmyP",what we do is simple,0.1429
+9,Times,12,focusStep_9_timesR_size_30_sample_0012.tif,"msQAY GkZS
+mnpJC8NcGD
+T7GpF3d5Z4","must go
+and take
+that way",0.069
+9,Times,13,focusStep_9_timesR_size_30_sample_0013.tif,"26AvNGmtsT
+8Erru8PG6Y
+Czgcw7yuTE","The Microsoft
+Windows
+Operating
+System",0.0
+9,Times,14,focusStep_9_timesR_size_30_sample_0014.tif,"yLCHtCut5f
+f9Py4NyFUJ
+juGySQX5 S","the
+world
+is
+a
+book",0.0345
+9,Times,15,focusStep_9_timesR_size_30_sample_0015.tif,"DEfVErR b8
+MpCXuRSGuX
+mY5ZsUdAtG",在1980年代末，80年代末,0.0345
+9,Times,16,focusStep_9_timesR_size_30_sample_0016.tif,"etaE4GhZj2
+A6Sii6jLiz
+HK9FcgZRVH","the
+world
+is
+a
+mirror
+of
+the
+mind",0.0667
+9,Times,17,focusStep_9_timesR_size_30_sample_0017.tif,"fiC4s6z3Ln
+w4Hm6Ej7g6
+qHeYdxTs2e",If 6000 + 1000 = 7000,0.0667
+9,Times,18,focusStep_9_timesR_size_30_sample_0018.tif,"gpbEqxuB9s
+DRv3p694tx
+ySYXrxrkd3","The words are
+""the words are
+the words are
+the words are
+the words are
+the words are
+the words are
+the words are
+the words are
+the words are
+the words are
+the words are",0.0
+9,Times,19,focusStep_9_timesR_size_30_sample_0019.tif,"w2uMF9Qi74
+DgaSw37aja
+auQ Za pj4",The text in the image is not clear and cannot be transcribed.,0.0
+9,Times,20,focusStep_9_timesR_size_30_sample_0020.tif,"LAbyU5WQA 
+3gZgjnP5Lk
+vSEyvEd7Ew","Black, white, and new.",0.069
+9,Verdana,1,focusStep_9_verdanaRef_size_30_sample_0001.tif,"YrJcjdKsAj
+jTrwNWtDg8
+rUEq8YwMwL","yes-thinkers
+think-inversely
+and-advocate.",0.0
+9,Verdana,2,focusStep_9_verdanaRef_size_30_sample_0002.tif,"wM Kgm SgL
+aSP3EUUjNg
+Stpfwj6pta","we form self
+starting with the psyche",0.0
+9,Verdana,3,focusStep_9_verdanaRef_size_30_sample_0003.tif,"rpER9XGxxd
+T3ntpEZ8Dy
+WdkRVaAyv","Good
+Morning
+World",0.1034
+9,Verdana,4,focusStep_9_verdanaRef_size_30_sample_0004.tif,"kTdQygATY9
+aQ4PuWbLwN
+dQ Rsgk2GF",6.7.10.11.12.13.14.15.16.17.18.19.20.21.22.23.24,0.0
+9,Verdana,5,focusStep_9_verdanaRef_size_30_sample_0005.tif,"xJgBAKNsxw
+Fa9bMrM72Y
+ykqwkac2ZW","2:50pm
+3:00pm
+4:00pm
+5:00pm
+6:00pm
+7:00pm
+8:00pm
+9:00pm",0.0
+9,Verdana,6,focusStep_9_verdanaRef_size_30_sample_0006.tif,"Ah d3eTMFQ
+GLe9WANXda
+ m9ESky7Ma","to change
+the world",0.0714
+9,Verdana,7,focusStep_9_verdanaRef_size_30_sample_0007.tif,"Zz5JtYQdpk
+a4wLN7ZSQu
+EKx4tWzwKB","Auricular
+Havilah
+Muniz",0.1
+9,Verdana,8,focusStep_9_verdanaRef_size_30_sample_0008.tif,"peTLkfkED4
+KqNXcqu77n
+wTuk v6kqv",The text in the image is not clear and cannot be transcribed.,0.0
+9,Verdana,9,focusStep_9_verdanaRef_size_30_sample_0009.tif,"GzyRsK2USx
+MaV94gGmXE
+2Uf2krDZAj","Gentlebe
+Analogonic
+Differential",0.1
+9,Verdana,10,focusStep_9_verdanaRef_size_30_sample_0010.tif,"qAJhCQScxz
+HbuCPeHekn
+i9vynPq7rR",s. t. p. h. t. h. t. h. t. h. t. h. t. h. t. h. t. h. t. h. t. h. t. h.,0.0
+9,Verdana,11,focusStep_9_verdanaRef_size_30_sample_0011.tif,"K52qNpk B4
+UmJ6TBnbrG
+mLQEhJWaTW","GROWNS OF
+UNBELENDING
+PL-6714WTM",0.1379
+9,Verdana,12,focusStep_9_verdanaRef_size_30_sample_0012.tif,"ptq7Hyqdvv
+SqjN7u75Yv
+EmWPxTCzgU","the power of the
+generation of
+awakened",0.0
+9,Verdana,13,focusStep_9_verdanaRef_size_30_sample_0013.tif,"tfp6 DMF8s
+nQU3BZ849h
+cWJWwjiasz",The Empire State Building (MSWmv) was,0.0
+9,Verdana,14,focusStep_9_verdanaRef_size_30_sample_0014.tif,"4EKDiNtadD
+bWBpWm7bvw
+aeEtv6 fw2","wronged
+swiped
+away
+and
+lost",0.1379
+9,Verdana,15,focusStep_9_verdanaRef_size_30_sample_0015.tif,"QxzXBbRsLf
+tEhXTunKfS
+ sxxXUc642","original
+enlarged
+and
+reduced",0.0345
+9,Verdana,16,focusStep_9_verdanaRef_size_30_sample_0016.tif,"EXQH6w5qnu
+JZKs5fSds5
+N6DGmaBW63","SKDnbySyne
+Wnlon=BMW3",0.1333
+9,Verdana,17,focusStep_9_verdanaRef_size_30_sample_0017.tif,"NJnB8P9dDv
+bKjMJ5eNu4
+GqK zpfmSY","to be
+beneath
+get away",0.069
+9,Verdana,18,focusStep_9_verdanaRef_size_30_sample_0018.tif,"uwbAvAhtqn
+WBJjkxwqZs
+3zxuc6iLxy",The text in the image is not clear and cannot be transcribed.,0.0
+9,Verdana,19,focusStep_9_verdanaRef_size_30_sample_0019.tif,"SJLeP gwm9
+gQW9auDCCE
+Nqvag3Az X","Let's print
+every word
+here and there.",0.0
+9,Verdana,20,focusStep_9_verdanaRef_size_30_sample_0020.tif,"aMLDXRztGZ
+dAC6VD2Daq
+J2N e3NsDR","WALLWORKS
+HALLWAYS
+AND GARDENS",0.069
+10,Times,1,focusStep_10_timesR_size_30_sample_0001.tif,"Ra2MWx68sT
+uENKNu7Cra
+je3CwsDqEN","B. D A N N E S S
+W. H. A R T E R T H A N
+T. H. M A N N I E N",0.0
+10,Times,2,focusStep_10_timesR_size_30_sample_0002.tif,"R2Zxn PwB4
+ABgfWihu5h
+RN4A5Mujyc",The text in the image is not clear and cannot be transcribed.,0.0
+10,Times,3,focusStep_10_timesR_size_30_sample_0003.tif,"SVHaW2PPVr
+Gup4v6WkEM
+hLR27s7vp","SUBLIMINAL
+DRIVE
+CHARGING
+IN 40/7/14",0.0
+10,Times,4,focusStep_10_timesR_size_30_sample_0004.tif,"Z jxNR8g f
+NTVvZBUu8v
+VSzKqZFSyw","A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X",0.0357
+10,Times,5,focusStep_10_timesR_size_30_sample_0005.tif,"Y8Bb4ct9zw
+RU3VuZvF3X
+cz8LrbtyaP","BONNIE
+BROWN",0.0667
+10,Times,6,focusStep_10_timesR_size_30_sample_0006.tif,"wE XHBi96J
+PnS9hvvMb7
+c7rRLjhFSh",abc (111000),0.069
+10,Times,7,focusStep_10_timesR_size_30_sample_0007.tif,"MFENPMg25i
+M5ueyVHgWX
+2 BLsKX dR","在中华人民共和国境内
+从事第二类、第三类医疗器械
+生产活动的企业
+应当取得医疗器械
+生产许可证",0.0
+10,Times,8,focusStep_10_timesR_size_30_sample_0008.tif,"V9 KQqCzFW
+775HdYNkVL
+emViRTqiAL","and the
+world
+is
+a
+stage",0.0345
+10,Times,9,focusStep_10_timesR_size_30_sample_0009.tif,"VYiC6T388j
+dZXXE43dPi
+YZEanP37H3","you're the
+mastermind.",0.0667
+10,Times,10,focusStep_10_timesR_size_30_sample_0010.tif,"NvrdkSq74H
+4DwFaRKpNQ
+zmJmJrP jP","numbered
+and
+unnumbered
+with#",0.0
+10,Times,11,focusStep_10_timesR_size_30_sample_0011.tif,"UJ SFvvwAE
+FYNgJsMbhS
+XC2fJnR97G","the
+old
+man
+is
+sitting
+on
+a
+chair
+and
+smoking
+a
+cigarette.",0.0
+10,Times,12,focusStep_10_timesR_size_30_sample_0012.tif,"yBGRtGgSBc
+Cd4rvftwpV
+QXyyeuKs42",The text in the image is not clear and cannot be transcribed.,0.0
+10,Times,13,focusStep_10_timesR_size_30_sample_0013.tif,"NQLs4NPwW4
+paWXHjsaJA
+c7GmXft45X",NLD.,0.0667
+10,Times,14,focusStep_10_timesR_size_30_sample_0014.tif,"7RFX6A3NMG
+5yu8Zj56ST
+RUCgb9BaQA","THE BAY, SHORES
+TOWNSHIP OF
+SOUTH (APPROXIMATELY)",0.0
+10,Times,15,focusStep_10_timesR_size_30_sample_0015.tif,"NRw7rERCBd
+AxPDEsMmUT
+BBiYx Mxhj",中国人的骄傲,0.0
+10,Times,16,focusStep_10_timesR_size_30_sample_0016.tif,"w2sxFrDkk2
+zKgXz2fFqe
+mwHHg56P6t","what is the
+meaning of
+this word?",0.0667
+10,Times,17,focusStep_10_timesR_size_30_sample_0017.tif,"qQR vnEfQm
+Zpwp8XehGC
+vSndMqR6ZM","(162,187),(780,740)",0.0345
+10,Times,18,focusStep_10_timesR_size_30_sample_0018.tif,"VZjv6jXp2Y
+c4mhArPXX7
+gJmcthqLPU","WORLDWIDE
+MEN'S
+FASHION
+EXPO",0.0333
+10,Times,19,focusStep_10_timesR_size_30_sample_0019.tif,"QNzNJueCfH
+DG4zDUNZnr
+vU b2 u2PW","October 19
+October 20
+October 21
+October 22
+October 23
+October 24
+October 25
+October 26
+October 27
+October 2",0.0
+10,Times,20,focusStep_10_timesR_size_30_sample_0020.tif,"mrgn2eA2zh
+VF593ipLyB
+Yjq36357cx",The quick brown fox jumps over the lazy dog.,0.0
+10,Verdana,1,focusStep_10_verdanaRef_size_30_sample_0001.tif,"f2qeG RgkU
+KRcNBzzeTL
+GW9UYJF4Z7","Great Britain
+Scotland
+Northern Ireland
+Wales",0.0
+10,Verdana,2,focusStep_10_verdanaRef_size_30_sample_0002.tif,"DQc9w4tjCn
+6u84WgC3Tq
+mT dCPrX3R",100-10000000000000000000000000000000000000000000,0.0
+10,Verdana,3,focusStep_10_verdanaRef_size_30_sample_0003.tif,"LUdu3GyUd 
+VCCdXBKWe3
+AziaatKjM2","Lambert, D. (1997). The
+Mind.",0.069
+10,Verdana,4,focusStep_10_verdanaRef_size_30_sample_0004.tif,"2p2BfbEU9M
+L6E4pCprFb
+kCQTueUA6V","Bacillus licheniformis
+Bacillus subtilis",0.0
+10,Verdana,5,focusStep_10_verdanaRef_size_30_sample_0005.tif,"JCJRyzR2ge
+ciaKSUr6yU
+mNwkPRKh5U","the
+art
+of
+the
+possible",0.0667
+10,Verdana,6,focusStep_10_verdanaRef_size_30_sample_0006.tif,"cssxatxGTm
+8TUpTBKzSK
+BpQbmBW295","CITY
+KITTEN
+BUTTERFLY
+BIRD",0.1333
+10,Verdana,7,focusStep_10_verdanaRef_size_30_sample_0007.tif,"MWykrDkEnh
+GPVPQXDGNA
+6MEJpWwAJV","www.thesun.co.uk
+www.dailymail.co.uk
+www.bbc.co.uk
+www.nationalgeographic.com",0.0
+10,Verdana,8,focusStep_10_verdanaRef_size_30_sample_0008.tif,"iRLRXyP9rg
+mCq62EuwPu
+uRuSLYK2U","also, one of the most
+important things is to
+be kind",0.0
+10,Verdana,9,focusStep_10_verdanaRef_size_30_sample_0009.tif,"Mu79bFCYk 
+npXvWEMyND
+4aukaqRaU7","The
+universe
+is
+a
+living
+system",0.0
+10,Verdana,10,focusStep_10_verdanaRef_size_30_sample_0010.tif,"kdgLYBdnkT
+6Hesx7EDXi
+z7kimvzCZa","The
+Alphabet
+is
+a
+system
+of
+writing
+used
+by
+the
+ancient
+Egyptians
+and
+other
+people
+of
+the
+Old
+World.
+It
+consists
+of",0.0
+10,Verdana,11,focusStep_10_verdanaRef_size_30_sample_0011.tif,"k7sDnLkDsd
+JSDZa3MMK7
+QEVCRCZjhQ",The text in the image is not clear and appears to be blurry. It is difficult to transcribe the text accurately.,0.0
+10,Verdana,12,focusStep_10_verdanaRef_size_30_sample_0012.tif,"aNKZeVgkKA
+9hVFtTK78G
+2Kb5HFxg9",thecheapothecheapothecheapothecheapothecheapothecheapothecheapothecheapothecheapothecheapothecheapothecheapothecheapothecheapothecheapothecheapo,0.0
+10,Verdana,13,focusStep_10_verdanaRef_size_30_sample_0013.tif,"zT7HF94T L
+iTFtsjh9zN
+et 9TWChQi",certainly + undoubtedly + invariably,0.0
+10,Verdana,14,focusStep_10_verdanaRef_size_30_sample_0014.tif,"fUPVqMgH4Y
+Tfp8eVN68p
+X4sAVRjxHf",superheated,0.0667
+10,Verdana,15,focusStep_10_verdanaRef_size_30_sample_0015.tif,"qu8iLGjFRC
+vF74Mv9w8u
+gp CCdiMUk",BIBLIOGRAPHY OF THE WORKS OF GEORGIA,0.0
+10,Verdana,16,focusStep_10_verdanaRef_size_30_sample_0016.tif,"r uVpFy9Zr
+B5phHsD6zD
+DHmPni9TWK",I am afraid that I cannot do that.,0.0345
+10,Verdana,17,focusStep_10_verdanaRef_size_30_sample_0017.tif,"vx9rY62QmE
+TTg8Yi3vmG
+CJp2PXQft6","The words ""the words of the
+party of the state""",0.0
+10,Verdana,18,focusStep_10_verdanaRef_size_30_sample_0018.tif,"e6vjcXLZ h
+medACgcEV3
+GVTgXgGXWr","what-else is
+what-else is
+what-else is",0.0
+10,Verdana,19,focusStep_10_verdanaRef_size_30_sample_0019.tif,"M8YEFh BQy
+ZDP5h5CEwd
+YbMX 5MMb","The
+State",0.037
+10,Verdana,20,focusStep_10_verdanaRef_size_30_sample_0020.tif,"Syti723zU 
+n6GPcsaBs7
+tJSwk4XeJT",Barnes & Noble,0.1034
+11,Times,1,focusStep_11_timesR_size_30_sample_0001.tif,"vpGbMpCRmN
+SvLkVyyFCX
+jBzQDrhjSu",university of south carolina,0.0333
+11,Times,2,focusStep_11_timesR_size_30_sample_0002.tif,"gpqYiYbJiY
+mb5HYhMeEe
+GXuChEuF3g","and then
+there
+is
+nothing
+that
+can
+be
+done
+about
+it",0.0
+11,Times,3,focusStep_11_timesR_size_30_sample_0003.tif,"G9c2zATWP 
+Et4R3kt3Yj
+YfUHQ YSax",The text in the image is not clear and cannot be transcribed.,0.0
+11,Times,4,focusStep_11_timesR_size_30_sample_0004.tif,"3q8GdQa34c
+hwt7qpdi3d
+8957qNQQa7","sustained
+and
+uninterrupted
+and
+unbroken",0.0
+11,Times,5,focusStep_11_timesR_size_30_sample_0005.tif,"jQU8gQXhbr
+UQCUZmwfnn
+j2FBh7QcqZ","and the
+I am
+the
+I am",0.1
+11,Times,6,focusStep_11_timesR_size_30_sample_0006.tif,"JrRLkFW3Ld
+YzjHcBvEbu
+xkstyAapQv","The
+Lion
+of
+the
+North
+is
+a
+fable
+by
+the
+Scottish
+author
+Robert
+Browning.",0.0
+11,Times,7,focusStep_11_timesR_size_30_sample_0007.tif,"a9LXYsu RZ
+jPbjSN2svg
+JyFqW5mHv","the 4d
+mathematics
+in universe",0.0357
+11,Times,8,focusStep_11_timesR_size_30_sample_0008.tif,"ysYGJy kbr
+pjzprXKCvp
+kcTTkuppgM",The text on the wall is not legible.,0.0
+11,Times,9,focusStep_11_timesR_size_30_sample_0009.tif,"7LpmdSKK F
+zYJSZkieCX
+sigaNMecVK","Flaxseed oil
+Flaxseed oil",0.069
+11,Times,10,focusStep_11_timesR_size_30_sample_0010.tif,"EMBe3Ka6EA
+2jgrSL4NBS
+ppixzgaJMM",EVARA - BLOOD - BLOOD - BLOOD - BLOOD - BLOOD - BLOOD - BLOOD - BLOOD - BLOOD - BLOOD - BLOOD - BLOOD - BLOOD - BLOOD - BLOOD,0.0
+11,Times,11,focusStep_11_timesR_size_30_sample_0011.tif,"SpJuC8fEp3
+gpce9PGNf3
+9RSQ 2X7c3","snoopy
+shark
+snoopy
+shark",0.0345
+11,Times,12,focusStep_11_timesR_size_30_sample_0012.tif,"HPsx45evmD
+WZ4UF9ySSt
+CjFFDMf5Lu",Blackboard,0.0
+11,Times,13,focusStep_11_timesR_size_30_sample_0013.tif,"hpYfWiDZ3r
+CnPzjS8xWX
+ RgxF4 s63","saturday
+sunday
+monday
+tuesday
+wednesday
+thursday
+friday",0.0
+11,Times,14,focusStep_11_timesR_size_30_sample_0014.tif,"aMtAbgPnKR
+8Ni8xiUuX3
+BvaZaTMkiZ","am
+unilateral
+independent
+and
+unconditional",0.0
+11,Times,15,focusStep_11_timesR_size_30_sample_0015.tif,"i9efzrbwhz
+QsFKBBKu9p
+Sj hbhPeMN","Becoming
+Our
+Lives
+and
+Choices",0.1034
+11,Times,16,focusStep_11_timesR_size_30_sample_0016.tif,"7RsWdVSwRJ
+anJcYWyh2m
+hCzUdZjd H","The
+universe
+is
+a
+living
+thing",0.0
+11,Times,17,focusStep_11_timesR_size_30_sample_0017.tif,"DpVevq4z9B
+qHfFsMxW9k
+U8XRTEdiZb","technologies
+that
+transform
+human
+beings",0.0
+11,Times,18,focusStep_11_timesR_size_30_sample_0018.tif,"euggmJfGyW
+KBVu82F6KS
+n zG5DDfNk",unconcerned,0.069
+11,Times,19,focusStep_11_timesR_size_30_sample_0019.tif,"sz vVEpgMB
+GkqyaaePTV
+MvgHiFAWq3","the
+language
+that
+cannot
+be
+translated",0.0
+11,Times,20,focusStep_11_timesR_size_30_sample_0020.tif,"HVqX4qe Fz
+23vBeJqqUQ
+SNzJriq7nT",thank you for understanding,0.069
+11,Verdana,1,focusStep_11_verdanaRef_size_30_sample_0001.tif,"pvVpT8h  Z
+W27uJ4dQfu
+ETNN8rTZhb",Barnes & Noble Booksellers,0.0357
+11,Verdana,2,focusStep_11_verdanaRef_size_30_sample_0002.tif,"gdJ YKNycQ
+vSFvVgDwLV
+G3Nq8wzudd","not
+manuscript,
+apologies,
+for",0.0
+11,Verdana,3,focusStep_11_verdanaRef_size_30_sample_0003.tif,"qL VMDTP7k
+ccP8KL4Zgb
+Rs8a8 tJw","N. AVEYARD
+CLOTH-BOY
+SUNSHINE 118",0.0
+11,Verdana,4,focusStep_11_verdanaRef_size_30_sample_0004.tif,"7LnbdtAFsK
+fuw3W9RkpE
+gcbBEVcx3p",The following are the words in the image:,0.0
+11,Verdana,5,focusStep_11_verdanaRef_size_30_sample_0005.tif,"uxkJcM9PDN
+STq5ftpCFq
+YVVjhaXKuB",The text in the image is not clear and cannot be transcribed.,0.0
+11,Verdana,6,focusStep_11_verdanaRef_size_30_sample_0006.tif,"Q7HycvtA5S
+E2seisUVQz
+8U64wg5fex","The
+University
+of
+California
+at
+Berkeley",0.0
+11,Verdana,7,focusStep_11_verdanaRef_size_30_sample_0007.tif,"2FhekXhbzH
+mxjDEbAry9
+iXkpd8wE8c",Phasediapher,0.1
+11,Verdana,8,focusStep_11_verdanaRef_size_30_sample_0008.tif,"SeTn7yFm5D
+ZmSbcTdY88
+p7VJ KKXLA","Sethu/photocopy
+gymnastics/10:00-11:00
+gymnastics/11:00-12:00
+gymnastics/1",0.0
+11,Verdana,9,focusStep_11_verdanaRef_size_30_sample_0009.tif,"xakAkUtWZf
+CVxFPdYhcL
+vz4vGyAY5z",The text in the image is not clear and appears to be blurry. It is difficult to transcribe the text accurately.,0.0
+11,Verdana,10,focusStep_11_verdanaRef_size_30_sample_0010.tif,"J2 guP t7d
+e8qr6bhdAA
+vd6BXT3du",+ 2 4 6 8 10,0.0741
+11,Verdana,11,focusStep_11_verdanaRef_size_30_sample_0011.tif,"Vhu8c3DYmX
+yDRJpUFPjR
+GRwVycmzup",The text in the image is not clear and cannot be transcribed.,0.0
+11,Verdana,12,focusStep_11_verdanaRef_size_30_sample_0012.tif,"TWGfnP3j4v
+92FffbCRFa
+WNhYbdxqWi","twentieth
+century
+artificial
+intelligence",0.0
+11,Verdana,13,focusStep_11_verdanaRef_size_30_sample_0013.tif,"hpQYyaLL7b
+KuRqghU66Z
+u5CvC2AHZh","Nevada - Be
+Nevada - Be",0.0667
+11,Verdana,14,focusStep_11_verdanaRef_size_30_sample_0014.tif,"GwYtxeZNQ7
+GfSCc8ENEh
+KaN2CEexeA","Davida
+Morgan
+Eve
+And
+Nathan",0.0667
+11,Verdana,15,focusStep_11_verdanaRef_size_30_sample_0015.tif,"i9ffMbjGF8
+SNhfgtq2mF
+dyTv3gc8YJ",contractors,0.0333
+11,Verdana,16,focusStep_11_verdanaRef_size_30_sample_0016.tif,"pFVJmH79Cp
+jLUDZpt8gM
+u55ZiDfpnX",what is the meaning of the word,0.0333
+11,Verdana,17,focusStep_11_verdanaRef_size_30_sample_0017.tif,"STR8E agMH
+C7XS9NJvDJ
+Fx22 qFs9Y","there are
+consequences
+and they",0.0357
+11,Verdana,18,focusStep_11_verdanaRef_size_30_sample_0018.tif,"GX7BeT3U5k
+3v6S3HHdDB
+GTFMLmJUDj","C O N T R A C T
+A N D  R E S P O N S I B I L I T Y
+E X P L A N A T I O N",0.0
+11,Verdana,19,focusStep_11_verdanaRef_size_30_sample_0019.tif,"7gb26tNcgm
+FZHN6Jw7Lq
+8jMhz8MDRX","The
+C
+entury
+of
+the
+Human
+Race",0.0
+11,Verdana,20,focusStep_11_verdanaRef_size_30_sample_0020.tif,"76m7X8BG U
+HmZBBCbCC9
+NsxhV4jM w","The following are the steps to be followed in order to achieve the desired outcome:
+
+1. Identify the problem: The problem is that the text is not being transcribed accurately.
+
+2. Determine the cause: The cause of the problem is that",0.0
+12,Times,1,focusStep_12_timesR_size_30_sample_0001.tif,"4JRqSjXkY6
+NjQpR3A8Zb
+r4V5SUMzer","The
+universe
+is
+a
+living
+thing",0.0
+12,Times,2,focusStep_12_timesR_size_30_sample_0002.tif,"jLiKsdZKT5
+FatAcubp7G
+SU EZENGSb","The
+Bible
+is
+the
+word
+of
+God.",0.0345
+12,Times,3,focusStep_12_timesR_size_30_sample_0003.tif,"EcCLTetf54
+bC3RXwi5fQ
+Z38C7 FNSi","The
+universe
+is
+a
+system
+of
+stars,
+planets,
+and
+other
+objects
+that
+move
+around
+each
+other
+in
+a
+certain
+way.
+The
+stars
+are",0.0
+12,Times,4,focusStep_12_timesR_size_30_sample_0004.tif,"yEyVJbHM7x
+qqRScJznaj
+LUeCn5j4Hy","BLOOMINGDALE'S
+SIXTH AVENUE
+SOUTH STREET",0.0
+12,Times,5,focusStep_12_timesR_size_30_sample_0005.tif,"e MEF9QgmB
+x9rDvpiQkZ
+2JRhawndFC","The definition of a function is a rule
+that assigns to each element in a set
+unique elements of another set.",0.0
+12,Times,6,focusStep_12_timesR_size_30_sample_0006.tif,"ggY2EVbs9f
+sCtdHKdmKX
+dGYgZTugdR","The
+Bible
+is
+the
+word
+of
+God
+and
+the
+word
+of
+God
+is
+the
+word
+of
+God",0.0
+12,Times,7,focusStep_12_timesR_size_30_sample_0007.tif,"86cmwDAVVH
+qNhGUjN57P
+ kf3dsVtUw","Becoming
+Innovative
+Business",0.069
+12,Times,8,focusStep_12_timesR_size_30_sample_0008.tif,"HN 4iQ27Je
+jhrVB6KZyC
+5B6ghLt8mv","I'm sorry, but the text in the image is not clear and it is difficult to transcribe it. Could you please provide more information or clarify the text?",0.0
+12,Times,9,focusStep_12_timesR_size_30_sample_0009.tif,"C7ehpCF3Nz
+PefBa2xgZ9
+nJHdLw4T8w","The
+University
+of
+California
+System",0.0667
+12,Times,10,focusStep_12_timesR_size_30_sample_0010.tif,"HzZQ48i9dS
+Few6u9v4J4
+vhABu6vgsE","black
+background
+standard
+data",0.0333
+12,Times,11,focusStep_12_timesR_size_30_sample_0011.tif,"vUfznyySaq
+5WMsMWf7LB
+aLxCLtdF2","The
+Museum
+of
+Modern
+Art",0.069
+12,Times,12,focusStep_12_timesR_size_30_sample_0012.tif,"euuy8 c8AE
+g9zWyrwSaN
+ebhUxDARqs",The text in the image is not clear and cannot be transcribed.,0.0
+12,Times,13,focusStep_12_timesR_size_30_sample_0013.tif,"vtkiLGDEXc
+AKamFFTzAS
+vGi i9sB5j","SCHLIESSLUNG
+NACHWEGE
+KONTAKT
+KONTAKT",0.0
+12,Times,14,focusStep_12_timesR_size_30_sample_0014.tif,"MUqGJjjZGE
+ZnZsCZaMdn
+ZufaacjsCr","MILLER+HAFNER
++STREETER+SHAW
++AND+CO.",0.0
+12,Times,15,focusStep_12_timesR_size_30_sample_0015.tif,"4u QYhMdmT
+m9Dj6hPvcv
+acwyM2W9K5","background
+substitution
+systematic",0.0
+12,Times,16,focusStep_12_timesR_size_30_sample_0016.tif,"DPFxSXtPmr
+APwrSraqpn
+3QwsBYn9Pc",1999,0.0333
+12,Times,17,focusStep_12_timesR_size_30_sample_0017.tif,"3DSpve6cUi
+atD5F4Uw5a
+9ceTuk9Da4","The
+universe
+is
+a
+living
+thing",0.0667
+12,Times,18,focusStep_12_timesR_size_30_sample_0018.tif,"NaS8rNLWLH
+8Z4EVjsbSp
+nCYCkpVr c",The definition of a word is the meaning of a word.,0.0
+12,Times,19,focusStep_12_timesR_size_30_sample_0019.tif,"NBwZjw9C3N
+EpnZXdJ8Ji
+4H2Y6xEpFq","The book of
+the dead",0.0333
+12,Times,20,focusStep_12_timesR_size_30_sample_0020.tif,"aKhaY88Lv
+TV9Yyc3aeV
+eGrpX6aDkP","the
+university
+of
+california",0.1379
+12,Verdana,1,focusStep_12_verdanaRef_size_30_sample_0001.tif,"2TgPtSm4ew
+dYjQSXUyRi
+6baq4nzfM7","Theodoros
+Mikrothomas",0.1333
+12,Verdana,2,focusStep_12_verdanaRef_size_30_sample_0002.tif,"GMbDv UgBG
+eFLaeU4uT6
+zNQG4Y T S","kindly, please",0.0741
+12,Verdana,3,focusStep_12_verdanaRef_size_30_sample_0003.tif,"9EGqyqebNR
+QBqZtixtr3
+qwCeqP DhL","We have received a complaint
+against the company.",0.0
+12,Verdana,4,focusStep_12_verdanaRef_size_30_sample_0004.tif,"zJ2ZwzaZHu
+Jnh2rKkRwu
+6U AQYhXbj",The text in the image is not clear and cannot be transcribed.,0.0
+12,Verdana,5,focusStep_12_verdanaRef_size_30_sample_0005.tif,"zMx9Z8qvSM
+YFbtBfjL67
+  8i5724J5","WORLDWIDE
+ONLINE
+WORLDWIDE
+ONLINE",0.0
+12,Verdana,6,focusStep_12_verdanaRef_size_30_sample_0006.tif,"aTAqtNZMvR
+PDMxqZdfEM
+s6s7qFytaz",The text in the image is not clear and cannot be transcribed.,0.0
+12,Verdana,7,focusStep_12_verdanaRef_size_30_sample_0007.tif,"rqFbyjeaZH
+BNjheMJAMj
+fkE VLwTGM","the
+universe
+is
+a
+living
+thing",0.069
+12,Verdana,8,focusStep_12_verdanaRef_size_30_sample_0008.tif,"MLLLYXVSMi
+ebqzhhYrmP
+aHReaMdgBT",billionaire,0.1
+12,Verdana,9,focusStep_12_verdanaRef_size_30_sample_0009.tif,"z4m4hQ CTK
+HNAKL2HVNR
+faWgm68jbv",april 1st,0.0345
+12,Verdana,10,focusStep_12_verdanaRef_size_30_sample_0010.tif,"3mNH65Y53J
+zjeky8TSAB
+meyXNWe3dk",The text is too blurry to transcribe.,0.0
+12,Verdana,11,focusStep_12_verdanaRef_size_30_sample_0011.tif,"exLEwr 8Qz
+4M72kjFFtX
+5EzeHzaEcH",The text is not readable.,0.069
+12,Verdana,12,focusStep_12_verdanaRef_size_30_sample_0012.tif,"5GkG4sVZXt
+vQYhQHVbZJ
+y9DRFxAGUi",The text in the image is not clear and cannot be transcribed.,0.0
+12,Verdana,13,focusStep_12_verdanaRef_size_30_sample_0013.tif,"iVVa3JTErC
+C5GqkZRc6K
+6gemmdhufD",watch,0.1
+12,Verdana,14,focusStep_12_verdanaRef_size_30_sample_0014.tif,"YtBt Kd9nU
+wmwGT6mb3v
+fpjjP4p9y7","The
+Sorcerer's
+Ring",0.0
+12,Verdana,15,focusStep_12_verdanaRef_size_30_sample_0015.tif,"cB6uAKp2rD
+ErMr4EkW8J
+67FyWrnjR4",The text in the image is not clear and cannot be transcribed.,0.0
+12,Verdana,16,focusStep_12_verdanaRef_size_30_sample_0016.tif,"kzrYsgVL7h
+TAiCa98CAz
+8urhb3Y GF",The text in the image is not clear and cannot be transcribed.,0.0
+12,Verdana,17,focusStep_12_verdanaRef_size_30_sample_0017.tif,"A fnuQgsKk
+VngCMAzxFd
+PnRauM67Jg","Russo-german
+Arabic-german
+English-german",0.0
+12,Verdana,18,focusStep_12_verdanaRef_size_30_sample_0018.tif,"DfbnDNGJAM
+Be8pZmNYCC
+VRuQS44Hhk",<BLANK> - <BLANK> - <BLANK> - <BLANK>,0.0
+12,Verdana,19,focusStep_12_verdanaRef_size_30_sample_0019.tif,"Udgzq6YYQ6
+SvUq8w9MU7
+EvLkjWtfzK",The text in the image is not clear and cannot be transcribed.,0.0
+12,Verdana,20,focusStep_12_verdanaRef_size_30_sample_0020.tif,"irF8h9CyS7
+FjGEhNm5wW
+7Yty52Qxiq",The text in the image is not clear and appears to be blurry. It is difficult to determine the exact content of the text.,0.0
+13,Times,1,focusStep_13_timesR_size_30_sample_0001.tif,"tuqxjiYzk8
+FFkyG4Fsvg
+DybTjdhVK4","The
+universe
+is
+a
+living
+system",0.1
+13,Times,2,focusStep_13_timesR_size_30_sample_0002.tif,"X53MePyN4S
+7xYjx72LyM
+2 p94SFi72","the
+laboratory
+of
+the
+university
+of
+california
+at
+berkeley",0.0
+13,Times,3,focusStep_13_timesR_size_30_sample_0003.tif,"xVRipTEZTN
+hJH6hjwVh5
+9Y ASQyhJ8","where
+there
+is
+nothing
+but
+the
+night",0.0
+13,Times,4,focusStep_13_timesR_size_30_sample_0004.tif,"YGcssZh bD
+rs26vfxcC7
+MtddExmzzY",It is not clear what you are asking.,0.0345
+13,Times,5,focusStep_13_timesR_size_30_sample_0005.tif,"4k pqvLTyx
+gaMPrC68jB
+WH2kLq9DaT",The quick brown fox jumps over the lazy dog.,0.0
+13,Times,6,focusStep_13_timesR_size_30_sample_0006.tif,"Yny8  WRT8
+jb56yheEGT
+N4V2aEiQWW","The word ""Bible"" is written in a large, bold font on a white background. The text is clear and easy to read, with no visible distortions or obstructions.",0.0
+13,Times,7,focusStep_13_timesR_size_30_sample_0007.tif,"CaUb2Qf9ix
+nyF3kjkDLm
+eRAsNtYPxp","The
+universe
+is
+a
+living
+thing",0.0667
+13,Times,8,focusStep_13_timesR_size_30_sample_0008.tif,"x8BJeCN 6n
+4DpDWGVN4t
+hMxiaPdxxc","search
+for
+engraved
+and
+unearthed",0.0345
+13,Times,9,focusStep_13_timesR_size_30_sample_0009.tif,"Tbtsr6mZUr
+si9qSkFAnf
+btWHY9seHV",Nathan-Phil,0.0667
+13,Times,10,focusStep_13_timesR_size_30_sample_0010.tif,"PaLLSQJTDg
+i3mQhiggb6
+HU9h2xxz52",collaborating,0.0667
+13,Times,11,focusStep_13_timesR_size_30_sample_0011.tif,"ebNQYj7WBh
+EaKsLJGyAQ
+4cxf3uuFBq","The
+World
+Is
+Not
+Enough",0.1
+13,Times,12,focusStep_13_timesR_size_30_sample_0012.tif,"LTrGaVanQy
+CJ3fDsvcr5
+N9uxWaN5cS","The school is
+closed today.",0.1
+13,Times,13,focusStep_13_timesR_size_30_sample_0013.tif,"f2kG7Wc Fw
+kxhrYcTG9q
+3qwyC6DgDP",BSS,0.0
+13,Times,14,focusStep_13_timesR_size_30_sample_0014.tif,"cNs2CV5d6
+j49bShzQti
+ vagq2AhBS","absolutely
+nothing
+can
+prevent
+me",0.0
+13,Times,15,focusStep_13_timesR_size_30_sample_0015.tif,"MmVx3DvBJ6
+FR3DS2xyCX
+R8JtkRieBf","The words ""the words ""the words ""the words ""the words ""the words ""the words ""the words ""the words ""the words ""the words ""the words ""the words ""the words ""the words ""the words """,0.0
+13,Times,16,focusStep_13_timesR_size_30_sample_0016.tif,"w aHzqTfeh
+mBjRxTtdzK
+qbhNZSMfnX","the
+advice
+is
+to
+keep
+it
+simple
+and
+to
+focus
+on
+what
+you
+can
+do
+to
+achieve
+your
+goals
+and
+to
+learn
+from",0.0
+13,Times,17,focusStep_13_timesR_size_30_sample_0017.tif,"3vaig8uV79
+nrXxFCf8fU
+R sPFBwBRH","quenching
+a
+light
+source",0.069
+13,Times,18,focusStep_13_timesR_size_30_sample_0018.tif,"7  RifBYKq
+Bf2ULswCBM
+vh6zPRmgLk","I
+believe
+that
+the
+solution
+to
+this
+problem
+is
+to
+reinforce
+the
+current
+system
+and
+to
+encourage
+the
+use
+of
+technology
+to",0.0
+13,Times,19,focusStep_13_timesR_size_30_sample_0019.tif,"yqnQGYyAZ 
+bVskqQXmV5
+QHrn3pvLY3","The
+universe
+is
+a
+living
+thing",0.069
+13,Times,20,focusStep_13_timesR_size_30_sample_0020.tif,"uuC GdsEe 
+MWrev76MqA
+pUjQWTsPZt","the
+king
+of
+the
+world",0.0357
+13,Verdana,1,focusStep_13_verdanaRef_size_30_sample_0001.tif,"y5ebHT3MfC
+4ZW7phJAby
+RqCR bqm3F",The text is not readable.,0.069
+13,Verdana,2,focusStep_13_verdanaRef_size_30_sample_0002.tif,"AtpfCrrNQL
+6neX7YdL5q
+ETWUx5GBgp",The text is not readable.,0.0333
+13,Verdana,3,focusStep_13_verdanaRef_size_30_sample_0003.tif,"QR7uShV3 
+4ChdSLfjFg
+bL96CCPZgz",The text in the image is not clear and cannot be transcribed.,0.0
+13,Verdana,4,focusStep_13_verdanaRef_size_30_sample_0004.tif,"VKVckSwiAa
+6rtzAZHY7k
+DNLFVG2C3j",The text in the image is not clear and cannot be transcribed.,0.0
+13,Verdana,5,focusStep_13_verdanaRef_size_30_sample_0005.tif,"DVtGcvXfyQ
+VJDwewgJiX
+889k F4EWK",The text in the image is not clear and cannot be transcribed.,0.0
+13,Verdana,6,focusStep_13_verdanaRef_size_30_sample_0006.tif,"uXw7y8eSr5
+qX5R7SdfE5
+NwXGaGh3Cu","The
+university
+of
+the
+arts
+and
+science",0.0
+13,Verdana,7,focusStep_13_verdanaRef_size_30_sample_0007.tif,"w9muV5p7We
+bygxnT8J3E
+xUhu ZwQ2f","The
+universe
+is
+a
+living
+thing",0.069
+13,Verdana,8,focusStep_13_verdanaRef_size_30_sample_0008.tif,"XBrZapJ56d
+eTwxZTSsUa
+DNHYcw5 j4","The
+in
+the
+of
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the",0.0
+13,Verdana,9,focusStep_13_verdanaRef_size_30_sample_0009.tif,"B9L6yekPzj
+Hm2JtwUjbj
+3rhykVrG9p","All
+of
+us
+must
+work
+together
+to
+solve
+these
+problems.",0.0
+13,Verdana,10,focusStep_13_verdanaRef_size_30_sample_0010.tif,"X4MtcWJYEN
+DwVdqxmnt7
+kngFNGFqyE",The text in the image is not clear and cannot be transcribed.,0.0
+13,Verdana,11,focusStep_13_verdanaRef_size_30_sample_0011.tif,"mTANs LNWr
+h2YmmUmKQz
+igRpDFpiA7",The text in the image is not clear and cannot be transcribed.,0.0
+13,Verdana,12,focusStep_13_verdanaRef_size_30_sample_0012.tif,"nHqw vh88V
+VfcBzbv8Bb
+5dEXBm2 jm",The text in the image is not clear and cannot be transcribed.,0.0
+13,Verdana,13,focusStep_13_verdanaRef_size_30_sample_0013.tif,"pNDLrbKVLC
+FagagawBGp
+vM xmPuGns","The other
+components
+of
+perception",0.0
+13,Verdana,14,focusStep_13_verdanaRef_size_30_sample_0014.tif,"kHhUybd7eb
+bnGtJKixnK
+V2 GeUb8c4","Brought to you by
+the
+University
+of
+California
+at
+Berkeley",0.0
+13,Verdana,15,focusStep_13_verdanaRef_size_30_sample_0015.tif,"adFzvjXCcM
+Zg33iUwBvc
+UNNx3yUXJU",The text in the image is not clear and cannot be transcribed.,0.0
+13,Verdana,16,focusStep_13_verdanaRef_size_30_sample_0016.tif,"QsNFP C2TW
+NnTLbTiAAH
+HwBdY4guMq","Rabbi
+Lever
+Rabbi
+Levinsky",0.069
+13,Verdana,17,focusStep_13_verdanaRef_size_30_sample_0017.tif,"KPgrRVhL7z
+2W73hbNS3P
+yRbbvKAS3U","The words ""the words are the words""",0.0
+13,Verdana,18,focusStep_13_verdanaRef_size_30_sample_0018.tif,"yHU6tHwmYR
+8rqWMaJicq
+D8vd F88E8","Arbiter
+Rumination
+Homo
+Sapiens",0.069
+13,Verdana,19,focusStep_13_verdanaRef_size_30_sample_0019.tif,"zd9mkX38xU
+4d7CV3XEiH
+fV9H2QwLkn",The text in the image is not clear and cannot be transcribed.,0.0
+13,Verdana,20,focusStep_13_verdanaRef_size_30_sample_0020.tif,"QZdNTNcgzj
+ZQthj2L72N
+urCRRNjaWb","Ko
+Ko
+Ko
+Ko
+Ko
+Ko
+Ko
+Ko
+Ko
+Ko
+Ko
+Ko
+Ko
+Ko
+Ko
+Ko",0.0
+14,Times,1,focusStep_14_timesR_size_30_sample_0001.tif,"uECcEYghj9
+rfDVJxrXJU
+mAh yPgeQC","The
+universe
+is
+a
+living
+thing",0.069
+14,Times,2,focusStep_14_timesR_size_30_sample_0002.tif,"5sqq5LwiqP
+uhGBFVTsVk
+iRzF3qchUR","the
+university
+of
+california
+at
+berkeley",0.0
+14,Times,3,focusStep_14_timesR_size_30_sample_0003.tif,"ACjG4v3Fhc
+L2UKbuwJE6
+z7U8K uWrM","the
+art
+of
+the
+hand",0.0345
+14,Times,4,focusStep_14_timesR_size_30_sample_0004.tif,"EhhxNi2dWr
+mKKzeLZR2e
+uF7ECv3ff2","The
+universe
+is
+a
+living
+thing",0.1333
+14,Times,5,focusStep_14_timesR_size_30_sample_0005.tif,"FYz2QULueE
+xZAniDGknm
+r 3T aZGT","The
+sophisticated
+and
+the
+unconventional
+and
+the
+unpredictable
+and
+the
+unimaginable
+and
+the
+unrealizable
+and
+the
+unrealistic
+and",0.0
+14,Times,6,focusStep_14_timesR_size_30_sample_0006.tif,"BvhcCckzuN
+knhkkBTfR3
+ YD5SBYT5i","The short
+term
+of
+the
+long
+term",0.069
+14,Times,7,focusStep_14_timesR_size_30_sample_0007.tif,"adTzuYvNnB
+v8PpKdummX
+SSqKTCMcBH","the
+university
+of
+california
+at
+berkeley",0.0
+14,Times,8,focusStep_14_timesR_size_30_sample_0008.tif,"tmsTE6zyTn
+uEdqfNRaXn
+uQqkRxJiSt","each day the
+sun rises and
+the moon sets",0.0333
+14,Times,9,focusStep_14_timesR_size_30_sample_0009.tif,"SUiSXK CYn
+hhLrECFK4d
+vWJuzRHDaJ","the
+hundred
+and
+thirty
+second
+day
+of
+july
+1944",0.0
+14,Times,10,focusStep_14_timesR_size_30_sample_0010.tif,"rHKqr8AjJq
+zV8D4fggLq
+DQraMnjXZv",The text in the image is not clear and cannot be transcribed.,0.0
+14,Times,11,focusStep_14_timesR_size_30_sample_0011.tif,"8xRe892fDP
+9JG9JpJMXZ
+W JAKCEfyy","the
+book
+of
+the
+dead",0.0345
+14,Times,12,focusStep_14_timesR_size_30_sample_0012.tif,"2SmykJPZq
+vwMcbuJfE4
+iSz5Rc qwa","The
+future
+is
+in
+our
+hands.",0.0357
+14,Times,13,focusStep_14_timesR_size_30_sample_0013.tif,"ngYZu TXxw
+khHxavPU47
+wXDdrmfHLx","The
+unanswerable
+question
+is
+the
+question",0.0
+14,Times,14,focusStep_14_timesR_size_30_sample_0014.tif,"YEXrLZJKiX
+ZvQ5yN23dL
+tuzeWfgJLq","The
+universe
+is
+a
+living
+thing",0.0667
+14,Times,15,focusStep_14_timesR_size_30_sample_0015.tif,"s6F84vxXie
+hRgPQg4vwf
+D5rJCRgbb6","the
+end",0.0333
+14,Times,16,focusStep_14_timesR_size_30_sample_0016.tif,"EKfUsfABu5
+byvF5JN8Lv
+eEN xZK3QM","The
+Lion
+of
+the
+North",0.069
+14,Times,17,focusStep_14_timesR_size_30_sample_0017.tif,"9UNPA9zFUD
+mr4wJVYwmj
+AEQ7MMBYNc","The
+universe
+is
+a
+system
+of
+interconnected
+parts
+and
+processes
+that
+interact
+with
+each
+other
+and
+with
+the
+environment.
+The
+universe
+is",0.0
+14,Times,18,focusStep_14_timesR_size_30_sample_0018.tif,"YSvH3qprfV
+EUvHPjiUqZ
+r7dzXBkHdh",The text is too blurry to transcribe.,0.0
+14,Times,19,focusStep_14_timesR_size_30_sample_0019.tif,"VdPEi4Nuzy
+USxnVQfzkE
+ePEYcqhjvN",health,0.0667
+14,Times,20,focusStep_14_timesR_size_30_sample_0020.tif,"rWmrmZPxWA
+AtsTx6DLh4
+Hhw4Qsj3z7","The
+universe
+is
+a
+living
+thing",0.0667
+14,Verdana,1,focusStep_14_verdanaRef_size_30_sample_0001.tif,"kqMu9cNNAy
+t9853bpqZx
+2zzF4Zz mS","SANDY
+SUNSHINE
+AND
+SUNSHINE",0.0345
+14,Verdana,2,focusStep_14_verdanaRef_size_30_sample_0002.tif,"BbieWkUYEj
+EqJpEPVx5p
+5ApjyWaV x",The text is not readable.,0.0345
+14,Verdana,3,focusStep_14_verdanaRef_size_30_sample_0003.tif,"EgnWPW2J2T
+mr9QvQTv6t
+uAYcMQ74Kc","The
+university
+of
+the
+arts
+and
+science",0.0
+14,Verdana,4,focusStep_14_verdanaRef_size_30_sample_0004.tif,"ZjmnMYVDxw
+RKDDNpQzxY
+dNmQeRmPDR","The
+United
+States
+of
+America",0.0667
+14,Verdana,5,focusStep_14_verdanaRef_size_30_sample_0005.tif,"hZKEGT6T6d
+cBvE8QBtBL
+sxV5GfcS 9",The beginning of the text is blurred.,0.0
+14,Verdana,6,focusStep_14_verdanaRef_size_30_sample_0006.tif,"YX zVwdkTH
+9xCbG2BMjP
+ZPV7mCqWHr","The
+university
+of
+Bath",0.0345
+14,Verdana,7,focusStep_14_verdanaRef_size_30_sample_0007.tif,"VMviKZjNdi
+2FTeHBLxLS
+TGSWKmKRtH","university
+of
+manchester",0.0667
+14,Verdana,8,focusStep_14_verdanaRef_size_30_sample_0008.tif,"sQrc6EnjHP
+EV7YFznygy
+jRqyAVZnY4","The
+United
+States
+of
+America",0.0333
+14,Verdana,9,focusStep_14_verdanaRef_size_30_sample_0009.tif,"3LQZudMfeX
+WAPqLEEbUR
+nSWmtuNVaN","The words are
+""the words are
+the words are
+the words are
+the words are
+the words are
+the words are
+the words are
+the words are
+the words are
+the words are
+the words are",0.0
+14,Verdana,10,focusStep_14_verdanaRef_size_30_sample_0010.tif,"btPzdtVXp2
+ibBmYVDDUq
+hriGGSg  2","deforestation
+concentration
+dissolution",0.0
+14,Verdana,11,focusStep_14_verdanaRef_size_30_sample_0011.tif,"bV72FhGVsF
+6vWhC3dKA8
+PevA5X3yqk",The text in the image is not clear and cannot be transcribed.,0.0
+14,Verdana,12,focusStep_14_verdanaRef_size_30_sample_0012.tif,"3a2R3wU46S
+J2cVx7qK8e
+VF6Phnp m",The text is blurred.,0.0357
+14,Verdana,13,focusStep_14_verdanaRef_size_30_sample_0013.tif,"s9fFS95Fuq
+58WpqFpfK7
+YQ2 9ER5XF",The text in the image is not clear and cannot be transcribed.,0.0
+14,Verdana,14,focusStep_14_verdanaRef_size_30_sample_0014.tif,"N xY96F7p6
+WqSHpZzFKA
+S3XS7qp cB","The
+Largest
+Number
+of
+People
+in
+the
+World",0.0
+14,Verdana,15,focusStep_14_verdanaRef_size_30_sample_0015.tif,"xwsuY3ZPrN
+nbAaYnQjJc
+6snc57Y7v",The text is not visible in this image.,0.0
+14,Verdana,16,focusStep_14_verdanaRef_size_30_sample_0016.tif,"VTsHjNZJny
+dw6LMYs7K2
+KUEQiawXud","The
+American
+Flag",0.0667
+14,Verdana,17,focusStep_14_verdanaRef_size_30_sample_0017.tif,"V78XGav6A5
+rk4Z8DEdMs
+B kp bUjA","The words ""THESE ARE THE
+SECRETS OF THE
+UNIVERSE"" are written on a white background.",0.0
+14,Verdana,18,focusStep_14_verdanaRef_size_30_sample_0018.tif,"Srn4DJR Q9
+cfMmzqXUT4
+JpkusTwzvP",facebook.com,0.069
+14,Verdana,19,focusStep_14_verdanaRef_size_30_sample_0019.tif,"3aV4LfCYFk
+EzwTNPtW4k
+B cda V sw","The text on the wall is as follows:
+
+The text on the wall is as follows:
+
+The text on the wall is as follows:
+
+The text on the wall is as follows:
+
+The text on the wall is as follows:
+
+The text on",0.0
+14,Verdana,20,focusStep_14_verdanaRef_size_30_sample_0020.tif,"LJMat8gKX
+iARRBvMHk6
+ NLVkR6Cg4",The text is not readable.,0.0714
+15,Times,1,focusStep_15_timesR_size_30_sample_0001.tif,"VPPa9mMLSV
+uNZ4qAVWgW
+RqwQgmELf","The
+words
+are
+the
+words
+of
+the
+words
+of
+the
+words
+of
+the
+words
+of
+the
+words
+of
+the
+words
+of
+the
+words
+of",0.0
+15,Times,2,focusStep_15_timesR_size_30_sample_0002.tif,"ssRYSxdNC8
+tQdkWJHzXs
+R4 Cw94U73","the
+broad
+and
+the
+united
+states
+of
+america",0.0
+15,Times,3,focusStep_15_timesR_size_30_sample_0003.tif,"GHdGBuRe6T
+nEZUs9J9Gb
+PCvvSUB2ZN","The
+university
+of
+California
+at
+Berkeley",0.0
+15,Times,4,focusStep_15_timesR_size_30_sample_0004.tif,"4z Jg6U9 H
+eFmWmpyYtZ
+i6xayJ Jnj","the
+university
+of
+california
+at
+berkeley",0.0
+15,Times,5,focusStep_15_timesR_size_30_sample_0005.tif,"Nc3L72frHy
+sU2RnJpsKF
+CgL Dk59by","The
+city
+of
+New
+York
+is
+a
+great
+place
+to
+live
+in.",0.0
+15,Times,6,focusStep_15_timesR_size_30_sample_0006.tif,"2uX4PpXSbb
+iCwh4UzKtj
+RFgiKrxtmH","the
+university
+of
+california",0.0667
+15,Times,7,focusStep_15_timesR_size_30_sample_0007.tif,"kxB2HHPCik
+GyjG6Extsf
+UxFR3PwrcV",The text in the image is not clear and cannot be transcribed.,0.0
+15,Times,8,focusStep_15_timesR_size_30_sample_0008.tif,"GYR3Fa5tkX
+dAw7jtakdd
+XmUCNQnrSx","we like the other
+don't like the
+other",0.0
+15,Times,9,focusStep_15_timesR_size_30_sample_0009.tif,"5hfuE3L H7
+na2sVu4zDB
+uhPM87BEcv",The text is too blurry to transcribe.,0.0
+15,Times,10,focusStep_15_timesR_size_30_sample_0010.tif,"n8xEG92iPu
+48EtWixZsE
+ufPQ5EVTYT",soul in the body,0.0667
+15,Times,11,focusStep_15_timesR_size_30_sample_0011.tif,"3UN3uBwyGG
+V5bu8CDW3w
+cdP9k9rWh2","The
+universe
+is
+a
+living
+system
+of
+interacting
+elements",0.0
+15,Times,12,focusStep_15_timesR_size_30_sample_0012.tif,"SQste7yH2U
+tTctyu7x38
+mHGzNUicaR","The
+Cabinet
+of
+Dr.
+Caligari",0.1
+15,Times,13,focusStep_15_timesR_size_30_sample_0013.tif,"CvBZDq5a6F
+yzdb2UGbdE
+Sa9bVDWCX5","I
+am
+a
+good
+writer.
+I
+can
+write
+a
+story
+about
+a
+man
+who
+is
+a
+great
+writer.
+I
+can
+write
+a
+story
+about",0.0
+15,Times,14,focusStep_15_timesR_size_30_sample_0014.tif,"KGkkgTDhZr
+qWRwfr9wd6
+Y9Q2KQphB2","The words ""the words are in the
+words are in the words are in the words are in the words are in the words are in the words are in the words are in the words are in the words are in the words are in",0.0
+15,Times,15,focusStep_15_timesR_size_30_sample_0015.tif,"tbfc J3tFY
+MDvjYFBHVh
+7Y5V9TwBbq","on
+the
+other
+side
+of
+the
+world",0.069
+15,Times,16,focusStep_15_timesR_size_30_sample_0016.tif,"W3R u3nz9u
+DpVHiG7Xym
+v24YKD6Tv9",The text in the image is not clear and cannot be transcribed.,0.0
+15,Times,17,focusStep_15_timesR_size_30_sample_0017.tif,"S789adtmXP
+4pB4yqDXjU
+5XwHX9dE4Y","the
+university
+of
+california",0.0333
+15,Times,18,focusStep_15_timesR_size_30_sample_0018.tif,"n6Wu Sbz6x
+if2DceCSG7
+5vkHigbD6U",The text is not readable.,0.069
+15,Times,19,focusStep_15_timesR_size_30_sample_0019.tif,"PN 6rH6Mru
+Ez5BTzbAyB
+4n5XFQMnU2",The content of the image is not clear.,0.0
+15,Times,20,focusStep_15_timesR_size_30_sample_0020.tif,"qxKitv6g4S
+TRuda5ZcHV
+DetX7QGdtT",The text in the image is not clear and appears to be blurry. It is difficult to determine the exact content of the text.,0.0
+15,Verdana,1,focusStep_15_verdanaRef_size_30_sample_0001.tif,"CsbakHQwDx
+fQnJYAwXSL
+MGRj84LXKs",It is not possible to determine the text in the image.,0.0
+15,Verdana,2,focusStep_15_verdanaRef_size_30_sample_0002.tif,"ExjaaQfaap
+LWMLVW3xsQ
+Hk6t7MzgbE","The
+university
+of
+the
+arts
+and
+science",0.0
+15,Verdana,3,focusStep_15_verdanaRef_size_30_sample_0003.tif,"pVmqfEg4Yn
+BMFkqnuTwX
+ M6eeYEKMN",The text is not readable.,0.069
+15,Verdana,4,focusStep_15_verdanaRef_size_30_sample_0004.tif,"4jPjXG JWu
+2fcDdgz8Kk
+K5xCYVB2bz",The,0.0
+15,Verdana,5,focusStep_15_verdanaRef_size_30_sample_0005.tif,"DVhHydpQ7 
+QtiZDMe2pi
+FndTJnQSmR","satisfaction of
+accomplishment",0.0345
+15,Verdana,6,focusStep_15_verdanaRef_size_30_sample_0006.tif,"sNb4Tr  cX
+V7PMZVeQZG
+9x HNYATqs",there is a small number,0.037
+15,Verdana,7,focusStep_15_verdanaRef_size_30_sample_0007.tif,"2fQLvUb5aH
+EgB8ELG2eb
+DJkaisbmws",The United States of America,0.0667
+15,Verdana,8,focusStep_15_verdanaRef_size_30_sample_0008.tif,"nQdv4N48G8
+bFd9E9UrvF
+eDetHcxvPg",body understanding,0.1667
+15,Verdana,9,focusStep_15_verdanaRef_size_30_sample_0009.tif,"HfuPPqkGaX
+y4w46pBdKn
+bVEUjYd7ki","The
+Reconstruction
+of
+the
+Reconstruction
+of
+the
+Reconstruction",0.0
+15,Verdana,10,focusStep_15_verdanaRef_size_30_sample_0010.tif,"MVmKj7 Mj5
+Xj4MbQUWsT
+vqehRLT KF","Ravenswood - 100% Pure
+Organic - 100% Pure
+Organic - 100% Pure",0.0
+15,Verdana,11,focusStep_15_verdanaRef_size_30_sample_0011.tif,"HHU qwZDg
+RyAhUJJvBk
+WD AWi46xd","The
+Lords
+of
+the
+Underworld",0.0741
+15,Verdana,12,focusStep_15_verdanaRef_size_30_sample_0012.tif,"mrYni54kZQ
+Guv4umq3Mi
+spTG dgt85","The
+universe
+is
+a
+system
+of
+stars,
+planets,
+and
+other
+objects
+that
+move
+around
+a
+center
+of
+mass,
+such
+as
+the
+sun.
+The",0.0
+15,Verdana,13,focusStep_15_verdanaRef_size_30_sample_0013.tif,"baQzfwPZW7
+aSeTw5CBbw
+TacgptqywG","The
+universe
+is
+a
+living
+thing",0.1
+15,Verdana,14,focusStep_15_verdanaRef_size_30_sample_0014.tif,"9zmUC52ULA
+Aabtgd29Fq
+3vas9nVnkj",The text is not readable.,0.0667
+15,Verdana,15,focusStep_15_verdanaRef_size_30_sample_0015.tif,"hUZ64NFsV 
+m43BnaKAvE
+ tVJnZuU5U","Bibliothèque
+d'histoire
+et
+d'archéologie
+de
+l'Université
+de
+Paris",0.0
+15,Verdana,16,focusStep_15_verdanaRef_size_30_sample_0016.tif,"Uf d2QUwkF
+CnxpMWxCSN
+vFF249xqFX","The
+university
+of
+the
+arts
+and
+science",0.0
+15,Verdana,17,focusStep_15_verdanaRef_size_30_sample_0017.tif,"PKckiDDsWi
+VXxz9rv5sf
+m65D f ekA","The
+universe
+is
+finite
+and
+changeable",0.0
+15,Verdana,18,focusStep_15_verdanaRef_size_30_sample_0018.tif,"wY7esWy5bY
+9ZFYtY4cpg
+WQMZ9E2T v","The
+universe
+is
+a
+living
+thing",0.0345
+15,Verdana,19,focusStep_15_verdanaRef_size_30_sample_0019.tif,"dL2E39dTi8
+99mtjQnTCs
+LEPwDR9iki",The text is not visible in this image.,0.0
+15,Verdana,20,focusStep_15_verdanaRef_size_30_sample_0020.tif,"YMsdZfxe6 
+GfSeNAG6nJ
+AuqgdRSggE",The text is not visible in this image.,0.0
+16,Times,1,focusStep_16_timesR_size_30_sample_0001.tif,"M2SM7Rz8aA
+PJxxZDpQsb
+VeCaV9siZR","(187,187),(811,807)",0.0667
+16,Times,2,focusStep_16_timesR_size_30_sample_0002.tif,"BWMdG5B7xd
+gYSJiss4Di
+dJsd8VUNJK",the,0.0
+16,Times,3,focusStep_16_timesR_size_30_sample_0003.tif,"TRtq5K6QXk
+3VF2sea3YK
+nrnPFTfxrd",the,0.0667
+16,Times,4,focusStep_16_timesR_size_30_sample_0004.tif,"mSC7P2VPrf
+qqnk3UQj9Y
+42WzcJPZa2","(2,2),(997,995)",0.0667
+16,Times,5,focusStep_16_timesR_size_30_sample_0005.tif,"9ybdH33zk7
+FpPuRRHatH
+EmzWBYcDnE",The text in the image is not clear and appears to be blurry. It is difficult to transcribe the text accurately.,0.0
+16,Times,6,focusStep_16_timesR_size_30_sample_0006.tif,"gzNKEF3pVh
+SBz82i6Eed
+HfzJBFzuST",the,0.0667
+16,Times,7,focusStep_16_timesR_size_30_sample_0007.tif,"iJiHLvQb8w
+NFxt8cWMRY
+9x Qe LaE9","(135,130),(865,807)",0.0357
+16,Times,8,focusStep_16_timesR_size_30_sample_0008.tif,"nkSdKbpEtz
+YJFXRPYiaE
+Me7RQKxTcG","(207,207),(791,610)",0.0333
+16,Times,9,focusStep_16_timesR_size_30_sample_0009.tif,"R3dEE5HPrx
+yu4rMqbWuk
+7XLRigMWjw",the,0.0
+16,Times,10,focusStep_16_timesR_size_30_sample_0010.tif,"VTQPKwvd2
+hdJCH7qKLw
+USUCL7bZeA","the
+night",0.0345
+16,Times,11,focusStep_16_timesR_size_30_sample_0011.tif,"kxVgchS4 
+YWxkkivpvy
+DUeK6ZTg3i","(177,171),(769,750)",0.0
+16,Times,12,focusStep_16_timesR_size_30_sample_0012.tif,"BNrMcwGCFW
+qL7EbBBg8k
+ieZ4xHX2Yh","the
+night
+is
+a
+time
+of
+great
+possibilities",0.0
+16,Times,13,focusStep_16_timesR_size_30_sample_0013.tif,"VzH4kVH7Y3
+wDegRtpcLf
+4ZbYW563Kk","(3,3),(996,995)",0.0667
+16,Times,14,focusStep_16_timesR_size_30_sample_0014.tif,"2Y3MaXJ6F9
+WjTCMRby8S
+7v5HEKWZCz","(181,181),(811,500)",0.0667
+16,Times,15,focusStep_16_timesR_size_30_sample_0015.tif,"KpTy7bbegR
+DzEWu3QZtz
+39rk KDQvc","(207,187),(793,580)",0.069
+16,Times,16,focusStep_16_timesR_size_30_sample_0016.tif,"qZYQUrNy v
+DCKD6J6AfN
+ uj4qdPLFc","(183,217),(807,666)",0.0357
+16,Times,17,focusStep_16_timesR_size_30_sample_0017.tif,"BEYKsUt4yH
+2YXkg4UTGJ
+dcjpbuFGTj",the,0.0333
+16,Times,18,focusStep_16_timesR_size_30_sample_0018.tif,"u76JTYGE9F
+jp6xw6H5Ne
+s7p3BDFnyY","(207,207),(793,797)",0.0667
+16,Times,19,focusStep_16_timesR_size_30_sample_0019.tif,"gHNV7CyU6g
+ydHtdnrp3x
+bTzA9e33 9","the
+world",0.0345
+16,Times,20,focusStep_16_timesR_size_30_sample_0020.tif,"YkiDsU6mD2
+h8JvVtPY9q
+APjDjLfVG",the,0.0345
+16,Verdana,1,focusStep_16_verdanaRef_size_30_sample_0001.tif,"BjyZKgYArC
+sukLevZzby
+qUN65MAzP4","the
+university
+of
+california",0.0667
+16,Verdana,2,focusStep_16_verdanaRef_size_30_sample_0002.tif,"7JC48gLaae
+mJNKWyaVR3
+QaN2CABdHe","the
+museum
+of
+modern
+art",0.0667
+16,Verdana,3,focusStep_16_verdanaRef_size_30_sample_0003.tif,"DFHf7rfsfL
+xMNzVLSw9x
+VEqaBaSSYn","the
+to
+the
+of
+the
+to",0.0
+16,Verdana,4,focusStep_16_verdanaRef_size_30_sample_0004.tif,"p3fEmm5xTD
+Layy3HdLhT
+L2aJAfRqet","the
+university
+of
+california
+at
+berkeley",0.0
+16,Verdana,5,focusStep_16_verdanaRef_size_30_sample_0005.tif,"FLcB8fMmRZ
+fa3Jpp4vMm
+KwgdMaHjwL","the
+government
+must
+be
+responsible",0.0
+16,Verdana,6,focusStep_16_verdanaRef_size_30_sample_0006.tif,"fPRheenBTF
+tAceLz5Lch
+tnuGfm3WaR",The text in the image is not clear and cannot be transcribed.,0.0
+16,Verdana,7,focusStep_16_verdanaRef_size_30_sample_0007.tif,"FS5yxRSNbc
+KefixkMPBL
+guxeYW8RMp","the
+sophisticated
+system
+of
+the
+human
+mind",0.0
+16,Verdana,8,focusStep_16_verdanaRef_size_30_sample_0008.tif,"qVywQJPp7A
+yjyzxuibsh
+m73DJumQHw","the
+university
+of
+california",0.0333
+16,Verdana,9,focusStep_16_verdanaRef_size_30_sample_0009.tif,"D bixuwFW7
+xdWv4Hw7Fp
+R2ju98 Wfj","the
+university
+of
+california
+los
+angeles",0.0
+16,Verdana,10,focusStep_16_verdanaRef_size_30_sample_0010.tif,"AHxAW5FDH4
+yZh3QPNiAH
+bNvTB zHTq","The
+world
+is
+a
+book,
+and
+we
+are
+the
+readers.",0.0
+16,Verdana,11,focusStep_16_verdanaRef_size_30_sample_0011.tif,"qXcE77MvEg
+unEzpJGGRr
+XqMD4ekGx",The text is too blurry to transcribe.,0.0
+16,Verdana,12,focusStep_16_verdanaRef_size_30_sample_0012.tif,"DGC3MZxjBp
+6DPXJadQwd
+7AujCAfj6R","the
+world
+is
+a
+book",0.0333
+16,Verdana,13,focusStep_16_verdanaRef_size_30_sample_0013.tif,"8ZjTkdeARY
+zGfc6c84Ln
+KcBjL7ZqZv","the
+is
+not
+beneath
+the
+sun.",0.0333
+16,Verdana,14,focusStep_16_verdanaRef_size_30_sample_0014.tif,"RaYfsKw8Dc
+r7uvXeRqDt
+Z6RwF737rH",the,0.0333
+16,Verdana,15,focusStep_16_verdanaRef_size_30_sample_0015.tif,"ADZJLMJGut
+yh4Ncs4Rf6
+t R2j uRKN","The
+in
+the
+of
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the",0.0
+16,Verdana,16,focusStep_16_verdanaRef_size_30_sample_0016.tif,"PsUgF yPwe
+KRd7r7Bki8
+tHr7PRJpKD","(199,186),(799,780)",0.069
+16,Verdana,17,focusStep_16_verdanaRef_size_30_sample_0017.tif,"iMjLvZV3wB
+7jJ237UBLi
+E2X ZdHx5F",X X,0.0345
+16,Verdana,18,focusStep_16_verdanaRef_size_30_sample_0018.tif,"umDdhYCrzF
+iPkD2m92xd
+nQK5AfAmjf","the
+university
+of
+california",0.0667
+16,Verdana,19,focusStep_16_verdanaRef_size_30_sample_0019.tif,"YRi6VNkziF
+KKRYsBA5na
+drqTnU9SHU","youunder
+say - youunder
+youunder",0.0667
+16,Verdana,20,focusStep_16_verdanaRef_size_30_sample_0020.tif,"vdSd6GLRJ
+veZc2bwaex
+fiiqk4g9SX",hyphenated,0.069
+17,Times,1,focusStep_17_timesR_size_30_sample_0001.tif,"rN2P Ayjz 
+zwJpcRRmdF
+FmUTjEcwwP","(183,171),(807,710)",0.0
+17,Times,2,focusStep_17_timesR_size_30_sample_0002.tif,"GAxSd34Xsv
+qe4KV95qtv
+SFyqm9jKNB","(198,186),(801,703)",0.0
+17,Times,3,focusStep_17_timesR_size_30_sample_0003.tif,"P7uzrGLDY2
+RaGgb2JA9j
+NqeTbEmrcF",the,0.0333
+17,Times,4,focusStep_17_timesR_size_30_sample_0004.tif,"zTR9 RkMLn
+LE9rU9bkJa
+8QwrjMAdFV","(183,183),(813,807)",0.0345
+17,Times,5,focusStep_17_timesR_size_30_sample_0005.tif,"G3hP8DCyu9
+x7AuP9P3wT
+ JthL2KjJF","(170,187),(827,680)",0.0345
+17,Times,6,focusStep_17_timesR_size_30_sample_0006.tif,"Sj  E6XAJD
+XpHSb4V3Xj
+EJKJkRF4Et","(2,2),(996,995)",0.0
+17,Times,7,focusStep_17_timesR_size_30_sample_0007.tif,"TdVhADM9JD
+NCSH4GpKQm
+ qRYgPgDzq","(170,177),(829,500)",0.0
+17,Times,8,focusStep_17_timesR_size_30_sample_0008.tif,"WLNMLyiKhR
+5SgnmKNWHP
+ZVZbCZSWH","(1,1),(997,995)",0.0
+17,Times,9,focusStep_17_timesR_size_30_sample_0009.tif,"tSZfjrYm4m
+VfgUnDb5A2
+wj3D6XVrfT","(233,237),(767,570)",0.0333
+17,Times,10,focusStep_17_timesR_size_30_sample_0010.tif,"n4jrcaYUD7
+TsFtmzSZyt
+DjyGQXe9Rq","(1,2),(996,995)",0.0333
+17,Times,11,focusStep_17_timesR_size_30_sample_0011.tif,"ufK8V2vJva
+XpKMCCreJU
+7erFA6E8cy","(183,187),(819,702)",0.0667
+17,Times,12,focusStep_17_timesR_size_30_sample_0012.tif,"XR6nFNfNQ
+LLt4juftak
+LRBqqGvmUU",X X,0.0345
+17,Times,13,focusStep_17_timesR_size_30_sample_0013.tif,"eSkz2NFMy
+5mWDbSFWk9
+YrG3rAA SU","(197,207),(801,799)",0.0357
+17,Times,14,focusStep_17_timesR_size_30_sample_0014.tif,"X777uuRthx
+EVPd2fKcMG
+VPGdDcrVBd","(1,2),(997,995)",0.0333
+17,Times,15,focusStep_17_timesR_size_30_sample_0015.tif,"WMLFzfPnir
+3ZxkhG8Cit
+9Nz4Mgjq3Z","(183,157),(817,807)",0.0333
+17,Times,16,focusStep_17_timesR_size_30_sample_0016.tif,"MLriMA8cCE
+TQSrQF8TkP
+q9uzy87ypt","(191,150),(801,600)",0.0333
+17,Times,17,focusStep_17_timesR_size_30_sample_0017.tif,"wVQHcCAA3s
+mfgw7MW2y9
+jFih7nuFK8","(1,1),(997,995)",0.0667
+17,Times,18,focusStep_17_timesR_size_30_sample_0018.tif,"ePMVqHYJEh
+MDusfzcDhV
+sfmdchU6Ka","(183,150),(783,500)",0.0
+17,Times,19,focusStep_17_timesR_size_30_sample_0019.tif,"sXg92ppM8
+B4uSiTPa4i
+S44LrkxH4w","(2,2),(996,995)",0.0345
+17,Times,20,focusStep_17_timesR_size_30_sample_0020.tif,"q3RSz8PdkQ
+TGqqMaiUZL
+i3vGG3zVFe","(201,207),(799,680)",0.0
+17,Verdana,1,focusStep_17_verdanaRef_size_30_sample_0001.tif,"ShHAKtSw9R
+3qyQYEnfEW
+Kz8kbnpHKu","(183,183),(813,803)",0.0667
+17,Verdana,2,focusStep_17_verdanaRef_size_30_sample_0002.tif,"pbFVNXpjNK
+2vat5nn39c
+2 Eqhpwkyf","(207,207),(793,795)",0.069
+17,Verdana,3,focusStep_17_verdanaRef_size_30_sample_0003.tif,"M5bdGKYHNb
+XCzQMGmfRW
+GVmvtqmCu7","(199,250),(801,580)",0.0
+17,Verdana,4,focusStep_17_verdanaRef_size_30_sample_0004.tif,"Kcqfdb3Tg2
+L6G2v58vhd
+NT65q7cFh2","(3,3),(996,995)",0.0667
+17,Verdana,5,focusStep_17_verdanaRef_size_30_sample_0005.tif,"yTG5uZi4XL
+q6dQ8Asqe4
+ZmipjQcXT8","(2,2),(997,995)",0.0
+17,Verdana,6,focusStep_17_verdanaRef_size_30_sample_0006.tif,"4azqmBRqgt
+EpS4s4VtwX
+x 7DzPVy5Z","(3,3),(996,995)",0.0345
+17,Verdana,7,focusStep_17_verdanaRef_size_30_sample_0007.tif,"FnFN8FZ6Qu
+L5DxVdM6sL
+a8bWyqzKCh","(207,207),(792,790)",0.0
+17,Verdana,8,focusStep_17_verdanaRef_size_30_sample_0008.tif,"L668m qAQe
+sdwTMxBbQy
+Wrz4A3mdhv","(3,3),(996,995)",0.0
+17,Verdana,9,focusStep_17_verdanaRef_size_30_sample_0009.tif,"MFNHrav4GR
+4eXaiaVc49
+4R2YF9ASY","(186,186),(812,800)",0.0345
+17,Verdana,10,focusStep_17_verdanaRef_size_30_sample_0010.tif,"CTAbzpedhX
+wshVWXHD4m
+LeiBhTRSmM","(187,207),(803,580)",0.0
+17,Verdana,11,focusStep_17_verdanaRef_size_30_sample_0011.tif,"3VaV CDw5p
+mUUzFXWHQT
+D8yhweS75B","(1,2),(997,995)",0.0345
+17,Verdana,12,focusStep_17_verdanaRef_size_30_sample_0012.tif,"nRERraAYZq
+Nsex7BP37H
+dYzHTuTdA","(3,3),(996,995)",0.0345
+17,Verdana,13,focusStep_17_verdanaRef_size_30_sample_0013.tif,"4aYy7grHdt
+yxkuL2MDyy
+hZNgvYyGuV","(1,2),(997,995)",0.0333
+17,Verdana,14,focusStep_17_verdanaRef_size_30_sample_0014.tif,"YGZagty2 E
+rPM7TT3fnG
+EZFZvCKeyJ","(3,3),(996,995)",0.0345
+17,Verdana,15,focusStep_17_verdanaRef_size_30_sample_0015.tif,"UBkNsQ8i3N
+vhJLQaFESj
+DrqfNBBmjd","(207,207),(792,795)",0.0
+17,Verdana,16,focusStep_17_verdanaRef_size_30_sample_0016.tif,"8Xs8EXR9tu
+xHKU2mZpu4
+tLERwv78XJ","(207,207),(793,797)",0.0667
+17,Verdana,17,focusStep_17_verdanaRef_size_30_sample_0017.tif,"YEd4x8KRmx
+qVimq6nifT
+V297V3WyNi","(213,213),(787,787)",0.0333
+17,Verdana,18,focusStep_17_verdanaRef_size_30_sample_0018.tif,"WrFkJG8ntt
+7shYwJCugz
+8Dj9D dseY","(201,182),(799,680)",0.069
+17,Verdana,19,focusStep_17_verdanaRef_size_30_sample_0019.tif,"zgYCqb7Zg3
+P7aqwMXWNv
+vEjTXr68nT","(197,207),(801,795)",0.0667
+17,Verdana,20,focusStep_17_verdanaRef_size_30_sample_0020.tif,"aw XKJMte8
+s2tNNQh8d8
+5KSf4dmAE7","(207,207),(793,707)",0.0345
+18,Times,1,focusStep_18_timesR_size_30_sample_0001.tif,"xGH7TzhgKT
+jN4jJNXWmY
+nURpa4GBkt","(1,2),(996,995)",0.0
+18,Times,2,focusStep_18_timesR_size_30_sample_0002.tif,"G2ABTGRA2H
+EsFBamtq6D
+v9A2dDv8ke","(181,187),(807,484)",0.0333
+18,Times,3,focusStep_18_timesR_size_30_sample_0003.tif,"E9vV EPUHQ
+EUxZsRfeL9
+Pi iXPwiAq","(201,171),(799,303)",0.0357
+18,Times,4,focusStep_18_timesR_size_30_sample_0004.tif,"RMSmSKeAN9
+vcGATQTNEp
+SzXCRiHYYm","(1,2),(996,995)",0.0333
+18,Times,5,focusStep_18_timesR_size_30_sample_0005.tif,"7VTadGpX6f
+TCydWSpRMt
+L2VH24 pg4","(255,250),(745,580)",0.0
+18,Times,6,focusStep_18_timesR_size_30_sample_0006.tif,"SPftzMuca6
+XbUJbrtQGG
+V xrZZ76Tv","(1,2),(996,995)",0.0345
+18,Times,7,focusStep_18_timesR_size_30_sample_0007.tif,"CtjgLuNfGG
+ApJnkQvC7t
+njpVfjPfvk","(2,2),(996,995)",0.0
+18,Times,8,focusStep_18_timesR_size_30_sample_0008.tif,"SBGPR5TSey
+SxVZDvNN5z
+ HHXZ9iuRj","(181,181),(811,580)",0.0345
+18,Times,9,focusStep_18_timesR_size_30_sample_0009.tif,"Us zjtwSDP
+fqLZLwa62V
+smTsbzASdq","(2,2),(996,995)",0.0345
+18,Times,10,focusStep_18_timesR_size_30_sample_0010.tif,"HvCx8f8dHu
+bE4ZpDGXmg
+FemBNvkTPB","(1,2),(996,995)",0.0
+18,Times,11,focusStep_18_timesR_size_30_sample_0011.tif,"ZEJmvLzGmJ
+ZzYNkgzZVZ
+pztPpV6 T7","(201,187),(797,500)",0.0
+18,Times,12,focusStep_18_timesR_size_30_sample_0012.tif,"DKvtGHBWp
+sYasfh4jdN
+6a5jBVsTJt","(207,187),(790,580)",0.0345
+18,Times,13,focusStep_18_timesR_size_30_sample_0013.tif,"sxndQq9C9S
+4hXK9U3dZr
+Ve3NXCEyfr","(1,2),(996,995)",0.0667
+18,Times,14,focusStep_18_timesR_size_30_sample_0014.tif,"MpT u2Akc4
+bCwz77PU2K
+y8bNyCwXrT","(207,207),(799,799)",0.069
+18,Times,15,focusStep_18_timesR_size_30_sample_0015.tif,"28hknpLJcj
+KPkfzzERMk
+L9Ph5DKtaL","(2,2),(996,995)",0.0667
+18,Times,16,focusStep_18_timesR_size_30_sample_0016.tif,"C5XQyrkLKD
+JXvUyenBLS
+8wrT76ySmK","(207,207),(793,795)",0.0333
+18,Times,17,focusStep_18_timesR_size_30_sample_0017.tif,"JHJLLYK273
+bKNcNu2jvi
+VtfJhawH5E","(251,250),(749,550)",0.0667
+18,Times,18,focusStep_18_timesR_size_30_sample_0018.tif,"7mkFNUbG4u
+gnxM7MzXfY
+iJMPMGHEQs","(15,15),(985,985)",0.0
+18,Times,19,focusStep_18_timesR_size_30_sample_0019.tif,"9NUGx5av8C
+zMSQXz8AAv
+TJiHNweB5d","(207,207),(793,580)",0.0333
+18,Times,20,focusStep_18_timesR_size_30_sample_0020.tif,"XTv5r8kUVU
+DdeFtpEhVx
+g265vjC999","(255,250),(745,484)",0.0667
+18,Verdana,1,focusStep_18_verdanaRef_size_30_sample_0001.tif,"geN5WxtC t
+X5MvJ2LqNR
+LWRrjjL2id","(2,2),(997,995)",0.0345
+18,Verdana,2,focusStep_18_verdanaRef_size_30_sample_0002.tif,"XJcqsPjdsN
+dkYvUmxPr2
+KFin2BL2w5","(255,351),(745,424)",0.0333
+18,Verdana,3,focusStep_18_verdanaRef_size_30_sample_0003.tif,"LiznJxi nV
+zUs4nivsua
+gtfrnn73RC","(2,2),(996,995)",0.0
+18,Verdana,4,focusStep_18_verdanaRef_size_30_sample_0004.tif,"LaA9TSAJED
+Du4qGc54Mn
+Wuu8XPwWDw","(255,250),(745,317)",0.0667
+18,Verdana,5,focusStep_18_verdanaRef_size_30_sample_0005.tif,"wM9FP c Rt
+atQzMeXhSU
+xzuAHkt RM","(231,231),(767,580)",0.0
+18,Verdana,6,focusStep_18_verdanaRef_size_30_sample_0006.tif,"hBsfScv3zV
+gZLTRt35gr
+6CFcH8jvW6","(2,2),(997,995)",0.0333
+18,Verdana,7,focusStep_18_verdanaRef_size_30_sample_0007.tif,"tRa8vRUTqE
+YnvjmfbdkP
+7wzqnp4deJ","(207,207),(792,404)",0.0667
+18,Verdana,8,focusStep_18_verdanaRef_size_30_sample_0008.tif,"gYCvsc9PBU
+vSiypjfNjK
+3j MYEA7 F","(3,3),(996,995)",0.0
+18,Verdana,9,focusStep_18_verdanaRef_size_30_sample_0009.tif,"2SppWju6cL
+XQc2tCwCZ7
+x TAuTXTq2","(1,2),(996,995)",0.0345
+18,Verdana,10,focusStep_18_verdanaRef_size_30_sample_0010.tif,"PxxmM5ihiQ
+HRtw2GYDfg
+Y5L5rJRvu6","(2,2),(996,995)",0.0333
+18,Verdana,11,focusStep_18_verdanaRef_size_30_sample_0011.tif,"xPZc7VFeZ
+hPHka6FijA
+tcqL Z LGv","(255,207),(745,550)",0.0
+18,Verdana,12,focusStep_18_verdanaRef_size_30_sample_0012.tif,"J3U R35ME9
+cvNurAy6ey
+Akvmte447","(2,2),(996,995)",0.0714
+18,Verdana,13,focusStep_18_verdanaRef_size_30_sample_0013.tif,"cqGpVSRb7v
+HMYXjQpahQ
+ HbEPNP Si","(207,271),(793,580)",0.0357
+18,Verdana,14,focusStep_18_verdanaRef_size_30_sample_0014.tif,"q7rEgKw6t8
+m4QRxmHKfG
+eD73vWuBkK","(3,3),(996,995)",0.0
+18,Verdana,15,focusStep_18_verdanaRef_size_30_sample_0015.tif,"AtiHRzskiQ
+nGDQVV3HAx
+fer6sW 9Tr","(2,2),(997,995)",0.0345
+18,Verdana,16,focusStep_18_verdanaRef_size_30_sample_0016.tif,"BUd5XTzNkJ
+bSyixzttgH
+B7jSzzRtva","(199,187),(801,303)",0.0
+18,Verdana,17,focusStep_18_verdanaRef_size_30_sample_0017.tif,"EYXZtK3uEc
+z23y4P9U4b
+QrASfjqFPb","(250,250),(750,450)",0.0333
+18,Verdana,18,focusStep_18_verdanaRef_size_30_sample_0018.tif,"rTJyZ cLp3
+a4h5hPpJ6z
+J FFGDhVrd","(3,3),(996,995)",0.0714
+18,Verdana,19,focusStep_18_verdanaRef_size_30_sample_0019.tif,"xuQrNApSGv
+CgRuwt9sSR
+5VCpG3NvGP","(2,2),(996,995)",0.0667
+18,Verdana,20,focusStep_18_verdanaRef_size_30_sample_0020.tif,"BSqhmkyAjR
+BTGkvPTsWD
+BiTae 9qqs","(207,207),(793,580)",0.0
+19,Times,1,focusStep_19_timesR_size_30_sample_0001.tif,"Ug  KFEn8a
+wBhsuUXGWV
+z6PN3xufPe","(2,2),(996,995)",0.0357
+19,Times,2,focusStep_19_timesR_size_30_sample_0002.tif,"Jy3B4BahGx
+rEZvrpRutw
+7vZedLZBFc","(253,250),(747,550)",0.0333
+19,Times,3,focusStep_19_timesR_size_30_sample_0003.tif,"wRA2MXHp25
+7AUpXSLGhW
+dzzbG3StM2","(207,171),(793,237)",0.1
+19,Times,4,focusStep_19_timesR_size_30_sample_0004.tif,"NPyVQH8dym
+qUYCfkMcHV
+vgZ8qBqcHP","(1,2),(996,995)",0.0
+19,Times,5,focusStep_19_timesR_size_30_sample_0005.tif,"knpKe6kUks
+ssn5aP4z2j
+X7kSUEj8J","(257,253),(743,317)",0.069
+19,Times,6,focusStep_19_timesR_size_30_sample_0006.tif,"AqBdVPLPyB
+mNpmKsgcYR
+TETvNcZ8qj","(2,2),(996,995)",0.0
+19,Times,7,focusStep_19_timesR_size_30_sample_0007.tif,"fQigGeTYRT
+WGs4S8nG6F
+Zs4yYYFUF","(207,207),(793,500)",0.0
+19,Times,8,focusStep_19_timesR_size_30_sample_0008.tif,"yh96UDkRex
+htUadRzFUR
+K2TVs2rWS4","(207,207),(793,580)",0.0
+19,Times,9,focusStep_19_timesR_size_30_sample_0009.tif,"JETcDpEck7
+7Npdp639Lu
+2YyYdY6Z H","(253,253),(747,517)",0.0345
+19,Times,10,focusStep_19_timesR_size_30_sample_0010.tif,"Q7GJ4wdpJB
+c247w5m26d
+kbU3B HQ7v","(250,250),(750,500)",0.069
+19,Times,11,focusStep_19_timesR_size_30_sample_0011.tif,"ZRktZfMQWm
+gnXYrfRu4E
+Kd2Hw6x2vd","(207,207),(793,580)",0.0
+19,Times,12,focusStep_19_timesR_size_30_sample_0012.tif,"uMWYhQ75yH
+GQMstpNQfx
+cK6yLjPDcD","(1,1),(997,995)",0.0
+19,Times,13,focusStep_19_timesR_size_30_sample_0013.tif,"q6MVhhQJbn
+kdLgeDS9Ru
+bfiWGfW9Gq","(1,2),(996,995)",0.0667
+19,Times,14,focusStep_19_timesR_size_30_sample_0014.tif,"ePUMXHu5bV
+iySkrTDBmG
+Br9tUUNLaC","(207,207),(793,297)",0.0333
+19,Times,15,focusStep_19_timesR_size_30_sample_0015.tif,"dUkA qEbX 
+wKgZ7pNLs2
+YgbMc5fkSf","(2,2),(997,995)",0.0714
+19,Times,16,focusStep_19_timesR_size_30_sample_0016.tif,"DP3Ee4EPy6
+SNMAtv8vaV
+WQfCTDW9Qp","(199,171),(799,303)",0.0
+19,Times,17,focusStep_19_timesR_size_30_sample_0017.tif,"dAV8psyca4
+CGqt6tvBKY
+QffsjheK5k","(2,2),(996,995)",0.0667
+19,Times,18,focusStep_19_timesR_size_30_sample_0018.tif,"eyRw jahbL
+YkqteVVwWG
+N6bt vhxBN","(1,1),(996,995)",0.0357
+19,Times,19,focusStep_19_timesR_size_30_sample_0019.tif,"fK9M5cBS H
+UJhzyYaSJe
+ 7vYDaMepS","(257,207),(743,550)",0.0714
+19,Times,20,focusStep_19_timesR_size_30_sample_0020.tif,"UUhbJw25K8
+GMEPEqe7J2
+ crGCvAbzt","(3,3),(996,995)(3,3),(996,995)",0.0
+19,Verdana,1,focusStep_19_verdanaRef_size_30_sample_0001.tif,"BcsWr xNEn
+kR3DMmvqTN
+nB5Kk25jBT","(199,207),(801,795)",0.0345
+19,Verdana,2,focusStep_19_verdanaRef_size_30_sample_0002.tif,"mFWi G34Bf
+bK52AUewNM
+5WVxw9Y6c","(2,2),(997,995)",0.0714
+19,Verdana,3,focusStep_19_verdanaRef_size_30_sample_0003.tif,"Vr3z5TvPqg
+9hYcsCjq4w
+Ty X9eCfsb","(2,2),(996,995)",0.069
+19,Verdana,4,focusStep_19_verdanaRef_size_30_sample_0004.tif,"qRcm6fCYTx
+2JsqMS9m69
+eQa43PMhYs","(207,207),(793,700)",0.1
+19,Verdana,5,focusStep_19_verdanaRef_size_30_sample_0005.tif,"dZssrQSnyc
+qWsnahAZHr
+Et3UrTZfiC","(207,231),(790,580)",0.0
+19,Verdana,6,focusStep_19_verdanaRef_size_30_sample_0006.tif,"Df pJ9dYZS
+KNgbtAWw9h
+tMfUcQ8FxX","(2,2),(996,995)",0.0345
+19,Verdana,7,focusStep_19_verdanaRef_size_30_sample_0007.tif,"LD9Be3  wk
+WpHJYiz4tb
+DKu7ssh4qR","(250,250),(750,350)",0.0
+19,Verdana,8,focusStep_19_verdanaRef_size_30_sample_0008.tif,"ibCwwVm6RL
+ea8EmdhrpT
+iywudSGm2","(1,2),(996,995)",0.0
+19,Verdana,9,focusStep_19_verdanaRef_size_30_sample_0009.tif,"FQusUtZw7d
+dhBC2PH8kU
+Ur4 i3fi5","(231,261),(769,404)",0.0357
+19,Verdana,10,focusStep_19_verdanaRef_size_30_sample_0010.tif,"23bVeWpMwD
+mu86KU9GXu
+LcUEU4wSJX","(183,263),(783,703)",0.0333
+19,Verdana,11,focusStep_19_verdanaRef_size_30_sample_0011.tif,"E8WyfugmVN
+ypnmmQjbsN
+gBUnM3pybD","(1,2),(997,995)",0.0
+19,Verdana,12,focusStep_19_verdanaRef_size_30_sample_0012.tif,"hwYiLSMrw 
+LjqMP8CyWs
+Aiqhzbdfmv","(2,2),(997,995)",0.0
+19,Verdana,13,focusStep_19_verdanaRef_size_30_sample_0013.tif,"wn YNW VfR
+jWAjEq2MPA
+D95fqhYiMK","(207,207),(792,550)",0.0714
+19,Verdana,14,focusStep_19_verdanaRef_size_30_sample_0014.tif,"7Ct REWex3
+Qfni7AEkcv
+kdtxeyriei","(255,207),(745,303)",0.0345
+19,Verdana,15,focusStep_19_verdanaRef_size_30_sample_0015.tif,"D3rfp8Hqdp
+B6xGW8jtRV
+giKYpgh8im","(2,2),(997,995)",0.0
+19,Verdana,16,focusStep_19_verdanaRef_size_30_sample_0016.tif,"mAGxSYgPdi
+RDV2npsaEA
+3gsGhJZT28","(231,261),(769,327)",0.0333
+19,Verdana,17,focusStep_19_verdanaRef_size_30_sample_0017.tif,"LvH2WNRYv6
+THHJNcrndq
+rgdFWAMUV6","(1,2),(996,995)",0.0667
+19,Verdana,18,focusStep_19_verdanaRef_size_30_sample_0018.tif,"nc86BCEuTn
+NfteJk4cPX
+Y75ygzcppS","(3,3),(996,995)",0.0333
+19,Verdana,19,focusStep_19_verdanaRef_size_30_sample_0019.tif,"Wp6djRerMu
+CvXkvdVKpZ
+ijudstHTGp","(231,271),(769,330)",0.0
+19,Verdana,20,focusStep_19_verdanaRef_size_30_sample_0020.tif,"BNmCJFTVsB
+WfTieudmwf
+Pw YYcXda3","(1,2),(996,995)",0.0
