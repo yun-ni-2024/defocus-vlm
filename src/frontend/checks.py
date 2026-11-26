@@ -6,7 +6,7 @@
 3. restore:    the slot-1 module (src/restore/learned_wiener.py) gives the same image as the filter
                used in training.
 4. vlm_input:  the differentiable input path matches the real to_pil() + processor: same grid, and
-               visual tokens close to those of the processor.
+               visual tokens closer to the processor's than one grey level of noise brings them.
 5. gradients:  both losses give finite, non-zero gradients for both parameter tables.
 """
 import json
@@ -14,6 +14,7 @@ import tempfile
 
 import numpy as np
 import torch
+from PIL import Image
 
 from src.data.image import load_tif, to_pil
 from src.frontend.pairs import cache_key, split_pairs
@@ -128,27 +129,42 @@ def check_vlm_input(cfg, samples, reader):
         (passed, message).
     """
     ip, encoder, dtype = reader.proc.image_processor, reader.model.model.visual, reader.model.dtype
+    rng = np.random.default_rng(0)
+
+    def tokens(pixels, grid):
+        """Visual tokens of processor-format pixels, in float32."""
+        with torch.no_grad():
+            return visual_tokens(encoder, pixels.to(reader.device), grid.to(reader.device), dtype).float()
+
     lines, ok = [], True
     for s in samples:
         for cam in ("sharp", "blurred"):
             a = load_tif(getattr(s, cam), cfg["image"]["white_percentile"])
             # the real path
-            real = ip(images=[to_pil(a, cfg["image"]["long_side"])], size=reader.size, return_tensors="pt")
+            pil = to_pil(a, cfg["image"]["long_side"])
+            real = ip(images=[pil], size=reader.size, return_tensors="pt")
+            t_real = tokens(real["pixel_values"], real["image_grid_thw"])
             # the differentiable path
             x = to_vlm_size(torch.from_numpy(a)[None].to(reader.device), cfg["image"]["long_side"])
             pix, grid = pixel_values(x, ip, reader.size)
             same_grid = torch.equal(grid.cpu(), real["image_grid_thw"])
             ok &= same_grid
-            # compare the visual tokens: error relative to the spread of the real tokens
-            with torch.no_grad():
-                t_real = visual_tokens(encoder, real["pixel_values"].to(reader.device),
-                                       real["image_grid_thw"].to(reader.device), dtype).float()
-                t_ours = visual_tokens(encoder, pix, grid, dtype).float()
-            rel = float((t_ours - t_real).pow(2).mean() / t_real.var())
+            # yardstick: the real path on the same 8-bit image with +-1 grey level of random noise.
+            # The encoder's tokens react strongly to such tiny changes (a few channels have a very large
+            # variance), so a fixed threshold means little; the differentiable path must change the
+            # tokens less than one grey level of noise does.
+            arr = np.asarray(pil).astype(np.int16)
+            noisy = np.clip(arr + rng.integers(-1, 2, arr.shape), 0, 255).astype(np.uint8)
+            nz = ip(images=[Image.fromarray(noisy)], size=reader.size, return_tensors="pt")
+            t_noise = tokens(nz["pixel_values"], nz["image_grid_thw"])
+            # token errors relative to the spread of the real tokens
+            rel = float((tokens(pix, grid) - t_real).pow(2).mean() / t_real.var())
+            rel_noise = float((t_noise - t_real).pow(2).mean() / t_real.var())
             pix_err = float((pix.cpu() - real["pixel_values"]).abs().mean())
-            ok &= rel < 0.05
+            ok &= rel < rel_noise
             lines.append(f"step {s.step} {cam}: grid {grid[0].tolist()} {'=' if same_grid else '!='} processor, "
-                         f"mean pixel difference {pix_err:.4f}, token error {rel:.4f} of token variance")
+                         f"mean pixel difference {pix_err:.4f}, token error {rel:.3f} of token variance "
+                         f"(+-1 grey level of noise: {rel_noise:.3f})")
     return ok, "\n    ".join(lines)
 
 
