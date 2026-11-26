@@ -1,0 +1,49 @@
+# Learning-rate variant of train_d_feature.yaml (log K step 3.0e-2, radius-correction step 3.0e-3).
+# Method (d), VLM-feature loss: train the learnable Wiener filter (src/frontend/wiener.py) in front of
+# frozen Qwen2-VL-2B, with the radius estimated from each photograph.
+# Read by scripts/train_wiener.py. The model and image sections must equal those of baseline_a.yaml,
+# so that the filter is trained on images processed exactly as at test time.
+name: train_d_feature_lr3e-2
+
+model:
+  path: models/Qwen2-VL-2B-Instruct   # relative to DEFOCUS_ROOT
+  dtype: bfloat16
+  min_pixels: 50176                   # 64 * 28 * 28
+  max_pixels: 351232                  # 448 * 28 * 28
+  max_new_tokens: 48                  # used when reading the validation images
+  prompt: "Transcribe the text in this image exactly as written. Output only the text, one line per line of text."
+
+image:
+  white_percentile: 99.5              # this percentile is scaled to white
+  long_side: 1024                     # downscale before the processor
+
+data:
+  steps: null                         # null = all 20 steps
+  val_every: 10                       # samples whose number is a multiple of this are held out (as in method (c))
+  estimator: psf_backup               # radius estimator: src/<estimator>.estimate_radius
+  radius_cache: cache/radii_train_psf_backup.json   # from scripts/estimate_radii.py, relative to DEFOCUS_ROOT
+
+# the filter; it starts as the ordinary Wiener filter with K = init_k
+wiener:
+  radius_bins: {min: 8, max: 210, count: 8}   # bin centres evenly spaced in log r (pixels)
+  u_knots: {max: 4.0, count: 16}              # knots of u = r * |f| from 0 to max; constant beyond
+  init_k: 3.0e-3                              # the pilot's Wiener constant
+  pad: 256                                    # reflection padding (pixels), larger than the largest radius
+  log_k_limits: [-13.8, 2.3]                  # K kept between 1e-6 and 10
+  log_scale_limit: 0.2                        # radius correction kept within exp(+-0.2), i.e. +-22 %
+
+loss: feature                         # visual tokens of the filtered image vs. the sharp image (as in method (c))
+
+train:
+  lr_log_k: 3.0e-2                    # Adam step for the log K table
+  lr_log_scale: 3.0e-3                # Adam step for the radius correction (10x smaller: the result is very sensitive to r)
+  batch_size: 2                       # image pairs per iteration (memory as in method (c))
+  iterations: 2000
+  warmup: 50                          # iterations of linear learning-rate warm-up
+  grad_clip: 1.0                      # largest gradient norm per step
+  seed: 0
+  workers: 3                          # processes loading images
+
+validation:
+  every: 250                          # iterations between validation runs
+  batch_size: 8                       # images per VLM call when reading
