@@ -8,6 +8,8 @@
 *.pth
 *.ckpt
 *.safetensors
+# except the adapter a trained method's final run used (docs/pipeline.md)
+!assets/*/adapter/*.safetensors
 *.bin
 *.tif
 *.tiff
