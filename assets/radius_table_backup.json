@@ -1,0 +1,555 @@
+{
+  "units": "pixels of the 2360 x 1460 image",
+  "source": "training set, blurred camera (CAM02), calibration targets LSF_X and LSF_Y (local backup measurement)",
+  "radius": {
+    "0": 1.56,
+    "1": 4.38,
+    "2": 12.71,
+    "3": 20.88,
+    "4": 28.79,
+    "5": 36.24,
+    "6": 43.67,
+    "7": 50.67,
+    "8": 60.01,
+    "9": 67.55,
+    "10": 74.55,
+    "11": 80.72,
+    "12": 88.0,
+    "13": 94.5,
+    "14": 101.05,
+    "15": 118.95,
+    "16": 139.97,
+    "17": 158.85,
+    "18": 186.6,
+    "19": 203.0
+  },
+  "method": "line target cross-section fitted with the in-focus line convolved with a uniform disc plus a polynomial background; mean over targets and distinct copies. The horizontal cross-section (LSF_Y) is consistently about 3 px wider than the vertical one (LSF_X), also on the PSF dot, so the blur is slightly anisotropic; the radius is the best single disc, their mean. Removing the line tilt before averaging changed r by less than 0.1 px (0.3 px at steps 0-1), so it is not done.",
+  "settings": {
+    "search": 120,
+    "window": 380,
+    "degree": 4,
+    "margin": 380
+  },
+  "measurements": {
+    "0": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 2.3,
+        "y0": 758.5,
+        "ink": 0.886,
+        "rms": 212.05
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 0.7,
+        "y0": 1196.0,
+        "ink": 0.963,
+        "rms": 127.11
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_X",
+        "r": 2.45,
+        "y0": 759.5,
+        "ink": 0.882,
+        "rms": 215.66
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_Y",
+        "r": 0.8,
+        "y0": 1194.2,
+        "ink": 0.954,
+        "rms": 150.09
+      }
+    ],
+    "1": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 3.25,
+        "y0": 755.0,
+        "ink": 0.8,
+        "rms": 226.48
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 5.75,
+        "y0": 1195.2,
+        "ink": 0.668,
+        "rms": 181.18
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_X",
+        "r": 3.05,
+        "y0": 758.0,
+        "ink": 0.814,
+        "rms": 236.5
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_Y",
+        "r": 5.45,
+        "y0": 1193.8,
+        "ink": 0.676,
+        "rms": 196.16
+      }
+    ],
+    "2": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 11.4,
+        "y0": 752.8,
+        "ink": 0.566,
+        "rms": 122.29
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 14.35,
+        "y0": 1193.8,
+        "ink": 0.551,
+        "rms": 140.2
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_X",
+        "r": 11.0,
+        "y0": 756.0,
+        "ink": 0.573,
+        "rms": 129.25
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_Y",
+        "r": 14.1,
+        "y0": 1193.2,
+        "ink": 0.543,
+        "rms": 134.4
+      }
+    ],
+    "3": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 19.45,
+        "y0": 750.5,
+        "ink": 0.529,
+        "rms": 102.7
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 22.35,
+        "y0": 1192.8,
+        "ink": 0.522,
+        "rms": 111.21
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_X",
+        "r": 19.3,
+        "y0": 753.2,
+        "ink": 0.529,
+        "rms": 105.6
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_Y",
+        "r": 22.4,
+        "y0": 1194.2,
+        "ink": 0.524,
+        "rms": 116.57
+      }
+    ],
+    "4": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 27.4,
+        "y0": 748.5,
+        "ink": 0.523,
+        "rms": 84.94
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 30.35,
+        "y0": 1191.8,
+        "ink": 0.514,
+        "rms": 99.12
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_X",
+        "r": 27.25,
+        "y0": 750.8,
+        "ink": 0.52,
+        "rms": 86.78
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_Y",
+        "r": 30.15,
+        "y0": 1193.0,
+        "ink": 0.509,
+        "rms": 101.64
+      }
+    ],
+    "5": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 34.9,
+        "y0": 747.8,
+        "ink": 0.517,
+        "rms": 72.81
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 37.4,
+        "y0": 1191.5,
+        "ink": 0.506,
+        "rms": 92.41
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_X",
+        "r": 35.0,
+        "y0": 747.8,
+        "ink": 0.515,
+        "rms": 73.2
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_Y",
+        "r": 37.65,
+        "y0": 1192.0,
+        "ink": 0.501,
+        "rms": 89.39
+      }
+    ],
+    "6": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 42.75,
+        "y0": 745.8,
+        "ink": 0.506,
+        "rms": 59.71
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 45.25,
+        "y0": 1192.2,
+        "ink": 0.491,
+        "rms": 83.45
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_X",
+        "r": 42.0,
+        "y0": 745.5,
+        "ink": 0.513,
+        "rms": 64.58
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_Y",
+        "r": 44.7,
+        "y0": 1192.8,
+        "ink": 0.498,
+        "rms": 90.04
+      }
+    ],
+    "7": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 49.05,
+        "y0": 742.8,
+        "ink": 0.51,
+        "rms": 53.75
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 52.1,
+        "y0": 1192.2,
+        "ink": 0.487,
+        "rms": 78.52
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_X",
+        "r": 49.3,
+        "y0": 744.0,
+        "ink": 0.499,
+        "rms": 55.98
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_Y",
+        "r": 52.25,
+        "y0": 1191.8,
+        "ink": 0.48,
+        "rms": 78.86
+      }
+    ],
+    "8": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 58.6,
+        "y0": 739.8,
+        "ink": 0.44,
+        "rms": 42.23
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 61.25,
+        "y0": 1191.8,
+        "ink": 0.405,
+        "rms": 60.69
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_X",
+        "r": 59.15,
+        "y0": 740.2,
+        "ink": 0.416,
+        "rms": 39.68
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_Y",
+        "r": 61.05,
+        "y0": 1191.0,
+        "ink": 0.398,
+        "rms": 61.82
+      }
+    ],
+    "9": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 66.05,
+        "y0": 737.8,
+        "ink": 0.427,
+        "rms": 36.63
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 69.15,
+        "y0": 1189.8,
+        "ink": 0.393,
+        "rms": 55.75
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_X",
+        "r": 65.55,
+        "y0": 737.0,
+        "ink": 0.419,
+        "rms": 36.83
+      },
+      {
+        "font": "Verdana",
+        "target": "LSF_Y",
+        "r": 69.45,
+        "y0": 1190.2,
+        "ink": 0.39,
+        "rms": 56.67
+      }
+    ],
+    "10": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 73.45,
+        "y0": 733.2,
+        "ink": 0.429,
+        "rms": 35.13
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 75.65,
+        "y0": 1172.8,
+        "ink": 0.38,
+        "rms": 58.47
+      }
+    ],
+    "11": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 80.15,
+        "y0": 731.5,
+        "ink": 0.424,
+        "rms": 35.44
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 81.3,
+        "y0": 1170.8,
+        "ink": 0.381,
+        "rms": 57.33
+      }
+    ],
+    "12": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 87.25,
+        "y0": 729.8,
+        "ink": 0.408,
+        "rms": 31.96
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 88.75,
+        "y0": 1170.2,
+        "ink": 0.359,
+        "rms": 53.71
+      }
+    ],
+    "13": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 93.75,
+        "y0": 726.5,
+        "ink": 0.404,
+        "rms": 30.27
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 95.25,
+        "y0": 1170.0,
+        "ink": 0.357,
+        "rms": 54.14
+      }
+    ],
+    "14": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 99.5,
+        "y0": 725.2,
+        "ink": 0.403,
+        "rms": 29.34
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 102.6,
+        "y0": 1168.2,
+        "ink": 0.352,
+        "rms": 50.31
+      }
+    ],
+    "15": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 117.15,
+        "y0": 720.0,
+        "ink": 0.288,
+        "rms": 20.59
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 120.75,
+        "y0": 1170.2,
+        "ink": 0.258,
+        "rms": 35.92
+      }
+    ],
+    "16": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 137.95,
+        "y0": 712.8,
+        "ink": 0.263,
+        "rms": 17.59
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 142.0,
+        "y0": 1168.2,
+        "ink": 0.228,
+        "rms": 31.29
+      }
+    ],
+    "17": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 157.4,
+        "y0": 706.5,
+        "ink": 0.255,
+        "rms": 17.59
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 160.3,
+        "y0": 1166.5,
+        "ink": 0.217,
+        "rms": 30.68
+      }
+    ],
+    "18": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 185.0,
+        "y0": 702.5,
+        "ink": 0.187,
+        "rms": 11.3
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 188.2,
+        "y0": 1162.2,
+        "ink": 0.16,
+        "rms": 23.37
+      }
+    ],
+    "19": [
+      {
+        "font": "Times",
+        "target": "LSF_X",
+        "r": 201.65,
+        "y0": 699.5,
+        "ink": 0.181,
+        "rms": 9.76
+      },
+      {
+        "font": "Times",
+        "target": "LSF_Y",
+        "r": 204.35,
+        "y0": 1158.0,
+        "ink": 0.154,
+        "rms": 22.95
+      }
+    ]
+  }
+}
