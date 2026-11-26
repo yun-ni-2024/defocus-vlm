@@ -36,9 +36,15 @@ What each file does. How they fit together: `pipeline.md`.
 | `gpu.sbatch` | Runs any Python script with its arguments on a GPU node, inside the project environment. |
 | `download_hdc.sbatch` | Runs the data download on a CPU node. |
 
+## `runpod/`: Runpod pods
+
+| File | What it does |
+|---|---|
+| `run.sh` | The counterpart of `gpu.sbatch` on a Runpod pod: activates the environment and starts any Python script in the background, with its output in `logs/`. |
+
 ## Other files
 
 | File | What it is |
 |---|---|
 | `requirements.txt` | Python packages with fixed versions. |
-| `docs/` | Documentation: `cluster.md`, `data.md`, `pipeline.md`, `evaluation.md`, `code.md`, `findings.md`. |
+| `docs/` | Documentation: `cluster.md`, `runpod.md`, `data.md`, `pipeline.md`, `evaluation.md`, `code.md`, `findings.md`. |
