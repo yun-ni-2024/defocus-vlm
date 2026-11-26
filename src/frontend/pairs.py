@@ -84,13 +84,13 @@ class WienerPairDataset(Dataset):
             i: index into the samples.
 
         Returns:
-            (sharp, blurred, radius): two float32 arrays of shape (1460, 2360) from load_tif() and
-            the estimated radius of the blurred one.
+            (sharp, blurred, radius, text): two float32 arrays of shape (1460, 2360) from load_tif(),
+            the estimated radius of the blurred one and the correct transcription.
         """
         s = self.samples[i]
         sharp = load_tif(s.sharp, self.white_percentile)
         blurred = load_tif(s.blurred, self.white_percentile)
-        return sharp, blurred, np.float32(self.radii[cache_key(s.blurred)])
+        return sharp, blurred, np.float32(self.radii[cache_key(s.blurred)]), s.text
 
 
 def endless_batches(samples, radii, white_percentile, batch_size, seed=0, workers=0):
@@ -105,7 +105,8 @@ def endless_batches(samples, radii, white_percentile, batch_size, seed=0, worker
         workers: processes that load images in the background; 0 loads in the main process.
 
     Yields:
-        (sharp, blurred, radius): float32 tensors (B, 1460, 2360), (B, 1460, 2360) and (B,).
+        (sharp, blurred, radius, texts): float32 tensors (B, 1460, 2360), (B, 1460, 2360), (B,) and
+        a list of B transcriptions.
     """
     ds = WienerPairDataset(samples, radii, white_percentile)
     # a seeded generator fixes the order of the shuffles

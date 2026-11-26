@@ -1,11 +1,13 @@
 """Training loop for method (d): the learnable Wiener filter, trained through the frozen VLM.
 
-Two losses, selected by the config's `loss`:
+Three losses, selected by the config's `loss`:
   feature: mean squared difference between the visual tokens of the frozen encoder reading the
            filter's output and reading the sharp photograph (the loss of method (c)).
   pixel:   mean squared difference between the filter's output and the sharp photograph at the
            size the VLM sees, after fitting a gain and an offset per image (the two cameras differ
            in brightness and contrast).
+  text:    cross-entropy of the correct transcription under the frozen VLM reading the filter's
+           output (src/frontend/text_loss.py).
 Everything else is the same for both, so a difference between them comes from the loss alone.
 """
 import csv
@@ -17,6 +19,7 @@ import torch.nn.functional as F
 from src.data.image import load_tif, to_pil
 from src.eval.metrics import char_accuracy
 from src.frontend.pairs import cache_key, endless_batches, load_radius_cache, split_pairs
+from src.frontend.text_loss import TextLoss
 from src.frontend.vlm_input import pixel_values, to_vlm_size, visual_tokens
 from src.frontend.wiener import build_from_config, restore_numpy
 from src.utils.run import defocus_root
@@ -142,7 +145,7 @@ def train(cfg, run):
     """
     m, d, t, v = cfg["model"], cfg["data"], cfg["train"], cfg["validation"]
     torch.manual_seed(t["seed"])
-    if cfg["loss"] not in ("feature", "pixel"):
+    if cfg["loss"] not in ("feature", "pixel", "text"):
         raise ValueError(f"unknown loss {cfg['loss']!r}")
 
     # the frozen model, loaded through the class the evaluation uses; no parameter needs gradients
@@ -171,6 +174,13 @@ def train(cfg, run):
     print(f"{len(train_set)} training pairs, {len(val_set)} validation pairs, radii from {estimator}", flush=True)
     batches = endless_batches(train_set, radii, cfg["image"]["white_percentile"], t["batch_size"],
                               t["seed"], t.get("workers", 0))
+    # the text loss prepares its token layout once, for photographs of the training size
+    text_loss = None
+    if cfg["loss"] == "text":
+        full_shape = load_tif(train_set[0].blurred).shape
+        text_loss = TextLoss(reader, full_shape, cfg["image"]["long_side"], t.get("ce_cap"))
+    # batches whose gradients are summed before each step (a larger batch at the same memory)
+    accumulate = t.get("accumulate", 1)
 
     (run / "val").mkdir()
     (run / "params").mkdir()
@@ -204,19 +214,27 @@ def train(cfg, run):
         lr_factor = warmup_factor(it, t["warmup"])
         for g, lr in zip(opt.param_groups, base_lr):
             g["lr"] = lr * lr_factor
-        # one batch of full-resolution pairs through the filter
-        sharp, blurred, r_hat = (x.to(dev) for x in next(batches))
-        restored = model(blurred, r_hat)
-        # both images at the size the VLM sees
-        restored = to_vlm_size(restored, cfg["image"]["long_side"])
-        sharp = to_vlm_size(sharp, cfg["image"]["long_side"])
-        if cfg["loss"] == "feature":
-            loss = feature_loss(encoder, reader.proc.image_processor, reader.size, dtype, restored, sharp)
-        else:
-            loss = pixel_loss(restored, sharp)
-        # one optimisation step; clipping guards against large gradients near the zeros of H
+        # gradients of `accumulate` batches are summed (each scaled by 1 / accumulate)
         opt.zero_grad(set_to_none=True)
-        loss.backward()
+        total = 0.0
+        for _ in range(accumulate):
+            # one batch of full-resolution pairs through the filter
+            sharp, blurred, r_hat, texts = next(batches)
+            sharp, blurred, r_hat = sharp.to(dev), blurred.to(dev), r_hat.to(dev)
+            restored = model(blurred, r_hat)
+            # both images at the size the VLM sees
+            restored = to_vlm_size(restored, cfg["image"]["long_side"])
+            sharp = to_vlm_size(sharp, cfg["image"]["long_side"])
+            if cfg["loss"] == "feature":
+                part = feature_loss(encoder, reader.proc.image_processor, reader.size, dtype, restored, sharp)
+            elif cfg["loss"] == "pixel":
+                part = pixel_loss(restored, sharp)
+            else:
+                part = text_loss(restored, list(texts))
+            (part / accumulate).backward()
+            total += part.item() / accumulate
+        loss = torch.tensor(total)
+        # one optimisation step; clipping guards against large gradients near the zeros of H
         torch.nn.utils.clip_grad_norm_(model.parameters(), t["grad_clip"])
         opt.step()
         model.project()
