@@ -31,3 +31,31 @@ This was a one-off check, not an experiment: there is no run folder. The baselin
 ### The training set has no digits, the test set does
 
 No transcription in the training set contains a digit; most lines in the test set contain at least one. A model trained only on the real training pairs (method (c), real version) never sees a blurred digit. Each test step has 20 Times and 20 Verdana text images.
+
+## 2026-11-26
+
+### Method (c), real version: how the learning rate and the checkpoint were chosen
+
+Five training runs were compared, all on the same Runpod RTX 4090 and code commit `24a2a86`. They differ only in the setting named in the table; everything else is as in `configs/train_c_real.yaml` (LoRA rank 16, batch 2, 200 warm-up iterations, seed 0).
+
+Each run measured validation accuracy every 500 iterations on the 400 held-out training pairs (sample number a multiple of 10, 20 per step), with the same reading and scoring as the evaluation. The test set was not used.
+
+| Training config | Changed setting | Validation accuracy at 4000 | Best validation accuracy (iteration) |
+|---|---|---|---|
+| `train_c_real_lr1e-4` | learning rate 1e-4 | 0.776 | 0.776 (4000) |
+| `train_c_real` | learning rate 2e-4 | 0.818 | 0.818 (4000) |
+| `train_c_real_lr5e-4_8k` | learning rate 5e-4, 8000 iterations | 0.843 | **0.885 (7000)** |
+| `train_c_real_lr1e-3` | learning rate 1e-3 | 0.804 | 0.824 (3500) |
+| `train_c_real_lr5e-4_r32` | learning rate 5e-4, LoRA rank 32 (alpha 64) | 0.839 | 0.842 (3500) |
+
+Before training (iteration 0) every run scores 0.346. The 8000-iteration run also serves as the 4000-iteration run at learning rate 5e-4.
+
+What the table shows:
+
+- 5e-4 is the best learning rate. At 1e-4 and 2e-4 the curve is still rising at 4000 iterations; at 1e-3 it goes up and down after 2000.
+- Rank 32 is no better than rank 16.
+- At 5e-4, running to 8000 iterations adds about 0.04; after about 6500 the curve is flat apart from noise (0.873, 0.885, 0.865, 0.874 at 6500 to 8000).
+
+Rule: the checkpoint with the highest validation accuracy is used. This is iteration 7000 of `train_c_real_lr5e-4_8k`, saved in `assets/c_real/adapter/` and set as `model.lora` in `configs/c_real.yaml`. The test set was then read once with this adapter: mean character accuracy 0.802 over the 800 images (`assets/results/c_real/`).
+
+Evidence: `assets/c_real/training/<training config>/log.csv` (training loss and validation accuracy of each run).
