@@ -1,0 +1,31 @@
+name: b_admm_tv_smoke
+
+model:
+  path: models/Qwen2-VL-2B-Instruct   # relative to DEFOCUS_ROOT
+  dtype: bfloat16
+  min_pixels: 50176                   # 64 * 28 * 28
+  max_pixels: 351232                  # 448 * 28 * 28
+  max_new_tokens: 48
+  prompt: "Transcribe the text in this image exactly as written. Output only the text, one line per line of text."
+  lora: null                          # slot 2: LoRA adapter folder relative to DEFOCUS_ROOT; null = none
+
+restore:
+  name: admm_tv
+  radius: estimated
+  tv_weight: 0.001  # provisional until tuning
+  rho: 0.05
+  iterations: 30
+  device: cuda
+
+image:
+  white_percentile: 99.5              # this percentile is scaled to white
+  long_side: 1024                     # downscale before the processor
+
+data:
+  split: train
+  camera: blurred                     # "blurred" for (a); "sharp" gives the in-focus reference
+  steps: [0, 7, 19]  # light, medium and heavy blur
+  sample_numbers: [1]  # one Times and one Verdana per step
+
+batch_size: 1
+keep_whitespace: false                # all spaces and line breaks are ignored when scoring
