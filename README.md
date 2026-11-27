@@ -11,7 +11,7 @@ CSC2529 Computational Imaging (Fall 2026) course project. Yun Ni, David Chen.
 - `runpod/`: run script for Runpod GPU pods
 - `docs/`: experiment log and design notes
 
-Data, model weights, checkpoints and intermediate runs are not in this repository; the final result of each method is in `assets/results/` (see `docs/pipeline.md`).
+Data, model weights, checkpoints and intermediate runs are not in this repository; the final result of each method is in `assets/results/`. The one exception to checkpoints: a trained method keeps the adapter its final run used, with its training records, in `assets/<config name>/` (see `docs/pipeline.md`).
 
 ## Running on the CSLab cluster
 

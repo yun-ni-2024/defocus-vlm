@@ -61,3 +61,12 @@ Each run writes a new folder `$DEFOCUS_ROOT/runs/<name>_<time>/`:
 ## Final results
 
 Run folders stay in `$DEFOCUS_ROOT/runs/` and are not committed; there are many of them while a method is being tuned. The final test-set run of each method is copied, as a whole folder, into the repository as `assets/results/<config name>/` (for example `assets/results/baseline_a/`). If a final run is redone, its folder is replaced. Curves, tables and error analysis for the report are made from `assets/results/` only.
+
+A trained method also keeps a folder `assets/<config name>/` (for example `assets/c_real/`):
+
+| Path | Contents |
+|---|---|
+| `training/<training config name>/` | `config.yaml`, `meta.json` and `log.csv` of each training run that was compared (training loss and validation accuracy) |
+| `adapter/` | the adapter the final run used: `adapter_config.json`, `adapter_model.safetensors` |
+
+The evaluation config still points to the adapter under `$DEFOCUS_ROOT`; to reproduce the final run from the repository, copy `adapter/` to that path.
