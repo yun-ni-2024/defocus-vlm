@@ -62,6 +62,35 @@ For reference, the evaluation's mean character accuracy (letters and digits toge
 - **Digits: adding an adapter removes the digit reading of (d).** (d) alone reads digits at 0.948; with either adapter in slot 2 it drops to the level of (c) alone (0.29 to 0.35). The filter makes the digits visible, but the adapted encoder no longer reads them.
 - On letters, (c) with the text loss and (d) are close (0.920 and 0.909), (c) slightly ahead at every group of steps; whether this is beyond noise is not tested yet.
 
-## Next: E1 and E2
+## E1 and E2: training one part for the other
 
-E0 shows that the parts must be trained together to work together. E1 trains the adapter on the filter's output, with the filter fixed; E2 trains the filter through the adapted VLM, with the adapter fixed. Their variants and results will be added here.
+E0 shows that the parts must be trained together to work together. Two ways of doing it, each with both kinds of (c):
+
+| Variant | Fixed | Trained | Loss | Iteration 0 is |
+|---|---|---|---|---|
+| E1 ctext | (d) filter in slot 1 | a new adapter (starts at zero), on the filter's output | text | (d) alone (filter + original VLM) |
+| E1 cfeature | (d) filter in slot 1 | a new adapter (starts at zero), on the filter's output | feature distillation | (d) alone |
+| E2 ctext | the (c) text-loss adapter in slot 2 | a new filter, from the ordinary Wiener filter | text | ordinary Wiener + VLM with that adapter |
+| E2 cfeature | the (c) feature-distillation adapter in slot 2 | a new filter, from the ordinary Wiener filter | text | ordinary Wiener + VLM with that adapter |
+
+Everything else follows the chosen run of the part being trained: E1 as `train_c_real_text_8k.yaml` or `train_c_real_lr5e-4_8k.yaml`, E2 as `train_d_text_2k.yaml`. The filter is only trained with the text loss, since the pixel and feature losses did not work for (d). Checkpoints are chosen by validation accuracy, as for (c) and (d); each chosen variant is read on the test set once.
+
+| Variant | Training config | Chosen part and records | Evaluation config | Test results |
+|---|---|---|---|---|
+| E1 ctext | `train_e1_ctext.yaml` | `assets/e1_ctext/` | `e1_ctext.yaml` | `assets/results/e1_ctext/` |
+| E1 cfeature | `train_e1_cfeature.yaml` | `assets/e1_cfeature/` | `e1_cfeature.yaml` | `assets/results/e1_cfeature/` |
+| E2 ctext | `train_e2_ctext.yaml` | `assets/e2_ctext/` | `e2_ctext.yaml` | `assets/results/e2_ctext/` |
+| E2 cfeature | `train_e2_cfeature.yaml` | `assets/e2_cfeature/` | `e2_cfeature.yaml` | `assets/results/e2_cfeature/` |
+
+### Why E1 is expected to work better than E2
+
+This is reasoning written before the results, to be checked against them.
+
+1. **The part that has to change is the reader, and only the reader has the capacity to change.** The mismatch E0 shows lies in the adapter: it has learned what blurred strokes look like. In E2 the filter has to make up for this, but it has 136 parameters and can only set a gain per frequency (one K(f) curve per radius); it can sharpen more or less, not produce an arbitrary image. Its simplest way to please the adapter is to sharpen less, which gives up what (d) gains. In E1 the adapter (10.5 M parameters) adapts instead, and can learn to read through the filter's ringing and amplified noise.
+2. **An adapter must see at training the input it gets at test time.** In the pipeline photograph → filter → reader, the downstream part should be trained on the actual output of the upstream part; E0 shows what happens otherwise. E1 does this: the adapter is trained and tested on the filter's output. E2 does not: its adapter was trained on blurred photographs and is tested on the output of a filter, which cannot turn its output back into a blurred photograph.
+
+What E1 does not fix: its adapter is still trained on a set without digits, so it is expected to lose digits like (c).
+
+## Results of E1 and E2
+
+Added when the runs are finished.
