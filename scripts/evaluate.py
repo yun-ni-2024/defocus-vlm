@@ -35,6 +35,11 @@ def select(cfg):
     """
     d = cfg["data"]
     samples = (test_samples if d["split"] == "test" else train_samples)(steps=d.get("steps"))
+    numbers = d.get("sample_numbers")
+    if numbers is not None:
+        if d["split"] != "train":
+            raise ValueError("sample_numbers is reserved for training subsets")
+        samples = [sample for sample in samples if sample.number in numbers]
     # optionally keep only the first few images of each step, for quick checks
     if d.get("limit_per_step"):
         count, kept = {}, []
