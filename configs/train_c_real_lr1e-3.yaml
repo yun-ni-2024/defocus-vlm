@@ -1,0 +1,44 @@
+# Method (c), real version: train a LoRA adapter for the vision encoder of Qwen2-VL-2B
+# on the real sharp/blurred pairs of the HDC2021 training set, by feature distillation.
+# Read by scripts/train_lora.py. The model and image sections must equal those of baseline_a.yaml,
+# so that the adapter sees the same images at training and at test time.
+# LoRA and loss settings follow the pilot (project spec); training settings are starting values.
+name: train_c_real_lr1e-3
+
+model:
+  path: models/Qwen2-VL-2B-Instruct   # relative to DEFOCUS_ROOT
+  dtype: bfloat16
+  min_pixels: 50176                   # 64 * 28 * 28
+  max_pixels: 351232                  # 448 * 28 * 28
+  max_new_tokens: 48                  # used when reading the validation images
+  prompt: "Transcribe the text in this image exactly as written. Output only the text, one line per line of text."
+
+image:
+  white_percentile: 99.5              # this percentile is scaled to white
+  long_side: 1024                     # downscale before the processor
+
+data:
+  source: real                        # real training pairs; "simulated" for (c) simulated
+  steps: null                         # null = all 20 steps
+  val_every: 10                       # samples whose number is a multiple of this are held out (20 per step)
+
+lora:
+  rank: 16
+  alpha: 32
+  dropout: 0.0
+  target_modules: [attn.qkv, attn.proj, mlp.fc1, mlp.fc2]   # in all 32 blocks; the token merger stays frozen
+
+# loss: mean squared difference between the visual tokens (after the merger) of
+# the student (encoder with LoRA, blurred photo) and the teacher (original encoder, sharp photo)
+
+train:
+  learning_rate: 1.0e-3               # AdamW; 5.0e-4 was the best of 1e-4, 2e-4, 5e-4, so one step higher
+  batch_size: 2                       # image pairs per iteration; 4 does not fit on an RTX A4500 (2 uses 13 GB)
+  iterations: 4000                    # 8000 pairs in total, about 2.2 passes over the training pairs
+  warmup: 200                         # iterations of linear learning-rate warm-up
+  seed: 0
+  workers: 3                          # processes loading images (slurm/gpu.sbatch asks for 4 CPUs)
+
+validation:
+  every: 500                          # iterations between validation runs
+  batch_size: 8                       # images per VLM call when reading
