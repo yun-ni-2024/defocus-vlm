@@ -130,28 +130,37 @@ text −0.89.
 
 ## 7. Training with the text loss
 
-`configs/train_d_text.yaml`: same filter, start and optimiser as before; 8 pairs per step (4 batches
-of 2 accumulated); lr 1e-2 for log K and 1e-3 for the radius correction; 500 steps.
+`configs/train_d_text.yaml` and `configs/train_d_text_2k.yaml`: same filter, start and optimiser as
+before; 8 pairs per step (4 batches of 2 accumulated); lr 1e-2 for log K and 1e-3 for the radius
+correction; 500 and 2000 steps, same seed.
 
-| Step | 0 | 100 | 200 | 300 | 400 | 500 |
-|---|---|---|---|---|---|---|
-| Validation accuracy | 0.831 | 0.869 | 0.880 | 0.889 | 0.892 | 0.897 |
+| Step | 0 | 100 | 200 | 250 | 300 | 400 | 500 | 750 | 1000 | 1250 | 1500 | 1750 | 2000 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 500-step run | 0.831 | 0.869 | 0.880 | | 0.889 | 0.892 | 0.897 | | | | | | |
+| 2000-step run | 0.831 | | | 0.884 | | | 0.896 | 0.898 | 0.899 | 0.900 | **0.904** | 0.900 | 0.903 |
+
+The training loss and the accuracy now move together (mean cross-entropy per 100 steps: 1.24, 0.77,
+0.59, 0.44 over the first 400 steps). Most of the gain comes in the first 500 steps; after that the
+curve is flat within noise and does not fall. The checkpoint with the highest validation accuracy of
+both runs is step 1500 of the 2000-step run (0.904), copied to `assets/d_text/params.json`.
 
 Per defocus step (validation):
 
 | Step | 0–5 | 6–12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
 |---|---|---|---|---|---|---|---|---|---|
 | start | 0.96–0.99 | 0.88–0.96 | 0.82 | 0.86 | 0.83 | 0.75 | 0.58 | 0.31 | 0.11 |
-| text loss, step 500 | 0.96–0.98 | 0.92–0.97 | 0.91 | 0.92 | 0.91 | 0.84 | 0.71 | 0.59 | 0.56 |
+| text loss, step 1500 | 0.96–0.99 | 0.91–0.97 | 0.91 | 0.92 | 0.91 | 0.85 | 0.76 | 0.63 | 0.57 |
 
 The gain is where the start was weakest; light blur is unchanged. What the filter learned is the
-opposite of the pixel run: in the two largest radius bins K fell from 3e-3 to about 1e-3 at middle and
-high frequencies (sharper deconvolution, more noise and ringing) and rose only near the lowest
-frequencies; the radius correction stayed within ±3 %. The VLM tolerates noise and ringing much
-better than blur, which the MSE losses cannot express.
+opposite of the pixel run: in the largest radius bins K fell from 3e-3 to as low as about 4e-4 at
+middle and high frequencies (sharper deconvolution, more noise and ringing) and rose only near the
+lowest frequencies; the radius correction stayed between 0.99 and 1.06. The VLM tolerates noise and
+ringing much better than blur, which the MSE losses cannot express.
 
-The 2000-step run (`configs/train_d_text_2k.yaml`) shows where the curve levels off; the checkpoint is
-chosen by validation accuracy and evaluated on the test split once.
+Test split, read once with this filter (`configs/d_text.yaml`, results in `assets/results/d_text/`):
+mean character accuracy **0.913** over 800 images, against 0.352 for the blurred photographs read
+directly (method (a)) and 0.802 for method (c), real version. Unlike method (c) (validation 0.885,
+test 0.802), the filter loses nothing from validation to test (0.904, 0.913).
 
 ## 8. Related work
 

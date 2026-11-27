@@ -31,3 +31,29 @@ This was a one-off check, not an experiment: there is no run folder. The baselin
 ### The training set has no digits, the test set does
 
 No transcription in the training set contains a digit; most lines in the test set contain at least one. A model trained only on the real training pairs (method (c), real version) never sees a blurred digit. Each test step has 20 Times and 20 Verdana text images.
+
+## 2026-11-26
+
+### Method (d): which training loss works, how the checkpoint was chosen, and the test result
+
+All runs on Runpod RTX PRO 4500 Blackwell (no RTX 4090 was free in the volume's data centre). Every run starts from the ordinary Wiener filter with the estimated radius (K = 3e-3), which scores 0.831 on the validation pairs (the same 400 held-out training pairs as method (c)). The test set was not used for any choice.
+
+| Training config | Loss | Learning rate (log K) | Steps | Best validation accuracy (step) | At the end |
+|---|---|---|---|---|---|
+| `train_d_pixel` | pixel MSE | 1e-2 | 2000 | 0.831 (0) | 0.416 |
+| `train_d_feature` | visual-token MSE | 1e-2 | 2000 | 0.831 (0) | 0.805 |
+| `train_d_feature_lr3e-3` | visual-token MSE | 3e-3 | 2000 | 0.831 (0) | 0.821 |
+| `train_d_text` | text cross-entropy | 1e-2 | 500 | 0.897 (500) | 0.897 |
+| `train_d_text_2k` | text cross-entropy | 1e-2 | 2000 | **0.904 (1500)** | 0.903 |
+
+What the table shows:
+
+- Both MSE losses decrease during training while accuracy falls, on the validation pairs and equally on a training subset (400 pairs: 0.828 to 0.804 for the feature loss, 0.828 to 0.418 for the pixel loss). With 136 parameters this is not overfitting: the losses disagree with reading accuracy. A loss audit on fixed filters (`scripts/audit_losses.py`) confirms it without training: only the text loss ranks the three filters as the accuracy does.
+- The text loss raises accuracy from the first steps; after about 500 steps the curve is flat (0.896 to 0.904) and does not fall.
+- The gain is at heavy blur: on validation, step 19 goes from 0.11 to 0.57 and step 18 from 0.31 to 0.63; steps 0 to 5 are unchanged.
+
+Rule: the checkpoint with the highest validation accuracy of the text-loss runs is used. This is step 1500 of `train_d_text_2k`, saved as `assets/d_text/params.json` and set in `configs/d_text.yaml`. The test set was then read once with it (commit `e88898f`): mean character accuracy **0.913** over the 800 images (`assets/results/d_text/`), against 0.352 for method (a) and 0.802 for method (c), real version. Per step it is at least as high as method (c) everywhere, and 0.57 against 0.37 at step 19.
+
+Validation to test: method (d) 0.904 to 0.913, method (c) 0.885 to 0.802. A possible reason, not tested yet: the test set contains digits and the training set does not (entry of 2026-11-14); the adapted encoder of method (c) can learn what letters look like, the 136-parameter filter cannot.
+
+Evidence: `assets/d_text/training/<training config>/log.csv` for the text-loss runs; the pixel and feature runs and the audit table are in `runs/train_d_pixel_20261126-211036`, `runs/train_d_feature_20261126-202722`, `runs/train_d_feature_lr3e-3_20261126-215036` and `runs/audit_losses_20261126-230543.csv` under `DEFOCUS_ROOT` on the Runpod volume. The text-loss runs record commit `6e3b54b` with `dirty: true`; their code is that of commit `3485423` (checked by sha256). Reasoning and the full audit: `docs/d-loss-design.md`.
