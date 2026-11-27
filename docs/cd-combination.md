@@ -21,7 +21,7 @@ Letter errors plus digit errors (plus inserted punctuation) equal the edit dista
 
 One artefact: under heavy blur the frozen VLM writes coordinate-like strings such as `(181,187),(807,484)`; now and then one of their digits lines up with a ground-truth digit, which gives it a digit accuracy above 0 by chance (0.165 at steps 15 to 19, where its letter accuracy is 0.011).
 
-The tables are produced by `python scripts/char_classes.py --groups 0-5,6-11,12-14,15-19,0-19 <result folders>` (`src/eval/char_classes.py`), from `predictions.csv` of each result folder.
+The tables are produced by `python scripts/char_classes.py --groups 0-5,6-11,12-14,15-19,0-19 <result folders>` (`src/eval/char_classes.py`), from `predictions.csv` of each result folder. This accuracy split is added to the code on the `plotting` branch; until that branch is merged, `scripts/char_classes.py` on `main` gives only the older recall table.
 
 ## E0: both parts as trained, no retraining
 
@@ -141,3 +141,7 @@ A possible reason for the digit result, not tested: on the filter's output the c
 ### What this means
 
 E0, E1 and E2 together show that combining the two parts works only when the reader is trained on the output of the filter. In that order, the physics-based filter does the part it can do (undoing a disc blur whose radius it estimates), the adapter learns to read what remains, and the combination is better than either part on letters and keeps most of the generalisation of (d) to digits.
+
+## Provenance of the runs
+
+The training and test runs above were made on a local branch that also contained the `plotting` branch; this branch was then rebuilt on `main` without it, so the commits recorded in the runs' `meta.json` (`495820d`, `8b6839d`, `b52a55b`, `fe34160`, `0255ea1`) are not on this branch. The code the runs used is the same here: `src/adapt/`, `src/frontend/`, `src/restore/learned_wiener.py`, `src/vlm/`, `scripts/train_lora.py`, `scripts/train_wiener.py` and the configs are unchanged; `scripts/evaluate.py` only has an optional `data.sample_numbers` from `main` that these configs do not use. The difference is the letter/digit accuracy code of `plotting`, which only analyses the results.
