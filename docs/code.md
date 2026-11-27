@@ -13,6 +13,7 @@ What each file does. How they fit together: `pipeline.md`.
 | `vlm/text_loss.py` | `TextLoss`: the cross-entropy of the correct transcription under the VLM (teacher forcing), for a restored image tensor (method (d)) or a PIL image (method (c) with the text loss). |
 | `eval/metrics.py` | `char_accuracy(pred, truth)`: 1 minus the edit distance divided by the length of the ground truth, clipped at 0. |
 | `eval/summary.py` | `summarise(rows)` averages the scores of each step and adds a bootstrap 95% confidence interval; `write_summary` saves it as CSV. |
+| `eval/char_classes.py` | Marks each ground-truth character as read or not (`read_mask`) and counts the recall of digits and of letters per step (`counts_per_step`, `group_counts`). |
 | `restore/__init__.py` | Slot 1. `build_restorer(cfg)` loads the method named in the config's `restore` section from `src/restore/<name>.py`, or returns None for an empty slot. |
 | `restore/identity.py` | A restorer that returns the image unchanged, used to check that the slot itself changes nothing. |
 | `restore/learned_wiener.py` | Slot 1 for method (d): loads a trained filter (`params/it<N>.json`), estimates the radius of each photograph and deconvolves it with `frontend/wiener.py`. |
@@ -37,6 +38,7 @@ What each file does. How they fit together: `pipeline.md`.
 | `train_wiener.py` | Trains the learnable Wiener filter of method (d) from a training config and writes the run folder (`log.csv`, `val/`, `params/`). |
 | `check_frontend.py` | Runs the method (d) checks of `frontend/checks.py`. |
 | `audit_losses.py` | For saved method (d) filters, computes the pixel, feature and text losses of every validation photograph and reports how well each agrees with reading accuracy. |
+| `char_classes.py` | Prints the recall of digits and of letters for result folders, per step or per group of steps (`--groups 0-4,5-14,15-19`). No GPU needed. |
 
 ## `configs/`: one file per experiment
 
