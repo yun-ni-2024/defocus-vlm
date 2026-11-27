@@ -1,0 +1,34 @@
+# E2 with the feature-distillation adapter: test photographs deconvolved by the filter trained by
+# configs/train_e2_cfeature.yaml through the VLM with the adapter of configs/c_real.yaml (iteration 1750, best
+# validation accuracy 0.851), then read with that adapter. Everything except `name` and `restore.params` is as in e_cd_feature.yaml.
+name: e2_cfeature
+
+model:
+  path: models/Qwen2-VL-2B-Instruct   # relative to DEFOCUS_ROOT
+  dtype: bfloat16
+  min_pixels: 50176                   # 64 * 28 * 28
+  max_pixels: 351232                  # 448 * 28 * 28
+  max_new_tokens: 48
+  prompt: "Transcribe the text in this image exactly as written. Output only the text, one line per line of text."
+  lora: runs/train_c_real_lr5e-4_8k_20261126-042519/adapters/it7000   # slot 2, relative to DEFOCUS_ROOT (as in c_real.yaml)
+
+restore:                              # slot 1: the trained filter (src/restore/learned_wiener.py)
+  name: learned_wiener
+  params: assets/e2_cfeature/params.json   # chosen checkpoint, copied from runs/train_e2_cfeature_<time>/params/it1750.json; relative to the repository
+  radius: estimated
+  estimator: psf_backup               # radius estimator: src/<estimator>.estimate_radius
+  radius_cache: cache/radii_test_psf_backup.json   # from scripts/estimate_radii.py, relative to DEFOCUS_ROOT
+  device: cuda
+
+image:
+  white_percentile: 99.5              # this percentile is scaled to white
+  long_side: 1024                     # downscale before the processor
+
+data:
+  split: test
+  camera: blurred                     # "blurred" for (a); "sharp" gives the in-focus reference
+  steps: null                         # null = all 20 steps
+  limit_per_step: null                # null = all 40 images per step
+
+batch_size: 8
+keep_whitespace: false                # all spaces and line breaks are ignored when scoring
