@@ -1,0 +1,28 @@
+# Method (c) with the text loss: test photographs read by Qwen2-VL-2B with the LoRA adapter
+# trained by configs/train_c_real_text_8k.yaml, checkpoint at iteration 6000 (best validation accuracy, 0.921).
+# Everything except the adapter is the same as configs/c_real.yaml.
+name: c_real_text
+
+model:
+  path: models/Qwen2-VL-2B-Instruct   # relative to DEFOCUS_ROOT
+  dtype: bfloat16
+  min_pixels: 50176                   # 64 * 28 * 28
+  max_pixels: 351232                  # 448 * 28 * 28
+  max_new_tokens: 48
+  prompt: "Transcribe the text in this image exactly as written. Output only the text, one line per line of text."
+  lora: runs/train_c_real_text_8k_20261127-060912/adapters/it6000   # slot 2, relative to DEFOCUS_ROOT
+
+restore: null                         # slot 1: image processing before the VLM (src/restore/); null = none
+
+image:
+  white_percentile: 99.5              # this percentile is scaled to white
+  long_side: 1024                     # downscale before the processor
+
+data:
+  split: test
+  camera: blurred                     # "blurred" for (a); "sharp" gives the in-focus reference
+  steps: null                         # null = all 20 steps
+  limit_per_step: null                # null = all 40 images per step
+
+batch_size: 8
+keep_whitespace: false                # all spaces and line breaks are ignored when scoring

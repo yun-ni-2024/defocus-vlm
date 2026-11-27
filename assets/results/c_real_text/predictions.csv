@@ -1,0 +1,4001 @@
+step,font,number,file,truth,prediction,accuracy
+0,Times,1,focusStep_0_timesR_size_30_sample_0001.tif,"UbuJkRjtQY
+VFhh3nrV98
+fMEmU8cgR4","UbuJkRjtQY
+VFhh3nrV98
+fMEmU8cgR4",1.0
+0,Times,2,focusStep_0_timesR_size_30_sample_0002.tif,"HKLJZ9Yg7t
+JKfdi9T2t9
+f3qd 9ZVzn","HKLJZ9Yg7t
+JKfdi9T2t9
+f3qd 9ZVzn",1.0
+0,Times,3,focusStep_0_timesR_size_30_sample_0003.tif,"tBRKVNmwMK
+UDWN9yRN3U
+wBtQD4xb G","tBRKVNmwMK
+UDWN9yRN3U
+wBtQD4xb G",1.0
+0,Times,4,focusStep_0_timesR_size_30_sample_0004.tif,"q23geBA8zA
+ZVY3Nc4A7U
+Hc 8yJZ2DU","q23geBA8zA
+ZVY3Nc4A7U
+Hc 8yJZ2DU",1.0
+0,Times,5,focusStep_0_timesR_size_30_sample_0005.tif,"WTpCpYJEuf
+76HgXZZJdw
+UbuHYfgEzK","WTpCpYJEuf
+76HgXZZJdw
+UbuHYfgEzK",1.0
+0,Times,6,focusStep_0_timesR_size_30_sample_0006.tif,"CL mZLMrS 
+r2uraZPd3Q
+UgrpFeuDdL","CL mZLMrS
+rZuraZPd3Q
+UgrpFeuDdL",0.9643
+0,Times,7,focusStep_0_timesR_size_30_sample_0007.tif,"TP 6RXfxE5
+4UAfKUx7LF
+BdVDC2EXCw","TP 6RXfxE5
+4UAfKUx7LF
+BdVDC2EXCw",1.0
+0,Times,8,focusStep_0_timesR_size_30_sample_0008.tif,"LuvujkThdx
+K4MMYZQkwg
+SGR YZ3B5n","LuvujkThdx
+K4MMYZQkwg
+SGR YZ3B5n",1.0
+0,Times,9,focusStep_0_timesR_size_30_sample_0009.tif,"NNEz rFZv6
+vhzN5eLSeH
+8RmC S86Ki","NNEz rFZvb
+vhzN5eLSeH
+8RmC S8bKi",0.9286
+0,Times,10,focusStep_0_timesR_size_30_sample_0010.tif,"TiDGJAUmmR
+TMKAvAyEUR
+pj5P9 z67S","TiDGJAUmmR
+TMKAvAyEUR
+pj5P9 z67S",1.0
+0,Times,11,focusStep_0_timesR_size_30_sample_0011.tif,"67UZvcJxqJ
+UQm6bMzZnL
+hk iSL8eER","67UZvcJxqJ
+UQmbMzZnL
+hk iSL8eER",0.9655
+0,Times,12,focusStep_0_timesR_size_30_sample_0012.tif,"cgJU9Zzx 2
+8uvcTkHjRR
+u222LhGjXx","cgJU9Zzx 2
+SuvcTkHjRR
+u222LhGjXx",0.9655
+0,Times,13,focusStep_0_timesR_size_30_sample_0013.tif,"SDkpQUADjd
+UVH7PCKYEm
+hWVrXQZPHi","SDkpQUADjd
+UVH7PCKYEm
+hWVrXQZPHi",1.0
+0,Times,14,focusStep_0_timesR_size_30_sample_0014.tif,"ex4Pabcjy 
+aUpKaeGE4u
+Qn QmbZMcj","ex4Pabcjy
+aUpKaeGE4u
+Qn QmbZMcj",1.0
+0,Times,15,focusStep_0_timesR_size_30_sample_0015.tif,"XKwuGLi47D
+CwN6DrERc9
+pRYDM6prZx","XKwuGLi47D
+CwN6DrERc9
+pRYDM6prZx",1.0
+0,Times,16,focusStep_0_timesR_size_30_sample_0016.tif,"fCT87qkL6u
+myQLzzFLHd
+BkBkqAd9XK","fCT87qkLbu
+myQLzzFLHd
+BkBkqAd9XXK",0.9333
+0,Times,17,focusStep_0_timesR_size_30_sample_0017.tif,"wu S EqF h
+5q5P3nDJ4x
+E76YvcH94Q","wu S EqF h
+5q5P3nDJ4x
+E76YvcH94Q",1.0
+0,Times,18,focusStep_0_timesR_size_30_sample_0018.tif,"yAuW8gtPTy
+ZTE6cJ9FTB
+ k5mLHGxaG","yAuWSgtPTy
+ZTEbcJ9FTB
+k5mLHGxaG",0.931
+0,Times,19,focusStep_0_timesR_size_30_sample_0019.tif,"95HMv4Xvsi
+xgUXGnhaey
+TpBZE9whAD","95HMv4Xvsi
+xgUXGnhaey
+TpBZEJwhAD",0.9667
+0,Times,20,focusStep_0_timesR_size_30_sample_0020.tif,"wT3624KWhp
+iBN4dUYbHg
+ZEk6xCpEpM","wT3624KWhp
+iBN4dUYbHg
+ZEk6xCpEpM",1.0
+0,Verdana,1,focusStep_0_verdanaRef_size_30_sample_0001.tif,"By9diwbzBQ
+bcNiiqLZ2W
+ 2h2b 3yyk","By9diwbzBQ
+bcNiiqLZzW
+ZhZb 3yyk",0.8929
+0,Verdana,2,focusStep_0_verdanaRef_size_30_sample_0002.tif,"v6k8ddx2 t
+uVmxBPU8dz
+VMAKLepqf","v6k8ddx2 t
+uVmxBPU8dz
+VMAKLepqf",1.0
+0,Verdana,3,focusStep_0_verdanaRef_size_30_sample_0003.tif,"HeYdvNpNcJ
+8XnwVB2cgY
+jS9MaR9BGp","HeYdvNpNcJ
+8XnwVBZcgY
+jS9MaR9BGp",0.9667
+0,Verdana,4,focusStep_0_verdanaRef_size_30_sample_0004.tif,"ekkB5CdV7L
+bQw7qkCRLs
+hbp4NLvWdE","ekkB5CdV7L
+bQw7qkCRLs
+hbp4NLvWdE",1.0
+0,Verdana,5,focusStep_0_verdanaRef_size_30_sample_0005.tif,"Qx ZfNZgAJ
+AesfrqEUSG
+EZ2U6AEELQ","Qx ZfNZgAJ
+AesfrqEUSG
+EZzU6AEELQ",0.9655
+0,Verdana,6,focusStep_0_verdanaRef_size_30_sample_0006.tif,"7XPiNr VWa
+mf9kWPfkNU
+zVaCKETbAx","7XPiNr VWa
+mf9kWPfkNU
+zVaCKETbAx",1.0
+0,Verdana,7,focusStep_0_verdanaRef_size_30_sample_0007.tif,"X7U TQ56Z8
+aYwFewYRZc
+qFdDbQrrCg","X7U TQ56Z8
+aYwFewYRZc
+qFdDbQrrCg",1.0
+0,Verdana,8,focusStep_0_verdanaRef_size_30_sample_0008.tif,"JDTa5rkxvv
+qz25g8ZRFZ
+zjjHMvCPGC","JDTaSrkhvv
+qz25g8ZRFZ
+zjjHMvCPGC",0.9333
+0,Verdana,9,focusStep_0_verdanaRef_size_30_sample_0009.tif,"rTBWktJAzg
+7hsSDJk4zY
+Qp tCGYfhU","rTBWktJAzg
+7hsSDJk4zY
+Qp tCGYfhU",1.0
+0,Verdana,10,focusStep_0_verdanaRef_size_30_sample_0010.tif,"CWiZ44ka56
+4Nrkw8YpZz
+7JuxAKwCL9","CWiZ44ka56
+4Nrkw8YpZz
+7JuxAKwCL9",1.0
+0,Verdana,11,focusStep_0_verdanaRef_size_30_sample_0011.tif,"4frnneaJ7Y
+B9MhtdGPPu
+fjH5ctR y3","4frnneaJ7Y
+B9MhtdGPPu
+fjH5ctR y3",1.0
+0,Verdana,12,focusStep_0_verdanaRef_size_30_sample_0012.tif,"mxGJvie7wA
+bmQzagaxkG
+GvDF5JCgPn","mxGJvie7wA
+bmQzagaxkG
+GvDFSJCgPn",0.9667
+0,Verdana,13,focusStep_0_verdanaRef_size_30_sample_0013.tif,"Qu9zRZTg72
+6GLqmbHaEd
+xQ6RJcHWiE","Qu9zRZTg72
+6GLqmbHaEd
+xQ6RJcHWiE",1.0
+0,Verdana,14,focusStep_0_verdanaRef_size_30_sample_0014.tif,"ByeCQM5SBe
+aHjRikDCTd
+hPe4dmsrrn","ByeCQM5SBe
+aHjRikDCTd
+hPe4dmsrrn",1.0
+0,Verdana,15,focusStep_0_verdanaRef_size_30_sample_0015.tif,"jK7wqn2p G
+fQrLuWGKdB
+Xm23zhRYED","jK7wqn2p G
+fQrLuWGKdB
+XmZ3zhRYED",0.9655
+0,Verdana,16,focusStep_0_verdanaRef_size_30_sample_0016.tif,"dhFy5RmbzT
+kUPJ78jwgn
+wmMB6DeyAr","dhFy5RmbzT
+kUPJ78jwgn
+wmMB6DeyAr",1.0
+0,Verdana,17,focusStep_0_verdanaRef_size_30_sample_0017.tif,"rtbn9Y7ThF
+gD466MwgdB
+5F ptbvXDD","rtbn9Y7ThF
+gD466MwgdB
+5F ptbvXDD",1.0
+0,Verdana,18,focusStep_0_verdanaRef_size_30_sample_0018.tif,"BVQiX2THcD
+WZuHLCucmd
+nh6 Xkrju9","BVQiXzTHcD
+WZuHLCucmd
+nhG Xkrju9",0.931
+0,Verdana,19,focusStep_0_verdanaRef_size_30_sample_0019.tif,"X tDKNA bR
+kzmvdz5dLB
+wK5U2pUzXb","X tDKNA bR
+kzmvdz5dLB
+wKSU2pUzXb",0.9643
+0,Verdana,20,focusStep_0_verdanaRef_size_30_sample_0020.tif,"7UtTexCVNy
+Le88Dh3VwM
+ paepZAMtu","7UtTexCVNy
+Le88Dh3VwM
+ paepZAMtu",1.0
+1,Times,1,focusStep_1_timesR_size_30_sample_0001.tif,"qgBus3nN9L
+2cXuPSKPVP
+NsSkeWWfA","qgBusJnN9L
+2cXuPSKPVP
+NsSkeWWfA",0.9655
+1,Times,2,focusStep_1_timesR_size_30_sample_0002.tif,"XFm5TER qR
+gSj8k7yefL
+hdxbCimMTW","XFmSTER qR
+gSj8k7yefL
+hdxbCimMTW",0.9655
+1,Times,3,focusStep_1_timesR_size_30_sample_0003.tif,"rNj3DZANP
+HfTrJsvMFD
+vCmzXxUaSp","rNj3DZANP
+HfTrJsvMFD
+vCmzXxUaSp",1.0
+1,Times,4,focusStep_1_timesR_size_30_sample_0004.tif,"3A4JQmhRaz
+sF6bNdhYyz
+8zPnK SkBU","JA4JQmhRaz
+sF6bNdhYyz
+8zPnK SkBU",0.9655
+1,Times,5,focusStep_1_timesR_size_30_sample_0005.tif,"t24yhwAFak
+4R997FdGhV
+NBq6EFRDqU","t24yhwAFak
+4R997FdGhV
+NBq6EFRDqU",1.0
+1,Times,6,focusStep_1_timesR_size_30_sample_0006.tif,"JJNaaKfVDS
+Rvpdr92Q4W
+mZZ79DM ZT","JJNaaKfVDs
+Rvpdr92Q4W
+mZZ79DM ZT",0.9655
+1,Times,7,focusStep_1_timesR_size_30_sample_0007.tif,"UH2E2V2BFQ
+7eQLUDFPGR
+ArH QPnrde","UH2E2V2BFQ
+7eQLUDFPGR
+ArH QPnrde",1.0
+1,Times,8,focusStep_1_timesR_size_30_sample_0008.tif,"eztDypfM4P
+kYr9bmtdtg
+CiTC3n3MDu","eztDypfM4P
+kYr9bmtdtg
+CiTC3n3MDu",1.0
+1,Times,9,focusStep_1_timesR_size_30_sample_0009.tif,"DHssYPPdUu
+vNW6XMM9xc
+D5N3DjTNWf","DHssYPPdUu
+vNW6XMMJxc
+DSN3DjTNWf",0.9333
+1,Times,10,focusStep_1_timesR_size_30_sample_0010.tif,"AkwgHyEhLt
+ywPqAD53bF
+A9cpr4UqDY","AkwgHyEhLt
+ywPqAD53bF
+A9cpr4UqDY",1.0
+1,Times,11,focusStep_1_timesR_size_30_sample_0011.tif,"6xXCf NntE
+pqbf7iKYZt
+8bG3aNGYas","6xXCf NntE
+pqbf7iKYZt
+8bGJaNGYas",0.9655
+1,Times,12,focusStep_1_timesR_size_30_sample_0012.tif,"2w66Cwxv5 
+m83M45VYcM
+yhmchLqY6C","2w66CwxvS
+m83M45VYcM
+yhmchLqY6C",0.9655
+1,Times,13,focusStep_1_timesR_size_30_sample_0013.tif,"nb5TmKrdP9
+VecqV7FpYA
+QDX4RMz3Dw","nb5TmKrdPJ
+VecqV7FpYA
+QDX4RMz3Dw",0.9667
+1,Times,14,focusStep_1_timesR_size_30_sample_0014.tif,"S5cW9w7NGt
+YJgVmpEn5m
+phKKf6ftpE","S5cWJwTNGt
+YJgVmpEnSm
+phKKf6ftpE",0.9
+1,Times,15,focusStep_1_timesR_size_30_sample_0015.tif,"qu 5MS BQm
+a6NLKH2VWH
+GDG 9F4yAK","qu 5MS BQm
+abNLKH2VWH
+GDG 9F4yAK",0.963
+1,Times,16,focusStep_1_timesR_size_30_sample_0016.tif,"MsBFpHH F3
+zn4UCJqwmA
+CjFKzYNX2e","MsBFpHH F3
+zn4UCJqwmA
+CjFKzYNX2e",1.0
+1,Times,17,focusStep_1_timesR_size_30_sample_0017.tif,"zhhjHm6QEC
+jkxHD2zuKJ
+ZiZ ZzM5LS","zhhjHm6QEC
+jkxHD2zuKJ
+ZiZ ZzM5LS",1.0
+1,Times,18,focusStep_1_timesR_size_30_sample_0018.tif,"tu CzQjykP
+angGBXTvYz
+KAv732ggvx","tu CzQjykP
+angGBXTvYz
+KAv732ggvx",1.0
+1,Times,19,focusStep_1_timesR_size_30_sample_0019.tif,"baiRCmKY a
+qCJbK6UqXk
+y5KJ6TFJ2G","baiRCmKY a
+qCJbK6UqXk
+y5KJ6TFJ2G",1.0
+1,Times,20,focusStep_1_timesR_size_30_sample_0020.tif,"c6PdB7wvjM
+dY42QKDXtY
+RrRvg8jr6r","c6PdB7wvjM
+dY42QKDXtY
+RrRvg8jrbr",0.9667
+1,Verdana,1,focusStep_1_verdanaRef_size_30_sample_0001.tif,"NU7ZtYiGYR
+5DiPQ6mYS9
+N6b62xUhfu","NU7ZtYiGYR
+5DiPQ6mYS9
+N6b62xUhfu",1.0
+1,Verdana,2,focusStep_1_verdanaRef_size_30_sample_0002.tif,"yDd7wk7MgC
+FPTYDQh3tD
+eJJAxDbAja","yDd7wk7MgC
+FPTYDQh3tD
+eJJAxDbAja",1.0
+1,Verdana,3,focusStep_1_verdanaRef_size_30_sample_0003.tif,"avs2dWcMT9
+Mt6UbkHNJh
+VM3UizZi99","avsZdWcMT9
+Mt6UbkHNJh
+VM3UizZi99",0.9667
+1,Verdana,4,focusStep_1_verdanaRef_size_30_sample_0004.tif,"HryNE uvsA
+7KAqNRepaV
+YubXnhHauv","HryNE uvsA
+7KAqNRepaV
+YubXnhHauv",1.0
+1,Verdana,5,focusStep_1_verdanaRef_size_30_sample_0005.tif,"Q8byxu5LWx
+DQcm3Ce2Si
+i84wsyVJ6P","Q8byxu5LWx
+DQcm3Ce2Si
+i84wsyVJ6P",1.0
+1,Verdana,6,focusStep_1_verdanaRef_size_30_sample_0006.tif,"6PHh59aC6q
+YazZuAmUkd
+ jcugSd xE","6PHh59aC6q
+YazZuAmUkd
+jcugSd xE",1.0
+1,Verdana,7,focusStep_1_verdanaRef_size_30_sample_0007.tif,"tLYMzKQkm6
+EEVaUa5eyK
+GLwPaKrVsF","tLYMzKQkm6
+EEVaUa5eyK
+GLwPaKrVsF",1.0
+1,Verdana,8,focusStep_1_verdanaRef_size_30_sample_0008.tif,"hL aHFDWJ9
+YjPyYVz9uy
+cx7Fj3mgEx","hL aHFDWJ9
+YjPyYVz9uy
+cx7Fj3mgEx",1.0
+1,Verdana,9,focusStep_1_verdanaRef_size_30_sample_0009.tif,"VQqGEBMZeF
+yBy3s2YHY2
+zpFHxtypvw","VQqGEBMZeF
+yBy3sZYHYZ
+zpFHxtypvw",0.9333
+1,Verdana,10,focusStep_1_verdanaRef_size_30_sample_0010.tif,"NmgDsWkMud
+yumpe9aqyT
+bBT8aD 2ST","NmgDsWkMud
+yumpe9aqtyT
+bBT8aD 2ST",0.9655
+1,Verdana,11,focusStep_1_verdanaRef_size_30_sample_0011.tif,"VcExgpgzPi
+UR3yXHAh5T
+5hHB3iU2ey","VcExgpgzPi
+UR3yXHAh5T
+5hHB3iUZey",0.9667
+1,Verdana,12,focusStep_1_verdanaRef_size_30_sample_0012.tif,"fBDKMg r9g
+9ma9tqGm26
+iSmJemeMak","fBDKMg r9g
+9ma9tqGm26
+iSmJemeMak",1.0
+1,Verdana,13,focusStep_1_verdanaRef_size_30_sample_0013.tif,"NPNLCJr9t4
+NqEysVHmUT
+VLWqPjr45e","NPNLCJr9t4
+NqEysVHmUT
+VLWqPjr45e",1.0
+1,Verdana,14,focusStep_1_verdanaRef_size_30_sample_0014.tif,"idCXFM3ttR
+PkFuhs7khy
+MPJqdeaxU7","idCXFM3ttR
+PkFuhs7khy
+MPJqdeaxU7",1.0
+1,Verdana,15,focusStep_1_verdanaRef_size_30_sample_0015.tif,"TyGPmmfaKX
+tiQbGrAjAV
+ryrKzjpTbe","TyGPmmfaKX
+tiQbGrAjAV
+ryrKzjpTbe",1.0
+1,Verdana,16,focusStep_1_verdanaRef_size_30_sample_0016.tif,"mVvhLmLezx
+XwCgqXLT3U
+h3JZPKnxKb","mVvhLmLezx
+XwCgqXLT3U
+h3JZPKnxKb",1.0
+1,Verdana,17,focusStep_1_verdanaRef_size_30_sample_0017.tif,"d4ETFWJjqj
+G7fWm5uWY2
+kHjDdy4SED","d4ETFWJjqj
+G7fWm5uWY2
+kHjDdy4SED",1.0
+1,Verdana,18,focusStep_1_verdanaRef_size_30_sample_0018.tif,"5JxKn9t87B
+qjjVqfh6zc
+bmkQwsA2DA","SJxKn9t87B
+qjjVqfh6zc
+bmkQwsAZDA",0.9333
+1,Verdana,19,focusStep_1_verdanaRef_size_30_sample_0019.tif,"Z UsXd7cGQ
+HtF3VLNQx2
+iwuFhGnPzj","Z UsXd7cGQ
+HtF3VLNQx2
+iwuFhGnPzj",1.0
+1,Verdana,20,focusStep_1_verdanaRef_size_30_sample_0020.tif,"UMdwuaFYFz
+v888uDShhx
+M9CVjFsNWK","UMdwuaFYFz
+v888uDShhx
+M9CVjFsNWK",1.0
+2,Times,1,focusStep_2_timesR_size_30_sample_0001.tif,"gQY4bQQT8
+wSAc5W5suv
+9DzcRqaq4A","gQY4bQQT8
+wSAcSWsuv
+9DzcRqaq4A",0.931
+2,Times,2,focusStep_2_timesR_size_30_sample_0002.tif,"375s2DLHM 
+SBx8JhyLCf
+yd5FAZy9a5","375s2DLHM
+SBx8JhyLCf
+yd5FAZy9a5",1.0
+2,Times,3,focusStep_2_timesR_size_30_sample_0003.tif,"2NjJhrQ M 
+8TvJxffyeR
+5XXfRweVFU","2NjJhrQ M
+8TvJxffyeR
+5XXfRweVFU",1.0
+2,Times,4,focusStep_2_timesR_size_30_sample_0004.tif,"TGWEQK4pGQ
+AJHCME7vqk
+7K gzpqz9p","TGWEQK4pGQ
+AJHCME7vqk
+7K gzpqz9p",1.0
+2,Times,5,focusStep_2_timesR_size_30_sample_0005.tif,"arNWgEVtky
+wWt4QrH27Q
+YF PkR9kwV","arNWgEVtky
+wWt4QrH27Q
+YFPkR9kwV",1.0
+2,Times,6,focusStep_2_timesR_size_30_sample_0006.tif,"crTwDdM36 
+hRJ7BUMDBG
+sR4MdZkjUM","crTwDdM36
+hRJ7BUMDBG
+sR4MdZkjUM",1.0
+2,Times,7,focusStep_2_timesR_size_30_sample_0007.tif,"qHUbiFRLyn
+zvpSmKArsV
+28hNZXJFWD","qHUbiFRLyn
+zvpSmKArsv
+28hNZXJFWD",0.9667
+2,Times,8,focusStep_2_timesR_size_30_sample_0008.tif,"wDbC4DHjZ
+6WbSaWwCcC
+Ga4ufA6 ix","wDbC4DHjZ
+6WbSaWwCcC
+Ga4ufA6 ix",1.0
+2,Times,9,focusStep_2_timesR_size_30_sample_0009.tif,"C5ppgb bvM
+nnFLqC2Wez
+P5GzLPMsae","CSppgb bvM
+nnFLqC2Wez
+PSGzLPMsae",0.931
+2,Times,10,focusStep_2_timesR_size_30_sample_0010.tif,"f4H4uLFaJY
+iBtGmnNbMy
+tEnj 2vdng","f4H4uLFaJY
+iBtGmnNbMy
+tEnj 2vdng",1.0
+2,Times,11,focusStep_2_timesR_size_30_sample_0011.tif,"rXKjMb vRX
+fe9zbyGqFd
+wbhZ5XBBdU","rXXjMb vRX
+feJzbyGqFd
+wbhZSXBBdU",0.8966
+2,Times,12,focusStep_2_timesR_size_30_sample_0012.tif,"vN3StfP UN
+XWhwrRcG5K
+VWQafgu5eP","vNJStfP UN
+XWhwrRcGSK
+VWQafguSeP",0.8966
+2,Times,13,focusStep_2_timesR_size_30_sample_0013.tif,"CYAuTJNKg 
+D4SFc3N8v2
+39zzq2FnNz","CYAuTJNKg
+D4SFc3N8v2
+3Jzq2FnNz",0.931
+2,Times,14,focusStep_2_timesR_size_30_sample_0014.tif,"mBcN7L t84
+pc5sVHLBhT
+CYfxdExhhA","mBcN7L t84
+pc5sVHLBhT
+CYfxdExhhA",1.0
+2,Times,15,focusStep_2_timesR_size_30_sample_0015.tif,"3dUTTDquin
+wt7NPRAaWe
+jkDA9 HDb6","3dUTTDquin
+wt7NPRAaWe
+jkDA9 HDb6",1.0
+2,Times,16,focusStep_2_timesR_size_30_sample_0016.tif,"kLXnYfzQgV
+crb48PjDG8
+WBT8ec85a3","kLXnYfzQgV
+crb48PjDG8
+WBT8ec85a3",1.0
+2,Times,17,focusStep_2_timesR_size_30_sample_0017.tif,"qk2uDUHBWg
+LQubDCEvqd
+g5GE77rbE7","qkZuDUHBWg
+LQubDCEvqd
+gSGE7rbE7",0.9
+2,Times,18,focusStep_2_timesR_size_30_sample_0018.tif,"wbszTLA3cL
+zLDe8ptw8T
+WES2c7VkWi","wbszTLA3cL
+zLDe8ptw8T
+WES2c7VkWi",1.0
+2,Times,19,focusStep_2_timesR_size_30_sample_0019.tif,"C7Een6x8b9
+kdRqwPN5gS
+sgk99ubP7U","C7Een6x8b9
+kdRqwPN5gS
+sgk9JubP7U",0.9667
+2,Times,20,focusStep_2_timesR_size_30_sample_0020.tif,"wPqT5yAnnK
+WchB4jRz3j
+fqXuZ5iBab","wPqTSyAnnK
+WchB4jRz3j
+fqXuZSiBab",0.9333
+2,Verdana,1,focusStep_2_verdanaRef_size_30_sample_0001.tif,"bZmQQHhVw2
+P4zYTDvTaf
+TdMhizrpKz","bZmQQHhVwZ
+P4zYTDvTaf
+TdMhizrpKz",0.9667
+2,Verdana,2,focusStep_2_verdanaRef_size_30_sample_0002.tif,"gNPfKVDrdF
+DL3wGHjLZ8
+VP QVVjY 9","gNPfKVDrdF
+DL3wGHjLZ8
+VP QVVjY 9",1.0
+2,Verdana,3,focusStep_2_verdanaRef_size_30_sample_0003.tif,"Z dFmep77t
+FLbFWx3x8X
+KkVT4NYfiN","Z dFmep77t
+FLbFWx3x8X
+KkVT4NYfiN",1.0
+2,Verdana,4,focusStep_2_verdanaRef_size_30_sample_0004.tif,"bb6mLbgzgD
+WEqKq9vDqt
+SLtx48HnAM","bb6mLbgzgD
+WEqKq9vDqt
+SLtx48HnAM",1.0
+2,Verdana,5,focusStep_2_verdanaRef_size_30_sample_0005.tif,"mfC9 HU337
+USPKGZHhbp
+iVpfgKdDLC","mfC9 HU337
+USPKGZHhbp
+iVpfgKdDLC",1.0
+2,Verdana,6,focusStep_2_verdanaRef_size_30_sample_0006.tif,"k5UDfiWahz
+Cb9LTRQNEK
+RT3z4MEmMY","kSUDfiWahz
+Cb9LTRQNEK
+RTJz4MEmMY",0.9333
+2,Verdana,7,focusStep_2_verdanaRef_size_30_sample_0007.tif,"k4JYM pF6Z
+RsLNLPvBki
+ iq7Xms3NS","k4JYM pF6Z
+RsLNLPvBki
+iq7Xms3NS",1.0
+2,Verdana,8,focusStep_2_verdanaRef_size_30_sample_0008.tif,"tXZFjKTywh
+k77drVtjf4
+XGJhn6Ht3v","tXZFjKTywh
+k77drVtjf4
+XGJhn6Ht3v",1.0
+2,Verdana,9,focusStep_2_verdanaRef_size_30_sample_0009.tif,"JpU5vXmN5F
+tEnTSGq3iE
+zyvw8zjLYd","JpUSvXmN5F
+tEnTSGq3iE
+zyvwBzjLYd",0.9333
+2,Verdana,10,focusStep_2_verdanaRef_size_30_sample_0010.tif,"t6gRrxLaJL
+GGxtmcUt9j
+QvReWvvtPw","t6gRrxLaJL
+GGxtmcUt9j
+QvReWvvtPw",1.0
+2,Verdana,11,focusStep_2_verdanaRef_size_30_sample_0011.tif,"5UJCV5T8tH
+HSj58W7PMa
+5cDh4RydP9","SUJCV5T8tH
+HSj58W7PMa
+5cDh4RydP9",0.9667
+2,Verdana,12,focusStep_2_verdanaRef_size_30_sample_0012.tif,"rNGdMhxNxC
+7XpwEhTFrT
+iLLtRjC5qH","rNGdMhxNxC
+7XpwEhTFrT
+iLLtRjC5qH",1.0
+2,Verdana,13,focusStep_2_verdanaRef_size_30_sample_0013.tif,"DJXPZJgzKJ
+yHUkPXhwDp
+rjnkU NDCH","DJXPZJgzKJ
+yHUkPXhwDp
+rjnkU NDCH",1.0
+2,Verdana,14,focusStep_2_verdanaRef_size_30_sample_0014.tif,"qAsuSpTQGm
+ByXjBd2KS5
+pMi8Tnhm6w","qAsuSpTQGm
+ByXjBd2KS5
+pMi8Tnhm6w",1.0
+2,Verdana,15,focusStep_2_verdanaRef_size_30_sample_0015.tif,"YDg8ssmNiY
+DwtsvzXsbM
+V3XxhLVKm4","YDgSssmNiY
+DwtsvzXsbM
+V3XxhLVKm4",0.9667
+2,Verdana,16,focusStep_2_verdanaRef_size_30_sample_0016.tif,"LAQKTQQQfV
+cG58r2eqHG
+P4AMB JXtr","LAQKTQQQfV
+cG58r2eqHG
+P4AMB JXtr",1.0
+2,Verdana,17,focusStep_2_verdanaRef_size_30_sample_0017.tif,"nuwKcmL2fd
+ihvWJxAp5J
+aqkN VZmwe","nuwKcmL2fd
+ihvWJxApSJ
+aqkN VZmwe",0.9655
+2,Verdana,18,focusStep_2_verdanaRef_size_30_sample_0018.tif,"w4t9 4DTEY
+thgqYYH5Uj
+H3ku3WEXRE","w4t9 4DTEY
+thgqYYH5Uj
+H3ku3WEXRE",1.0
+2,Verdana,19,focusStep_2_verdanaRef_size_30_sample_0019.tif,"u7yQhA4bs3
+cNkqfaJkLp
+6jEkX222Vk","u7yQhA4bs3
+cNkqfaJkLp
+6jEkX222Vk",1.0
+2,Verdana,20,focusStep_2_verdanaRef_size_30_sample_0020.tif,"CauiUTEvR9
+was5in5kDJ
+hRHdB97jYj","CauiUTEvR9
+was5in5kDJ
+hRHdB97jYj",1.0
+3,Times,1,focusStep_3_timesR_size_30_sample_0001.tif,"7fy4qb 4 
+UhiBHjvk6p
+srUhfzSggD","7fy4qb 4
+UhiBHjvk6p
+srUhfzSggD",1.0
+3,Times,2,focusStep_3_timesR_size_30_sample_0002.tif,"kY7CBDzxnM
+GSxiQNiDHB
+Ucf49Eud 6","kY7CBDzxnM
+GSxiQNiDHB
+Ucf49Eud 6",1.0
+3,Times,3,focusStep_3_timesR_size_30_sample_0003.tif,"i9rrckTkkD
+cuF3Q3MbDy
+z2FG4gS9RC","i9rrckTkkD
+cuFJQ3MbDy
+z2FG4gS9RC",0.9667
+3,Times,4,focusStep_3_timesR_size_30_sample_0004.tif,"mPasiJByFe
+nd9DuhSQdf
+igtTFi9kA8","mPasiJByFe
+nd9DuhSQdf
+igtTFi9kAS",0.9667
+3,Times,5,focusStep_3_timesR_size_30_sample_0005.tif,"JWD5jnXK 
+L8XBAea3xn
+aCQpbchuP8","JWDSjnXX
+LSXBAeaJxn
+aCQpbchuPS",0.8214
+3,Times,6,focusStep_3_timesR_size_30_sample_0006.tif,"YgtLEAw2yi
+yU6WAicnFu
+YdqCew9Z e","YgtLEAwZyi
+yU6WAicnFu
+YdqCew9Z e",0.9655
+3,Times,7,focusStep_3_timesR_size_30_sample_0007.tif,"tHyih9Q47C
+Uyte3YVeuA
+HZWirieHpk","tHyih9Qd7C
+UyteJYVeuA
+HZWirieHpk",0.9333
+3,Times,8,focusStep_3_timesR_size_30_sample_0008.tif,"fUX  5e3bz
+iNxAvJjJQn
+AXSe4Xu 3n","fUX  SeJbz
+iNxAvJjJQn
+AXSe4Xu Jn",0.8889
+3,Times,9,focusStep_3_timesR_size_30_sample_0009.tif,"S6AY59sTXN
+UE3vUFah5g
+ GwNe74ceS","S6AY59sTXN
+UEJvUFah5g
+ GwNe74ceS",0.9655
+3,Times,10,focusStep_3_timesR_size_30_sample_0010.tif,"4Sztc23xf6
+gWWqvh5cKd
+djLzVtRizz","4Sztc2Jxf6
+gWWqvhScKd
+djLzVtRizz",0.9333
+3,Times,11,focusStep_3_timesR_size_30_sample_0011.tif,"HB 4cfEwW 
+9NYNeECMVb
+3vgerzfLt6","HB 4cfEwW
+9NYNeECMVb
+JvgerzfLt6",0.9643
+3,Times,12,focusStep_3_timesR_size_30_sample_0012.tif,"Dvtj yMrbE
+VKz4hCqY76
+ vcAC5zEJh","Dvtj yMrbE
+VKz4hCqY76
+ vcACSzEJh",0.9643
+3,Times,13,focusStep_3_timesR_size_30_sample_0013.tif,"bK8Y4mydvZ
+6KBigikpnq
+fu4Yh86T3Y","bKSY4mydvZ
+6KBigikpnq
+fu4Yh86TJY",0.9333
+3,Times,14,focusStep_3_timesR_size_30_sample_0014.tif,"z EaDbNc52
+EinNzL3DRB
+ uRkd4keSx","z EaDbNc52
+EinNzL3DRB
+uRkd4keSx",1.0
+3,Times,15,focusStep_3_timesR_size_30_sample_0015.tif,"bXEGWbPcL9
+b5Vvg53pv9
+faN8y3tmXa","bXEGWbPcL9
+bSVvgS3pv9
+faNSyJtmXa",0.8667
+3,Times,16,focusStep_3_timesR_size_30_sample_0016.tif,"MqgGFjEP8F
+ni7z23kxTi
+hyQx WUq6z","MqGFjEP8F
+ni7z23kxTi
+hyQx WUqbz",0.931
+3,Times,17,focusStep_3_timesR_size_30_sample_0017.tif,"ycNu 32g w
+YqJzdnagBH
+EmT9cdaSGZ","ycNu 32g w
+YqJzdnaagBH
+EmTJcdasGZ",0.8929
+3,Times,18,focusStep_3_timesR_size_30_sample_0018.tif,"f4sEVYbXFn
+HyTjXZkum7
+AKN4KWcjwM","f4sEVYbXFn
+HyTjXZkum7
+AKN4KWcjwM",1.0
+3,Times,19,focusStep_3_timesR_size_30_sample_0019.tif,"V7 mEcY2iy
+TsTminDzmg
+Zx4GM4EAxB","VJ mEcYziy
+TsTminDzmg
+Zx4GM4EAxB",0.931
+3,Times,20,focusStep_3_timesR_size_30_sample_0020.tif,"RTX nxMvgh
+HyZHvxpqmF
+ NkVVUeGFt","RTX nxMvgh
+HyZHvxpqmF
+ NkVVUeGFt",1.0
+3,Verdana,1,focusStep_3_verdanaRef_size_30_sample_0001.tif,"PH8KfUpLrA
+fufyG6udMG
+s8s X7gP2y","PHSKfUpLrA
+fufyG6udMG
+sBs X7gPZy",0.8966
+3,Verdana,2,focusStep_3_verdanaRef_size_30_sample_0002.tif,"eSRbXi63H
+wYJD4j7Jb5
+U5DunJiEAK","eSRbXi63H
+wYJD4j7Jb5
+USDunJiEAK",0.9655
+3,Verdana,3,focusStep_3_verdanaRef_size_30_sample_0003.tif,"eVW6cAUKrn
+iQwdhECgtR
+UrdJBZHq4z","eVW6cAUKrn
+iQwdhECgtR
+UrdJBZHq4z",1.0
+3,Verdana,4,focusStep_3_verdanaRef_size_30_sample_0004.tif,"k2 Nwrkz Y
+hbyMVy3685
+gauv6gSdkd","kZ Nwrkz Y
+hbyMVy3685
+gauv6gSdkd",0.9643
+3,Verdana,5,focusStep_3_verdanaRef_size_30_sample_0005.tif,"ZCHrJbmPnS
+ZW27Gk9Dmu
+4xY 5FARvx","ZCHrJbmPnS
+ZW27Gk9Dmu
+4xY S FARvx",0.9655
+3,Verdana,6,focusStep_3_verdanaRef_size_30_sample_0006.tif,"k 9X3sA32n
+PdZtGUN2pm
+bUA4Pfw 8j","k 9XJsAJ2n
+PdZtGUN2pm
+bUA4Pfw Bj",0.8929
+3,Verdana,7,focusStep_3_verdanaRef_size_30_sample_0007.tif,"cXUgKYVq p
+7LPgWtjPUD
+AsY8 v5c7P","cXUgKYVq p
+7LPgWtjPUD
+AsYB vScJP",0.8929
+3,Verdana,8,focusStep_3_verdanaRef_size_30_sample_0008.tif,"mr9Ucseh s
+R9gMWmzxCL
+QMMsubargL","mr9Ucseh s
+R9gMWmzxCL
+QMMsubargL",1.0
+3,Verdana,9,focusStep_3_verdanaRef_size_30_sample_0009.tif,"GUfXnJ2n p
+ZQftEYdBii
+ UbYS4KM9c","GUfXnJZn p
+ZQftEYdBii
+ UbYS4KM9c",0.9643
+3,Verdana,10,focusStep_3_verdanaRef_size_30_sample_0010.tif,"KcXmn4K uk
+Mizyfg3FCq
+exr94Y2MUy","KcXmn4K uk
+Mizyfg3FCq
+exr94Y2MUy",1.0
+3,Verdana,11,focusStep_3_verdanaRef_size_30_sample_0011.tif,"VMVTw gLsx
+G9yL8SUHB2
+8te7EUTQPF","VMVTw gLsx
+G9yLBSUHBz
+Bte7EUTQPF",0.8966
+3,Verdana,12,focusStep_3_verdanaRef_size_30_sample_0012.tif,"iVr6pmzhaV
+FLAaCwWsJL
+cphqYhTiPb","iVr6pmzhaV
+FLAaCwWsJL
+cphqYhTiPb",1.0
+3,Verdana,13,focusStep_3_verdanaRef_size_30_sample_0013.tif,"QaVWUsQeU8
+tpYbX63mWf
+Av7J27nCXU","QaVWUsQeUB
+tpYbX63mWf
+Av7Jz7nCXU",0.9333
+3,Verdana,14,focusStep_3_verdanaRef_size_30_sample_0014.tif,"YqWeFrJVar
+AKK2Cq3aTG
+RwAyrHvv7E","YqWeFrJVar
+AKKzCq3aTG
+RwAyrHvv7E",0.9667
+3,Verdana,15,focusStep_3_verdanaRef_size_30_sample_0015.tif,"raqkFh7DUw
+iY3ZENZFyA
+kc5J9An6Ma","raqkFh7DUw
+iY3ZENZFyA
+kcSJ9An6Ma",0.9667
+3,Verdana,16,focusStep_3_verdanaRef_size_30_sample_0016.tif,"5yDRMm y k
+HmWnRw6zRu
+EvEeXmrT6p","SyDRMm y k
+HmWnRwGzRu
+EvEeXmrT6p",0.9286
+3,Verdana,17,focusStep_3_verdanaRef_size_30_sample_0017.tif,"y4RkvUNSd
+jYSEE7pcvu
+Lw9huyDQ8L","y4RkvUNSd
+jYSEE7pcvu
+Lw9huyDQ8L",1.0
+3,Verdana,18,focusStep_3_verdanaRef_size_30_sample_0018.tif,"hByUVxa5Wm
+kziY8Y4Zpi
+yEEWU5g3fB","hByUVxaSWm
+kziYSY4Zpi
+yEEWUGg3fB",0.9
+3,Verdana,19,focusStep_3_verdanaRef_size_30_sample_0019.tif,"9wfVegG2y8
+MjLX7VBxus
+rJEEhJ8Ahr","9wfVegGzyB
+MjLX7VBxus
+rJEEhJ8Ahr",0.9333
+3,Verdana,20,focusStep_3_verdanaRef_size_30_sample_0020.tif,"rXhF5cuCzC
+cBLvgv4gWS
+88zMdPrhLs","rXhFScuCzC
+cBLvgv4gWS
+BBzMdPrhLs",0.9
+4,Times,1,focusStep_4_timesR_size_30_sample_0001.tif,"MUFDAmPFsJ
+wd4KNPYg8Y
+sCDQkbh6m5","MUFDAmPFsJ
+wd4KNPYgSY
+sCDQkbhbmS",0.9
+4,Times,2,focusStep_4_timesR_size_30_sample_0002.tif,"JYcx5geeun
+BUi26BZB38
+ G vq4qbcg","JYcxSgeeun
+BUi26BZBJS
+ G vqdqbcg",0.8571
+4,Times,3,focusStep_4_timesR_size_30_sample_0003.tif,"nyunKVuUcn
+pkgsyfYmzf
+8TeMtHqUJq","nyunKVuUcn
+pkgsyfYmzf
+STeMtHqUJq",0.9667
+4,Times,4,focusStep_4_timesR_size_30_sample_0004.tif,"A FV sRACA
+s5Cp9bZZCb
+WWmcBbevCr","A FV sRACA
+sSCpJbZZCb
+WWmcBbevCr",0.9286
+4,Times,5,focusStep_4_timesR_size_30_sample_0005.tif,"DQJV5LEXqR
+9DieNysqeG
+ZQ3jnnSf7t","DQJV5LEXqR
+9DieNysqeG
+ZQJjnnSf7t",0.9667
+4,Times,6,focusStep_4_timesR_size_30_sample_0006.tif,"tQAZrDE 2c
+hHtTcy4Hxq
+sWKhf9BJq6","tQAZrDE 2c
+hHtTcy4Hxq
+sWKhfDBJq6",0.9655
+4,Times,7,focusStep_4_timesR_size_30_sample_0007.tif,"Qiw5YZEfg
+kp2mvXHtP7
+U2rjhJfwq","QiwSYZEfg
+kpZmvXHtP7
+UZrjhJfwq",0.8929
+4,Times,8,focusStep_4_timesR_size_30_sample_0008.tif,"GhzeJsmdu 
+SwSG9yrESR
+P69vDjRes5","GhzeJsmdu
+SwSGJyrESR
+P6JvDjResS",0.8966
+4,Times,9,focusStep_4_timesR_size_30_sample_0009.tif,"GiyyNrNd8B
+nQXxBPDczU
+wFvQ9mtqq","GiyyNrNdSB
+nQXxBPDczU
+wFvQJmtqq",0.931
+4,Times,10,focusStep_4_timesR_size_30_sample_0010.tif,"xS  H9M5UW
+DJQN9eKeXN
+8BzckWanX8","xS  H9MsUW
+DJQNJeKeXN
+SBzckWanXS",0.8571
+4,Times,11,focusStep_4_timesR_size_30_sample_0011.tif,"5sihTQSsSK
+jRtvzdvWy7
+xxGM5Lj4By","5sihTQSsSK
+jRtvzdvWyJ
+xxGMSLj4By",0.9333
+4,Times,12,focusStep_4_timesR_size_30_sample_0012.tif,"6KAKUD6wiv
+tY5qfhhUyK
+n2NrHJnyZT","6KAKUD6wiv
+tYSqfhhUyK
+n2NrHJnyZT",0.9667
+4,Times,13,focusStep_4_timesR_size_30_sample_0013.tif,"LfEfjV7tau
+FgsSrHAuFY
+ZihiNxvRmr","LfEfjV7tau
+FgsSrHAuFY
+ZihiNxvRmr",1.0
+4,Times,14,focusStep_4_timesR_size_30_sample_0014.tif,"3sHJRKabNi
+E9MnTqQCJZ
+x63c6wbk4A","JsHJRKabNi
+EJMnTqQCJZ
+x6Jc6wbk4A",0.9
+4,Times,15,focusStep_4_timesR_size_30_sample_0015.tif,"m7nXyVYuA 
+JtzJhfRaEw
+P6zjnKDca2","m7nXyVYuA
+JtzJhfRaEw
+PbzjnKDca2",0.9655
+4,Times,16,focusStep_4_timesR_size_30_sample_0016.tif,"iPgjUcVFGQ
+m9fhTwwHzP
+AUazbLY8vh","iPgjUcVFGQ
+m9fhTwwHzP
+AUazbLYSvh",0.9667
+4,Times,17,focusStep_4_timesR_size_30_sample_0017.tif,"X7EZfsjyN7
+WDGwDGbavn
+LF4kLbRpgd","XJEZfsjyNJ
+WDGwDGbavn
+LFdkLbRpgd",0.9
+4,Times,18,focusStep_4_timesR_size_30_sample_0018.tif,"Umkd r3a9A
+5yUZcEeGk8
+Ux2H RGExR","Umkd rJa9A
+SyUZcEeGk8
+Ux2H RGExR",0.9286
+4,Times,19,focusStep_4_timesR_size_30_sample_0019.tif,"azBuJLPm4S
+T7pQJX78uj
+nvs9yMEDdq","azBuJLPm4S
+T7pQJX78uj
+nvsJyMEDdq",0.9667
+4,Times,20,focusStep_4_timesR_size_30_sample_0020.tif,"6rj7R6SF5N
+VHS6LMcSR2
+u4bXSwQnp4","6rj7R6SF5N
+VHS6LMcSR2
+u4bXSwQnp4",1.0
+4,Verdana,1,focusStep_4_verdanaRef_size_30_sample_0001.tif,"NMg738MmsL
+msCWea3ARs
+sFxzXHK5ib","NMgJ3BMmsL
+msCWeaJARs
+sFxzXHKSib",0.8667
+4,Verdana,2,focusStep_4_verdanaRef_size_30_sample_0002.tif,"pbu8j3YT5g
+wNUccgZELj
+ WzxULdUDy","pbuBj3YTSg
+wNUccgZELj
+ WzxULdUDy",0.931
+4,Verdana,3,focusStep_4_verdanaRef_size_30_sample_0003.tif,"sUtLvPE4qP
+ShuGtBVVTZ
+8PBzVNmpjg","sUtLvPE4qP
+ShuGtBVVTZ
+BPBzVNmpjg",0.9667
+4,Verdana,4,focusStep_4_verdanaRef_size_30_sample_0004.tif,"Kxyj2Ajqeh
+UY8GcDc6s2
+bwPz HGcjd","KxyjZAjqeh
+UYBGcDc6sZ
+bwPz HGcjd",0.8966
+4,Verdana,5,focusStep_4_verdanaRef_size_30_sample_0005.tif,"u3 pDAJasD
+5ztFWWQk5d
+A9hbprTdWz","uJ pDAJasD
+SztFWWQk5d
+A9hbprTdWz",0.931
+4,Verdana,6,focusStep_4_verdanaRef_size_30_sample_0006.tif,"akFvsEmBLg
+7xYfkhnGcw
+wSbx8ARVHd","akFvsEmBLg
+TxYfkhnGcw
+wSbxBARVHd",0.9333
+4,Verdana,7,focusStep_4_verdanaRef_size_30_sample_0007.tif,"MtC fGDTRE
+VYzN4jpHtd
+jYV8iNjxVc","MtC fGDTRE
+VYzN4jpHtd
+jYVBiNjxVc",0.9655
+4,Verdana,8,focusStep_4_verdanaRef_size_30_sample_0008.tif,"h ykLa9Bgw
+iwZ2ahwTxb
+czi2ig8G8F","h ykLa9Bgw
+iwZZahwTxb
+cziZigBGBF",0.8621
+4,Verdana,9,focusStep_4_verdanaRef_size_30_sample_0009.tif,"PB8Gz9vSEk
+3qShDVfMEj
+nizn SpRFd","PBBGz9vSEk
+3qShDVfMEj
+nizn SpRFd",0.9655
+4,Verdana,10,focusStep_4_verdanaRef_size_30_sample_0010.tif,"B7UU eam w
+cikW6y5xb6
+8KW rX tsj","BJUU eam w
+cikW6y5xb6
+BKW rX tsj",0.9231
+4,Verdana,11,focusStep_4_verdanaRef_size_30_sample_0011.tif,"PiWC897NXB
+ykmzPZ2DDm
+G ffbVercQ","PiWCB97NXB
+ykmzPZ2DDm
+G ffbVercQ",0.9655
+4,Verdana,12,focusStep_4_verdanaRef_size_30_sample_0012.tif,"x4niuW Mr
+YRaCrPBUVx
+u6mmyKNSRq","x4niuW Mr
+YRaCrPBUVx
+u6mmyKNSRq",1.0
+4,Verdana,13,focusStep_4_verdanaRef_size_30_sample_0013.tif,"dEJveZ2PUM
+LxmWxnkw4V
+uLB u9 AM4","dEJveZZPUM
+LxmWxnkw4V
+uLB u9 AM4",0.9643
+4,Verdana,14,focusStep_4_verdanaRef_size_30_sample_0014.tif,"MixkbmBLJ3
+hKpPhyZdR8
+YGQjajjzkm","MixkbmBLJ3
+hKpPhyZdRB
+YGQjajzkm",0.9333
+4,Verdana,15,focusStep_4_verdanaRef_size_30_sample_0015.tif,"Lit6fAHrgi
+aj3sNxsETD
+ a DH Vmx8","Lit6fAHrgi
+ajJsNxsETD
+ a DH VmxB",0.9259
+4,Verdana,16,focusStep_4_verdanaRef_size_30_sample_0016.tif,"Wv4PXHYrwW
+GhWvEnY26y
+KAkDWNMgQA","Wv4PXHYrwW
+GhWvEnYZ6y
+KAkDWNMgQA",0.9667
+4,Verdana,17,focusStep_4_verdanaRef_size_30_sample_0017.tif,"D3rZmhcWrE
+uDfwS2SsQb
+wFD8FENSzR","DJrZmhcWrE
+uDfwSzSsQb
+wFDBFENSzR",0.9
+4,Verdana,18,focusStep_4_verdanaRef_size_30_sample_0018.tif,"vvAMHw3dYB
+u5Pv64MYwj
+WV4DrjJNBy","vvAMHw3dYB
+uSPv64MYwj
+WV4DrjJNBy",0.9667
+4,Verdana,19,focusStep_4_verdanaRef_size_30_sample_0019.tif,"MVGhX8PU3G
+GeG3BAC5C5
+KgejBdjWmm","MVGhXBPU3G
+GeGJBAC5CS
+KgejBdjWmm",0.9
+4,Verdana,20,focusStep_4_verdanaRef_size_30_sample_0020.tif,"sPHtggT8kY
+nQ66rDTtmR
+wJ82mn3DRZ","sPHtggTBkY
+nQ6GrDTtmR
+wJBZmn3DRZ",0.8667
+5,Times,1,focusStep_5_timesR_size_30_sample_0001.tif,"w5D28QeNeL
+J98kFGdmP7
+ xN5f3T378","wSDZbQeNeL
+JJBkFGdmP7
+ xNSfJTJ7B",0.6897
+5,Times,2,focusStep_5_timesR_size_30_sample_0002.tif,"uGgWZ285ds
+fd34us8Myg
+C6inQayHqv","uGgWZ2B5ds
+fdJdusBMyg
+CbinQayHqv",0.8333
+5,Times,3,focusStep_5_timesR_size_30_sample_0003.tif,"HCXG7j3ziF
+WFWihDJwWU
+xspfKvGrEM","HCXG7jJziF
+WFWihDJwWU
+xspfKvGrEM",0.9667
+5,Times,4,focusStep_5_timesR_size_30_sample_0004.tif,"Tn8 kpUTd
+QddKhg9k47
+Rp7PRnJ8ki","TnB kpUTd
+QddKhgJk47
+RpJPRnJski",0.8571
+5,Times,5,focusStep_5_timesR_size_30_sample_0005.tif,"MyCijb4pzm
+MsMvYJahQv
+JndbXjKZ3c","MyCijb4pzm
+MsMvYJahQv
+JndbXjKZJc",0.9667
+5,Times,6,focusStep_5_timesR_size_30_sample_0006.tif,"XTTKPj7qu5
+uFtNJfuP3w
+rintGD7ekX","XTTKPj7quS
+uFtNJfuPJw
+rintGD7ekX",0.9333
+5,Times,7,focusStep_5_timesR_size_30_sample_0007.tif,"4gPEpVLihs
+wEaqWSMnE7
+W 9GZHs2i5","dgPEpVLihs
+wEaqWSMnE7
+W 9GZHsJiS",0.8966
+5,Times,8,focusStep_5_timesR_size_30_sample_0008.tif,"2D PByCjU8
+ccWbpaReTP
+WvxPzxnysf","2D PByCjUB
+ccWbpaReTP
+WvxPzxnysf",0.9655
+5,Times,9,focusStep_5_timesR_size_30_sample_0009.tif,"V7H Wn7Cye
+9BdQFHaRSN
+ gbVEccf7M","V7H Wn7Cye
+JBdQFHaRSN
+ gbVEccf7M",0.9643
+5,Times,10,focusStep_5_timesR_size_30_sample_0010.tif,"MiUhDhpR5w
+QeEMTJK9Qi
+JtuveNZR7U","MiUhDhpRSw
+QeEMTJKQi
+JtuveNZRJU",0.9
+5,Times,11,focusStep_5_timesR_size_30_sample_0011.tif,"icxLmi66MN
+WmyeiCFhZR
+ dC7QKeHpM","icxLmi66MN
+WmyeiCFhZR
+ dCJQKeHpM",0.9655
+5,Times,12,focusStep_5_timesR_size_30_sample_0012.tif,"DZMxMjDPCb
+TZCrZ4bHHN
+3fWE5e9gSZ","DzMxMjDPCb
+TZCrZ4bHHN
+JfWESeJgSZ",0.8667
+5,Times,13,focusStep_5_timesR_size_30_sample_0013.tif,"ediCtwfECe
+YDPyNM7ejA
+nBXcCUXB7Q","ediCtwfECe
+YDPyNM7ejA
+nBXcCUXBjQ",0.9667
+5,Times,14,focusStep_5_timesR_size_30_sample_0014.tif,"WJ7UNiNSCY
+vypyuTfPGy
+vN CinXpAh","WJ7UNiNSCY
+vypyuTfPGy
+vN CinXpAh",1.0
+5,Times,15,focusStep_5_timesR_size_30_sample_0015.tif,"LL ZHekaB 
+rVy2nvgE6W
+iywK9ksNEB","LL ZHekaB
+rVy2nvgEgW
+iywKJksNEB",0.9286
+5,Times,16,focusStep_5_timesR_size_30_sample_0016.tif,"eBsH9qNkMz
+GKRThwrnUZ
+zFySghwJ v","eBsHJqNkMz
+GKRThwrnUZ
+zFySghwJ v",0.9655
+5,Times,17,focusStep_5_timesR_size_30_sample_0017.tif,"bU6t9rEdrj
+uVXbM6r2iD
+sh2FwvC7iw","bU6t9rEdrj
+uVXbMbrZiD
+sh2FwvCJiw",0.9
+5,Times,18,focusStep_5_timesR_size_30_sample_0018.tif,"Q9CMkfyT
+E2YZ2J3AQj
+NW9b8m6v v","QJCMkfyT
+EZYZ2JJAQj
+NWJbSm6v v",0.8148
+5,Times,19,focusStep_5_timesR_size_30_sample_0019.tif,"tQ bTqrcae
+pKKTmchLdA
+BNu vgMmrV","tQ bTqrcae
+pKKTmchLdA
+BNu vgMmrV",1.0
+5,Times,20,focusStep_5_timesR_size_30_sample_0020.tif,"CiExDjt3Mb
+XYJW4qBY8Q
+csh9p ayg3","CiExDjtJMb
+XYJW4qBYsQ
+cshJp nygJ",0.8276
+5,Verdana,1,focusStep_5_verdanaRef_size_30_sample_0001.tif,"U g2WLQgsy
+PApjPkZxMJ
+ 8zeCjNTC6","U gZWLQgsy
+PApjPkZxMJ
+ BzeCjNTC6",0.9286
+5,Verdana,2,focusStep_5_verdanaRef_size_30_sample_0002.tif,"y3fnsrf8da
+bWyZscD5D9
+3W9rnay eJ","yJfnsrfBda
+bWyZscDSD9
+JW9rnay eJ",0.8621
+5,Verdana,3,focusStep_5_verdanaRef_size_30_sample_0003.tif,"FED6C7d jy
+vDmSEtcfuN
+7TubZA2bAn","FED6C7d jy
+vDmSEtcfuN
+JTubZA2bAn",0.9655
+5,Verdana,4,focusStep_5_verdanaRef_size_30_sample_0004.tif,"WkxZPB7nSV
+5sHQCrLuTf
+N2u9raQTur","WkxZPBJnSV
+5sHQCrLuTf
+Nzu9raQTur",0.9333
+5,Verdana,5,focusStep_5_verdanaRef_size_30_sample_0005.tif,"8WHewgEQCJ
+L2QtS9t8Pg
+ NpRMkcwGB","BWHewgEQCJ
+LzQtS9tBPg
+ NpRMkcwGB",0.8966
+5,Verdana,6,focusStep_5_verdanaRef_size_30_sample_0006.tif,"qSwNWxhfA5
+qwt735iDMN
+gcEGK6iX7m","qSwNWxhfAS
+qwtJ3SiDMN
+gcEGK6iX7m",0.9
+5,Verdana,7,focusStep_5_verdanaRef_size_30_sample_0007.tif,"Zwu q2L63z
+qKFssPYbLm
+ UVjLtd4db","Zwu qzL6Jz
+qKFssPYbLm
+ UVjLtd4db",0.9286
+5,Verdana,8,focusStep_5_verdanaRef_size_30_sample_0008.tif,"J3D56pFi t
+juuzBf3vQc
+ gfG4KXNNP","JJD56pFi t
+juuzBfJvQc
+gfG4KXNNP",0.9286
+5,Verdana,9,focusStep_5_verdanaRef_size_30_sample_0009.tif,"p5W4nRBTUA
+dAwP4vFbFw
+z2RB XQmnz","pSW4nRBTUA
+dAwP4vFbFw
+z2RB XQmnz",0.9655
+5,Verdana,10,focusStep_5_verdanaRef_size_30_sample_0010.tif,"bayqK  j N
+P3Sbq72NZw
+4uqGNLDs H","bayqK  j N
+PJSbqJZNZw
+4uqGNLDs H",0.8846
+5,Verdana,11,focusStep_5_verdanaRef_size_30_sample_0011.tif,"rwg4kY rhy
+hMYDpJnySx
+Lcb4HXer8V","rwg4kY rhy
+hMYDpJnySx
+Lcb4HXerBV",0.9655
+5,Verdana,12,focusStep_5_verdanaRef_size_30_sample_0012.tif,"GDgXqSNeKy
+dcySezcHFd
+gjMfs2vSAW","GDgXqSNeKy
+dcySezcHFd
+gjMfsZvSAW",0.9667
+5,Verdana,13,focusStep_5_verdanaRef_size_30_sample_0013.tif,"iNEXWTiEPV
+B3zAVCBkyA
+fwRASYjKdH","iNEXWTiEPV
+BJzAVCBkyA
+fwRASYjKdH",0.9667
+5,Verdana,14,focusStep_5_verdanaRef_size_30_sample_0014.tif,"rv rrLsDdw
+MNyFEd2En3
+T dpSkAeCe","rv rrLsDdw
+MNyFEdzEnJ
+T dpSkAeCe",0.9286
+5,Verdana,15,focusStep_5_verdanaRef_size_30_sample_0015.tif,"H5sLavE6fi
+GR4RjkaHQS
+695naZyGgX","HSsLavE6fi
+GR4RjkaHQS
+69SnaZyGgX",0.9333
+5,Verdana,16,focusStep_5_verdanaRef_size_30_sample_0016.tif,"qaVakE2jia
+JMhcjP3xyE
+veTJL KgLU","qaVakEZjia
+JMhcjPJxyE
+veTJL KgLU",0.931
+5,Verdana,17,focusStep_5_verdanaRef_size_30_sample_0017.tif,"hdVTgEwM8
+JzMkVwqVVU
+nJwZgudY57","hdVTgEwMB
+JzMkVwqVVU
+nJwZgudY57",0.9655
+5,Verdana,18,focusStep_5_verdanaRef_size_30_sample_0018.tif,"W2cmtmAkrP
+gMsgjVBmx3
+FBL7yjyDB9","WZcmtmAkrP
+gMsgjVBmxJ
+FBL7yjyDB9",0.9333
+5,Verdana,19,focusStep_5_verdanaRef_size_30_sample_0019.tif,"B9JSKds4eN
+Vmmt7ApcWH
+piF jS2357","BJJSKds4eN
+VmmtJApcWH
+piF jSz357",0.8966
+5,Verdana,20,focusStep_5_verdanaRef_size_30_sample_0020.tif,"Wrs95bDGwF
+HnBZhqvDNc
+S8P4z2uyqE","Wrs95bDGwF
+HnBZhqvDNc
+SBP4zZuyqE",0.9333
+6,Times,1,focusStep_6_timesR_size_30_sample_0001.tif,"95zu6JiN9n
+VLEkeajJE2
+9H8HVBy9Wu","9SzubJiNJn
+VLEkeajJEz
+9HbHVByJWu",0.8
+6,Times,2,focusStep_6_timesR_size_30_sample_0002.tif,"bfjmZPPb R
+NAuSaKEkLr
+ N85hMDvGy","bfjmZPPb R
+NAuSaKEkLr
+ N8ShMDvGy",0.9643
+6,Times,3,focusStep_6_timesR_size_30_sample_0003.tif,"bFuAdyEYb3
+JRwZx8hVrj
+ac59ZZ4gEd","bFuAdyEYbJ
+JRwZx8hVrj
+acSJZZAgEd",0.8667
+6,Times,4,focusStep_6_timesR_size_30_sample_0004.tif,"Rx37efvWGe
+cb8f39pZxf
+YxaMrkGT6g","RxJ7efvWGe
+cb8fJJpZxf
+YxaMrkGT6g",0.9
+6,Times,5,focusStep_6_timesR_size_30_sample_0005.tif,"iQdmGPUzTv
+dqzrKnQM6C
+i6x9ARWWfK","iQdmGPUzTv
+dqzrKnQM6C
+i6xJARWWfK",0.9667
+6,Times,6,focusStep_6_timesR_size_30_sample_0006.tif,"W52wXVYuaE
+DCT2HeRAaq
+JS38sVG2Hr","W5ZwXVYuaE
+DCTzHeRAaq
+JSJBsVGzHr",0.8333
+6,Times,7,focusStep_6_timesR_size_30_sample_0007.tif,"ShrG6JTniP
+VCCKjfJFHz
+5GpfRyW5d3","ShrG6JTniP
+VCCKjfJFHz
+SGpfRyWsdJ",0.9
+6,Times,8,focusStep_6_timesR_size_30_sample_0008.tif,"SewuY3 SrR
+5td9w8BLLN
+5yXvKmsTJm","SewuYJ SrR
+ShDwBLLN
+SyXvKmsTJm",0.7586
+6,Times,9,focusStep_6_timesR_size_30_sample_0009.tif,"tEhQfzkAAP
+CLiPh9TnKD
+Zu8LsbYj9q","tEhQfzkAAP
+CLiPhJTnKD
+ZuSLsbYjJq",0.9
+6,Times,10,focusStep_6_timesR_size_30_sample_0010.tif,"6BFci4muhS
+deFeDRG6cA
+aRLL7dcEEt","6BFci4muhS
+deFeDRG6cA
+aRLLJdcEEt",0.9667
+6,Times,11,focusStep_6_timesR_size_30_sample_0011.tif,"CiTZDy8Vhb
+XCip83ne4J
+Gbdqu2tmuY","CiTZDySVhb
+XCipSJne4J
+GbdquJtmuY",0.8667
+6,Times,12,focusStep_6_timesR_size_30_sample_0012.tif,"wLYWM2jyqn
+KAV2vc4zJL
+HAbsLE5vQ7","wLYWMZjyqn
+KAVZvcdzJE
+HAbsLESvQJ",0.8
+6,Times,13,focusStep_6_timesR_size_30_sample_0013.tif,"GLjW3xq  R
+AW6UGTHAah
+mSbgkxeBgq","GLjWJxq  R
+AWbUGTHAah
+mSbgkxeBgq",0.9286
+6,Times,14,focusStep_6_timesR_size_30_sample_0014.tif,"hYjBjr7wS
+D9a5SDPJhk
+gmRL758fXe","hYjBjr7wS
+DJaSSDPJhk
+gmRL75BfXe",0.8966
+6,Times,15,focusStep_6_timesR_size_30_sample_0015.tif,"jHTkE7KCMQ
+WBGwrTHbCr
+T9SUvuLW36","jHTkE7KCMQ
+WBGwrTHbCr
+TJSUvuLWJ6",0.9333
+6,Times,16,focusStep_6_timesR_size_30_sample_0016.tif,"eGfGg8zEBe
+Cr67ZqcLa8
+aY6rJ4zEG2","eGfGgBzEBe
+Cr67ZqcLa8
+aYbrJdzEGz",0.8667
+6,Times,17,focusStep_6_timesR_size_30_sample_0017.tif,"ueBwgXFwX9
+LCwJJJcCCa
+wFn65ZVUQV","ueBwgXFwXJ
+LCwJJcCCa
+wFn6SZVUQV",0.9
+6,Times,18,focusStep_6_timesR_size_30_sample_0018.tif,"FdWwWG85Vr
+KJ27Uv72Rc
+QgFWgHZZed","FdWwWGBSVr
+KJz7Uv72Rc
+QgFWgHZZed",0.9
+6,Times,19,focusStep_6_timesR_size_30_sample_0019.tif,"XVsHmgqfL8
+qjqkZNvFLs
+Wpu2a3tazg","XVsHmgqfLB
+qjqkZNvFLs
+WpuZaJtazg",0.9
+6,Times,20,focusStep_6_timesR_size_30_sample_0020.tif,"2F4t7tQ2Sj
+GV9xHcwFzT
+HNu2XKShP5","ZFdr7tQ2Sj
+GVJxHcwFzT
+HNuZKKShPS",0.7667
+6,Verdana,1,focusStep_6_verdanaRef_size_30_sample_0001.tif,"nXNcBkKJY8
+gCpcHrgih4
+6ZK Y3qvsc","nXNcBkKJYB
+gCpcHrgih4
+6ZK YJqvsc",0.931
+6,Verdana,2,focusStep_6_verdanaRef_size_30_sample_0002.tif,"AUGfLdxkK 
+9sxBj65Yuh
+47Cp D8sLg","AUGfLdxkK
+BsxBj65Yuh
+47Cp DBsLg",0.9286
+6,Verdana,3,focusStep_6_verdanaRef_size_30_sample_0003.tif,"mnaw zjsDV
+ZQxYfYHZLQ
+jSyaCM7s7q","mnaw zjsDV
+ZQxYfYZLQ
+jSyaCMJsTq",0.8966
+6,Verdana,4,focusStep_6_verdanaRef_size_30_sample_0004.tif,"txaRBfKbTw
+9tNV9S4YD3
+hM38jhbzab","txaRBfKbTw
+BtNVBS4YDJ
+hMJSjhbzab",0.8333
+6,Verdana,5,focusStep_6_verdanaRef_size_30_sample_0005.tif,"R3dBfRSwVc
+4fYrWzUe7M
+bkU3La8aHX","RJdBfRSwVc
+4fYrWzUeTM
+bkUJLaBaHX",0.8667
+6,Verdana,6,focusStep_6_verdanaRef_size_30_sample_0006.tif,"UuKQyhVQkc
+Bnb2BsPL25
+G WHqFB  M","UuKQyhVQkc
+BnbZBsPL25
+G WHqFB  M",0.963
+6,Verdana,7,focusStep_6_verdanaRef_size_30_sample_0007.tif,"uLpRunLNt 
+chBrNVS5Dz
+4PUKYquUUX","uLpRunLNt
+chBrNVSSDz
+4PUKYquUUX",0.9655
+6,Verdana,8,focusStep_6_verdanaRef_size_30_sample_0008.tif,"NYP6eW7J Q
+98HqxvEHTb
+c893tmFzLH","NYP6eWJJ Q
+BSHqxvEHTb
+cBJJtmFzLH",0.7931
+6,Verdana,9,focusStep_6_verdanaRef_size_30_sample_0009.tif,"SwiySHML7Y
+4VjFsdLkbm
+tv5hc2yLCK","SwiySHMLJY
+4VjFsdLkbm
+tvShcZyLCK",0.9
+6,Verdana,10,focusStep_6_verdanaRef_size_30_sample_0010.tif,"7i3wR eviP
+s8garWTuWV
+RMN75KUi Q","TiJwR eviP
+sBgarWTuWW
+RMNJSKUi Q",0.7857
+6,Verdana,11,focusStep_6_verdanaRef_size_30_sample_0011.tif,"fst5TWvh35
+CgtFbasAus
+dK7PM3nPBL","fstSTWvhJS
+CgtFbasAus
+dKJPMJnPBL",0.8333
+6,Verdana,12,focusStep_6_verdanaRef_size_30_sample_0012.tif,"7K7jMsc5g5
+HqYX96i3fM
+sEiwTYXEnw","JKJjMscSgS
+HqYXBgiJfM
+sEiwTYXEnw",0.7667
+6,Verdana,13,focusStep_6_verdanaRef_size_30_sample_0013.tif,"RiPBXXS8nq
+DPtrLBSUuD
+j8f8BLnAgm","RiPBXXSBnq
+DPtrLBSUuD
+jSfSBLnAgm",0.9
+6,Verdana,14,focusStep_6_verdanaRef_size_30_sample_0014.tif,"S59VDVUrpD
+tZPmnvMdfJ
+NFGcc6UZ2b","SSJVDVUrpD
+tZPmnvMdfJ
+NFGccSUZb",0.8667
+6,Verdana,15,focusStep_6_verdanaRef_size_30_sample_0015.tif,"Tz3gFdSC2g
+8Ty2LQ7uTL
+nqFj5ie6X3","TzJgFdSCZg
+BTyzLQ7uTL
+nqFjSie6X3",0.8333
+6,Verdana,16,focusStep_6_verdanaRef_size_30_sample_0016.tif,"njDuykaFLK
+nqV9nQmBVq
+mtKiVxP Dd","njDuykaFLK
+nqVJnQmBVq
+mtKiVxP Dd",0.9655
+6,Verdana,17,focusStep_6_verdanaRef_size_30_sample_0017.tif,"GJw8z7aMes
+FX8WRU2cYF
+a4PxEGb5HP","GJwBz7aMes
+FXBWRUZcYF
+a4PxEGbSHP",0.8667
+6,Verdana,18,focusStep_6_verdanaRef_size_30_sample_0018.tif,"rU727j YpX
+JwHWTRm5Vy
+kMuBrT3YPw","rUJZ7j YpX
+JwHWTRmSVy
+kMuBrTJYPw",0.8621
+6,Verdana,19,focusStep_6_verdanaRef_size_30_sample_0019.tif,"qudfU5TqwL
+j4LrwshAe3
+qJJmCn4v8U","qudfUSTqwL
+j4LrwshAeJ
+qJJmCn4vBU",0.9
+6,Verdana,20,focusStep_6_verdanaRef_size_30_sample_0020.tif,"ptx6m8DSeU
+b72anPM9e4
+sN4KdnSkbh","ptxSmBDSeU
+bTZanPMJe4
+sN4KdnSkbh",0.8333
+7,Times,1,focusStep_7_timesR_size_30_sample_0001.tif,"beZtuqe4du
+ZagPvxR6Ys
+ThSZ AKYWe","beZtuqeddu
+ZagPvxR6Ys
+ThSZ AKYWe",0.9655
+7,Times,2,focusStep_7_timesR_size_30_sample_0002.tif,"A7Pbs cMzj
+zPRNRieHD2
+9QmmwqTMdE","AJPbs cMzj
+zPRNRieHD2
+9QmmwqTMdE",0.9655
+7,Times,3,focusStep_7_timesR_size_30_sample_0003.tif,"t9Af ysR9D
+awwUdHQp8g
+aHYJZdVDY6","t9Af ysRJD
+awwUdHQpSg
+nHYJZdVDY6",0.8966
+7,Times,4,focusStep_7_timesR_size_30_sample_0004.tif,"sxyS42ufxV
+tx9K6v8cXw
+fgGWD Rit3","sxySdQufxV
+txJKbvBcXw
+fgGWD RitJ",0.7931
+7,Times,5,focusStep_7_timesR_size_30_sample_0005.tif,"Mq4bKf43H8
+Papx78WDq6
+Y2KVPmRdPm","MqdbKfTHS
+Papx78WDq6
+YzKVPmRdPm",0.8333
+7,Times,6,focusStep_7_timesR_size_30_sample_0006.tif,"q6WMTkSrR4
+jbcS5Qz3iY
+WmL9mwYnaX","qfWMTkSrR4
+jbcSSQzJiY
+WmL9mwYnaX",0.9
+7,Times,7,focusStep_7_timesR_size_30_sample_0007.tif,"vT6JxD jnp
+j5jXTaXZp2
+W 34qd4vLh","vT6JxD jnp
+jSjXTaXZpZ
+W JdqdvLh",0.8214
+7,Times,8,focusStep_7_timesR_size_30_sample_0008.tif,"V9Tr39Xerx
+qvbs55STm9
+eJJ3RM qPA","VJTrJXercx
+qvbsSSSTm9
+eJJJRM qPA",0.7586
+7,Times,9,focusStep_7_timesR_size_30_sample_0009.tif,"xq9RExgwAL
+EjiDfWQMJp
+YgaHLEhaFp","xq9RExgwAL
+EjiDrWQMJp
+YgaHLEhnFp",0.9333
+7,Times,10,focusStep_7_timesR_size_30_sample_0010.tif,"paVv2ubWht
+fPuaCetUuq
+9N3ZmBNYXW","paVvZubWht
+fPuaCetUuq
+9NJZmBNYXW",0.9333
+7,Times,11,focusStep_7_timesR_size_30_sample_0011.tif,"F2PhZDcQjH
+tBwpwThe4M
+WPmZX2DjQL","FzPhZDcQjH
+tBwpwThe4M
+WPmZXzDjQL",0.9333
+7,Times,12,focusStep_7_timesR_size_30_sample_0012.tif,"rKcertdpAR
+hdup5s8Ryk
+mwW9bJE cT","rKcertdpAR
+hdupSsB Ryk
+mwWJbJE cT",0.8966
+7,Times,13,focusStep_7_timesR_size_30_sample_0013.tif,"UqGc6FNXSk
+YQTxs7pycg
+kk xFRTG J","UqGcbFNXSk
+YQTx7pycg
+kk xFRTG J",0.9286
+7,Times,14,focusStep_7_timesR_size_30_sample_0014.tif,"bKSvF6tMJt
+gBCXQ3jafy
+z6QYWKnxjh","bKSvFftMJt
+gBCXQGjafy
+zbQYWKnxjh",0.9
+7,Times,15,focusStep_7_timesR_size_30_sample_0015.tif,"zD 7S6wtbU
+ctdqXnuwaj
+tQBReyYWPs","zD TS6wrbU
+ctdqXmuwaj
+tQBReyYWPs",0.8966
+7,Times,16,focusStep_7_timesR_size_30_sample_0016.tif,"4nz2 rDrQg
+ukteBM8siS
+EE3Z6kXp3H","dnzZ rDrQg
+ukteBMfsrS
+EEJZ6kXpJH",0.7931
+7,Times,17,focusStep_7_timesR_size_30_sample_0017.tif,"dWxbt 2c4w
+bsF4W32J9v
+XzgPQuVmh5","dWxbt Jcdw
+bsFfWJZJ9v
+XzgPQuVmhS",0.7931
+7,Times,18,focusStep_7_timesR_size_30_sample_0018.tif,"5zXQ FxH9n
+L8XGx4EpeC
+Va8rvLHx9F","SzXQ FxHDn
+L8XGxdEpeC
+VaBrvLHx9F",0.8621
+7,Times,19,focusStep_7_timesR_size_30_sample_0019.tif,"8bcbMPNQ8X
+PWnar4j8b6
+XHD RBEnCs","SbcbMPNQkX
+PWnardj8b6
+XHD RBEnCs",0.8966
+7,Times,20,focusStep_7_timesR_size_30_sample_0020.tif,"3cKBMKwaW4
+v6PigHyMkq
+sLP8iWi2bQ","JcKBMKwaW4
+v6PigHyMkq
+sLPSiWiZbQ",0.9
+7,Verdana,1,focusStep_7_verdanaRef_size_30_sample_0001.tif,"4fdJF e8SV
+qdsNku2pW4
+WLPYRZ5nCf","efdJF eBSV
+qdsNkuZpW4
+WLPYRZSnCf",0.8621
+7,Verdana,2,focusStep_7_verdanaRef_size_30_sample_0002.tif,"MLVPvYK dN
+dDc6pFDXp7
+NeU3Qpc Rp","MLVPvYK dN
+dDc6pFDXpJ
+NeU3Qpc Rp",0.9643
+7,Verdana,3,focusStep_7_verdanaRef_size_30_sample_0003.tif,"P9bnasi8h
+QLHamnDBuY
+TV8pL6Ygx5","P9bnasiSh
+QLHamnDBuY
+TVBpLSYgxS",0.8621
+7,Verdana,4,focusStep_7_verdanaRef_size_30_sample_0004.tif,"YzgwcUSgNv
+fhJg6CzgCR
+PaG qzDvX","YzgwcUSgNv
+fhJg6CzgCR
+PaG qzDvX",1.0
+7,Verdana,5,focusStep_7_verdanaRef_size_30_sample_0005.tif,"QcKUDVdS4
+96NV3NfWTz
+ZGi7BRzrHQ","QcKUDVdS4
+96NVJNfWTz
+ZGi7BRzrHQ",0.9655
+7,Verdana,6,focusStep_7_verdanaRef_size_30_sample_0006.tif,"jkRHF5NDhS
+LPdMHAuYuC
+CUEbcWEEXE","jkRHFSNDhS
+LPdMHAuYuC
+CUEbcWEEXE",0.9667
+7,Verdana,7,focusStep_7_verdanaRef_size_30_sample_0007.tif,"g6Knv6hDJF
+bEHRWapgxr
+iSC DrWBcZ","gKnv6hDJF
+bEHRWapgxr
+iSC DrWBcZ",0.9655
+7,Verdana,8,focusStep_7_verdanaRef_size_30_sample_0008.tif,"jPJLMkmdfg
+Kbn5bPz3CD
+jH3BpsnsU3","jPJLMkmdfg
+KbnSbPz3CD
+jHJBpsnsU3",0.9333
+7,Verdana,9,focusStep_7_verdanaRef_size_30_sample_0009.tif,"b KfcvmGFT
+VWshGJKSxi
+wz5MRVcRiG","b KfcvmGFT
+VWshGJKSxi
+wzSMRVcRiG",0.9655
+7,Verdana,10,focusStep_7_verdanaRef_size_30_sample_0010.tif,"7HhB3hmsgC
+UUmEH9iuJm
+yLA r8rvNH","7HhBJhmsgC
+UUmEHBiuJm
+yLA rSrvNH",0.8966
+7,Verdana,11,focusStep_7_verdanaRef_size_30_sample_0011.tif,"4GTYk5Dwg6
+9uYmWn8U9X
+cPND6vFNmz","dGTYkSDwg6
+BuYmWnBUBX
+cPND6vFNmz",0.8333
+7,Verdana,12,focusStep_7_verdanaRef_size_30_sample_0012.tif,"C5e9skGxzG
+ZAgjMKxdJT
+ATha77MnHz","CSePskGxzG
+ZAgjMKxdJT
+ATHaZZMnHz",0.8333
+7,Verdana,13,focusStep_7_verdanaRef_size_30_sample_0013.tif,"JMiFbMg8JT
+tQmNvTvJnG
+p4VgGPYTvX","JMiFbMgBJT
+tQmNvTvJnG
+pEVgGPYTvX",0.9333
+7,Verdana,14,focusStep_7_verdanaRef_size_30_sample_0014.tif,"VGL6M XgE9
+igs54C9hiQ
+yXryMD gTx","VGL6M XgE9
+igsSdC9hiQ
+yXryMD gTx",0.9286
+7,Verdana,15,focusStep_7_verdanaRef_size_30_sample_0015.tif,"QXxY76t7Lr
+jzyEVuscZD
+fzUDsaJ3zs","QXxY76t7Lr
+jzyEVuscZD
+fzUDsaJJzs",0.9667
+7,Verdana,16,focusStep_7_verdanaRef_size_30_sample_0016.tif,"uFP4NNcyBf
+YxmU27hNen
+scU3CxeTD","uFPdNNcyBf
+YxmUZ7hNen
+scU3CxeTD",0.931
+7,Verdana,17,focusStep_7_verdanaRef_size_30_sample_0017.tif,"nnV9FcXEtY
+tSmpXmhPSP
+kkXU JPVVK","nnVBFcXEtY
+tSmpXmhPSP
+kkXU JPVVK",0.9655
+7,Verdana,18,focusStep_7_verdanaRef_size_30_sample_0018.tif,"5BwK35FZLn
+hCEWnwJECb
+5yGzF jc8x","SBwK35FZLn
+hCEWnwJECb
+SyGzF jcBx",0.8966
+7,Verdana,19,focusStep_7_verdanaRef_size_30_sample_0019.tif,"XAKGhe YsH
+Yu5mBWQier
+iGD9fY8rty","XAKGhe YsH
+YuSmBWQier
+iGD9fYSrty",0.931
+7,Verdana,20,focusStep_7_verdanaRef_size_30_sample_0020.tif,"jGQUEEaB8
+ZRAc8bmrfF
+tt8ixGEak","jGQUEEaBS
+ZRAcBbmrfF
+ttBixGEak",0.8929
+8,Times,1,focusStep_8_timesR_size_30_sample_0001.tif,"4xUEuh8cyb
+tq6EbFNwsn
+hkFvL9v4wZ","DxEuhEyb
+tqEbFNwn
+hkFvLJvdwZ",0.7333
+8,Times,2,focusStep_8_timesR_size_30_sample_0002.tif,"vmY3h8gYcz
+2xY6U2FKBr
+z2Wa7jaP S","vmYJhBgYcz
+ZxYbU2FKBr
+zZWnTjaP S",0.7586
+8,Times,3,focusStep_8_timesR_size_30_sample_0003.tif,"HFfQwLTV49
+dMu8BSK5KC
+abk22zb3 6","HFfQwLTV49
+dMuBSKsKC
+abkZzbJ b",0.7931
+8,Times,4,focusStep_8_timesR_size_30_sample_0004.tif,"pwArYZhe J
+4xEgJrFyNW
+9imMe9DJUc","pwArYZhe J
+dxEgJrFyNW
+9imMe9DJUc",0.9655
+8,Times,5,focusStep_8_timesR_size_30_sample_0005.tif,"M8JTsM3RtZ
+SP8dSVRhy9
+gXcEYhbNkA","MBJTsMJRiZ
+SPBdSVRhy9
+gXcEYhbNkA",0.8667
+8,Times,6,focusStep_8_timesR_size_30_sample_0006.tif,"kQVH72ZSBQ
+LRshh4KV4m
+ZBRXBXS6be","kQVH7ZSBQ
+LRshhdKVdm
+ZBRXBXSbe",0.8667
+8,Times,7,focusStep_8_timesR_size_30_sample_0007.tif,"uKa946fiXP
+mu8J5cgQkJ
+ 2Ry97jju4","uKaMbfiXP
+muBScgQkJ
+ 2Ry97jju4",0.7931
+8,Times,8,focusStep_8_timesR_size_30_sample_0008.tif,"hBNKcMRwtN
+Hjd8sqcAuH
+Tw rrzE6yH","hBNKcMRwtN
+HjdbsqcAuH
+Tw nrzEbyH",0.8966
+8,Times,9,focusStep_8_timesR_size_30_sample_0009.tif,"kf2M7bxEKU
+sbup5DjH5Z
+BHNWyJa6AV","kfzM7bxEKU
+sbupSDjH5Z
+BHNWyJa6AV",0.9333
+8,Times,10,focusStep_8_timesR_size_30_sample_0010.tif,"yAVQwxpffZ
+cybNwr3eiS
+yWijdDiHQT","yAVQwxpffZ
+cybNwrJeiS
+yWijdDiHQT",0.9667
+8,Times,11,focusStep_8_timesR_size_30_sample_0011.tif,"9LRUpcHxwx
+eJu5Ke9cc4
+Brk5aiBbv5","9LRUpcHxwx
+eJu5Ke9cc4
+BrkSmBbvS",0.8667
+8,Times,12,focusStep_8_timesR_size_30_sample_0012.tif,"gHB4YGNWJN
+KrbGiWP5NB
+iGfddB8JiM","gHBdYGNWJN
+KrbGiWPsNB
+iGfddBsJiM",0.9
+8,Times,13,focusStep_8_timesR_size_30_sample_0013.tif,"rAXHhCVqkK
+ph3yrtZW2h
+ BQNC5Bdej","rAXHhCVqkK
+phJyrtZWZh
+ BQNCsBdej",0.8966
+8,Times,14,focusStep_8_timesR_size_30_sample_0014.tif,"bSWZvL6ZrN
+i9KaDZZQRs
+2bXiN6Vnej","bSWZvL6ZrN
+iPKaDZZQRs
+ZhXiNbVnej",0.8667
+8,Times,15,focusStep_8_timesR_size_30_sample_0015.tif,"WtCrE4L3B8
+377T2wmkFb
+6agUfLbncJ","WtCrEdLJB8
+377TJwmkFb
+bagUfLbncJ",0.8667
+8,Times,16,focusStep_8_timesR_size_30_sample_0016.tif,"Ap2Szpgqkk
+t9a5dFggJR
+eu5Dn5sAwu","ApJSzpgqkk
+tPaFdFggJR
+euSDnSsAwu",0.8333
+8,Times,17,focusStep_8_timesR_size_30_sample_0017.tif,"dhj tghjr 
+tdn22AVHM2
+RUyryGzphz","dhj tghjr
+tdnZZAVHMJ
+RUyryGzphz",0.8929
+8,Times,18,focusStep_8_timesR_size_30_sample_0018.tif,"qX4kg5jfAc
+yfbsCiyaqb
+2ixxEyqSZ","qXdkgSjiAc
+yfbsCiyaqb
+ZixxEyqSZ",0.8621
+8,Times,19,focusStep_8_timesR_size_30_sample_0019.tif,"UqtsqMqG47
+6v5fJZNMqp
+6R8 Ks6cLa","UqtsqMqG47
+bvSiJZNMqp
+6RB KsbcLa",0.8276
+8,Times,20,focusStep_8_timesR_size_30_sample_0020.tif,"cQ78Bxgn5e
+MaJhbpe4fq
+wKJ kqZGT9","cQJBBxgnSe
+MaJhbpedfq
+wKJ kqZGT9",0.8621
+8,Verdana,1,focusStep_8_verdanaRef_size_30_sample_0001.tif,"K73Hf2Ruub
+VW3RVG6B9z
+sp3Mv gLYF","KJ3HfzRuub
+VWJRVG6BJz
+spJMv gLYF",0.8276
+8,Verdana,2,focusStep_8_verdanaRef_size_30_sample_0002.tif,"qmHSYFALGg
+byxmvEXFzX
+8S  2WtH9w","qmHSYFALGg
+byxmvEXFzX
+BS  ZWtHSw",0.8929
+8,Verdana,3,focusStep_8_verdanaRef_size_30_sample_0003.tif,"54PXks2S73
+yCTrnDbfPE
+4rmB447DsS","54PXks2SJ3
+yCTrnDbfPE
+4rmB44JDsS",0.9333
+8,Verdana,4,focusStep_8_verdanaRef_size_30_sample_0004.tif,"5qC8BAJ6a2
+vzEE7u8sMB
+Gs 9FvZFQZ","SqCBBAJ6aZ
+vzEEJuBsMB
+Gs 9FvZFQZ",0.8276
+8,Verdana,5,focusStep_8_verdanaRef_size_30_sample_0005.tif,"yEnyJDQ5hU
+WUaPw8vmmw
+U62k6Y5cpf","yEnyJDQShU
+WUaPwBvmmw
+UBZk6Y5cpf",0.8667
+8,Verdana,6,focusStep_8_verdanaRef_size_30_sample_0006.tif,"dUHkHB69VP
+cT83uQuUxa
+pQ49JMdDDh","dUHkHB69VP
+cTBJuQuUxa
+pQdBJMdDDh",0.8667
+8,Verdana,7,focusStep_8_verdanaRef_size_30_sample_0007.tif,"Hi2hzPCcZs
+kaW6F6LwSm
+UJiDy6NkjU","HiHzPCcZs
+kaWGF6LwSm
+UJiDyBNkjU",0.8667
+8,Verdana,8,focusStep_8_verdanaRef_size_30_sample_0008.tif,"cj3cfbiwGT
+h2BYMkwCvF
+yaLyD C85a","cjJcfbiwGT
+hZBYMkwCvF
+yaLyD CBSa",0.8621
+8,Verdana,9,focusStep_8_verdanaRef_size_30_sample_0009.tif,"KK9GxW6g8 
+jQCr5us9km
+RfQUm6k5N2","KK9GxW6gB
+jQCrSus9km
+RfQUm6kSNz",0.8621
+8,Verdana,10,focusStep_8_verdanaRef_size_30_sample_0010.tif,"vidCfxrjmK
+NKFVNH9Mr9
+ibf7YFXyS2","vidCfxrjmK
+NKFvNHMr9
+ibfZYFXyS2",0.9
+8,Verdana,11,focusStep_8_verdanaRef_size_30_sample_0011.tif,"i6V64aZfKi
+MNvGptcqFF
+BMDebbYGAd","iSV64aZfKi
+MNvGptcqFF
+BMDebbYGAd",0.9667
+8,Verdana,12,focusStep_8_verdanaRef_size_30_sample_0012.tif,"YNc36igWMq
+Th3iUpf9yu
+6z78fB6LPu","YNc3BigWMq
+ThJiUpfByu
+Bz7BfB6LPu",0.8333
+8,Verdana,13,focusStep_8_verdanaRef_size_30_sample_0013.tif,"6E8vf xDqg
+Bm5CSVKYc5
+Mc8fCjdTS","6EBvf xDqg
+BmSCSVKYcS
+McBfCjdTS",0.8571
+8,Verdana,14,focusStep_8_verdanaRef_size_30_sample_0014.tif,"SNWsNTKp4T
+qprNHCGJz2
+4tCRSLV3EW","SNWsNTKp4T
+qprNHCGJzZ
+etCRSLVJEW",0.9
+8,Verdana,15,focusStep_8_verdanaRef_size_30_sample_0015.tif,"NhKWBJ3YFi
+mrbaFMt7ED
+iL3U2 heCg","NhKWBJ3YFi
+mrbaFMtJED
+iLJUZ heCg",0.8966
+8,Verdana,16,focusStep_8_verdanaRef_size_30_sample_0016.tif,"Qftq5VRbWi
+tjPptcUWTf
+2k8wsvpS27","QftqSVRbWi
+tjPptcUWTf
+ZkBwsvpSZJ",0.8333
+8,Verdana,17,focusStep_8_verdanaRef_size_30_sample_0017.tif,"2RY7sQuf7
+hfEQ9w2zMP
+GYFAeynZFb","ZRYJsQufJ
+hfEQSwZzMP
+GYFAeynZFb",0.8276
+8,Verdana,18,focusStep_8_verdanaRef_size_30_sample_0018.tif,"KfMGKVBvTG
+rYXJbrMGZc
+SmVUTWJAe6","KfMGKVByTG
+rYXJbrMGZc
+SmVUTWJAeG",0.9333
+8,Verdana,19,focusStep_8_verdanaRef_size_30_sample_0019.tif,"XX2cidh5HC
+77y29fLfQx
+UNppsXgR x","XXZcidhSHC
+77yZ9fLfQx
+UNppsXgR x",0.8966
+8,Verdana,20,focusStep_8_verdanaRef_size_30_sample_0020.tif,"yEMRnmiFba
+zfviaESVHc
+b6ECFtFUDw","yEMRnmiFba
+zfviaESVHc
+bBECFtFUDw",0.9667
+9,Times,1,focusStep_9_timesR_size_30_sample_0001.tif,"yK4pjYyPQe
+xkvumuQDPW
+wmHjrN EqE","yKdpjYyPQe
+xkvnmuQDPW
+wmHjrN EqE",0.931
+9,Times,2,focusStep_9_timesR_size_30_sample_0002.tif,"TqycF29WZq
+J48dKDm3H9
+wmFPvs5gP9","TqycFJWWZq
+JtBdKDmJHJ
+wmFPvsSgP9",0.7667
+9,Times,3,focusStep_9_timesR_size_30_sample_0003.tif,"AAPHbXDgmw
+kYFHffBwuN
+3EHs96 GRR","AAPHbXDgnw
+kYFHffBwuN
+JEHs9b GRR",0.8966
+9,Times,4,focusStep_9_timesR_size_30_sample_0004.tif,"YdGzadNebK
+HbKtYzZXFE
+YitWvy3Q J","YdGzadNebK
+HbKrYzZXFE
+YitWvyJQ J",0.931
+9,Times,5,focusStep_9_timesR_size_30_sample_0005.tif,"4RH47TxyDx
+L3cJFbeadg
+4GsSgBhqkK","sRHmTxyDx
+LJcJFheadg
+dGsSgBhqkK",0.8
+9,Times,6,focusStep_9_timesR_size_30_sample_0006.tif,"3A3B bknuq
+8KAg86etGt
+dEZjLeftGL","JAJB bkmuq
+bKAgBbetGt
+dEZjLeftGL",0.7931
+9,Times,7,focusStep_9_timesR_size_30_sample_0007.tif,"x2Wh5XGtbP
+YVSkt4GdEc
+Gjrbq2rneg","xZWhsXGtbP
+YVSkbGdEc
+GjrbqZrneg",0.8333
+9,Times,8,focusStep_9_timesR_size_30_sample_0008.tif,"vjYs64YKEg
+cPMeQHR8cc
+qVe RJ 3nR","vjYsbdYKEg
+cPMeQHRcc
+qVe RJ JnR",0.8571
+9,Times,9,focusStep_9_timesR_size_30_sample_0009.tif,"93i  nzUeh
+eNNZqyjZkp
+F W5g2Zrvr","9Ti  nzUeh
+eNNZqyjZkp
+F W5gZrvr",0.9259
+9,Times,10,focusStep_9_timesR_size_30_sample_0010.tif,"dHuUtrYa2n
+5XiC24WmaE
+XYg2HAxyB7","dHuUnYaZn
+SXjCJdWraE
+XYgZHAxyBJ",0.6667
+9,Times,11,focusStep_9_timesR_size_30_sample_0011.tif,"w6PWuY uaw
+fCXgcx9DHu
+Z3sYKmmyP","w6PWuY urw
+fCXgcx9DHu
+ZJcYKmmyP",0.8929
+9,Times,12,focusStep_9_timesR_size_30_sample_0012.tif,"msQAY GkZS
+mnpJC8NcGD
+T7GpF3d5Z4","msQAY GkZS
+mnpJCBNcGD
+T7GpFJd5Z4",0.931
+9,Times,13,focusStep_9_timesR_size_30_sample_0013.tif,"26AvNGmtsT
+8Erru8PG6Y
+Czgcw7yuTE","JhAvNGmtsT
+BEruBPGbY
+Czgcw7yuTE",0.8
+9,Times,14,focusStep_9_timesR_size_30_sample_0014.tif,"yLCHtCut5f
+f9Py4NyFUJ
+juGySQX5 S","yLCHtCutSf
+BPydNyFUJ
+juGyNQXS S",0.7931
+9,Times,15,focusStep_9_timesR_size_30_sample_0015.tif,"DEfVErR b8
+MpCXuRSGuX
+mY5ZsUdAtG","DEfVErR b8
+MpCXuRSGuX
+mYSZsUdAtG",0.9655
+9,Times,16,focusStep_9_timesR_size_30_sample_0016.tif,"etaE4GhZj2
+A6Sii6jLiz
+HK9FcgZRVH","etnE4GhZjJ
+AbSbhjLiz
+HK9FcgZRVH",0.8
+9,Times,17,focusStep_9_timesR_size_30_sample_0017.tif,"fiC4s6z3Ln
+w4Hm6Ej7g6
+qHeYdxTs2e","fiCdsbzJLn
+wHmbEj7gb
+qHeYdxTsZe",0.7667
+9,Times,18,focusStep_9_timesR_size_30_sample_0018.tif,"gpbEqxuB9s
+DRv3p694tx
+ySYXrxrkd3","gpbEqxuB9s
+DRvjp6Mtx
+ySYXrxrdJ",0.8333
+9,Times,19,focusStep_9_timesR_size_30_sample_0019.tif,"w2uMF9Qi74
+DgaSw37aja
+auQ Za pj4","wZuMFQi74
+DgaSwJ7qja
+nuQ Za pj4",0.8214
+9,Times,20,focusStep_9_timesR_size_30_sample_0020.tif,"LAbyU5WQA 
+3gZgjnP5Lk
+vSEyvEd7Ew","LAbyUSWQA
+JgZsjnPSLk
+vSEyvEd7Ew",0.8621
+9,Verdana,1,focusStep_9_verdanaRef_size_30_sample_0001.tif,"YrJcjdKsAj
+jTrwNWtDg8
+rUEq8YwMwL","YrJcjdKsAj
+jTrwNWtDgB
+rUEqBYwMwL",0.9333
+9,Verdana,2,focusStep_9_verdanaRef_size_30_sample_0002.tif,"wM Kgm SgL
+aSP3EUUjNg
+Stpfwj6pta","wM Kgm SgL
+aSPJEUUjNg
+Stpfwj6pta",0.9643
+9,Verdana,3,focusStep_9_verdanaRef_size_30_sample_0003.tif,"rpER9XGxxd
+T3ntpEZ8Dy
+WdkRVaAyv","rpERSXGxxd
+TJntpEZBDy
+WdkRVaAyv",0.8966
+9,Verdana,4,focusStep_9_verdanaRef_size_30_sample_0004.tif,"kTdQygATY9
+aQ4PuWbLwN
+dQ Rsgk2GF","kTdQygATY9
+aQ4PuWbLwN
+dQ RsgkzGF",0.9655
+9,Verdana,5,focusStep_9_verdanaRef_size_30_sample_0005.tif,"xJgBAKNsxw
+Fa9bMrM72Y
+ykqwkac2ZW","xJgBAKNsxw
+Fa9bMrMJZY
+ykqwkacZZW",0.9
+9,Verdana,6,focusStep_9_verdanaRef_size_30_sample_0006.tif,"Ah d3eTMFQ
+GLe9WANXda
+ m9ESky7Ma","Ah dDeTFQ
+GLeBWANXda
+ mBESkyJMa",0.8214
+9,Verdana,7,focusStep_9_verdanaRef_size_30_sample_0007.tif,"Zz5JtYQdpk
+a4wLN7ZSQu
+EKx4tWzwKB","ZzSJtYQdk
+a4wLN7ZSQu
+EKxAtWzwKB",0.9
+9,Verdana,8,focusStep_9_verdanaRef_size_30_sample_0008.tif,"peTLkfkED4
+KqNXcqu77n
+wTuk v6kqv","peTLkfkED4
+KqNXcqu77n
+wTuk vBkqv",0.9655
+9,Verdana,9,focusStep_9_verdanaRef_size_30_sample_0009.tif,"GzyRsK2USx
+MaV94gGmXE
+2Uf2krDZAj","GzyRsKZUSx
+MaV9AgGmXE
+ZUfZkrDZAj",0.8667
+9,Verdana,10,focusStep_9_verdanaRef_size_30_sample_0010.tif,"qAJhCQScxz
+HbuCPeHekn
+i9vynPq7rR","qAJhCQScxz
+HbuCPeHekn
+iBvynPqJrR",0.9333
+9,Verdana,11,focusStep_9_verdanaRef_size_30_sample_0011.tif,"K52qNpk B4
+UmJ6TBnbrG
+mLQEhJWaTW","K5ZqNpk B4
+UmJ6TBnbrG
+mLQEhJWaTW",0.9655
+9,Verdana,12,focusStep_9_verdanaRef_size_30_sample_0012.tif,"ptq7Hyqdvv
+SqjN7u75Yv
+EmWPxTCzgU","ptq7Hyqdvv
+SqjN7u7SYv
+EmWPxTCzgU",0.9667
+9,Verdana,13,focusStep_9_verdanaRef_size_30_sample_0013.tif,"tfp6 DMF8s
+nQU3BZ849h
+cWJWwjiasz","tfp6 DMFBs
+nQUJBZB49h
+cWJWwjiasz",0.8966
+9,Verdana,14,focusStep_9_verdanaRef_size_30_sample_0014.tif,"4EKDiNtadD
+bWBpWm7bvw
+aeEtv6 fw2","4EKDiNtadD
+bWBpWm7bvw
+aeEtv6 fwZ",0.9655
+9,Verdana,15,focusStep_9_verdanaRef_size_30_sample_0015.tif,"QxzXBbRsLf
+tEhXTunKfS
+ sxxXUc642","QxzKBbRsLf
+tEhXTunKfS
+ sxxXUc642",0.9655
+9,Verdana,16,focusStep_9_verdanaRef_size_30_sample_0016.tif,"EXQH6w5qnu
+JZKs5fSds5
+N6DGmaBW63","EXQH6wSqnu
+JZKsSfSdsS
+NBDGmaBW6J",0.8333
+9,Verdana,17,focusStep_9_verdanaRef_size_30_sample_0017.tif,"NJnB8P9dDv
+bKjMJ5eNu4
+GqK zpfmSY","NJnBBP9dDv
+bKjMJSeNu4
+GqK zpfmSY",0.931
+9,Verdana,18,focusStep_9_verdanaRef_size_30_sample_0018.tif,"uwbAvAhtqn
+WBJjkxwqZs
+3zxuc6iLxy","uwbAvAhtqn
+WBJjkxwqZs
+JzxucBiLxy",0.9333
+9,Verdana,19,focusStep_9_verdanaRef_size_30_sample_0019.tif,"SJLeP gwm9
+gQW9auDCCE
+Nqvag3Az X","SJLeP gwm9
+gQWPauDCCE
+NqvagJAz X",0.9286
+9,Verdana,20,focusStep_9_verdanaRef_size_30_sample_0020.tif,"aMLDXRztGZ
+dAC6VD2Daq
+J2N e3NsDR","aMLDXRztGZ
+dAC6VD2Daq
+JZN eJNsDR",0.931
+10,Times,1,focusStep_10_timesR_size_30_sample_0001.tif,"Ra2MWx68sT
+uENKNu7Cra
+je3CwsDqEN","RnJMWxbRsT
+uENKNuJCra
+jeJCwsDqEN",0.8
+10,Times,2,focusStep_10_timesR_size_30_sample_0002.tif,"R2Zxn PwB4
+ABgfWihu5h
+RN4A5Mujyc","RJZxn PwB4
+ABgtWihuSh
+RNdASMujyc",0.8276
+10,Times,3,focusStep_10_timesR_size_30_sample_0003.tif,"SVHaW2PPVr
+Gup4v6WkEM
+hLR27s7vp","SVHaWZPPVr
+GupdvfWkEM
+nLR27sJvp",0.8276
+10,Times,4,focusStep_10_timesR_size_30_sample_0004.tif,"Z jxNR8g f
+NTVvZBUu8v
+VSzKqZFSyw","Z jxNRSg f
+NTVvZBUuBv
+VSzKqZFSyw",0.9286
+10,Times,5,focusStep_10_timesR_size_30_sample_0005.tif,"Y8Bb4ct9zw
+RU3VuZvF3X
+cz8LrbtyaP","YBBb4cr9zw
+RUJVuZvFJX
+czBLrbiyaP",0.8
+10,Times,6,focusStep_10_timesR_size_30_sample_0006.tif,"wE XHBi96J
+PnS9hvvMb7
+c7rRLjhFSh","wE XHBf9bJ
+PnS9hvvMb7
+cTrRLjhFSh",0.8966
+10,Times,7,focusStep_10_timesR_size_30_sample_0007.tif,"MFENPMg25i
+M5ueyVHgWX
+2 BLsKX dR","MFENPMg2Si
+MSueyVHgWX
+Z BLsRX dR",0.8571
+10,Times,8,focusStep_10_timesR_size_30_sample_0008.tif,"V9 KQqCzFW
+775HdYNkVL
+emViRTqiAL","V9 KQqCzFW
+USHdYNkVL
+emVfKTqiAL",0.8276
+10,Times,9,focusStep_10_timesR_size_30_sample_0009.tif,"VYiC6T388j
+dZXXE43dPi
+YZEanP37H3","VYiCbEjMj
+dZXXEFkjPi
+YZEmPU7HJ",0.6
+10,Times,10,focusStep_10_timesR_size_30_sample_0010.tif,"NvrdkSq74H
+4DwFaRKpNQ
+zmJmJrP jP","NvdkSqUH
+dDwFaRKpNQ
+zmiJmJrP jP",0.8276
+10,Times,11,focusStep_10_timesR_size_30_sample_0011.tif,"UJ SFvvwAE
+FYNgJsMbhS
+XC2fJnR97G","UJ SFvvwAE
+FYNgJsMbhS
+XCzfJnR97G",0.9655
+10,Times,12,focusStep_10_timesR_size_30_sample_0012.tif,"yBGRtGgSBc
+Cd4rvftwpV
+QXyyeuKs42","yBGRtGgSBc
+CdHrvfhwpV
+QXyyeuKuD",0.8333
+10,Times,13,focusStep_10_timesR_size_30_sample_0013.tif,"NQLs4NPwW4
+paWXHjsaJA
+c7GmXft45X","NQLdNPwWd
+puWXHjszJA
+cJGmXJbSX",0.6667
+10,Times,14,focusStep_10_timesR_size_30_sample_0014.tif,"7RFX6A3NMG
+5yu8Zj56ST
+RUCgb9BaQA","TRFXbAJNMG
+syuSZjybST
+RUCgbJBaQA",0.7333
+10,Times,15,focusStep_10_timesR_size_30_sample_0015.tif,"NRw7rERCBd
+AxPDEsMmUT
+BBiYx Mxhj","NRw7rERCBd
+AxPDEsMmUT
+BBiYx Mxhj",1.0
+10,Times,16,focusStep_10_timesR_size_30_sample_0016.tif,"w2sxFrDkk2
+zKgXz2fFqe
+mwHHg56P6t","wJsxFrDkkJ
+zKgXzZiFqe
+mwHHgSBPbt",0.7667
+10,Times,17,focusStep_10_timesR_size_30_sample_0017.tif,"qQR vnEfQm
+Zpwp8XehGC
+vSndMqR6ZM","qQR vnEfQm
+Zpwp8XchGC
+vSmfMqRbZM",0.8621
+10,Times,18,focusStep_10_timesR_size_30_sample_0018.tif,"VZjv6jXp2Y
+c4mhArPXX7
+gJmcthqLPU","VZjvfjXpZY
+cdmhArPNX7
+gJmcthqLPU",0.8667
+10,Times,19,focusStep_10_timesR_size_30_sample_0019.tif,"QNzNJueCfH
+DG4zDUNZnr
+vU b2 u2PW","QNzNJueCfH
+DGdzDUNZnr
+vU bz uZPW",0.8929
+10,Times,20,focusStep_10_timesR_size_30_sample_0020.tif,"mrgn2eA2zh
+VF593ipLyB
+Yjq36357cx","mrmJeAJzh
+VFWJpLyB
+YjqJfGScx",0.5667
+10,Verdana,1,focusStep_10_verdanaRef_size_30_sample_0001.tif,"f2qeG RgkU
+KRcNBzzeTL
+GW9UYJF4Z7","fZqeG RgkU
+KRcNBzzeTL
+GW9UYJF4ZJ",0.931
+10,Verdana,2,focusStep_10_verdanaRef_size_30_sample_0002.tif,"DQc9w4tjCn
+6u84WgC3Tq
+mT dCPrX3R","DQcSwMtjCn
+BuBEWgCzTq
+mT dCPrXJR",0.7586
+10,Verdana,3,focusStep_10_verdanaRef_size_30_sample_0003.tif,"LUdu3GyUd 
+VCCdXBKWe3
+AziaatKjM2","LUduJGyUd
+VCCdXBKWeB
+AziaatKjMz",0.8966
+10,Verdana,4,focusStep_10_verdanaRef_size_30_sample_0004.tif,"2p2BfbEU9M
+L6E4pCprFb
+kCQTueUA6V","ZpZBfbEUJM
+LSE4pCprFb
+kCQTueUA6V",0.8667
+10,Verdana,5,focusStep_10_verdanaRef_size_30_sample_0005.tif,"JCJRyzR2ge
+ciaKSUr6yU
+mNwkPRKh5U","JCJRyzRzge
+ciaKSUrfyU
+mNwkPRKhSU",0.9
+10,Verdana,6,focusStep_10_verdanaRef_size_30_sample_0006.tif,"cssxatxGTm
+8TUpTBKzSK
+BpQbmBW295","cssxatxGTrm
+BTUpTBKzSK
+BpQbmBW295",0.9333
+10,Verdana,7,focusStep_10_verdanaRef_size_30_sample_0007.tif,"MWykrDkEnh
+GPVPQXDGNA
+6MEJpWwAJV","MWykrDkEnh
+GPVPQXDGNA
+bMEJpWwAJV",0.9667
+10,Verdana,8,focusStep_10_verdanaRef_size_30_sample_0008.tif,"iRLRXyP9rg
+mCq62EuwPu
+uRuSLYK2U","iRLRXyPSrg
+mCqGzEuwPu
+uRuSLYKzU",0.8621
+10,Verdana,9,focusStep_10_verdanaRef_size_30_sample_0009.tif,"Mu79bFCYk 
+npXvWEMyND
+4aukaqRaU7","MuJSbFCYk
+npXvWEMyND
+AaukaqRaUJ",0.8621
+10,Verdana,10,focusStep_10_verdanaRef_size_30_sample_0010.tif,"kdgLYBdnkT
+6Hesx7EDXi
+z7kimvzCZa","kdgLYBdnkT
+GHesxJEDXi
+z7kimvzCZa",0.9333
+10,Verdana,11,focusStep_10_verdanaRef_size_30_sample_0011.tif,"k7sDnLkDsd
+JSDZa3MMK7
+QEVCRCZjhQ","kJsDnLkDsd
+JSDZaiJMMKJ
+QEVCRCZjhQ",0.8667
+10,Verdana,12,focusStep_10_verdanaRef_size_30_sample_0012.tif,"aNKZeVgkKA
+9hVFtTK78G
+2Kb5HFxg9","aNKZeVgkKA
+9hVFtTK7BG
+ZKbSHFxg9",0.8966
+10,Verdana,13,focusStep_10_verdanaRef_size_30_sample_0013.tif,"zT7HF94T L
+iTFtsjh9zN
+et 9TWChQi","zT7HF94T L
+iTFtsjh9zN
+et 9TWChQi",1.0
+10,Verdana,14,focusStep_10_verdanaRef_size_30_sample_0014.tif,"fUPVqMgH4Y
+Tfp8eVN68p
+X4sAVRjxHf","fUPVqMgH4Y
+TfpBeVN6Sp
+XDsAVRjxHf",0.9
+10,Verdana,15,focusStep_10_verdanaRef_size_30_sample_0015.tif,"qu8iLGjFRC
+vF74Mv9w8u
+gp CCdiMUk","quBiLGjFRC
+vFJ4Mv9wBu
+gp CCdiMUk",0.8966
+10,Verdana,16,focusStep_10_verdanaRef_size_30_sample_0016.tif,"r uVpFy9Zr
+B5phHsD6zD
+DHmPni9TWK","r uVpFy9Zr
+BSphHsDGzD
+DHmPni9TWK",0.931
+10,Verdana,17,focusStep_10_verdanaRef_size_30_sample_0017.tif,"vx9rY62QmE
+TTg8Yi3vmG
+CJp2PXQft6","vxSrYGZQmE
+TTgBYiBvmG
+CJpzPXQftb",0.7667
+10,Verdana,18,focusStep_10_verdanaRef_size_30_sample_0018.tif,"e6vjcXLZ h
+medACgcEV3
+GVTgXgGXWr","eBvjcXLZ h
+medACgcEVJ
+GVTgXgGXWr",0.931
+10,Verdana,19,focusStep_10_verdanaRef_size_30_sample_0019.tif,"M8YEFh BQy
+ZDP5h5CEwd
+YbMX 5MMb","MBYEFh BDy
+ZDPShSCBwd
+YbMX SMMb",0.7778
+10,Verdana,20,focusStep_10_verdanaRef_size_30_sample_0020.tif,"Syti723zU 
+n6GPcsaBs7
+tJSwk4XeJT","Syti7ZJzU
+nbGPcsnBsJ
+tJSwkdXeJT",0.7931
+11,Times,1,focusStep_11_timesR_size_30_sample_0001.tif,"vpGbMpCRmN
+SvLkVyyFCX
+jBzQDrhjSu","vpGbMpCRmN
+SvLkVyyFCK
+jBzQDrhjSu",0.9667
+11,Times,2,focusStep_11_timesR_size_30_sample_0002.tif,"gpqYiYbJiY
+mb5HYhMeEe
+GXuChEuF3g","gpqYiYbJiY
+mbSHYhMeEe
+GXuChHuFJg",0.9
+11,Times,3,focusStep_11_timesR_size_30_sample_0003.tif,"G9c2zATWP 
+Et4R3kt3Yj
+YfUHQ YSax","G9cJzATWP
+EbfRJkrGYj
+YfUHQ YSax",0.7857
+11,Times,4,focusStep_11_timesR_size_30_sample_0004.tif,"3q8GdQa34c
+hwt7qpdi3d
+8957qNQQa7","JqBGdQaHc
+hwrPqpdJd
+8JyTqNQQa7",0.6333
+11,Times,5,focusStep_11_timesR_size_30_sample_0005.tif,"jQU8gQXhbr
+UQCUZmwfnn
+j2FBh7QcqZ","jQUBgQXhbr
+UQCUZmwfnn
+jZFBh7QeqZ",0.9
+11,Times,6,focusStep_11_timesR_size_30_sample_0006.tif,"JrRLkFW3Ld
+YzjHcBvEbu
+xkstyAapQv","JrRLkFW3Ld
+YzjHcBvEbu
+xksryAapQv",0.9667
+11,Times,7,focusStep_11_timesR_size_30_sample_0007.tif,"a9LXYsu RZ
+jPbjSN2svg
+JyFqW5mHv","r9LXYsu RZ
+jPbjSNZsvg
+JyFqWSmHv",0.8929
+11,Times,8,focusStep_11_timesR_size_30_sample_0008.tif,"ysYGJy kbr
+pjzprXKCvp
+kcTTkuppgM","ysYGJy kbr
+pjzprXKCvp
+kcTHuppgM",0.931
+11,Times,9,focusStep_11_timesR_size_30_sample_0009.tif,"7LpmdSKK F
+zYJSZkieCX
+sigaNMecVK","TLpmdSKK F
+zYJSZkieCX
+sigaNMecVK",0.9655
+11,Times,10,focusStep_11_timesR_size_30_sample_0010.tif,"EMBe3Ka6EA
+2jgrSL4NBS
+ppixzgaJMM","EMBeJKabEA
+ZjgrSLJNBS
+ppixzgaJMM",0.8667
+11,Times,11,focusStep_11_timesR_size_30_sample_0011.tif,"SpJuC8fEp3
+gpce9PGNf3
+9RSQ 2X7c3","SpJuCMfEpJ
+gpeeYPGNrJ
+JRSQ ZXJcJ",0.6552
+11,Times,12,focusStep_11_timesR_size_30_sample_0012.tif,"HPsx45evmD
+WZ4UF9ySSt
+CjFFDMf5Lu","HPxeSevmD
+WZdUF9ySSt
+CjFFDMfSLu",0.8333
+11,Times,13,focusStep_11_timesR_size_30_sample_0013.tif,"hpYfWiDZ3r
+CnPzjS8xWX
+ RgxF4 s63","hpYfWiDZJr
+CnPzjSSxWX
+ RgxFd sbJ",0.8214
+11,Times,14,focusStep_11_timesR_size_30_sample_0014.tif,"aMtAbgPnKR
+8Ni8xiUuX3
+BvaZaTMkiZ","aMtAbgPnKR
+SNiBxiUuXJ
+BvaZuTMkiZ",0.8667
+11,Times,15,focusStep_11_timesR_size_30_sample_0015.tif,"i9efzrbwhz
+QsFKBBKu9p
+Sj hbhPeMN","iJefzrbwhz
+QsFKBBKu9p
+Sj hhhPcMN",0.8966
+11,Times,16,focusStep_11_timesR_size_30_sample_0016.tif,"7RsWdVSwRJ
+anJcYWyh2m
+hCzUdZjd H","7RsWdVSwRJ
+anJcYWyhJm
+hCzUdZjd H",0.9655
+11,Times,17,focusStep_11_timesR_size_30_sample_0017.tif,"DpVevq4z9B
+qHfFsMxW9k
+U8XRTEdiZb","DpVexqdz9B
+qHjFsMxW9k
+U8KRTEdiZb",0.8667
+11,Times,18,focusStep_11_timesR_size_30_sample_0018.tif,"euggmJfGyW
+KBVu82F6KS
+n zG5DDfNk","eutgmJfGyW
+KBVuSZFbKS
+n zGJDDfNk",0.8276
+11,Times,19,focusStep_11_timesR_size_30_sample_0019.tif,"sz vVEpgMB
+GkqyaaePTV
+MvgHiFAWq3","sz vVEpgMB
+GkqyniePTV
+MvgHiFAWqJ",0.8966
+11,Times,20,focusStep_11_timesR_size_30_sample_0020.tif,"HVqX4qe Fz
+23vBeJqqUQ
+SNzJriq7nT","HVqXdqe Fz
+ZJvBeAjqFQ
+SNzJnqJnT",0.6897
+11,Verdana,1,focusStep_11_verdanaRef_size_30_sample_0001.tif,"pvVpT8h  Z
+W27uJ4dQfu
+ETNN8rTZhb","pvVpTBh  Z
+W2TuJAdQfu
+ETNNBrTzhb",0.8214
+11,Verdana,2,focusStep_11_verdanaRef_size_30_sample_0002.tif,"gdJ YKNycQ
+vSFvVgDwLV
+G3Nq8wzudd","gdJ YKNycQ
+vSFvVgDwLV
+GJNqBwzudd",0.931
+11,Verdana,3,focusStep_11_verdanaRef_size_30_sample_0003.tif,"qL VMDTP7k
+ccP8KL4Zgb
+Rs8a8 tJw","qL VMDTP7k
+ccPBKL4Zgb
+RsbnB rJw",0.8148
+11,Verdana,4,focusStep_11_verdanaRef_size_30_sample_0004.tif,"7LnbdtAFsK
+fuw3W9RkpE
+gcbBEVcx3p","JLnbdtAFsK
+fuwSWRkpE
+gcbBEVcxSp",0.8667
+11,Verdana,5,focusStep_11_verdanaRef_size_30_sample_0005.tif,"uxkJcM9PDN
+STq5ftpCFq
+YVVjhaXKuB","uxkJcM9PDN
+STqSftpCFq
+YVVjhaXKuB",0.9667
+11,Verdana,6,focusStep_11_verdanaRef_size_30_sample_0006.tif,"Q7HycvtA5S
+E2seisUVQz
+8U64wg5fex","Q7HycvtASS
+EJseisUVQz
+BU6dwgSfex",0.8333
+11,Verdana,7,focusStep_11_verdanaRef_size_30_sample_0007.tif,"2FhekXhbzH
+mxjDEbAry9
+iXkpd8wE8c","ZFhekXhbzH
+mxjDEbAry9
+iXkpdBwEBc",0.9
+11,Verdana,8,focusStep_11_verdanaRef_size_30_sample_0008.tif,"SeTn7yFm5D
+ZmSbcTdY88
+p7VJ KKXLA","GeTnJyFmSD
+ZmSbcTdYBB
+pJVJ KKXLA",0.7931
+11,Verdana,9,focusStep_11_verdanaRef_size_30_sample_0009.tif,"xakAkUtWZf
+CVxFPdYhcL
+vz4vGyAY5z","xakAkUrWZf
+CVxFPdYhcL
+vzdvGyAYSz",0.9
+11,Verdana,10,focusStep_11_verdanaRef_size_30_sample_0010.tif,"J2 guP t7d
+e8qr6bhdAA
+vd6BXT3du","JZ guP t7d
+ebqrSbhdAA
+vdBBXTJdu",0.8148
+11,Verdana,11,focusStep_11_verdanaRef_size_30_sample_0011.tif,"Vhu8c3DYmX
+yDRJpUFPjR
+GRwVycmzup","VhuBc3DYmX
+yDRJpUPPjR
+GRwVycmzup",0.9333
+11,Verdana,12,focusStep_11_verdanaRef_size_30_sample_0012.tif,"TWGfnP3j4v
+92FffbCRFa
+WNhYbdxqWi","TWGfnPJj4v
+9ZFffbCRFa
+WNhYbdxqWi",0.9333
+11,Verdana,13,focusStep_11_verdanaRef_size_30_sample_0013.tif,"hpQYyaLL7b
+KuRqghU66Z
+u5CvC2AHZh","hpQYyaLL7b
+KURqghU6bZ
+uSCvC2AHZh",0.9
+11,Verdana,14,focusStep_11_verdanaRef_size_30_sample_0014.tif,"GwYtxeZNQ7
+GfSCc8ENEh
+KaN2CEexeA","GwYtxeZNQJ
+GfSCcBENBh
+KaNzCHexeA",0.8333
+11,Verdana,15,focusStep_11_verdanaRef_size_30_sample_0015.tif,"i9ffMbjGF8
+SNhfgtq2mF
+dyTv3gc8YJ","iBffMbjGFB
+SNhfqtqzmF
+dyTvJgcBYJ",0.8
+11,Verdana,16,focusStep_11_verdanaRef_size_30_sample_0016.tif,"pFVJmH79Cp
+jLUDZpt8gM
+u55ZiDfpnX","pFVJmH7Cp
+jLUDZptBgM
+uSSZiDfpnX",0.8667
+11,Verdana,17,focusStep_11_verdanaRef_size_30_sample_0017.tif,"STR8E agMH
+C7XS9NJvDJ
+Fx22 qFs9Y","STRBE bgMH
+C7XSBNJvDJ
+Fx2z qFs9Y",0.8571
+11,Verdana,18,focusStep_11_verdanaRef_size_30_sample_0018.tif,"GX7BeT3U5k
+3v6S3HHdDB
+GTFMLmJUDj","GX7BeT3U5k
+JvBSJHHdDB
+GTFMLmJUDj",0.9
+11,Verdana,19,focusStep_11_verdanaRef_size_30_sample_0019.tif,"7gb26tNcgm
+FZHN6Jw7Lq
+8jMhz8MDRX","7gbZStNcgm
+FZHN6Jw7Lq
+SjMhzbMDRX",0.8667
+11,Verdana,20,focusStep_11_verdanaRef_size_30_sample_0020.tif,"76m7X8BG U
+HmZBBCbCC9
+NsxhV4jM w","76mJXBBG U
+HmZBBCbCC9
+NsxhVMjM w",0.8929
+12,Times,1,focusStep_12_timesR_size_30_sample_0001.tif,"4JRqSjXkY6
+NjQpR3A8Zb
+r4V5SUMzer","URqSjXkYb
+NjQpRJASZb
+rWYSUMzer",0.7333
+12,Times,2,focusStep_12_timesR_size_30_sample_0002.tif,"jLiKsdZKT5
+FatAcubp7G
+SU EZENGSb","jLiKsfZKTS
+FatAcuhpZG
+SU kZENGSb",0.8276
+12,Times,3,focusStep_12_timesR_size_30_sample_0003.tif,"EcCLTetf54
+bC3RXwi5fQ
+Z38C7 FNSi","EcCLTeffSj
+bCJRXwJfQ
+ZJBCJ FNSi",0.6897
+12,Times,4,focusStep_12_timesR_size_30_sample_0004.tif,"yEyVJbHM7x
+qqRScJznaj
+LUeCn5j4Hy","yExVJbHMJx
+qqRScJznaj
+LUeCnSjdHy",0.8667
+12,Times,5,focusStep_12_timesR_size_30_sample_0005.tif,"e MEF9QgmB
+x9rDvpiQkZ
+2JRhawndFC","e MEFQgmB
+xSrDvpiQkZ
+ZJRhnwndFC",0.8621
+12,Times,6,focusStep_12_timesR_size_30_sample_0006.tif,"ggY2EVbs9f
+sCtdHKdmKX
+dGYgZTugdR","ggYJEVbsJf
+sCudHKdmKK
+dGYgZTugdR",0.8667
+12,Times,7,focusStep_12_timesR_size_30_sample_0007.tif,"86cmwDAVVH
+qNhGUjN57P
+ kf3dsVtUw","SBcmwDAVVH
+qNhGUjNSJP
+ kEdsVtUw",0.7931
+12,Times,8,focusStep_12_timesR_size_30_sample_0008.tif,"HN 4iQ27Je
+jhrVB6KZyC
+5B6ghLt8mv","HN JiQZ7Jc
+jhrVBbKZyC
+xBbghLiRmv",0.7241
+12,Times,9,focusStep_12_timesR_size_30_sample_0009.tif,"C7ehpCF3Nz
+PefBa2xgZ9
+nJHdLw4T8w","C7ehpCFJNz
+PcjBaZxgZ9
+nJHdLwTfSw",0.7667
+12,Times,10,focusStep_12_timesR_size_30_sample_0010.tif,"HzZQ48i9dS
+Few6u9v4J4
+vhABu6vgsE","HzZQdSfdS
+FwfnJvdJt
+vhABubvgse",0.6
+12,Times,11,focusStep_12_timesR_size_30_sample_0011.tif,"vUfznyySaq
+5WMsMWf7LB
+aLxCLtdF2","vUfznyySaq
+SWMsMWGLB
+aLxCLtdFJ",0.8621
+12,Times,12,focusStep_12_timesR_size_30_sample_0012.tif,"euuy8 c8AE
+g9zWyrwSaN
+ebhUxDARqs","emryB cSAE
+gWzWyrwSaN
+ebhUxDARqs",0.8276
+12,Times,13,focusStep_12_timesR_size_30_sample_0013.tif,"vtkiLGDEXc
+AKamFFTzAS
+vGi i9sB5j","vtkiLGDEXc
+AKmnFFTzAS
+vGr fYsBij",0.7931
+12,Times,14,focusStep_12_timesR_size_30_sample_0014.tif,"MUqGJjjZGE
+ZnZsCZaMdn
+ZufaacjsCr","MUqGJjZGE
+ZnKsCZaMdn
+ZufaacjsCr",0.9333
+12,Times,15,focusStep_12_timesR_size_30_sample_0015.tif,"4u QYhMdmT
+m9Dj6hPvcv
+acwyM2W9K5","du QYhMdmT
+mrJDjbhPvcv
+nwyMzW9K5",0.7586
+12,Times,16,focusStep_12_timesR_size_30_sample_0016.tif,"DPFxSXtPmr
+APwrSraqpn
+3QwsBYn9Pc","DPFxSKtPmr
+APwrSmqpn
+JQwsBYuJPc",0.8
+12,Times,17,focusStep_12_timesR_size_30_sample_0017.tif,"3DSpve6cUi
+atD5F4Uw5a
+9ceTuk9Da4","JDSpvefcUi
+ntDSFdUwSa
+9eeTnk9Dad",0.7
+12,Times,18,focusStep_12_timesR_size_30_sample_0018.tif,"NaS8rNLWLH
+8Z4EVjsbSp
+nCYCkpVr c","NaSBrNLWLH
+SZdEVjrbSp
+nCYCkpVr c",0.8621
+12,Times,19,focusStep_12_timesR_size_30_sample_0019.tif,"NBwZjw9C3N
+EpnZXdJ8Ji
+4H2Y6xEpFq","NBwZju9CJN
+EpnZXdJRJi
+dHYbxEpFq",0.8
+12,Times,20,focusStep_12_timesR_size_30_sample_0020.tif,"aKhaY88Lv
+TV9Yyc3aeV
+eGrpX6aDkP","aKhuYSBLv
+TVJYycJaeV
+cGrpXbaDkP",0.7586
+12,Verdana,1,focusStep_12_verdanaRef_size_30_sample_0001.tif,"2TgPtSm4ew
+dYjQSXUyRi
+6baq4nzfM7","ZTgPtSmMew
+dYjQSXUyRi
+BbaqdnzfMJ",0.8333
+12,Verdana,2,focusStep_12_verdanaRef_size_30_sample_0002.tif,"GMbDv UgBG
+eFLaeU4uT6
+zNQG4Y T S","GMbDv UpBG
+eFLaeU4uTb
+zNQGMY T S",0.8889
+12,Verdana,3,focusStep_12_verdanaRef_size_30_sample_0003.tif,"9EGqyqebNR
+QBqZtixtr3
+qwCeqP DhL","SEGqyqebNR
+QBqZtixtrJ
+qwCeqP DhL",0.931
+12,Verdana,4,focusStep_12_verdanaRef_size_30_sample_0004.tif,"zJ2ZwzaZHu
+Jnh2rKkRwu
+6U AQYhXbj","zJZWzaZHu
+JnhZrKkRwu
+BU AQYhXbj",0.8621
+12,Verdana,5,focusStep_12_verdanaRef_size_30_sample_0005.tif,"zMx9Z8qvSM
+YFbtBfjL67
+  8i5724J5","zMxDZBqvSM
+YFhtBfjLG7
+ BiSZJ4JS",0.6786
+12,Verdana,6,focusStep_12_verdanaRef_size_30_sample_0006.tif,"aTAqtNZMvR
+PDMxqZdfEM
+s6s7qFytaz","aTAqtNZMvR
+PDMxqZdfEM
+sbsJqFytnz",0.9
+12,Verdana,7,focusStep_12_verdanaRef_size_30_sample_0007.tif,"rqFbyjeaZH
+BNjheMJAMj
+fkE VLwTGM","rqFbyjeaZH
+BNjheMJAMj
+fkE VLwTGM",1.0
+12,Verdana,8,focusStep_12_verdanaRef_size_30_sample_0008.tif,"MLLLYXVSMi
+ebqzhhYrmP
+aHReaMdgBT","MLLYXVSMi
+ebqzhhYrmP
+aHReaMdgBT",0.9667
+12,Verdana,9,focusStep_12_verdanaRef_size_30_sample_0009.tif,"z4m4hQ CTK
+HNAKL2HVNR
+faWgm68jbv","zdmAhQ CTK
+HNKLZHVNR
+faWgmBSjbv",0.7931
+12,Verdana,10,focusStep_12_verdanaRef_size_30_sample_0010.tif,"3mNH65Y53J
+zjeky8TSAB
+meyXNWe3dk","JmNHGYSJJ
+zjekyBTSAB
+meyXNWeSdk",0.7667
+12,Verdana,11,focusStep_12_verdanaRef_size_30_sample_0011.tif,"exLEwr 8Qz
+4M72kjFFtX
+5EzeHzaEcH","exLEwr EQz
+aMJJkjFFtX
+JEzeHzaEcH",0.8276
+12,Verdana,12,focusStep_12_verdanaRef_size_30_sample_0012.tif,"5GkG4sVZXt
+vQYhQHVbZJ
+y9DRFxAGUi","SGkGAsVZXt
+vQYhQHVbZJ
+yDKFxAGuI",0.8
+12,Verdana,13,focusStep_12_verdanaRef_size_30_sample_0013.tif,"iVVa3JTErC
+C5GqkZRc6K
+6gemmdhufD","iVVa3JTErC
+CSGqkZRcbK
+GgemmdhufD",0.9
+12,Verdana,14,focusStep_12_verdanaRef_size_30_sample_0014.tif,"YtBt Kd9nU
+wmwGT6mb3v
+fpjjP4p9y7","YtBc KdSnU
+wmwGTmbJv
+fpjjP4p9yJ",0.8276
+12,Verdana,15,focusStep_12_verdanaRef_size_30_sample_0015.tif,"cB6uAKp2rD
+ErMr4EkW8J
+67FyWrnjR4","cBGuAKpZrD
+ErMmekWBJ
+GZFyWrnjR4",0.7333
+12,Verdana,16,focusStep_12_verdanaRef_size_30_sample_0016.tif,"kzrYsgVL7h
+TAiCa98CAz
+8urhb3Y GF","kzrYsgVL7h
+TAiCuDBCAz
+BurhbSY GF",0.8276
+12,Verdana,17,focusStep_12_verdanaRef_size_30_sample_0017.tif,"A fnuQgsKk
+VngCMAzxFd
+PnRauM67Jg","A fnuQgsKk
+VngCMAzxFd
+PnRbuMBJg",0.8966
+12,Verdana,18,focusStep_12_verdanaRef_size_30_sample_0018.tif,"DfbnDNGJAM
+Be8pZmNYCC
+VRuQS44Hhk","DfbnDNGJAM
+BeSpZmNYCC
+VRuQSdHhk",0.9
+12,Verdana,19,focusStep_12_verdanaRef_size_30_sample_0019.tif,"Udgzq6YYQ6
+SvUq8w9MU7
+EvLkjWtfzK","UdgzqSYYQ6
+SvUqBwRMUJ
+EvLkjWtfzK",0.8667
+12,Verdana,20,focusStep_12_verdanaRef_size_30_sample_0020.tif,"irF8h9CyS7
+FjGEhNm5wW
+7Yty52Qxiq","irFBhSCySJ
+FjGEhNmSwW
+ZYtySJQxiq",0.7667
+13,Times,1,focusStep_13_timesR_size_30_sample_0001.tif,"tuqxjiYzk8
+FFkyG4Fsvg
+DybTjdhVK4","tuqxjYzkB
+EhkyGHFsvg
+DybTjdhVKd",0.8
+13,Times,2,focusStep_13_timesR_size_30_sample_0002.tif,"X53MePyN4S
+7xYjx72LyM
+2 p94SFi72","XSTMePyNDS
+TxYjxGJLyM
+J pBNSFj7J",0.6207
+13,Times,3,focusStep_13_timesR_size_30_sample_0003.tif,"xVRipTEZTN
+hJH6hjwVh5
+9Y ASQyhJ8","xVRipTEZTN
+bJHbhgwVhG
+UY ASQyhJb",0.7931
+13,Times,4,focusStep_13_timesR_size_30_sample_0004.tif,"YGcssZh bD
+rs26vfxcC7
+MtddExmzzY","YGcssZh bD
+rxQbvixcC7
+MhDdExmzzY",0.7931
+13,Times,5,focusStep_13_timesR_size_30_sample_0005.tif,"4k pqvLTyx
+gaMPrC68jB
+WH2kLq9DaT","B pqvLTyx
+gnMPrCBsjB
+WHzkLqBDaT",0.7586
+13,Times,6,focusStep_13_timesR_size_30_sample_0006.tif,"Yny8  WRT8
+jb56yheEGT
+N4V2aEiQWW","YnyB  WRTS
+jbSbyheEGT
+NfVzaEiQWW",0.7857
+13,Times,7,focusStep_13_timesR_size_30_sample_0007.tif,"CaUb2Qf9ix
+nyF3kjkDLm
+eRAsNtYPxp","CaUbJQfBix
+nyFJqkDLm
+cRAsNiYPxp",0.7667
+13,Times,8,focusStep_13_timesR_size_30_sample_0008.tif,"x8BJeCN 6n
+4DpDWGVN4t
+hMxiaPdxxc","xBJeCN fn
+dUpDWGVNdr
+hMxraPdxxe",0.7241
+13,Times,9,focusStep_13_timesR_size_30_sample_0009.tif,"Tbtsr6mZUr
+si9qSkFAnf
+btWHY9seHV","TbtsrbmZUr
+sBqSkFAnf
+biWHYJscHV",0.8
+13,Times,10,focusStep_13_timesR_size_30_sample_0010.tif,"PaLLSQJTDg
+i3mQhiggb6
+HU9h2xxz52","PnLLSQJTDg
+iJmQhiggb
+THUBhxxzSJ",0.7667
+13,Times,11,focusStep_13_timesR_size_30_sample_0011.tif,"ebNQYj7WBh
+EaKsLJGyAQ
+4cxf3uuFBq","ebNQYjZWbh
+HaKsLJGyAQ
+dcxDuuFBq",0.8
+13,Times,12,focusStep_13_timesR_size_30_sample_0012.tif,"LTrGaVanQy
+CJ3fDsvcr5
+N9uxWaN5cS","LTrGaVmQy
+CJJfDsverS
+NJukWaNScS",0.7333
+13,Times,13,focusStep_13_timesR_size_30_sample_0013.tif,"f2kG7Wc Fw
+kxhrYcTG9q
+3qwyC6DgDP","fZkGJWc Fw
+kxhrYcTGJq
+JqwyCbDgDP",0.8276
+13,Times,14,focusStep_13_timesR_size_30_sample_0014.tif,"cNs2CV5d6
+j49bShzQti
+ vagq2AhBS","cNsQCVSdb
+jWBShzQu
+vagqJAhBS",0.6786
+13,Times,15,focusStep_13_timesR_size_30_sample_0015.tif,"MmVx3DvBJ6
+FR3DS2xyCX
+R8JtkRieBf","MmVxDvBJb
+FRJDSzxyCX
+RxJthRieBf",0.8
+13,Times,16,focusStep_13_timesR_size_30_sample_0016.tif,"w aHzqTfeh
+mBjRxTtdzK
+qbhNZSMfnX","w nHzqTfeh
+mBjRxTdzK
+qbnNZSMmX",0.8276
+13,Times,17,focusStep_13_timesR_size_30_sample_0017.tif,"3vaig8uV79
+nrXxFCf8fU
+R sPFBwBRH","JvaiqfuV7J
+nrXxECfBfU
+R sPFBwBRH",0.7931
+13,Times,18,focusStep_13_timesR_size_30_sample_0018.tif,"7  RifBYKq
+Bf2ULswCBM
+vh6zPRmgLk","J  RnBYKq
+BDULswCBM
+vhfzPRmgLk",0.7857
+13,Times,19,focusStep_13_timesR_size_30_sample_0019.tif,"yqnQGYyAZ 
+bVskqQXmV5
+QHrn3pvLY3","yqnQGYyAZ
+bVskqQKmVS
+QBraJpvLYJ",0.7931
+13,Times,20,focusStep_13_timesR_size_30_sample_0020.tif,"uuC GdsEe 
+MWrev76MqA
+pUjQWTsPZt","muC GdsEe
+MWrev7bMqA
+pUjQWTsPZt",0.9286
+13,Verdana,1,focusStep_13_verdanaRef_size_30_sample_0001.tif,"y5ebHT3MfC
+4ZW7phJAby
+RqCR bqm3F","ySebHTJMfC
+AZWJphJAby
+RqCR bqmJF",0.8276
+13,Verdana,2,focusStep_13_verdanaRef_size_30_sample_0002.tif,"AtpfCrrNQL
+6neX7YdL5q
+ETWUx5GBgp","AtpfCrrNQL
+bneK7YdLSq
+ETWUx5GBgp",0.9
+13,Verdana,3,focusStep_13_verdanaRef_size_30_sample_0003.tif,"QR7uShV3 
+4ChdSLfjFg
+bL96CCPZgz","QRJuShVJ
+SChdSLfjFig
+bLSBCCPZgz",0.7857
+13,Verdana,4,focusStep_13_verdanaRef_size_30_sample_0004.tif,"VKVckSwiAa
+6rtzAZHY7k
+DNLFVG2C3j","VKVckSwiAa
+brtzAZHYJk
+DNLFVGzCJj",0.8667
+13,Verdana,5,focusStep_13_verdanaRef_size_30_sample_0005.tif,"DVtGcvXfyQ
+VJDwewgJiX
+889k F4EWK","DVtGcvXfyQ
+VJDwewgJiX
+BB9k F4EWK",0.931
+13,Verdana,6,focusStep_13_verdanaRef_size_30_sample_0006.tif,"uXw7y8eSr5
+qX5R7SdfE5
+NwXGaGh3Cu","uXw7yBeSrS
+qXSRJSdfES
+NwXGaGhJCu",0.8
+13,Verdana,7,focusStep_13_verdanaRef_size_30_sample_0007.tif,"w9muV5p7We
+bygxnT8J3E
+xUhu ZwQ2f","wBmuVSpTWe
+bygxnTBJJE
+xUhu ZwQzf",0.7931
+13,Verdana,8,focusStep_13_verdanaRef_size_30_sample_0008.tif,"XBrZapJ56d
+eTwxZTSsUa
+DNHYcw5 j4","XBrZapJSbd
+eTwxZTSsUa
+DNHYcwS j4",0.8966
+13,Verdana,9,focusStep_13_verdanaRef_size_30_sample_0009.tif,"B9L6yekPzj
+Hm2JtwUjbj
+3rhykVrG9p","B9LGyekPzj
+HmZJtwUjbj
+JrhykVrGSp",0.8667
+13,Verdana,10,focusStep_13_verdanaRef_size_30_sample_0010.tif,"X4MtcWJYEN
+DwVdqxmnt7
+kngFNGFqyE","XEMtcWJYEN
+DwVdqxmntJ
+kngPNGFqyE",0.9
+13,Verdana,11,focusStep_13_verdanaRef_size_30_sample_0011.tif,"mTANs LNWr
+h2YmmUmKQz
+igRpDFpiA7","mTANs LNWr
+hZYmmUmKQz
+igRpDFpiAJ",0.931
+13,Verdana,12,focusStep_13_verdanaRef_size_30_sample_0012.tif,"nHqw vh88V
+VfcBzbv8Bb
+5dEXBm2 jm","nHqw vhBBV
+VfcBzbvBBb
+SdEXBmz jm",0.8214
+13,Verdana,13,focusStep_13_verdanaRef_size_30_sample_0013.tif,"pNDLrbKVLC
+FagagawBGp
+vM xmPuGns","pNDLrbKVLC
+FnegagawBGp
+vM xmiPuGns",0.8966
+13,Verdana,14,focusStep_13_verdanaRef_size_30_sample_0014.tif,"kHhUybd7eb
+bnGtJKixnK
+V2 GeUb8c4","kHhUybdJeb
+bnStJKixnK
+Vz GeUbBcA",0.8276
+13,Verdana,15,focusStep_13_verdanaRef_size_30_sample_0015.tif,"adFzvjXCcM
+Zg33iUwBvc
+UNNx3yUXJU","adFzyjXCcM
+ZgSJiUwBvc
+UNNxSyUXJU",0.8667
+13,Verdana,16,focusStep_13_verdanaRef_size_30_sample_0016.tif,"QsNFP C2TW
+NnTLbTiAAH
+HwBdY4guMq","QsNFP CzTW
+NnTLbTiAAH
+HwBdY4guMq",0.9655
+13,Verdana,17,focusStep_13_verdanaRef_size_30_sample_0017.tif,"KPgrRVhL7z
+2W73hbNS3P
+yRbbvKAS3U","KPgrRVhL7z
+ZWJhhNSJP
+yRbbvKASJU",0.8
+13,Verdana,18,focusStep_13_verdanaRef_size_30_sample_0018.tif,"yHU6tHwmYR
+8rqWMaJicq
+D8vd F88E8","yHUGtHwmYR
+BriWMaJicq
+DBvd FBBEB",0.7586
+13,Verdana,19,focusStep_13_verdanaRef_size_30_sample_0019.tif,"zd9mkX38xU
+4d7CV3XEiH
+fV9H2QwLkn","zdBmkXJBxU
+EdZCVGJEiH
+fVHZQwLkn",0.7
+13,Verdana,20,focusStep_13_verdanaRef_size_30_sample_0020.tif,"QZdNTNcgzj
+ZQthj2L72N
+urCRRNjaWb","QZdNTNcgzj
+ZQthjZuTZN
+urCRRNjaWb",0.8667
+14,Times,1,focusStep_14_timesR_size_30_sample_0001.tif,"uECcEYghj9
+rfDVJxrXJU
+mAh yPgeQC","uECuEYehD
+rffDVhrXJU
+mAh yPgeQC",0.7586
+14,Times,2,focusStep_14_timesR_size_30_sample_0002.tif,"5sqq5LwiqP
+uhGBFVTsVk
+iRzF3qchUR","JsqqSLwiqP
+nhGBFVtsVk
+iRzFJqchUiR",0.8
+14,Times,3,focusStep_14_timesR_size_30_sample_0003.tif,"ACjG4v3Fhc
+L2UKbuwJE6
+z7U8K uWrM","ACjGdvJEhc
+KzUKbweJEb
+zTUSK uWrM",0.6552
+14,Times,4,focusStep_14_timesR_size_30_sample_0004.tif,"EhhxNi2dWr
+mKKzeLZR2e
+uF7ECv3ff2","EbhxNiQdWr
+mKKzeLZRJe
+uFJE CvJfD",0.7667
+14,Times,5,focusStep_14_timesR_size_30_sample_0005.tif,"FYz2QULueE
+xZAniDGknm
+r 3T aZGT","FYzJQULueE
+xZAniDGknm
+r HT aZGT",0.9259
+14,Times,6,focusStep_14_timesR_size_30_sample_0006.tif,"BvhcCckzuN
+knhkkBTfR3
+ YD5SBYT5i","BvbcCckzuN
+kuhkdBFfRJ
+YDJSBYTsi",0.7586
+14,Times,7,focusStep_14_timesR_size_30_sample_0007.tif,"adTzuYvNnB
+v8PpKdummX
+SSqKTCMcBH","adTzuYvNnB
+vSKpKihwmmX
+SSqKTCMcBH",0.8333
+14,Times,8,focusStep_14_timesR_size_30_sample_0008.tif,"tmsTE6zyTn
+uEdqfNRaXn
+uQqkRxJiSt","tmsTEfzyTn
+uEdqtNRaXn
+uQqkRxJiSt",0.9333
+14,Times,9,focusStep_14_timesR_size_30_sample_0009.tif,"SUiSXK CYn
+hhLrECFK4d
+vWJuzRHDaJ","SUiSXK CYn
+hhLrHCFKtd
+vWJuzRHDaJ",0.931
+14,Times,10,focusStep_14_timesR_size_30_sample_0010.tif,"rHKqr8AjJq
+zV8D4fggLq
+DQraMnjXZv","tHKqtRAjJq
+zYSDBjqjLq
+DQmMnjKZv",0.6
+14,Times,11,focusStep_14_timesR_size_30_sample_0011.tif,"8xRe892fDP
+9JG9JpJMXZ
+W JAKCEfyy","FxReWDjDP
+9JGHpJMXZ
+W JAKCEHyy",0.7241
+14,Times,12,focusStep_14_timesR_size_30_sample_0012.tif,"2SmykJPZq
+vwMcbuJfE4
+iSz5Rc qwa","JSmykJPZq
+vwMehuJBE4
+iSzJRc qwa",0.8214
+14,Times,13,focusStep_14_timesR_size_30_sample_0013.tif,"ngYZu TXxw
+khHxavPU47
+wXDdrmfHLx","mrYZu TXxw
+khHxivPUU
+wXDdnufHLx",0.7586
+14,Times,14,focusStep_14_timesR_size_30_sample_0014.tif,"YEXrLZJKiX
+ZvQ5yN23dL
+tuzeWfgJLq","YEXrLZJKiX
+ZvQbyNJUdL
+tuzeWigJLq",0.8667
+14,Times,15,focusStep_14_timesR_size_30_sample_0015.tif,"s6F84vxXie
+hRgPQg4vwf
+D5rJCRgbb6","s6FRvxXje
+bKpPQgdvwf
+DTrJCKgbbb",0.6667
+14,Times,16,focusStep_14_timesR_size_30_sample_0016.tif,"EKfUsfABu5
+byvF5JN8Lv
+eEN xZK3QM","EKfUsfABnS
+byeFsfNSLv
+nEN xZKJQM",0.7241
+14,Times,17,focusStep_14_timesR_size_30_sample_0017.tif,"9UNPA9zFUD
+mr4wJVYwmj
+AEQ7MMBYNc","9UNPAQzFUD
+nmsbwJVYwmj
+AEQzMMBYNe",0.8
+14,Times,18,focusStep_14_timesR_size_30_sample_0018.tif,"YSvH3qprfV
+EUvHPjiUqZ
+r7dzXBkHdh","YSvHUqprfV
+EUvhBfhUqZ
+r7dzKBkHdh",0.8
+14,Times,19,focusStep_14_timesR_size_30_sample_0019.tif,"VdPEi4Nuzy
+USxnVQfzkE
+ePEYcqhjvN","VdPEHNuzy
+USxnVQizkE
+ePEYcqhjvN",0.9
+14,Times,20,focusStep_14_timesR_size_30_sample_0020.tif,"rWmrmZPxWA
+AtsTx6DLh4
+Hhw4Qsj3z7","rWmmZPxWA
+AtxTrbDLh4
+JHwdQsjJzJ",0.7
+14,Verdana,1,focusStep_14_verdanaRef_size_30_sample_0001.tif,"kqMu9cNNAy
+t9853bpqZx
+2zzF4Zz mS","kqMuBcNNAy
+tJRSJbpqZX
+JzzFAZx mS",0.6897
+14,Verdana,2,focusStep_14_verdanaRef_size_30_sample_0002.tif,"BbieWkUYEj
+EqJpEPVx5p
+5ApjyWaV x","BbieWkUYEj
+EnUpEPVxSp
+SApjyWaV x",0.8621
+14,Verdana,3,focusStep_14_verdanaRef_size_30_sample_0003.tif,"EgnWPW2J2T
+mr9QvQTv6t
+uAYcMQ74Kc","EgnW PWZJZT
+mrHQvQTvBt
+uAYcMQJdKc",0.8
+14,Verdana,4,focusStep_14_verdanaRef_size_30_sample_0004.tif,"ZjmnMYVDxw
+RKDDNpQzxY
+dNmQeRmPDR","ZjmnMYVDxw
+RKDDNpQzxY
+dNmQeRmPDR",1.0
+14,Verdana,5,focusStep_14_verdanaRef_size_30_sample_0005.tif,"hZKEGT6T6d
+cBvE8QBtBL
+sxV5GfcS 9","hZKEGTbTbd
+cBvEBQBtBL
+sxVSGfcS 9",0.8621
+14,Verdana,6,focusStep_14_verdanaRef_size_30_sample_0006.tif,"YX zVwdkTH
+9xCbG2BMjP
+ZPV7mCqWHr","YK zVwdkTH
+9xCbGZBMjP
+zPVJmCqWHr",0.8621
+14,Verdana,7,focusStep_14_verdanaRef_size_30_sample_0007.tif,"VMviKZjNdi
+2FTeHBLxLS
+TGSWKmKRtH","VMviKZjNdi
+ZFTeHBLxLS
+TGSWKmKRtH",0.9667
+14,Verdana,8,focusStep_14_verdanaRef_size_30_sample_0008.tif,"sQrc6EnjHP
+EV7YFznygy
+jRqyAVZnY4","sQrc6EnjHP
+SVJYFznygy
+jRqyAVZnYA",0.9
+14,Verdana,9,focusStep_14_verdanaRef_size_30_sample_0009.tif,"3LQZudMfeX
+WAPqLEEbUR
+nSWmtuNVaN","JLQZudMfeX
+WAPqLEEbUR
+nSWmtuNVaN",0.9667
+14,Verdana,10,focusStep_14_verdanaRef_size_30_sample_0010.tif,"btPzdtVXp2
+ibBmYVDDUq
+hriGGSg  2","btPzdtVXpZ
+ibBmYVDDUq
+hriGGGig  z",0.8571
+14,Verdana,11,focusStep_14_verdanaRef_size_30_sample_0011.tif,"bV72FhGVsF
+6vWhC3dKA8
+PevA5X3yqk","bVJZFhGVsF
+GvWhCJdKAB
+PevASXJyqk",0.7667
+14,Verdana,12,focusStep_14_verdanaRef_size_30_sample_0012.tif,"3a2R3wU46S
+J2cVx7qK8e
+VF6Phnp m","JaJRJwUdGS
+JzcVxJqKBe
+VF6Phnp m",0.7143
+14,Verdana,13,focusStep_14_verdanaRef_size_30_sample_0013.tif,"s9fFS95Fuq
+58WpqFpfK7
+YQ2 9ER5XF","ssfRS9SFuq
+SBWpqHpfKJ
+YQa JERSXF",0.6552
+14,Verdana,14,focusStep_14_verdanaRef_size_30_sample_0014.tif,"N xY96F7p6
+WqSHpZzFKA
+S3XS7qp cB","N xY96F7pG
+WqSHpZzPKA
+SJWSYqp cB",0.8214
+14,Verdana,15,focusStep_14_verdanaRef_size_30_sample_0015.tif,"xwsuY3ZPrN
+nbAaYnQjJc
+6snc57Y7v","xwsuYJZPrN
+npAaYnQjJc
+bsncSZYJv",0.7931
+14,Verdana,16,focusStep_14_verdanaRef_size_30_sample_0016.tif,"VTsHjNZJny
+dw6LMYs7K2
+KUEQiawXud","VTsHjNZJny
+dwBLMYsZKz
+KUEQjawXud",0.8667
+14,Verdana,17,focusStep_14_verdanaRef_size_30_sample_0017.tif,"V78XGav6A5
+rk4Z8DEdMs
+B kp bUjA","V7BXGnvGAS
+rk4ZBDEdMs
+B kp bUjA",0.8148
+14,Verdana,18,focusStep_14_verdanaRef_size_30_sample_0018.tif,"Srn4DJR Q9
+cfMmzqXUT4
+JpkusTwzvP","SmWDJR Q9
+cfMmzqXUTA
+JpkusTwzvP",0.8621
+14,Verdana,19,focusStep_14_verdanaRef_size_30_sample_0019.tif,"3aV4LfCYFk
+EzwTNPtW4k
+B cda V sw","JaVSLfCYFk
+EzwTNPtWMk
+B cda V sw",0.8889
+14,Verdana,20,focusStep_14_verdanaRef_size_30_sample_0020.tif,"LJMat8gKX
+iARRBvMHk6
+ NLVkR6Cg4","LJMatBgKX
+iARRBvMHkb
+NLVkRBCge",0.8571
+15,Times,1,focusStep_15_timesR_size_30_sample_0001.tif,"VPPa9mMLSV
+uNZ4qAVWgW
+RqwQgmELf","VPPsfnMLSV
+uNZAuAvWgW
+RqwQgmELf",0.7931
+15,Times,2,focusStep_15_timesR_size_30_sample_0002.tif,"ssRYSxdNC8
+tQdkWJHzXs
+R4 Cw94U73","ssRYSxdNCB
+iQdkWJHzKs
+Rn CwYdUZJ",0.7241
+15,Times,3,focusStep_15_timesR_size_30_sample_0003.tif,"GHdGBuRe6T
+nEZUs9J9Gb
+PCvvSUB2ZN","GHdGBuRebT
+nEZUsdBGb
+PCvvSUBZN",0.8333
+15,Times,4,focusStep_15_timesR_size_30_sample_0004.tif,"4z Jg6U9 H
+eFmWmpyYtZ
+i6xayJ Jnj","tz JgbUD H
+eFmWupyYiZ
+ibxryJ Jnj",0.7407
+15,Times,5,focusStep_15_timesR_size_30_sample_0005.tif,"Nc3L72frHy
+sU2RnJpsKF
+CgL Dk59by","NcJE7ZfrHy
+sUJRnJpuKF
+CgL DkJJby",0.7586
+15,Times,6,focusStep_15_timesR_size_30_sample_0006.tif,"2uX4PpXSbb
+iCwh4UzKtj
+RFgiKrxtmH","JuXdPpXSbb
+iCwhbUzKij
+RPjuKrstmH",0.7333
+15,Times,7,focusStep_15_timesR_size_30_sample_0007.tif,"kxB2HHPCik
+GyjG6Extsf
+UxFR3PwrcV","TxBJHPCjk
+GyjG6Exrst
+UxFKJPwrcV",0.7333
+15,Times,8,focusStep_15_timesR_size_30_sample_0008.tif,"GYR3Fa5tkX
+dAw7jtakdd
+XmUCNQnrSx","GYRJFxRkX
+rAwZjnkdd
+XmUCNQnrSx",0.7333
+15,Times,9,focusStep_15_timesR_size_30_sample_0009.tif,"5hfuE3L H7
+na2sVu4zDB
+uhPM87BEcv","ShmEJL HJ
+niQsVubzDB
+ukPMFzBEcv",0.6207
+15,Times,10,focusStep_15_timesR_size_30_sample_0010.tif,"n8xEG92iPu
+48EtWixZsE
+ufPQ5EVTYT","nFxEGQiPu
+dBEiWzZsE
+ufPQSEVETYT",0.6667
+15,Times,11,focusStep_15_timesR_size_30_sample_0011.tif,"3UN3uBwyGG
+V5bu8CDW3w
+cdP9k9rWh2","JUNJnBwyGG
+VSnbCDWJw
+cdPNkjhWhJ",0.6
+15,Times,12,focusStep_15_timesR_size_30_sample_0012.tif,"SQste7yH2U
+tTctyu7x38
+mHGzNUicaR","SQstTyHDU
+rTurybZxJR
+mHGzNUieaR",0.6333
+15,Times,13,focusStep_15_timesR_size_30_sample_0013.tif,"CvBZDq5a6F
+yzdb2UGbdE
+Sa9bVDWCX5","CvBZDqJebF
+yzdbZUGbdE
+SaJbVDWCKS",0.7667
+15,Times,14,focusStep_15_timesR_size_30_sample_0014.tif,"KGkkgTDhZr
+qWRwfr9wd6
+Y9Q2KQphB2","KGkksTDhZr
+qWRwtrhwdh
+YJQZKQphU",0.7333
+15,Times,15,focusStep_15_timesR_size_30_sample_0015.tif,"tbfc J3tFY
+MDvjYFBHVh
+7Y5V9TwBbq","rbkc ThFY
+MDvjYEBHVh
+ZYSVJTwBhq",0.6552
+15,Times,16,focusStep_15_timesR_size_30_sample_0016.tif,"W3R u3nz9u
+DpVHiG7Xym
+v24YKD6Tv9","WJR nJnzBu
+DpVHiGZXym
+vTtYKD6TvJ",0.7241
+15,Times,17,focusStep_15_timesR_size_30_sample_0017.tif,"S789adtmXP
+4pB4yqDXjU
+5XwHX9dE4Y","S7RhdhmXP
+dpBhyqDXjU
+iXwHKNdEjY",0.6667
+15,Times,18,focusStep_15_timesR_size_30_sample_0018.tif,"n6Wu Sbz6x
+if2DceCSG7
+5vkHigbD6U","gfWu Sbzbx
+jiDEeeCSGJ
+bvkHighDbU",0.5862
+15,Times,19,focusStep_15_timesR_size_30_sample_0019.tif,"PN 6rH6Mru
+Ez5BTzbAyB
+4n5XFQMnU2","PN frHbMm
+ExGBTzbAyB
+hnSKFQMnUz",0.6552
+15,Times,20,focusStep_15_timesR_size_30_sample_0020.tif,"qxKitv6g4S
+TRuda5ZcHV
+DetX7QGdtT","qxKivfhwS
+TRudnJZcHV
+DetXzQGdrT",0.7333
+15,Verdana,1,focusStep_15_verdanaRef_size_30_sample_0001.tif,"CsbakHQwDx
+fQnJYAwXSL
+MGRj84LXKs","CsbakhHQwDx
+fQnJYAwKSL
+hGRjBLKKs",0.8
+15,Verdana,2,focusStep_15_verdanaRef_size_30_sample_0002.tif,"ExjaaQfaap
+LWMLVW3xsQ
+Hk6t7MzgbE","ExjanQfaap
+LWMLVWSnQ
+HkgtJMzgbE",0.8
+15,Verdana,3,focusStep_15_verdanaRef_size_30_sample_0003.tif,"pVmqfEg4Yn
+BMFkqnuTwX
+ M6eeYEKMN","pVmqfEqdYn
+BMFkqnuTWX
+ MbeeYEKMN",0.8621
+15,Verdana,4,focusStep_15_verdanaRef_size_30_sample_0004.tif,"4jPjXG JWu
+2fcDdgz8Kk
+K5xCYVB2bz","ijPjXG JWu
+ZfcDugzBKk
+KSxCYVBzbz",0.7931
+15,Verdana,5,focusStep_15_verdanaRef_size_30_sample_0005.tif,"DVhHydpQ7 
+QtiZDMe2pi
+FndTJnQSmR","DVhHydpQ7
+QhZDMazpi
+FndTJnQSmR",0.8621
+15,Verdana,6,focusStep_15_verdanaRef_size_30_sample_0006.tif,"sNb4Tr  cX
+V7PMZVeQZG
+9x HNYATqs","sNbATr  cX
+VTPMZVeQZG
+Bx HNYATqs",0.8889
+15,Verdana,7,focusStep_15_verdanaRef_size_30_sample_0007.tif,"2fQLvUb5aH
+EgB8ELG2eb
+DJkaisbmws","ZfQLvUbSnH
+EgBBELGzeb
+DJkeisbmws",0.8
+15,Verdana,8,focusStep_15_verdanaRef_size_30_sample_0008.tif,"nQdv4N48G8
+bFd9E9UrvF
+eDetHcxvPg","nQdvaN4BGS
+bFd9ENUryF
+eDetHcxvPg",0.8333
+15,Verdana,9,focusStep_15_verdanaRef_size_30_sample_0009.tif,"HfuPPqkGaX
+y4w46pBdKn
+bVEUjYd7ki","HfuPPekGaX
+yewhspEdKn
+bVEUjYdZki",0.8
+15,Verdana,10,focusStep_15_verdanaRef_size_30_sample_0010.tif,"MVmKj7 Mj5
+Xj4MbQUWsT
+vqehRLT KF","MVmKj7 MjS
+XpMbQUWsT
+vqehRLi KF",0.8571
+15,Verdana,11,focusStep_15_verdanaRef_size_30_sample_0011.tif,"HHU qwZDg
+RyAhUJJvBk
+WD AWi46xd","HHU qwZDg
+KvAhUJJvBk
+WD AWHdxd",0.8148
+15,Verdana,12,focusStep_15_verdanaRef_size_30_sample_0012.tif,"mrYni54kZQ
+Guv4umq3Mi
+spTG dgt85","mrYniS4kZQ
+GuvAumqGMi
+spTG iagtJS",0.7586
+15,Verdana,13,focusStep_15_verdanaRef_size_30_sample_0013.tif,"baQzfwPZW7
+aSeTw5CBbw
+TacgptqywG","bnQzfwPZWJ
+aSeTWSCBbw
+TacgptqywG",0.8667
+15,Verdana,14,focusStep_15_verdanaRef_size_30_sample_0014.tif,"9zmUC52ULA
+Aabtgd29Fq
+3vas9nVnkj","BzmUCSZULA
+AabtgdzBFq
+JvasSmVhkj",0.7
+15,Verdana,15,focusStep_15_verdanaRef_size_30_sample_0015.tif,"hUZ64NFsV 
+m43BnaKAvE
+ tVJnZuU5U","hUZs4NFsV
+mKJBneKAyE
+ tVJnzuUSU",0.75
+15,Verdana,16,focusStep_15_verdanaRef_size_30_sample_0016.tif,"Uf d2QUwkF
+CnxpMWxCSN
+vFF249xqFX","Uf dZQUwkF
+CnxpMWxCSN
+vFFz49xqPX",0.8966
+15,Verdana,17,focusStep_15_verdanaRef_size_30_sample_0017.tif,"PKckiDDsWi
+VXxz9rv5sf
+m65D f ekA","PKckiDDsWi
+VXxzBrvSsf
+msSD i ekA",0.8214
+15,Verdana,18,focusStep_15_verdanaRef_size_30_sample_0018.tif,"wY7esWy5bY
+9ZFYtY4cpg
+WQMZ9E2T v","wY7esWySbY
+SZFYtYAcpg
+WQMZ9EJT v",0.8621
+15,Verdana,19,focusStep_15_verdanaRef_size_30_sample_0019.tif,"dL2E39dTi8
+99mtjQnTCs
+LEPwDR9iki","dLZEJDdTjB
+WWmtjQnTCs
+LEPWDRJNki",0.6667
+15,Verdana,20,focusStep_15_verdanaRef_size_30_sample_0020.tif,"YMsdZfxe6 
+GfSeNAG6nJ
+AuqgdRSggE","YMsdZtxeG
+GfSeNAGbnJ
+AuqdRSggE",0.8621
+16,Times,1,focusStep_16_timesR_size_30_sample_0001.tif,"M2SM7Rz8aA
+PJxxZDpQsb
+VeCaV9siZR","MZSMZRzSaA
+PJbxZDpQsb
+VcCrVYhZR",0.7
+16,Times,2,focusStep_16_timesR_size_30_sample_0002.tif,"BWMdG5B7xd
+gYSJiss4Di
+dJsd8VUNJK","BWMdGMUxd
+pYSJhseFh
+iTJsbVUNJK",0.6333
+16,Times,3,focusStep_16_timesR_size_30_sample_0003.tif,"TRtq5K6QXk
+3VF2sea3YK
+nrnPFTfxrd","TRnSKbQXk
+tVFzgsqJYK
+rnuPFTfxrd",0.6
+16,Times,4,focusStep_16_timesR_size_30_sample_0004.tif,"mSC7P2VPrf
+qqnk3UQj9Y
+42WzcJPZa2","mSC7PVVPrf
+iqgpxiUQjFY
+fDWzufPZaJ",0.6
+16,Times,5,focusStep_16_timesR_size_30_sample_0005.tif,"9ybdH33zk7
+FpPuRRHatH
+EmzWBYcDnE","byhdHJJzkJ
+KbPnRRHrtH
+EnzWBYcDnE",0.6667
+16,Times,6,focusStep_16_timesR_size_30_sample_0006.tif,"gzNKEF3pVh
+SBz82i6Eed
+HfzJBFzuST","jmNKFUhpVh
+SfBzKzbEud
+HfzJBFznST",0.6
+16,Times,7,focusStep_16_timesR_size_30_sample_0007.tif,"iJiHLvQb8w
+NFxt8cWMRY
+9x Qe LaE9","rEHFvQbhw
+NExubCMRY
+Vs Qe LaEJ",0.5357
+16,Times,8,focusStep_16_timesR_size_30_sample_0008.tif,"nkSdKbpEtz
+YJFXRPYiaE
+Me7RQKxTcG","nkSdKbpEtz
+YjFXRPYmE
+MvGRQKxTrG",0.8
+16,Times,9,focusStep_16_timesR_size_30_sample_0009.tif,"R3dEE5HPrx
+yu4rMqbWuk
+7XLRigMWjw","RJdEESHPrx
+yshrMqbWuk
+fXLKjzMWjw",0.7333
+16,Times,10,focusStep_16_timesR_size_30_sample_0010.tif,"VTQPKwvd2
+hdJCH7qKLw
+USUCL7bZeA","VTQPKwvdJ
+bdkCHVqRLw
+USUCLYbZeA",0.7931
+16,Times,11,focusStep_16_timesR_size_30_sample_0011.tif,"kxVgchS4 
+YWxkkivpvy
+DUeK6ZTg3i","kxVjchSt
+YWskhbxpvy
+DUeKEZTgJi",0.7143
+16,Times,12,focusStep_16_timesR_size_30_sample_0012.tif,"BNrMcwGCFW
+qL7EbBBg8k
+ieZ4xHX2Yh","BNrMcwGCFW
+qCJFhBBzsk
+ieZJxHKZYh",0.7
+16,Times,13,focusStep_16_timesR_size_30_sample_0013.tif,"VzH4kVH7Y3
+wDegRtpcLf
+4ZbYW563Kk","VzHHkVHZYJ
+wDcqKqpcLt
+dZhYWjUKk",0.5667
+16,Times,14,focusStep_16_timesR_size_30_sample_0014.tif,"2Y3MaXJ6F9
+WjTCMRby8S
+7v5HEKWZCz","ZYjMaXJbFv
+WsLCMRbykS
+ZvvHEKWZCz",0.7
+16,Times,15,focusStep_16_timesR_size_30_sample_0015.tif,"KpTy7bbegR
+DzEWu3QZtz
+39rk KDQvc","KpTvJbbegR
+DzFWuJQZtz
+FAk KDQvc",0.7586
+16,Times,16,focusStep_16_timesR_size_30_sample_0016.tif,"qZYQUrNy v
+DCKD6J6AfN
+ uj4qdPLFc","uZYQUrNy v
+DCKDHBjAjN
+ uzkjdPLFc",0.7143
+16,Times,17,focusStep_16_timesR_size_30_sample_0017.tif,"BEYKsUt4yH
+2YXkg4UTGJ
+dcjpbuFGTj","BEVKsUdyH
+ZYNkeUTGJ
+riqjpbnEGTj",0.6
+16,Times,18,focusStep_16_timesR_size_30_sample_0018.tif,"u76JTYGE9F
+jp6xw6H5Ne
+s7p3BDFnyY","uJSJTYGEF
+jphrwbHANe
+sZpJBDFnyY",0.7
+16,Times,19,focusStep_16_timesR_size_30_sample_0019.tif,"gHNV7CyU6g
+ydHtdnrp3x
+bTzA9e33 9","yHNVfUyUbg
+ydHdbtqgjx
+bTkAjeSU U",0.4828
+16,Times,20,focusStep_16_timesR_size_30_sample_0020.tif,"YkiDsU6mD2
+h8JvVtPY9q
+APjDjLfVG","YkiDsUhmDJ
+hKvVvPYzq
+APjDjLtVG",0.7586
+16,Verdana,1,focusStep_16_verdanaRef_size_30_sample_0001.tif,"BjyZKgYArC
+sukLevZzby
+qUN65MAzP4","BjyZKgYArc
+iuhLrVZzby
+qUNGSMAzPs",0.7333
+16,Verdana,2,focusStep_16_verdanaRef_size_30_sample_0002.tif,"7JC48gLaae
+mJNKWyaVR3
+QaN2CABdHe","TJCASgLaeo
+mJNKNynVRG
+QanZCABdHa",0.6333
+16,Verdana,3,focusStep_16_verdanaRef_size_30_sample_0003.tif,"DFHf7rfsfL
+xMNzVLSw9x
+VEqaBaSSYn","jDFHfTrsfL
+xMNzvLSw9x
+VEqaBaSSYn",0.8667
+16,Verdana,4,focusStep_16_verdanaRef_size_30_sample_0004.tif,"p3fEmm5xTD
+Layy3HdLhT
+L2aJAfRqet","nJfEmmSxTD
+LnyyJHdLnT
+LZAJAfRqet",0.7333
+16,Verdana,5,focusStep_16_verdanaRef_size_30_sample_0005.tif,"FLcB8fMmRZ
+fa3Jpp4vMm
+KwgdMaHjwL","FLcBBfMmRZ
+KrXJpptvHm
+KwdMmHjwL",0.7333
+16,Verdana,6,focusStep_16_verdanaRef_size_30_sample_0006.tif,"fPRheenBTF
+tAceLz5Lch
+tnuGfm3WaR","fPRheapBTF
+tAceLzSLcn
+tnuGfmJWaR",0.8333
+16,Verdana,7,focusStep_16_verdanaRef_size_30_sample_0007.tif,"FS5yxRSNbc
+KefixkMPBL
+guxeYW8RMp","FSSyxRSNbc
+KefikkMPbjL
+guxeYWbKMp",0.8
+16,Verdana,8,focusStep_16_verdanaRef_size_30_sample_0008.tif,"qVywQJPp7A
+yjyzxuibsh
+m73DJumQHw","qVywQJPpZA
+yjvzxvijsh
+miTSDJumQHw",0.7667
+16,Verdana,9,focusStep_16_verdanaRef_size_30_sample_0009.tif,"D bixuwFW7
+xdWv4Hw7Fp
+R2ju98 Wfj","D bixuwFW7
+xdWvSHwZEp
+KzjuSD Wfj",0.75
+16,Verdana,10,focusStep_16_verdanaRef_size_30_sample_0010.tif,"AHxAW5FDH4
+yZh3QPNiAH
+bNvTB zHTq","AHxAWSFDHd
+vZJJQPNiAH
+bNvTBzHTq",0.8276
+16,Verdana,11,focusStep_16_verdanaRef_size_30_sample_0011.tif,"qXcE77MvEg
+unEzpJGGRr
+XqMD4ekGx","qXcE77MvBg
+unSzpjGGRr
+XqMDtnekGx",0.8276
+16,Verdana,12,focusStep_16_verdanaRef_size_30_sample_0012.tif,"DGC3MZxjBp
+6DPXJadQwd
+7AujCAfj6R","DGCJMZxjBp
+bDPXJadQwd
+fAujCAfjbR",0.8667
+16,Verdana,13,focusStep_16_verdanaRef_size_30_sample_0013.tif,"8ZjTkdeARY
+zGfc6c84Ln
+KcBjL7ZqZv","BZjTkdeARY
+zGmScjHLn
+KnBjL7ZqZv",0.7667
+16,Verdana,14,focusStep_16_verdanaRef_size_30_sample_0014.tif,"RaYfsKw8Dc
+r7uvXeRqDt
+Z6RwF737rH","RaYfhKwSDc
+rTuvXeRqDt
+ZbRwFXJTrH",0.7667
+16,Verdana,15,focusStep_16_verdanaRef_size_30_sample_0015.tif,"ADZJLMJGut
+yh4Ncs4Rf6
+t R2j uRKN","ADZJLMJGut
+yhnHcsdItfg
+t Hzj uRKN",0.7143
+16,Verdana,16,focusStep_16_verdanaRef_size_30_sample_0016.tif,"PsUgF yPwe
+KRd7r7Bki8
+tHr7PRJpKD","PeUgF yPwe
+KRJTrZBkib
+iHR7PfUpKD",0.6897
+16,Verdana,17,focusStep_16_verdanaRef_size_30_sample_0017.tif,"iMjLvZV3wB
+7jJ237UBLi
+E2X ZdHx5F","iMjLvZVJwB
+ZjiZxUBLi
+tZX ZdHxSF",0.6897
+16,Verdana,18,focusStep_16_verdanaRef_size_30_sample_0018.tif,"umDdhYCrzF
+iPkD2m92xd
+nQK5AfAmjf","umDdhYCrzF
+iFkDznRxd
+uQKhAfAmjf",0.7667
+16,Verdana,19,focusStep_16_verdanaRef_size_30_sample_0019.tif,"YRi6VNkziF
+KKRYsBA5na
+drqTnU9SHU","YRiGVNkziF
+KKRYsBAHna
+drqTnUGSHU",0.9
+16,Verdana,20,focusStep_16_verdanaRef_size_30_sample_0020.tif,"vdSd6GLRJ
+veZc2bwaex
+fiiqk4g9SX","vdSd6GLRJ
+veZcZbwnex
+fhqkngBSK",0.7586
+17,Times,1,focusStep_17_timesR_size_30_sample_0001.tif,"rN2P Ayjz 
+zwJpcRRmdF
+FmUTjEcwwP","rNZP Aydz
+zwhpcRRmbE
+FmUTjEwwP",0.7857
+17,Times,2,focusStep_17_timesR_size_30_sample_0002.tif,"GAxSd34Xsv
+qe4KV95qtv
+SFyqm9jKNB","GAxSkHXw
+qcsKVVSgtv
+SVjquuYjKNB",0.5
+17,Times,3,focusStep_17_timesR_size_30_sample_0003.tif,"P7uzrGLDY2
+RaGgb2JA9j
+NqeTbEmrcF","PJuzrGLDYJ
+RzGybzJAYj
+NqrTbEdueF",0.6667
+17,Times,4,focusStep_17_timesR_size_30_sample_0004.tif,"zTR9 RkMLn
+LE9rU9bkJa
+8QwrjMAdFV","zTRwRkMLn
+LFbrDZbkJa
+hQwnMAdFV",0.7241
+17,Times,5,focusStep_17_timesR_size_30_sample_0005.tif,"G3hP8DCyu9
+x7AuP9P3wT
+ JthL2KjJF","GJhPRDCynh
+xCAuZJEbwT
+ bthLzKjJE",0.5862
+17,Times,6,focusStep_17_timesR_size_30_sample_0006.tif,"Sj  E6XAJD
+XpHSb4V3Xj
+EJKJkRF4Et","Sj E6XAJD
+XphHSbTVXj
+EJKJkRFiEi",0.8214
+17,Times,7,focusStep_17_timesR_size_30_sample_0007.tif,"TdVhADM9JD
+NCSH4GpKQm
+ qRYgPgDzq","TfVhADMRJD
+NKMHGqRQm
+qKYgPgDzq",0.7241
+17,Times,8,focusStep_17_timesR_size_30_sample_0008.tif,"WLNMLyiKhR
+5SgnmKNWHP
+ZVZbCZSWH","WLNMLyiKhR
+ySquwKNWHP
+ZVZbCZSWH",0.8621
+17,Times,9,focusStep_17_timesR_size_30_sample_0009.tif,"tSZfjrYm4m
+VfgUnDb5A2
+wj3D6XVrfT","tSZfnYmJm
+VhUaDwAJ
+icjJDbXVrtT",0.5333
+17,Times,10,focusStep_17_timesR_size_30_sample_0010.tif,"n4jrcaYUD7
+TsFtmzSZyt
+DjyGQXe9Rq","trhmuYUD7
+TrFtnxSZxt
+DpGQXuJRq",0.5333
+17,Times,11,focusStep_17_timesR_size_30_sample_0011.tif,"ufK8V2vJva
+XpKMCCreJU
+7erFA6E8cy","njKxVJvJva
+XpKMCCmJU
+kiFAbEbcy",0.6333
+17,Times,12,focusStep_17_timesR_size_30_sample_0012.tif,"XR6nFNfNQ
+LLt4juftak
+LRBqqGvmUU","XRbnFNDQ
+LLtHgfsak
+LRBqqGvmUU",0.7586
+17,Times,13,focusStep_17_timesR_size_30_sample_0013.tif,"eSkz2NFMy
+5mWDbSFWk9
+YrG3rAA SU","cStzJNFMy
+bnWDhSFWk9
+YrGJtAA SU",0.7143
+17,Times,14,focusStep_17_timesR_size_30_sample_0014.tif,"X777uuRthx
+EVPd2fKcMG
+VPGdDcrVBd","XcTtunRthx
+UVEdZfKcMG
+VPGdDeVBJ",0.6667
+17,Times,15,focusStep_17_timesR_size_30_sample_0015.tif,"WMLFzfPnir
+3ZxkhG8Cit
+9Nz4Mgjq3Z","WMLFziPnu
+JZxkhGhCt
+KNzJMgjqTZ",0.7
+17,Times,16,focusStep_17_timesR_size_30_sample_0016.tif,"MLriMA8cCE
+TQSrQF8TkP
+q9uzy87ypt","MEiMAScCE
+TQsrQZQkP
+iNtzkN ypi",0.5333
+17,Times,17,focusStep_17_timesR_size_30_sample_0017.tif,"wVQHcCAA3s
+mfgw7MW2y9
+jFih7nuFK8","wVQHrCAAJs
+mQpsTMWzyJ
+jFrbtnuFKJ",0.6
+17,Times,18,focusStep_17_timesR_size_30_sample_0018.tif,"ePMVqHYJEh
+MDusfzcDhV
+sfmdchU6Ka","cPMYuHYJEn
+bMDbybeDhV
+mndcnUbKa",0.5
+17,Times,19,focusStep_17_timesR_size_30_sample_0019.tif,"sXg92ppM8
+B4uSiTPa4i
+S44LrkxH4w","iXrMppMS
+JHnStTPaJr
+STrTrkqHbw",0.4483
+17,Times,20,focusStep_17_timesR_size_30_sample_0020.tif,"q3RSz8PdkQ
+TGqqMaiUZL
+i3vGG3zVFe","qJSdSPJkQ
+TGqgMnUZL
+CvGGJzVFc",0.6
+17,Verdana,1,focusStep_17_verdanaRef_size_30_sample_0001.tif,"ShHAKtSw9R
+3qyQYEnfEW
+Kz8kbnpHKu","ShHAKtSwPR
+JuyQYEnfEW
+KzNkinpHKu",0.8333
+17,Verdana,2,focusStep_17_verdanaRef_size_30_sample_0002.tif,"pbFVNXpjNK
+2vat5nn39c
+2 Eqhpwkyf","pbFVNkpjNK
+JvatSnnTJc
+Z Eqhpwkyf",0.7931
+17,Verdana,3,focusStep_17_verdanaRef_size_30_sample_0003.tif,"M5bdGKYHNb
+XCzQMGmfRW
+GVmvtqmCu7","MSbdGKYHNb
+XCzQMGmffRW
+GVmvtqmCuJ",0.9
+17,Verdana,4,focusStep_17_verdanaRef_size_30_sample_0004.tif,"Kcqfdb3Tg2
+L6G2v58vhd
+NT65q7cFh2","KceNdbJTqJ
+jSJQZvSbvhd
+NTBSqZePhJ",0.4
+17,Verdana,5,focusStep_17_verdanaRef_size_30_sample_0005.tif,"yTG5uZi4XL
+q6dQ8Asqe4
+ZmipjQcXT8","yTGNuZHXL
+qbnQHAsqzH
+ZmsajQcXTB",0.6333
+17,Verdana,6,focusStep_17_verdanaRef_size_30_sample_0006.tif,"4azqmBRqgt
+EpS4s4VtwX
+x 7DzPVy5Z","EazcmBRqgt
+DptTzEVhwX
+x YDzPVySZ",0.6552
+17,Verdana,7,focusStep_17_verdanaRef_size_30_sample_0007.tif,"FnFN8FZ6Qu
+L5DxVdM6sL
+a8bWyqzKCh","FnFNdfZsQu
+LSDxVdMdzL
+aBhWyqzKCh",0.7333
+17,Verdana,8,focusStep_17_verdanaRef_size_30_sample_0008.tif,"L668m qAQe
+sdwTMxBbQy
+Wrz4A3mdhv","LSGBm cAQe
+spwJHxEbQy
+WbTAJUMdHV",0.4483
+17,Verdana,9,focusStep_17_verdanaRef_size_30_sample_0009.tif,"MFNHrav4GR
+4eXaiaVc49
+4R2YF9ASY","MFNHnwAGR
+dnXsiaVdR
+ATzYFWASY",0.5172
+17,Verdana,10,focusStep_17_verdanaRef_size_30_sample_0010.tif,"CTAbzpedhX
+wshVWXHD4m
+LeiBhTRSmM","CTAbzpedhX
+wshVWXHQMm
+LeeBhTRSmM",0.9
+17,Verdana,11,focusStep_17_verdanaRef_size_30_sample_0011.tif,"3VaV CDw5p
+mUUzFXWHQT
+D8yhweS75B","JVav CDwSp
+mUJzFXWHQT
+DeyhweS7SB",0.7931
+17,Verdana,12,focusStep_17_verdanaRef_size_30_sample_0012.tif,"nRERraAYZq
+Nsex7BP37H
+dYzHTuTdA","nRERisAYZq
+NsqxZBHiZH
+dYzHTUtdA",0.6897
+17,Verdana,13,focusStep_17_verdanaRef_size_30_sample_0013.tif,"4aYy7grHdt
+yxkuL2MDyy
+hZNgvYyGuV","SaYv7qrHdt
+yxKuLZMDyy
+hZNgvYyGuV",0.8333
+17,Verdana,14,focusStep_17_verdanaRef_size_30_sample_0014.tif,"YGZagty2 E
+rPM7TT3fnG
+EZFZvCKeyJ","YGCgmyZ E
+rPwXPTBmG
+EZFzvCKbyJ",0.5862
+17,Verdana,15,focusStep_17_verdanaRef_size_30_sample_0015.tif,"UBkNsQ8i3N
+vhJLQaFESj
+DrqfNBBmjd","UBkMuQBGH
+vhJUJaFKSj
+DrqNBBmjd",0.6667
+17,Verdana,16,focusStep_17_verdanaRef_size_30_sample_0016.tif,"8Xs8EXR9tu
+xHKU2mZpu4
+tLERwv78XJ","BXsBBXRJtu
+xHKUEmzpuUA
+tLERwXBJXJ",0.6333
+17,Verdana,17,focusStep_17_verdanaRef_size_30_sample_0017.tif,"YEd4x8KRmx
+qVimq6nifT
+V297V3WyNi","YEdHxdKRmx
+qVjmqgnifT
+VzWVSWyNi",0.7333
+17,Verdana,18,focusStep_17_verdanaRef_size_30_sample_0018.tif,"WrFkJG8ntt
+7shYwJCugz
+8Dj9D dseY","WrFkJGBnt
+TsnYWJChgz
+BDjBU useY",0.6552
+17,Verdana,19,focusStep_17_verdanaRef_size_30_sample_0019.tif,"zgYCqb7Zg3
+P7aqwMXWNv
+vEjTXr68nT","zgYCebZZgJ
+PJzqwMXQNv
+vEjTXrSBnT",0.7333
+17,Verdana,20,focusStep_17_verdanaRef_size_30_sample_0020.tif,"aw XKJMte8
+s2tNNQh8d8
+5KSf4dmAE7","aw XKJMteB
+cZtNNqhUdd
+SKSfAemAEJ",0.6552
+18,Times,1,focusStep_18_timesR_size_30_sample_0001.tif,"xGH7TzhgKT
+jN4jJNXWmY
+nURpa4GBkt","vGHUUTrheKT
+PzKZbXWmY
+nUKpmGBbt",0.5
+18,Times,2,focusStep_18_timesR_size_30_sample_0002.tif,"G2ABTGRA2H
+EsFBamtq6D
+v9A2dDv8ke","GZABTGRAZH
+FsEBzmbqzD
+vzAUsDvHke",0.6333
+18,Times,3,focusStep_18_timesR_size_30_sample_0003.tif,"E9vV EPUHQ
+EUxZsRfeL9
+Pi iXPwiAq","JUSV EPUHQ
+YUxKsRizDJ
+N DIPwaAq",0.5
+18,Times,4,focusStep_18_timesR_size_30_sample_0004.tif,"RMSmSKeAN9
+vcGATQTNEp
+SzXCRiHYYm","RMNmSNaQQ
+wGATQTNEp
+SzXCRihJYYhu",0.6
+18,Times,5,focusStep_18_timesR_size_30_sample_0005.tif,"7VTadGpX6f
+TCydWSpRMt
+L2VH24 pg4","ZVTrdGpXfz
+TCpJWSpRMB
+TJViUE pgsd",0.5172
+18,Times,6,focusStep_18_timesR_size_30_sample_0006.tif,"SPftzMuca6
+XbUJbrtQGG
+V xrZZ76Tv","SDBiMucab
+KfUJhQGG
+V rrZJbTv",0.5172
+18,Times,7,focusStep_18_timesR_size_30_sample_0007.tif,"CtjgLuNfGG
+ApJnkQvC7t
+njpVfjPfvk","ChgDuNfGG
+ApBhQvCZt
+njaVhPivk",0.6333
+18,Times,8,focusStep_18_timesR_size_30_sample_0008.tif,"SBGPR5TSey
+SxVZDvNN5z
+ HHXZ9iuRj","SBGPRxPScv
+SYsZDaNNJz
+HtDKZJmRj",0.5172
+18,Times,9,focusStep_18_timesR_size_30_sample_0009.tif,"Us zjtwSDP
+fqLZLwa62V
+smTsbzASdq","Yg ztwSDP
+BqLZLwahZY
+tnTsbzASdq",0.6897
+18,Times,10,focusStep_18_timesR_size_30_sample_0010.tif,"HvCx8f8dHu
+bE4ZpDGXmg
+FemBNvkTPB","JVCxSMfHu
+bEsKpDGYmq
+FcmBNvKTPB",0.6
+18,Times,11,focusStep_18_timesR_size_30_sample_0011.tif,"ZEJmvLzGmJ
+ZzYNkgzZVZ
+pztPpV6 T7","ZEHwLzGmJ
+ZrYNquZVZ
+pzPbWb Tt",0.5862
+18,Times,12,focusStep_18_timesR_size_30_sample_0012.tif,"DKvtGHBWp
+sYasfh4jdN
+6a5jBVsTJt","DKmGHBWp
+rYazfbyqjPN
+twjjBVxTJt",0.5862
+18,Times,13,focusStep_18_timesR_size_30_sample_0013.tif,"sxndQq9C9S
+4hXK9U3dZr
+Ve3NXCEyfr","nnaJQqPCRS
+JhXJWUyZz
+VcTNXCEjrt",0.4333
+18,Times,14,focusStep_18_timesR_size_30_sample_0014.tif,"MpT u2Akc4
+bCwz77PU2K
+y8bNyCwXrT","MaT uJAKca
+bCwzUZUZK
+jRbNqCwXrJ",0.5862
+18,Times,15,focusStep_18_timesR_size_30_sample_0015.tif,"28hknpLJcj
+KPkfzzERMk
+L9Ph5DKtaL","JSBdnpLJcj
+KPHrzERMk
+EyPwxDzKtaL",0.6
+18,Times,16,focusStep_18_timesR_size_30_sample_0016.tif,"C5XQyrkLKD
+JXvUyenBLS
+8wrT76ySmK","CYKQwakLKD
+DtcHvubBLy
+bwcTJbySmK",0.4667
+18,Times,17,focusStep_18_timesR_size_30_sample_0017.tif,"JHJLLYK273
+bKNcNu2jvi
+VtfJhawH5E","JHLLYKz7J
+bKNcNuZp1
+VrDhswHfE",0.6
+18,Times,18,focusStep_18_timesR_size_30_sample_0018.tif,"7mkFNUbG4u
+gnxM7MzXfY
+iJMPMGHEQs","hnkFNUbGJn
+zmkNZMhXfY
+iHMPMGHEQs",0.6333
+18,Times,19,focusStep_18_timesR_size_30_sample_0019.tif,"9NUGx5av8C
+zMSQXz8AAv
+TJiHNweB5d","SNUGqsmSC
+zMSQKzEAAz
+EHHNwxBsd",0.5333
+18,Times,20,focusStep_18_timesR_size_30_sample_0020.tif,"XTv5r8kUVU
+DdeFtpEhVx
+g265vjC999","XTvHBkUVU
+DdHtrpEnVx
+gZbGqCMJZ",0.5
+18,Verdana,1,focusStep_18_verdanaRef_size_30_sample_0001.tif,"geN5WxtC t
+X5MvJ2LqNR
+LWRrjjL2id","geVSWxtC t
+XSMxJzlqNR
+LWRjLZid",0.6897
+18,Verdana,2,focusStep_18_verdanaRef_size_30_sample_0002.tif,"XJcqsPjdsN
+dkYvUmxPr2
+KFin2BL2w5","XJcqsPjdsN
+dkYvUmpPxZ
+KKnizRLJwS",0.6667
+18,Verdana,3,focusStep_18_verdanaRef_size_30_sample_0003.tif,"LiznJxi nV
+zUs4nivsua
+gtfrnn73RC","UznJw hV
+zUwbnxsuq
+gNtnnZjRC",0.4828
+18,Verdana,4,focusStep_18_verdanaRef_size_30_sample_0004.tif,"LaA9TSAJED
+Du4qGc54Mn
+Wuu8XPwWDw","LaABTSAJED
+DuAgCUMMn
+WuUBXPwWDw",0.7
+18,Verdana,5,focusStep_18_verdanaRef_size_30_sample_0005.tif,"wM9FP c Rt
+atQzMeXhSU
+xzuAHkt RM","wNBFP c Rt
+kIQzNexnSU
+kzpAHkt RM",0.6667
+18,Verdana,6,focusStep_18_verdanaRef_size_30_sample_0006.tif,"hBsfScv3zV
+gZLTRt35gr
+6CFcH8jvW6","hDutBcxJzV
+pZLTRLsSgr
+ECEcHqjvWn",0.5333
+18,Verdana,7,focusStep_18_verdanaRef_size_30_sample_0007.tif,"tRa8vRUTqE
+YnvjmfbdkP
+7wzqnp4deJ","tRahvRUTqE
+YnvzWjdakP
+TwzqnhAdeJ",0.7
+18,Verdana,8,focusStep_18_verdanaRef_size_30_sample_0008.tif,"gYCvsc9PBU
+vSiypjfNjK
+3j MYEA7 F","qYCvSCRPBU
+vSivpjfnjK
+jJ NYBAJ K",0.5714
+18,Verdana,9,focusStep_18_verdanaRef_size_30_sample_0009.tif,"2SppWju6cL
+XQc2tCwCZ7
+x TAuTXTq2","zSziWjuScl
+XQcztCwCZJ
+x TAvTxTqz",0.6552
+18,Verdana,10,focusStep_18_verdanaRef_size_30_sample_0010.tif,"PxxmM5ihiQ
+HRtw2GYDfg
+Y5L5rJRvu6","PxxmMEhiQ
+HRtwZGYDfg
+YSusrzKvub",0.7
+18,Verdana,11,focusStep_18_verdanaRef_size_30_sample_0011.tif,"xPZc7VFeZ
+hPHka6FijA
+tcqL Z LGv","xRZJTVFeZ
+hPrskzqEUA
+tErt K UGV",0.4074
+18,Verdana,12,focusStep_18_verdanaRef_size_30_sample_0012.tif,"J3U R35ME9
+cvNurAy6ey
+Akvmte447","JUU KTSMEs
+tvNnCAyqgy
+AXwnteEHJ",0.4286
+18,Verdana,13,focusStep_18_verdanaRef_size_30_sample_0013.tif,"cqGpVSRb7v
+HMYXjQpahQ
+ HbEPNP Si","cgGzVSRbTv
+HNYXjQpuhQ
+ xqjEBnP Si",0.6429
+18,Verdana,14,focusStep_18_verdanaRef_size_30_sample_0014.tif,"q7rEgKw6t8
+m4QRxmHKfG
+eD73vWuBkK","qJrEgKwBtb
+hADQRxmHKBj
+eDTxvWbBhK",0.6
+18,Verdana,15,focusStep_18_verdanaRef_size_30_sample_0015.tif,"AtiHRzskiQ
+nGDQVV3HAx
+fer6sW 9Tr","ANMRzskiQ
+nGDQvWMAa
+TaribW VTr",0.5517
+18,Verdana,16,focusStep_18_verdanaRef_size_30_sample_0016.tif,"BUd5XTzNkJ
+bSyixzttgH
+B7jSzzRtva","BUdSXTzNkJ
+bSyrxcstgH
+iTZjSzzRtxe",0.7
+18,Verdana,17,focusStep_18_verdanaRef_size_30_sample_0017.tif,"EYXZtK3uEc
+z23y4P9U4b
+QrASfjqFPb","BYXZtKJuEc
+zJnyRNHHb
+CrAvfjqFPb",0.6333
+18,Verdana,18,focusStep_18_verdanaRef_size_30_sample_0018.tif,"rTJyZ cLp3
+a4h5hPpJ6z
+J FFGDhVrd","rTJvZ cLpJt
+zAnJdPzJdz
+J FKUDhVra",0.5357
+18,Verdana,19,focusStep_18_verdanaRef_size_30_sample_0019.tif,"xuQrNApSGv
+CgRuwt9sSR
+5VCpG3NvGP","wQrNAaSGv
+CgKuwTnsJR
+SVCbGJNvGP",0.6667
+18,Verdana,20,focusStep_18_verdanaRef_size_30_sample_0020.tif,"BSqhmkyAjR
+BTGkvPTsWD
+BiTae 9qqs","BSqhmyAjR
+BTGevPTsWD
+iTThn Yqqh",0.7241
+19,Times,1,focusStep_19_timesR_size_30_sample_0001.tif,"Ug  KFEn8a
+wBhsuUXGWV
+z6PN3xufPe","Tq  KUEbSn
+nBpmUYGWV
+zCPNJnibTs",0.3571
+19,Times,2,focusStep_19_timesR_size_30_sample_0002.tif,"Jy3B4BahGx
+rEZvrpRutw
+7vZedLZBFc","JyJMBahGx
+iZDvapKmwx
+BZvdLZBTu",0.5
+19,Times,3,focusStep_19_timesR_size_30_sample_0003.tif,"wRA2MXHp25
+7AUpXSLGhW
+dzzbG3StM2","wR CMXHpZj
+YAKpXyLQhW
+dznLGVStMZ",0.6
+19,Times,4,focusStep_19_timesR_size_30_sample_0004.tif,"NPyVQH8dym
+qUYCfkMcHV
+vgZ8qBqcHP","NPyVQHBhyn
+nGYChHHzHV
+vrzSjBnHP",0.5
+19,Times,5,focusStep_19_timesR_size_30_sample_0005.tif,"knpKe6kUks
+ssn5aP4z2j
+X7kSUEj8J","knpKebkUBs
+jewTaFjzZj
+kZkSUFjsh",0.5172
+19,Times,6,focusStep_19_timesR_size_30_sample_0006.tif,"AqBdVPLPyB
+mNpmKsgcYR
+TETvNcZ8qj","AqBdVPUyB
+mNpmKzmcYK
+TCTvNcZSqj",0.7667
+19,Times,7,focusStep_19_timesR_size_30_sample_0007.tif,"fQigGeTYRT
+WGs4S8nG6F
+Zs4yYYFUF","fQgGnTYKz
+WzvJSknGBE
+ZxiyYTFUF",0.5517
+19,Times,8,focusStep_19_timesR_size_30_sample_0008.tif,"yh96UDkRex
+htUadRzFUR
+K2TVs2rWS4","yshhQDKBcx
+JnUwJRzKUR
+KzTVzJrWSJ",0.4667
+19,Times,9,focusStep_19_timesR_size_30_sample_0009.tif,"JETcDpEck7
+7Npdp639Lu
+2YyYdY6Z H","JbJvDpEca
+PNqKzKfYLu
+iVvYaYbZ jH",0.3793
+19,Times,10,focusStep_19_timesR_size_30_sample_0010.tif,"Q7GJ4wdpJB
+c247w5m26d
+kbU3B HQ7v","QXUHmfsDB
+uXvNSeQsd
+JnUDRfJQJr",0.1379
+19,Times,11,focusStep_19_timesR_size_30_sample_0011.tif,"ZRktZfMQWm
+gnXYrfRu4E
+Kd2Hw6x2vd","ZRkzDMQWm
+jnhXYpBhK
+KuJTHxGJvd",0.4
+19,Times,12,focusStep_19_timesR_size_30_sample_0012.tif,"uMWYhQ75yH
+GQMstpNQfx
+cK6yLjPDcD","nMWVhQChyH
+GQNHdpNQfv
+UKtvKjFDcU",0.5333
+19,Times,13,focusStep_19_timesR_size_30_sample_0013.tif,"q6MVhhQJbn
+kdLgeDS9Ru
+bfiWGfW9Gq","zCMVhhQJbu
+JdLxvQSBRu
+huWDrWJGq",0.5333
+19,Times,14,focusStep_19_timesR_size_30_sample_0014.tif,"ePUMXHu5bV
+iySkrTDBmG
+Br9tUUNLaC","rPvMXHuJhV
+zjSkeTDBknG
+BrHUUxEae",0.5333
+19,Times,15,focusStep_19_timesR_size_30_sample_0015.tif,"dUkA qEbX 
+wKgZ7pNLs2
+YgbMc5fkSf","zEAA qPbX
+wKgZpNEsJ
+YzhMc uKsi",0.5
+19,Times,16,focusStep_19_timesR_size_30_sample_0016.tif,"DP3Ee4EPy6
+SNMAtv8vaV
+WQfCTDW9Qp","DCTEahEPsb
+SNMAtvKvaV
+WQKDJWJQp",0.6
+19,Times,17,focusStep_19_timesR_size_30_sample_0017.tif,"dAV8psyca4
+CGqt6tvBKY
+QffsjheK5k","jFVYhpswzaJ
+CGqgHrBKY
+QfBshcKJk",0.5
+19,Times,18,focusStep_19_timesR_size_30_sample_0018.tif,"eyRw jahbL
+YkqteVVwWG
+N6bt vhxBN","tyRw juhbt
+YhQhXYhWQ
+Nhx vaxhN",0.4286
+19,Times,19,focusStep_19_timesR_size_30_sample_0019.tif,"fK9M5cBS H
+UJhzyYaSJe
+ 7vYDaMepS","iKbMDcBNH
+UHgzxYSSJc
+ bVXTnEBjgH",0.3214
+19,Times,20,focusStep_19_timesR_size_30_sample_0020.tif,"UUhbJw25K8
+GMEPEqe7J2
+ crGCvAbzt","UUhhTuJYKk
+GMEHHqgHH
+crGCxAbut",0.5172
+19,Verdana,1,focusStep_19_verdanaRef_size_30_sample_0001.tif,"BcsWr xNEn
+kR3DMmvqTN
+nB5Kk25jBT","BCxWx xNEn
+HRJDMmvqTN
+nBhCKZbjBT",0.6552
+19,Verdana,2,focusStep_19_verdanaRef_size_30_sample_0002.tif,"mFWi G34Bf
+bK52AUewNM
+5WVxw9Y6c","rnTiNi GJBBt
+tKSRZAUewKM
+UWVxwBYbc",0.4286
+19,Verdana,3,focusStep_19_verdanaRef_size_30_sample_0003.tif,"Vr3z5TvPqg
+9hYcsCjq4w
+Ty X9eCfsb","VcTaSTvFpq
+PhYCrQjgRW
+Tv XJbCfsb",0.4138
+19,Verdana,4,focusStep_19_verdanaRef_size_30_sample_0004.tif,"qRcm6fCYTx
+2JsqMS9m69
+eQa43PMhYs","qRumBfCYTx
+JHqYASmgy
+pQzCJPMhYs",0.5667
+19,Verdana,5,focusStep_19_verdanaRef_size_30_sample_0005.tif,"dZssrQSnyc
+qWsnahAZHr
+Et3UrTZfiC","dZsmQShyc
+pWsnxHAZrb
+zEsrTZXfC",0.5667
+19,Verdana,6,focusStep_19_verdanaRef_size_30_sample_0006.tif,"Df pJ9dYZS
+KNgbtAWw9h
+tMfUcQ8FxX","Dr pJRbxZs
+KNqHAWwSh
+tNHcQBExx",0.4828
+19,Verdana,7,focusStep_19_verdanaRef_size_30_sample_0007.tif,"LD9Be3  wk
+WpHJYiz4tb
+DKu7ssh4qR","LDBBhJ  wk
+SWpUXizsTh
+DKuYwHsqR",0.4643
+19,Verdana,8,focusStep_19_verdanaRef_size_30_sample_0008.tif,"ibCwwVm6RL
+ea8EmdhrpT
+iywudSGm2","JbCwwYmeRL
+eEHZmRVgT
+ivwuiSNthJ",0.4483
+19,Verdana,9,focusStep_19_verdanaRef_size_30_sample_0009.tif,"FQusUtZw7d
+dhBC2PH8kU
+Ur4 i3fi5","FQuwUtZWJd
+RBCCPNdkU
+Unf iSfE",0.5357
+19,Verdana,10,focusStep_19_verdanaRef_size_30_sample_0010.tif,"23bVeWpMwD
+mu86KU9GXu
+LcUEU4wSJX","JJhVwWmwd
+JhuJdKURGXu
+LtUEUXwSjX",0.5
+19,Verdana,11,focusStep_19_verdanaRef_size_30_sample_0011.tif,"E8WyfugmVN
+ypnmmQjbsN
+gBUnM3pybD","EdWyfugmVN
+YznzVnQJzsN
+qBUHNJpyBD",0.5667
+19,Verdana,12,focusStep_19_verdanaRef_size_30_sample_0012.tif,"hwYiLSMrw 
+LjqMP8CyWs
+Aiqhzbdfmv","hwHLJiMrw
+LzMPSCyWa
+Aiqnxbdfmv",0.6552
+19,Verdana,13,focusStep_19_verdanaRef_size_30_sample_0013.tif,"wn YNW VfR
+jWAjEq2MPA
+D95fqhYiMK","wn YNiU VfR
+NzJiEqZyWA
+DNTNqhYiMK",0.5714
+19,Verdana,14,focusStep_19_verdanaRef_size_30_sample_0014.tif,"7Ct REWex3
+Qfni7AEkcv
+kdtxeyriei","PCL JEWbxJ
+QMYJAGkcv
+zdtxnyrne",0.5172
+19,Verdana,15,focusStep_19_verdanaRef_size_30_sample_0015.tif,"D3rfp8Hqdp
+B6xGW8jtRV
+giKYpgh8im","DjJTpShqdp
+BnxUWBBRV
+pXYzqNbnn",0.3667
+19,Verdana,16,focusStep_19_verdanaRef_size_30_sample_0016.tif,"mAGxSYgPdi
+RDV2npsaEA
+3gsGhJZT28","mAGxSYgPdt
+RUVZnmsaEA
+jigxHJZTXt",0.6333
+19,Verdana,17,focusStep_19_verdanaRef_size_30_sample_0017.tif,"LvH2WNRYv6
+THHJNcrndq
+rgdFWAMUV6","LyHZWRKYve
+THHJNUHdq
+rgzFWANUVb",0.6333
+19,Verdana,18,focusStep_19_verdanaRef_size_30_sample_0018.tif,"nc86BCEuTn
+NfteJk4cPX
+Y75ygzcppS","nEBBCEuTh
+NThJkAcPx
+YCSyzcppS",0.6
+19,Verdana,19,focusStep_19_verdanaRef_size_30_sample_0019.tif,"Wp6djRerMu
+CvXkvdVKpZ
+ijudstHTGp","WzSQReiHu
+CvXXyvVRpZ
+uwdthTUp",0.4667
+19,Verdana,20,focusStep_19_verdanaRef_size_30_sample_0020.tif,"BNmCJFTVsB
+WfTieudmwf
+Pw YYcXda3","BNmCJFTVsB
+WfYmznywF
+Rw VYcKdaJ",0.6207
