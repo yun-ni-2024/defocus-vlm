@@ -7,7 +7,7 @@ Three losses, selected by the config's `loss`:
            size the VLM sees, after fitting a gain and an offset per image (the two cameras differ
            in brightness and contrast).
   text:    cross-entropy of the correct transcription under the frozen VLM reading the filter's
-           output (src/frontend/text_loss.py).
+           output (src/vlm/text_loss.py).
 Everything else is the same for both, so a difference between them comes from the loss alone.
 """
 import csv
@@ -19,8 +19,8 @@ import torch.nn.functional as F
 from src.data.image import load_tif, to_pil
 from src.eval.metrics import char_accuracy
 from src.frontend.pairs import cache_key, endless_batches, load_radius_cache, split_pairs
-from src.frontend.text_loss import TextLoss
-from src.frontend.vlm_input import pixel_values, to_vlm_size, visual_tokens
+from src.vlm.text_loss import TextLoss
+from src.vlm.vlm_input import pixel_values, to_vlm_size, visual_tokens
 from src.frontend.wiener import build_from_config, restore_numpy
 from src.utils.run import defocus_root
 from src.vlm.qwen import QwenReader

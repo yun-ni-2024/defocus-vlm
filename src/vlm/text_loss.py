@@ -1,6 +1,9 @@
-"""Text loss for method (d): how unlikely the frozen VLM finds the correct transcription.
+"""Text loss: how unlikely the VLM finds the correct transcription of an image.
 
-For a restored image and its correct text t, the loss is the cross-entropy of t under the VLM with
+Used by method (d) (the image comes from the trained filter, gradients reach the filter) and by
+method (c) with the text loss (the image is the blurred photograph, gradients reach the LoRA adapter
+of the vision encoder). For an image and its correct text t, the loss is the cross-entropy of t under
+the VLM with
 teacher forcing (the model is shown the prompt, the image and the correct first k tokens, and is
 scored on token k + 1):
 
@@ -15,17 +18,18 @@ import torch
 import torch.nn.functional as F
 from PIL import Image
 
-from src.frontend.vlm_input import pil_size, pixel_values
+from src.vlm.vlm_input import pil_size, pixel_values
 
 
 class TextLoss:
-    """Builds the token sequences once and scores batches of restored images against their texts."""
+    """Builds the token sequences once and scores batches of images against their texts."""
 
     def __init__(self, reader, full_shape, long_side, cap=None):
         """Prepare the prompt tokens for images of one size.
 
         Args:
-            reader: QwenReader (frozen), whose prompt and processor are used.
+            reader: QwenReader, whose prompt, processor and model are used (the model as it is at
+                each call, e.g. with a LoRA adapter being trained).
             full_shape: (height, width) of the full-resolution photographs.
             long_side: the config's image.long_side (size after to_pil()).
             cap: largest cross-entropy (nats per token) one image may contribute, or None for no
@@ -76,11 +80,13 @@ class TextLoss:
         dev = self.reader.device
         return ids.to(dev), mask.to(dev), types.to(dev), labels.to(dev)
 
-    def per_image(self, restored, texts):
-        """Cross-entropy of each correct transcription given its restored image.
+    def score(self, pix, grid, texts):
+        """Cross-entropy of each correct transcription given images already in the processor's layout.
 
         Args:
-            restored: tensor (B, h, w) in [0, 1], the filter's output after to_vlm_size().
+            pix: pixel values (B * patches, 3 * 2 * 14 * 14), as returned by the processor or by
+                vlm_input.pixel_values().
+            grid: grid_thw (B, 3) of the same images.
             texts: list of B strings.
 
         Returns:
@@ -88,10 +94,8 @@ class TextLoss:
         """
         r = self.reader
         ids, mask, types, labels = self.tokens(texts)
-        # the differentiable image input, in the processor's layout
-        pix, grid = pixel_values(restored, r.proc.image_processor, r.size)
         out = r.model(input_ids=ids, attention_mask=mask, mm_token_type_ids=types,
-                      pixel_values=pix.to(r.model.dtype), image_grid_thw=grid)
+                      pixel_values=pix.to(r.device, dtype=r.model.dtype), image_grid_thw=grid.to(r.device))
         # position k predicts token k + 1; score only the answer tokens, in float32
         logits = out.logits[:, :-1].float()
         target = labels[:, 1:]
@@ -99,8 +103,52 @@ class TextLoss:
         n = (target != -100).sum(1).clamp(min=1)
         return ce.sum(1) / n
 
+    def per_image(self, restored, texts):
+        """Cross-entropy of each correct transcription given its restored image (method (d)).
+
+        Args:
+            restored: tensor (B, h, w) in [0, 1], the filter's output after to_vlm_size().
+            texts: list of B strings.
+
+        Returns:
+            Tensor (B,): mean cross-entropy per answer token, in nats, uncapped; differentiable with
+            respect to `restored`.
+        """
+        # the differentiable image input, in the processor's layout
+        pix, grid = pixel_values(restored, self.reader.proc.image_processor, self.reader.size)
+        return self.score(pix, grid, texts)
+
+    def per_image_pil(self, images, texts):
+        """Cross-entropy of each correct transcription given its PIL image (method (c)).
+
+        The images go through the real processor, exactly as when the model reads them.
+
+        Args:
+            images: list of B PIL images from to_pil().
+            texts: list of B strings.
+
+        Returns:
+            Tensor (B,): mean cross-entropy per answer token, in nats, uncapped.
+        """
+        inp = self.reader.proc.image_processor(images=images, size=self.reader.size, return_tensors="pt")
+        return self.score(inp["pixel_values"], inp["image_grid_thw"], texts)
+
+    def capped_mean(self, ce):
+        """Training loss of a batch from its per-image cross-entropies.
+
+        Args:
+            ce: tensor (B,) from per_image() or per_image_pil().
+
+        Returns:
+            Scalar tensor: mean over images, each capped at `cap` if one is set.
+        """
+        # images above the cap contribute a constant (no gradient), so hopeless ones do not dominate
+        if self.cap is not None:
+            ce = torch.clamp(ce, max=self.cap)
+        return ce.mean()
+
     def __call__(self, restored, texts):
-        """Training loss of a batch: mean over images of the (capped) per-image cross-entropy.
+        """Training loss of a batch of restored images (method (d)).
 
         Args:
             restored: tensor (B, h, w) in [0, 1].
@@ -109,8 +157,4 @@ class TextLoss:
         Returns:
             Scalar tensor.
         """
-        ce = self.per_image(restored, texts)
-        # images above the cap contribute a constant (no gradient), so hopeless ones do not dominate
-        if self.cap is not None:
-            ce = torch.clamp(ce, max=self.cap)
-        return ce.mean()
+        return self.capped_mean(self.per_image(restored, texts))

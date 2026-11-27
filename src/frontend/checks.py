@@ -19,7 +19,7 @@ from PIL import Image
 from src.data.image import load_tif, to_pil
 from src.frontend.pairs import cache_key, split_pairs
 from src.frontend.train import feature_loss, pixel_loss
-from src.frontend.vlm_input import pixel_values, to_vlm_size, visual_tokens
+from src.vlm.vlm_input import pixel_values, to_vlm_size, visual_tokens
 from src.frontend.wiener import build_from_config, restore_numpy
 
 
