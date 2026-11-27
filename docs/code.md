@@ -47,6 +47,7 @@ What each file does. How they fit together: `pipeline.md`.
 | `train_c_real*.yaml` | Training of method (c), real pairs, with feature distillation: the starting config and the tuning runs (learning rate, length, rank). |
 | `train_c_real_text*.yaml` | Training of method (c), real pairs, with the text loss: three learning rates, otherwise as `train_c_real.yaml`. |
 | `c_real.yaml` | Evaluation of method (c), real pairs: `baseline_a.yaml` with slot 2 set to the chosen adapter. |
+| `c_real_text.yaml` | Evaluation of method (c), real pairs, trained with the text loss: `c_real.yaml` with slot 2 set to that adapter. |
 | `train_d_text.yaml`, `train_d_text_2k.yaml` | Training of method (d) with the text loss, 8 pairs per step (4 batches accumulated), 500 and 2000 steps. |
 | `d_feature.yaml`, `d_pixel.yaml` | Evaluation of method (d): `baseline_a.yaml` with slot 1 set to the trained filter in `assets/d_<loss>/params.json`. |
 
