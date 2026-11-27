@@ -1,4 +1,12 @@
-"""Training loop for method (c): LoRA on the vision encoder, trained by feature distillation."""
+"""Training loop for method (c): LoRA on the vision encoder.
+
+Two losses, selected by the config's `loss` (default feature):
+  feature: feature distillation (src/adapt/distill.py): the visual tokens of the adapted encoder
+           reading the blurred photograph against those of the original encoder reading the sharp one.
+  text:    cross-entropy of the correct transcription under the VLM with the adapter, reading the
+           blurred photograph (src/vlm/text_loss.py); the sharp photograph is not used.
+Everything else is the same for both.
+"""
 import csv
 import time
 
@@ -10,6 +18,7 @@ from src.data.image import load_tif, to_pil
 from src.eval.metrics import char_accuracy
 from src.utils.run import defocus_root
 from src.vlm.qwen import QwenReader
+from src.vlm.text_loss import TextLoss
 
 
 def validate(reader, samples, image_cfg, batch_size):
@@ -79,6 +88,9 @@ def train(cfg, run):
     """
     m, d, lo, t, v = cfg["model"], cfg["data"], cfg["lora"], cfg["train"], cfg["validation"]
     torch.manual_seed(t["seed"])
+    loss_name = cfg.get("loss", "feature")
+    if loss_name not in ("feature", "text"):
+        raise ValueError(f"unknown loss {loss_name!r}")
 
     # load the frozen model through the class the evaluation uses, so reading works the same
     reader = QwenReader(defocus_root() / m["path"], dtype=m["dtype"], min_pixels=m["min_pixels"],
@@ -97,7 +109,13 @@ def train(cfg, run):
     # training and validation pairs
     train_set, val_set = split_pairs(d["source"], d.get("steps"), d["val_every"])
     print(f"{len(train_set)} training pairs, {len(val_set)} validation pairs", flush=True)
-    batches = endless_batches(train_set, cfg["image"], t["batch_size"], t["seed"], t.get("workers", 0))
+    batches = endless_batches(train_set, cfg["image"], t["batch_size"], t["seed"], t.get("workers", 0),
+                              load_sharp=loss_name == "feature")
+    # the text loss prepares its token layout once, for photographs of the training size
+    text_loss = None
+    if loss_name == "text":
+        full_shape = load_tif(train_set[0].blurred).shape
+        text_loss = TextLoss(reader, full_shape, cfg["image"]["long_side"], t.get("ce_cap"))
 
     (run / "val").mkdir()
     (run / "adapters").mkdir()
@@ -136,9 +154,12 @@ def train(cfg, run):
         for g in opt.param_groups:
             g["lr"] = lr
         # one optimisation step on a batch of pairs
-        sharp, blurred = next(batches)
-        loss = distill_loss(student, reader.proc, reader.size, sharp, blurred, reader.device,
-                            reader.model.dtype)
+        sharp, blurred, texts = next(batches)
+        if loss_name == "feature":
+            loss = distill_loss(student, reader.proc, reader.size, sharp, blurred, reader.device,
+                                reader.model.dtype)
+        else:
+            loss = text_loss.capped_mean(text_loss.per_image_pil(blurred, texts))
         opt.zero_grad(set_to_none=True)
         loss.backward()
         opt.step()

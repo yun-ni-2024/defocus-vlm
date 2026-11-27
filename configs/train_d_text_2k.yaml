@@ -31,7 +31,7 @@ wiener:
   log_k_limits: [-13.8, 2.3]                  # K kept between 1e-6 and 10
   log_scale_limit: 0.2                        # radius correction kept within exp(+-0.2), i.e. +-22 %
 
-loss: text                            # cross-entropy of the correct transcription under the frozen VLM (src/frontend/text_loss.py)
+loss: text                            # cross-entropy of the correct transcription under the frozen VLM (src/vlm/text_loss.py)
 
 train:
   lr_log_k: 1.0e-2                    # Adam step for the log K table

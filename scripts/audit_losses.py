@@ -4,7 +4,7 @@ For a few saved filters of method (d) (e.g. the starting point and the end of th
 runs), every validation photograph is restored and three losses are computed per image:
   pixel:   MSE to the sharp photograph after a gain and offset (src/frontend/train.py, pixel_loss)
   feature: MSE of the visual tokens to those of the sharp photograph (feature_loss)
-  text:    cross-entropy of the correct transcription (src/frontend/text_loss.py)
+  text:    cross-entropy of the correct transcription (src/vlm/text_loss.py)
 They are compared with the reading accuracy stored in the run's val/it<N>.csv:
   - across filters: does the loss rank the filters as the accuracy does?
   - across images: Spearman correlation of the per-image loss with the per-image accuracy.
@@ -24,9 +24,9 @@ import torch
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 from src.data.image import load_tif  # noqa: E402
 from src.frontend.pairs import cache_key, load_radius_cache, split_pairs  # noqa: E402
-from src.frontend.text_loss import TextLoss  # noqa: E402
+from src.vlm.text_loss import TextLoss  # noqa: E402
 from src.frontend.train import feature_loss, pixel_loss  # noqa: E402
-from src.frontend.vlm_input import to_vlm_size  # noqa: E402
+from src.vlm.vlm_input import to_vlm_size  # noqa: E402
 from src.frontend.wiener import LearnedWiener  # noqa: E402
 from src.utils.run import defocus_root, load_config  # noqa: E402
 from src.vlm.qwen import QwenReader  # noqa: E402

@@ -77,7 +77,7 @@ dominated by a few outlier channels (largest channel variance 331, median 1.7, m
 ## 5. The text loss
 
 The cross-entropy of the correct transcription under the frozen VLM, with teacher forcing
-(`src/frontend/text_loss.py`):
+(`src/vlm/text_loss.py`):
 
 $$
 \mathcal{L}_{\text{text}} = -\frac{1}{T}\sum_{k=1}^{T}\log p\big(t_k \,\big|\, t_{<k},\ \text{prompt},\ R_\theta(y)\big)
