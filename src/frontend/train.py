@@ -9,6 +9,9 @@ Three losses, selected by the config's `loss`:
   text:    cross-entropy of the correct transcription under the frozen VLM reading the filter's
            output (src/vlm/text_loss.py).
 Everything else is the same for both, so a difference between them comes from the loss alone.
+
+An optional `model.lora` (slot 2) loads a fixed (c) adapter into the VLM, which then stays frozen:
+E2 trains the filter for the adapted VLM instead of the original one.
 """
 import csv
 import time
@@ -78,7 +81,7 @@ def validate(reader, model, samples, radii, image_cfg, batch_size):
     Uses the evaluation path: NumPy image, filter, to_pil(), QwenReader.read().
 
     Args:
-        reader: QwenReader with the original encoder.
+        reader: QwenReader, with the original encoder or a fixed adapter (model.lora).
         model: LearnedWiener being trained.
         samples: list of Sample held out for validation.
         radii: dict from cache_key() to estimated radius.
@@ -148,10 +151,13 @@ def train(cfg, run):
     if cfg["loss"] not in ("feature", "pixel", "text"):
         raise ValueError(f"unknown loss {cfg['loss']!r}")
 
-    # the frozen model, loaded through the class the evaluation uses; no parameter needs gradients
+    # the frozen model, loaded through the class the evaluation uses; no parameter needs gradients.
+    # model.lora (optional, slot 2) merges a fixed (c) adapter into the encoder: E2 trains the filter
+    # for the adapted VLM
+    lora = defocus_root() / m["lora"] if m.get("lora") else None
     reader = QwenReader(defocus_root() / m["path"], dtype=m["dtype"], min_pixels=m["min_pixels"],
                         max_pixels=m["max_pixels"], max_new_tokens=m["max_new_tokens"],
-                        prompt=m["prompt"], device=m.get("device", "cuda"))
+                        prompt=m["prompt"], device=m.get("device", "cuda"), lora=lora)
     for p in reader.model.parameters():
         p.requires_grad_(False)
     encoder = reader.model.model.visual

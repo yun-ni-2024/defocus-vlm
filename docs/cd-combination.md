@@ -14,14 +14,14 @@ The training set has no digits; about 14% of the test characters are digits. Mix
 Letter accuracy and digit accuracy split the evaluation's character accuracy (`src/eval/metrics.py`) into two parts:
 
 1. The ground truth and the prediction, with whitespace removed, are aligned by edit distance (the same alignment the character accuracy counts).
-2. Every edit is charged to one class: a substituted or deleted character to the class of the ground-truth character; an inserted character to its own class.
+2. Every edit is charged to one class: a substituted or deleted character to the class of the ground-truth character; an inserted letter or digit to its own class (inserted punctuation to neither).
 3. Per image and class: accuracy = max(0, 1 - errors of the class / ground-truth characters of the class). Images without digits have no digit accuracy. Per step, the images are averaged, as in the evaluation.
 
-Letter errors plus digit errors equal the edit distance of the evaluation. A digit read as a letter counts only against digits, so it does not lower letter accuracy.
+Letter errors plus digit errors (plus inserted punctuation) equal the edit distance of the evaluation. A digit read as a letter counts only against digits, so it does not lower letter accuracy.
 
 One artefact: under heavy blur the frozen VLM writes coordinate-like strings such as `(181,187),(807,484)`; now and then one of their digits lines up with a ground-truth digit, which gives it a digit accuracy above 0 by chance (0.165 at steps 15 to 19, where its letter accuracy is 0.011).
 
-These numbers are computed from `predictions.csv` of each result folder; the code will move into `src/eval/char_classes.py`.
+The tables are produced by `python scripts/char_classes.py --groups 0-5,6-11,12-14,15-19,0-19 <result folders>` (`src/eval/char_classes.py`), from `predictions.csv` of each result folder.
 
 ## E0: both parts as trained, no retraining
 
@@ -39,10 +39,10 @@ Both test runs: commit `495820d`, clean (`assets/results/e_cd_feature/`, `assets
 | Test steps | (a) frozen | (c) feature | (c) text | (d) text | E0 feature | E0 text |
 |---|---|---|---|---|---|---|
 | 0 to 5 | 0.975 | 0.986 | 0.998 | 0.984 | 0.980 | 0.994 |
-| 6 to 11 | 0.155 | 0.958 | 0.978 | 0.965 | 0.912 | 0.920 |
-| 12 to 14 | 0.032 | 0.904 | 0.932 | 0.926 | 0.775 | 0.813 |
-| 15 to 19 | 0.011 | 0.659 | 0.750 | 0.734 | 0.509 | 0.506 |
-| mean | 0.347 | 0.884 | 0.920 | 0.907 | 0.811 | 0.823 |
+| 6 to 11 | 0.156 | 0.959 | 0.978 | 0.966 | 0.912 | 0.920 |
+| 12 to 14 | 0.032 | 0.904 | 0.932 | 0.927 | 0.776 | 0.813 |
+| 15 to 19 | 0.011 | 0.659 | 0.750 | 0.739 | 0.509 | 0.506 |
+| mean | 0.347 | 0.884 | 0.920 | 0.909 | 0.811 | 0.823 |
 
 ### Digits
 
@@ -58,9 +58,9 @@ For reference, the evaluation's mean character accuracy (letters and digits toge
 
 ### What E0 shows
 
-- **Letters: putting the two parts together makes both worse.** Both E0 versions are below (c) and (d) alone at every step from 6 on, most at heavy blur (about 0.51 against 0.73 to 0.75 at steps 15 to 19). The adapters were trained on blurred photographs and never saw the filter's output, which is sharper but has ringing and amplified noise; what they learned does not carry over to it.
+- **Letters: putting the two parts together makes both worse.** Both E0 versions are below (c) and (d) alone at every step from 6 on, most at heavy blur (about 0.51 against 0.74 to 0.75 at steps 15 to 19). The adapters were trained on blurred photographs and never saw the filter's output, which is sharper but has ringing and amplified noise; what they learned does not carry over to it.
 - **Digits: adding an adapter removes the digit reading of (d).** (d) alone reads digits at 0.948; with either adapter in slot 2 it drops to the level of (c) alone (0.29 to 0.35). The filter makes the digits visible, but the adapted encoder no longer reads them.
-- On letters, (c) with the text loss and (d) are close (0.920 and 0.907), (c) slightly ahead at every group of steps; whether this is beyond noise is not tested yet.
+- On letters, (c) with the text loss and (d) are close (0.920 and 0.909), (c) slightly ahead at every group of steps; whether this is beyond noise is not tested yet.
 
 ## Next: E1 and E2
 
