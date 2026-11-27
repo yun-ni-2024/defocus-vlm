@@ -1,0 +1,2571 @@
+{
+  "validation": "leave one distinct CAM02 line image out per fold; the held-out CAM01 supplies only the focused template",
+  "score": "mean fraction of background-adjusted line variation explained on held-out targets",
+  "minimum_paired_gain": 0.002,
+  "minimum_line_fit": 0.5,
+  "confidence": "heuristic quality labels; not statistical confidence intervals",
+  "steps": [
+    {
+      "step": 0,
+      "radius": 1.625,
+      "selected": "paired_finite_width",
+      "candidates": {
+        "cam02_thin_line": 4.75,
+        "paired_finite_width": 1.625
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9547071551520128,
+        "paired_finite_width": 0.9873194826453566
+      },
+      "paired_gain": 0.03261232749334386,
+      "line_spread": 2.0,
+      "confidence": "low",
+      "flags": [
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 4.75,
+            "explained_fraction": 0.9656012972626503
+          },
+          "paired_finite_width": {
+            "radius": 0.75,
+            "explained_fraction": 0.9872844421933403
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 4.75,
+            "explained_fraction": 0.9424742389542002
+          },
+          "paired_finite_width": {
+            "radius": 2.5,
+            "explained_fraction": 0.9891264984172246
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 4.75,
+            "explained_fraction": 0.9693167493994181
+          },
+          "paired_finite_width": {
+            "radius": 0.75,
+            "explained_fraction": 0.985414870176784
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 4.75,
+            "explained_fraction": 0.9414363349917824
+          },
+          "paired_finite_width": {
+            "radius": 2.5,
+            "explained_fraction": 0.9874521197940778
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            1.1375,
+            1.625,
+            2.1125000000000003
+          ],
+          "explained_fraction": [
+            0.0032282781705210498,
+            0.005534984613452502,
+            0.007915491807400582
+          ]
+        },
+        {
+          "font": "Verdana",
+          "radii": [
+            1.1375,
+            1.625,
+            2.1125000000000003
+          ],
+          "explained_fraction": [
+            0.0031644196933625275,
+            0.004492530928978855,
+            0.005448665700088163
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 4.75,
+            "centre": 758.5,
+            "explained_fraction": 0.9740900168855904,
+            "residual_rms": 573.24290249958
+          },
+          "paired_finite_width": {
+            "radius": 2.5,
+            "centre": 758.5,
+            "explained_fraction": 0.9948869558650724,
+            "residual_rms": 254.6507104022845
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 4.75,
+            "centre": 1196.5,
+            "explained_fraction": 0.9917357893153738,
+            "residual_rms": 357.66142286119026
+          },
+          "paired_finite_width": {
+            "radius": 0.75,
+            "centre": 1196.0,
+            "explained_fraction": 0.9977110356564527,
+            "residual_rms": 188.23444683895931
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 4.75,
+            "centre": 759.5,
+            "explained_fraction": 0.9716866890561247,
+            "residual_rms": 601.3588174886205
+          },
+          "paired_finite_width": {
+            "radius": 2.5,
+            "centre": 759.5,
+            "explained_fraction": 0.9948147802785086,
+            "residual_rms": 257.34867471017446
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 4.5,
+            "centre": 1195.0,
+            "explained_fraction": 0.9889797682048612,
+            "residual_rms": 419.2202004564035
+          },
+          "paired_finite_width": {
+            "radius": 0.5,
+            "centre": 1194.5,
+            "explained_fraction": 0.9963710377025088,
+            "residual_rms": 240.56781385428528
+          }
+        }
+      ]
+    },
+    {
+      "step": 1,
+      "radius": 5.75,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 5.75,
+        "paired_finite_width": 4.5
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9608235272353008,
+        "paired_finite_width": 0.9598432727690047
+      },
+      "paired_gain": -0.0009802544662961266,
+      "line_spread": 2.25,
+      "confidence": "low",
+      "flags": [
+        "finite_line_width_not_corrected",
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 6.25,
+            "explained_fraction": 0.9380890374073568
+          },
+          "paired_finite_width": {
+            "radius": 5.5,
+            "explained_fraction": 0.9632607933448677
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 5.25,
+            "explained_fraction": 0.983824655522884
+          },
+          "paired_finite_width": {
+            "radius": 3.5,
+            "explained_fraction": 0.9525229879511012
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 6.25,
+            "explained_fraction": 0.9334597870495575
+          },
+          "paired_finite_width": {
+            "radius": 5.5,
+            "explained_fraction": 0.9595561113114877
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 5.25,
+            "explained_fraction": 0.9879206289614051
+          },
+          "paired_finite_width": {
+            "radius": 3.5,
+            "explained_fraction": 0.9640331984685621
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            4.0249999999999995,
+            5.75,
+            7.4750000000000005
+          ],
+          "explained_fraction": [
+            0.020423079701866038,
+            0.03297113609890501,
+            0.04677975799672313
+          ]
+        },
+        {
+          "font": "Verdana",
+          "radii": [
+            4.0249999999999995,
+            5.75,
+            7.4750000000000005
+          ],
+          "explained_fraction": [
+            0.02013193274914742,
+            0.028759211161077405,
+            0.0386342395160098
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 5.25,
+            "centre": 756.0,
+            "explained_fraction": 0.9568459439031731,
+            "residual_rms": 623.4971592599021
+          },
+          "paired_finite_width": {
+            "radius": 3.5,
+            "centre": 755.0,
+            "explained_fraction": 0.9916296227647642,
+            "residual_rms": 274.590840901
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 7.0,
+            "centre": 1196.0,
+            "explained_fraction": 0.9490592367337404,
+            "residual_rms": 493.86047674874226
+          },
+          "paired_finite_width": {
+            "radius": 6.0,
+            "centre": 1195.0,
+            "explained_fraction": 0.9871211038316792,
+            "residual_rms": 248.32928460618703
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 4.75,
+            "centre": 758.5,
+            "explained_fraction": 0.9591980662685464,
+            "residual_rms": 634.3827555797644
+          },
+          "paired_finite_width": {
+            "radius": 3.25,
+            "centre": 758.0,
+            "explained_fraction": 0.9919856105747523,
+            "residual_rms": 281.155262391284
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 6.25,
+            "centre": 1195.0,
+            "explained_fraction": 0.9475547376768204,
+            "residual_rms": 525.2087233958621
+          },
+          "paired_finite_width": {
+            "radius": 5.5,
+            "centre": 1194.0,
+            "explained_fraction": 0.9884770133424231,
+            "residual_rms": 246.19099061886334
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "radius": 13.375,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 13.375,
+        "paired_finite_width": 13.125
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9504191152334669,
+        "paired_finite_width": 0.9502756222164287
+      },
+      "paired_gain": -0.00014349301703819872,
+      "line_spread": 3.0,
+      "confidence": "high",
+      "flags": [],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 14.75,
+            "explained_fraction": 0.9501574053513765
+          },
+          "paired_finite_width": {
+            "radius": 14.5,
+            "explained_fraction": 0.9551651183526828
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 12.0,
+            "explained_fraction": 0.9520342104134712
+          },
+          "paired_finite_width": {
+            "radius": 11.75,
+            "explained_fraction": 0.9461631674576608
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 14.75,
+            "explained_fraction": 0.9407584635835737
+          },
+          "paired_finite_width": {
+            "radius": 14.5,
+            "explained_fraction": 0.9462916969319869
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 12.0,
+            "explained_fraction": 0.9587263815854461
+          },
+          "paired_finite_width": {
+            "radius": 11.75,
+            "explained_fraction": 0.9534825061233843
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            9.362499999999999,
+            13.375,
+            17.3875
+          ],
+          "explained_fraction": [
+            0.39489418640945906,
+            0.6469064261701539,
+            0.6106950875930233
+          ]
+        },
+        {
+          "font": "Verdana",
+          "radii": [
+            9.362499999999999,
+            13.375,
+            17.3875
+          ],
+          "explained_fraction": [
+            0.37918756984895474,
+            0.6492708355357322,
+            0.6177053697811338
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 11.75,
+            "centre": 753.5,
+            "explained_fraction": 0.9671070590829842,
+            "residual_rms": 263.42650668644467
+          },
+          "paired_finite_width": {
+            "radius": 11.75,
+            "centre": 753.0,
+            "explained_fraction": 0.9856657446315953,
+            "residual_rms": 173.89262701036301
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 14.75,
+            "centre": 1194.5,
+            "explained_fraction": 0.967602624653411,
+            "residual_rms": 223.6441638878141
+          },
+          "paired_finite_width": {
+            "radius": 14.75,
+            "centre": 1194.0,
+            "explained_fraction": 0.9813342247837018,
+            "residual_rms": 169.77601136504586
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 12.0,
+            "centre": 756.0,
+            "explained_fraction": 0.9657129084143449,
+            "residual_rms": 280.3314744698852
+          },
+          "paired_finite_width": {
+            "radius": 11.25,
+            "centre": 756.0,
+            "explained_fraction": 0.9861273821944597,
+            "residual_rms": 178.3141256185759
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 14.75,
+            "centre": 1194.5,
+            "explained_fraction": 0.9691303349808088,
+            "residual_rms": 223.0164583486571
+          },
+          "paired_finite_width": {
+            "radius": 14.5,
+            "centre": 1193.5,
+            "explained_fraction": 0.9827130997731578,
+            "residual_rms": 166.9062200791505
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "radius": 21.25,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 21.25,
+        "paired_finite_width": 21.375
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9627979537484259,
+        "paired_finite_width": 0.9646092359569802
+      },
+      "paired_gain": 0.00181128220855431,
+      "line_spread": 3.25,
+      "confidence": "medium",
+      "flags": [
+        "dot_prefers_an_alternative"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 22.75,
+            "explained_fraction": 0.9674898262636423
+          },
+          "paired_finite_width": {
+            "radius": 22.75,
+            "explained_fraction": 0.9674898262636423
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 19.75,
+            "explained_fraction": 0.9596043110087387
+          },
+          "paired_finite_width": {
+            "radius": 20.0,
+            "explained_fraction": 0.9632177195409499
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 22.75,
+            "explained_fraction": 0.9655057959016274
+          },
+          "paired_finite_width": {
+            "radius": 22.75,
+            "explained_fraction": 0.9655057959016274
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 19.75,
+            "explained_fraction": 0.9585918818196952
+          },
+          "paired_finite_width": {
+            "radius": 20.0,
+            "explained_fraction": 0.9622236021217012
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            14.874999999999998,
+            21.25,
+            27.625
+          ],
+          "explained_fraction": [
+            0.585360825744599,
+            0.48597731740530997,
+            0.2534547471002906
+          ]
+        },
+        {
+          "font": "Verdana",
+          "radii": [
+            14.874999999999998,
+            21.25,
+            27.625
+          ],
+          "explained_fraction": [
+            0.5779173912935712,
+            0.4775632086105967,
+            0.25010384851433226
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 19.75,
+            "centre": 751.5,
+            "explained_fraction": 0.9746977172998778,
+            "residual_rms": 166.28080550855043
+          },
+          "paired_finite_width": {
+            "radius": 20.0,
+            "centre": 750.5,
+            "explained_fraction": 0.9844554921300579,
+            "residual_rms": 130.32069287498294
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 23.0,
+            "centre": 1194.0,
+            "explained_fraction": 0.9742036937455821,
+            "residual_rms": 151.71662793317591
+          },
+          "paired_finite_width": {
+            "radius": 22.75,
+            "centre": 1193.0,
+            "explained_fraction": 0.9814024610023132,
+            "residual_rms": 128.83146202965145
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 19.75,
+            "centre": 753.5,
+            "explained_fraction": 0.9750246022618861,
+            "residual_rms": 169.14076006719714
+          },
+          "paired_finite_width": {
+            "radius": 19.75,
+            "centre": 753.0,
+            "explained_fraction": 0.9842962212705502,
+            "residual_rms": 134.12018842975036
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 22.75,
+            "centre": 1193.5,
+            "explained_fraction": 0.9740407466328583,
+            "residual_rms": 154.98421403905286
+          },
+          "paired_finite_width": {
+            "radius": 22.75,
+            "centre": 1194.5,
+            "explained_fraction": 0.9807613608416192,
+            "residual_rms": 133.44956059696622
+          }
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "radius": 29.125,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 29.125,
+        "paired_finite_width": 29.125
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9707701355098104,
+        "paired_finite_width": 0.9707701355098104
+      },
+      "paired_gain": 0.0,
+      "line_spread": 3.25,
+      "confidence": "medium",
+      "flags": [
+        "dot_prefers_an_alternative"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 30.5,
+            "explained_fraction": 0.9745529700230607
+          },
+          "paired_finite_width": {
+            "radius": 30.5,
+            "explained_fraction": 0.9745529700230607
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 27.75,
+            "explained_fraction": 0.9668320210630497
+          },
+          "paired_finite_width": {
+            "radius": 27.75,
+            "explained_fraction": 0.9668320210630497
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 30.5,
+            "explained_fraction": 0.9736646759642135
+          },
+          "paired_finite_width": {
+            "radius": 30.5,
+            "explained_fraction": 0.9736646759642135
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 27.75,
+            "explained_fraction": 0.9680308749889179
+          },
+          "paired_finite_width": {
+            "radius": 27.75,
+            "explained_fraction": 0.9680308749889179
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            20.3875,
+            29.125,
+            37.862500000000004
+          ],
+          "explained_fraction": [
+            0.45308286710476614,
+            0.4112114931616224,
+            0.18049955512625718
+          ]
+        },
+        {
+          "font": "Verdana",
+          "radii": [
+            20.3875,
+            29.125,
+            37.862500000000004
+          ],
+          "explained_fraction": [
+            0.5048568374318234,
+            0.43392617460710886,
+            0.18520777108269082
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 27.75,
+            "centre": 749.5,
+            "explained_fraction": 0.9791774180097919,
+            "residual_rms": 122.84168828988567
+          },
+          "paired_finite_width": {
+            "radius": 27.75,
+            "centre": 748.5,
+            "explained_fraction": 0.9854936575965505,
+            "residual_rms": 102.5071714065786
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 30.75,
+            "centre": 1192.5,
+            "explained_fraction": 0.9750285681887604,
+            "residual_rms": 123.03791621628908
+          },
+          "paired_finite_width": {
+            "radius": 30.75,
+            "centre": 1191.5,
+            "explained_fraction": 0.9799722665474261,
+            "residual_rms": 110.20635737896865
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 27.5,
+            "centre": 751.0,
+            "explained_fraction": 0.9787233482130854,
+            "residual_rms": 126.61268119475159
+          },
+          "paired_finite_width": {
+            "radius": 27.5,
+            "centre": 751.0,
+            "explained_fraction": 0.9853678651490444,
+            "residual_rms": 104.99760916997295
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 30.5,
+            "centre": 1192.5,
+            "explained_fraction": 0.9746757234931838,
+            "residual_rms": 125.9387944288057
+          },
+          "paired_finite_width": {
+            "radius": 30.5,
+            "centre": 1193.0,
+            "explained_fraction": 0.9797677958030105,
+            "residual_rms": 112.59237026373309
+          }
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "radius": 36.375,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 36.375,
+        "paired_finite_width": 36.5
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9758312921318735,
+        "paired_finite_width": 0.975228106506515
+      },
+      "paired_gain": -0.0006031856253584378,
+      "line_spread": 2.5,
+      "confidence": "medium",
+      "flags": [
+        "dot_prefers_an_alternative"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 37.5,
+            "explained_fraction": 0.9803818815801058
+          },
+          "paired_finite_width": {
+            "radius": 37.75,
+            "explained_fraction": 0.9791528154966042
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 35.25,
+            "explained_fraction": 0.9709069053429541
+          },
+          "paired_finite_width": {
+            "radius": 35.25,
+            "explained_fraction": 0.9709069053429541
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 37.5,
+            "explained_fraction": 0.9810189287703657
+          },
+          "paired_finite_width": {
+            "radius": 37.75,
+            "explained_fraction": 0.9798352523524338
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 35.25,
+            "explained_fraction": 0.9710174528340683
+          },
+          "paired_finite_width": {
+            "radius": 35.25,
+            "explained_fraction": 0.9710174528340683
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            25.4625,
+            36.375,
+            47.2875
+          ],
+          "explained_fraction": [
+            0.3391771690384067,
+            0.3480952872286785,
+            0.12333540256192257
+          ]
+        },
+        {
+          "font": "Verdana",
+          "radii": [
+            25.4625,
+            36.375,
+            47.2875
+          ],
+          "explained_fraction": [
+            0.36618757038528976,
+            0.3558905867837844,
+            0.12980983935859572
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 35.25,
+            "centre": 747.0,
+            "explained_fraction": 0.9812586284742757,
+            "residual_rms": 99.13400147924844
+          },
+          "paired_finite_width": {
+            "radius": 35.25,
+            "centre": 747.5,
+            "explained_fraction": 0.9860718754192824,
+            "residual_rms": 85.46105953225427
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 37.5,
+            "centre": 1192.5,
+            "explained_fraction": 0.9739027713463119,
+            "residual_rms": 108.44776531534544
+          },
+          "paired_finite_width": {
+            "radius": 37.75,
+            "centre": 1191.5,
+            "explained_fraction": 0.9779000305566612,
+            "residual_rms": 99.81760707628
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 35.25,
+            "centre": 748.0,
+            "explained_fraction": 0.9814839078120735,
+            "residual_rms": 99.90286264362565
+          },
+          "paired_finite_width": {
+            "radius": 35.25,
+            "centre": 748.0,
+            "explained_fraction": 0.9863010844435348,
+            "residual_rms": 85.93030630994137
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 37.75,
+            "centre": 1191.5,
+            "explained_fraction": 0.9756767232341849,
+            "residual_rms": 105.65391579013415
+          },
+          "paired_finite_width": {
+            "radius": 38.0,
+            "centre": 1192.0,
+            "explained_fraction": 0.9794847924152265,
+            "residual_rms": 97.04329408778605
+          }
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "radius": 43.875,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 43.875,
+        "paired_finite_width": 44.0
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9768539522848152,
+        "paired_finite_width": 0.9763801458889165
+      },
+      "paired_gain": -0.00047380639589866824,
+      "line_spread": 3.25,
+      "confidence": "high",
+      "flags": [],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 44.75,
+            "explained_fraction": 0.984838308348432
+          },
+          "paired_finite_width": {
+            "radius": 45.0,
+            "explained_fraction": 0.9840279932404896
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 43.0,
+            "explained_fraction": 0.9703951349826553
+          },
+          "paired_finite_width": {
+            "radius": 43.0,
+            "explained_fraction": 0.9703951349826553
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 44.75,
+            "explained_fraction": 0.9813473076680925
+          },
+          "paired_finite_width": {
+            "radius": 45.0,
+            "explained_fraction": 0.98026239719244
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 43.0,
+            "explained_fraction": 0.9708350581400811
+          },
+          "paired_finite_width": {
+            "radius": 43.0,
+            "explained_fraction": 0.9708350581400811
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            30.7125,
+            43.875,
+            57.0375
+          ],
+          "explained_fraction": [
+            0.23676923755795093,
+            0.30197233740612567,
+            0.08081378290945673
+          ]
+        },
+        {
+          "font": "Verdana",
+          "radii": [
+            30.7125,
+            43.875,
+            57.0375
+          ],
+          "explained_fraction": [
+            0.20344505385087017,
+            0.2353573734544949,
+            0.06184312651118562
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 43.0,
+            "centre": 745.0,
+            "explained_fraction": 0.9834610275507157,
+            "residual_rms": 79.84719991702897
+          },
+          "paired_finite_width": {
+            "radius": 43.0,
+            "centre": 745.5,
+            "explained_fraction": 0.9875594942868804,
+            "residual_rms": 69.25074446145338
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 45.5,
+            "centre": 1191.5,
+            "explained_fraction": 0.9722858256718744,
+            "residual_rms": 95.3260564710165
+          },
+          "paired_finite_width": {
+            "radius": 45.5,
+            "centre": 1192.0,
+            "explained_fraction": 0.9759838657136305,
+            "residual_rms": 88.75351326240147
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 42.25,
+            "centre": 746.0,
+            "explained_fraction": 0.9827809816859305,
+            "residual_rms": 84.71909227001242
+          },
+          "paired_finite_width": {
+            "radius": 42.25,
+            "centre": 745.5,
+            "explained_fraction": 0.986759142521065,
+            "residual_rms": 74.29082057412037
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 44.75,
+            "centre": 1192.5,
+            "explained_fraction": 0.9710618502434059,
+            "residual_rms": 101.0035593720885
+          },
+          "paired_finite_width": {
+            "radius": 45.0,
+            "centre": 1193.0,
+            "explained_fraction": 0.9741561889164408,
+            "residual_rms": 95.47830191810283
+          }
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "radius": 50.75,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 50.75,
+        "paired_finite_width": 50.875
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9737254833278408,
+        "paired_finite_width": 0.9743231457165302
+      },
+      "paired_gain": 0.0005976623886894128,
+      "line_spread": 3.25,
+      "confidence": "high",
+      "flags": [],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 52.25,
+            "explained_fraction": 0.9813628792811178
+          },
+          "paired_finite_width": {
+            "radius": 52.25,
+            "explained_fraction": 0.9813628792811178
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 49.25,
+            "explained_fraction": 0.9663762280823294
+          },
+          "paired_finite_width": {
+            "radius": 49.5,
+            "explained_fraction": 0.967575038623062
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 52.25,
+            "explained_fraction": 0.9816258463873582
+          },
+          "paired_finite_width": {
+            "radius": 52.25,
+            "explained_fraction": 0.9816258463873582
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 49.25,
+            "explained_fraction": 0.9655369795605581
+          },
+          "paired_finite_width": {
+            "radius": 49.5,
+            "explained_fraction": 0.966728818574583
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            35.525,
+            50.75,
+            65.97500000000001
+          ],
+          "explained_fraction": [
+            0.13331036416196623,
+            0.17315759216801718,
+            0.03858023179123262
+          ]
+        },
+        {
+          "font": "Verdana",
+          "radii": [
+            35.525,
+            50.75,
+            65.97500000000001
+          ],
+          "explained_fraction": [
+            0.12970768666107657,
+            0.18061851963725822,
+            0.037925924552189176
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 49.25,
+            "centre": 742.0,
+            "explained_fraction": 0.9845522041385697,
+            "residual_rms": 69.77177066247626
+          },
+          "paired_finite_width": {
+            "radius": 49.25,
+            "centre": 743.0,
+            "explained_fraction": 0.9879505465101202,
+            "residual_rms": 61.62120101466369
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 52.25,
+            "centre": 1191.5,
+            "explained_fraction": 0.9715378782055253,
+            "residual_rms": 86.16921067782637
+          },
+          "paired_finite_width": {
+            "radius": 52.25,
+            "centre": 1192.0,
+            "explained_fraction": 0.9737502205339316,
+            "residual_rms": 82.77436988083737
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 49.25,
+            "centre": 744.0,
+            "explained_fraction": 0.9834774294298179,
+            "residual_rms": 71.84821624848055
+          },
+          "paired_finite_width": {
+            "radius": 49.5,
+            "centre": 744.0,
+            "explained_fraction": 0.987013578716634,
+            "residual_rms": 63.697432386992695
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 52.5,
+            "centre": 1191.5,
+            "explained_fraction": 0.9707020619912315,
+            "residual_rms": 87.04727539953952
+          },
+          "paired_finite_width": {
+            "radius": 52.5,
+            "centre": 1191.5,
+            "explained_fraction": 0.9732605509907074,
+            "residual_rms": 83.19301795304507
+          }
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "radius": 60.125,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 60.125,
+        "paired_finite_width": 60.25
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9770110339201892,
+        "paired_finite_width": 0.9767046189875047
+      },
+      "paired_gain": -0.0003064149326844623,
+      "line_spread": 2.25,
+      "confidence": "high",
+      "flags": [],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 61.0,
+            "explained_fraction": 0.9844568982037808
+          },
+          "paired_finite_width": {
+            "radius": 61.25,
+            "explained_fraction": 0.9837721067464823
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 59.25,
+            "explained_fraction": 0.9687516317280775
+          },
+          "paired_finite_width": {
+            "radius": 59.25,
+            "explained_fraction": 0.9687516317280775
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 61.0,
+            "explained_fraction": 0.9862317743122628
+          },
+          "paired_finite_width": {
+            "radius": 61.25,
+            "explained_fraction": 0.9856909060388237
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 59.25,
+            "explained_fraction": 0.9686038314366355
+          },
+          "paired_finite_width": {
+            "radius": 59.25,
+            "explained_fraction": 0.9686038314366355
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            42.0875,
+            60.125,
+            78.16250000000001
+          ],
+          "explained_fraction": [
+            0.12264831790859984,
+            0.18550050772993557,
+            0.030767120057924698
+          ]
+        },
+        {
+          "font": "Verdana",
+          "radii": [
+            42.0875,
+            60.125,
+            78.16250000000001
+          ],
+          "explained_fraction": [
+            0.12743413398460293,
+            0.18272097216439825,
+            0.027309939651328996
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 59.0,
+            "centre": 739.0,
+            "explained_fraction": 0.9844741291929048,
+            "residual_rms": 53.3617174304789
+          },
+          "paired_finite_width": {
+            "radius": 58.75,
+            "centre": 739.5,
+            "explained_fraction": 0.9875227163853675,
+            "residual_rms": 47.83676893898862
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 61.25,
+            "centre": 1191.0,
+            "explained_fraction": 0.9693881460907857,
+            "residual_rms": 65.9638443656019
+          },
+          "paired_finite_width": {
+            "radius": 61.25,
+            "centre": 1192.0,
+            "explained_fraction": 0.9716801139266532,
+            "residual_rms": 63.47033285989359
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 59.25,
+            "centre": 741.0,
+            "explained_fraction": 0.9850246994551854,
+            "residual_rms": 50.28408469881791
+          },
+          "paired_finite_width": {
+            "radius": 59.25,
+            "centre": 740.0,
+            "explained_fraction": 0.9879967379568774,
+            "residual_rms": 45.0186450121726
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 61.0,
+            "centre": 1190.5,
+            "explained_fraction": 0.9687191402420219,
+            "residual_rms": 66.99244127945813
+          },
+          "paired_finite_width": {
+            "radius": 61.25,
+            "centre": 1191.0,
+            "explained_fraction": 0.9708717457106025,
+            "residual_rms": 64.66944068297975
+          }
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "radius": 67.625,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 67.625,
+        "paired_finite_width": 67.75
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9727012751249494,
+        "paired_finite_width": 0.9722823166604203
+      },
+      "paired_gain": -0.0004189584645291067,
+      "line_spread": 4.0,
+      "confidence": "high",
+      "flags": [],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 69.0,
+            "explained_fraction": 0.9833620432476066
+          },
+          "paired_finite_width": {
+            "radius": 69.25,
+            "explained_fraction": 0.9825760388317325
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 66.25,
+            "explained_fraction": 0.9636153065670604
+          },
+          "paired_finite_width": {
+            "radius": 66.25,
+            "explained_fraction": 0.9636153065670604
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 69.0,
+            "explained_fraction": 0.9818844992174742
+          },
+          "paired_finite_width": {
+            "radius": 69.25,
+            "explained_fraction": 0.9809946697752314
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 66.25,
+            "explained_fraction": 0.9619432514676566
+          },
+          "paired_finite_width": {
+            "radius": 66.25,
+            "explained_fraction": 0.9619432514676566
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            47.3375,
+            67.625,
+            87.91250000000001
+          ],
+          "explained_fraction": [
+            0.06512259241691094,
+            0.11343116889177818,
+            0.015460331708962183
+          ]
+        },
+        {
+          "font": "Verdana",
+          "radii": [
+            47.3375,
+            67.625,
+            87.91250000000001
+          ],
+          "explained_fraction": [
+            0.08402674803863507,
+            0.145060765092356,
+            0.01965775035317454
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 66.25,
+            "centre": 737.0,
+            "explained_fraction": 0.9851698036465969,
+            "residual_rms": 45.42378222815572
+          },
+          "paired_finite_width": {
+            "radius": 66.25,
+            "centre": 738.0,
+            "explained_fraction": 0.9878066476167909,
+            "residual_rms": 41.188066471542484
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 69.0,
+            "centre": 1189.0,
+            "explained_fraction": 0.9663921063447038,
+            "residual_rms": 59.874198204161786
+          },
+          "paired_finite_width": {
+            "radius": 69.25,
+            "centre": 1190.0,
+            "explained_fraction": 0.9686961455132971,
+            "residual_rms": 57.81982364009402
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 65.5,
+            "centre": 737.5,
+            "explained_fraction": 0.9852842063183697,
+            "residual_rms": 45.63868699906977
+          },
+          "paired_finite_width": {
+            "radius": 65.75,
+            "centre": 737.0,
+            "explained_fraction": 0.9879533017319394,
+            "residual_rms": 41.29289318172172
+          }
+        },
+        {
+          "font": "Verdana",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 69.5,
+            "centre": 1190.0,
+            "explained_fraction": 0.9651044243798845,
+            "residual_rms": 61.20901906810882
+          },
+          "paired_finite_width": {
+            "radius": 69.5,
+            "centre": 1190.5,
+            "explained_fraction": 0.9676492624668941,
+            "residual_rms": 58.96047713721792
+          }
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "radius": 74.5,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 74.5,
+        "paired_finite_width": 74.625
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9712478872509734,
+        "paired_finite_width": 0.9709796372227233
+      },
+      "paired_gain": -0.0002682500282501499,
+      "line_spread": 2.0,
+      "confidence": "medium",
+      "flags": [
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 75.5,
+            "explained_fraction": 0.9850176981346239
+          },
+          "paired_finite_width": {
+            "radius": 75.75,
+            "explained_fraction": 0.9844811980781237
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 73.5,
+            "explained_fraction": 0.957478076367323
+          },
+          "paired_finite_width": {
+            "radius": 73.5,
+            "explained_fraction": 0.957478076367323
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            52.15,
+            74.5,
+            96.85000000000001
+          ],
+          "explained_fraction": [
+            0.0540734928160841,
+            0.09979954772093622,
+            0.012294583060889784
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 73.5,
+            "centre": 733.5,
+            "explained_fraction": 0.9845929400598771,
+            "residual_rms": 42.57954065887233
+          },
+          "paired_finite_width": {
+            "radius": 73.5,
+            "centre": 733.5,
+            "explained_fraction": 0.9870894453013138,
+            "residual_rms": 38.977460218091935
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 75.5,
+            "centre": 1172.5,
+            "explained_fraction": 0.9579063626660648,
+            "residual_rms": 62.067639485382244
+          },
+          "paired_finite_width": {
+            "radius": 75.75,
+            "centre": 1172.5,
+            "explained_fraction": 0.959829176616981,
+            "residual_rms": 60.26548989705178
+          }
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "radius": 80.375,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 80.375,
+        "paired_finite_width": 80.75
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9688292116229944,
+        "paired_finite_width": 0.9687740323505271
+      },
+      "paired_gain": -5.517927246734278e-05,
+      "line_spread": 0.75,
+      "confidence": "medium",
+      "flags": [
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 80.75,
+            "explained_fraction": 0.9840110105112934
+          },
+          "paired_finite_width": {
+            "radius": 81.25,
+            "explained_fraction": 0.9836104390796676
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 80.0,
+            "explained_fraction": 0.9536474127346956
+          },
+          "paired_finite_width": {
+            "radius": 80.25,
+            "explained_fraction": 0.9539376256213865
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            56.262499999999996,
+            80.375,
+            104.4875
+          ],
+          "explained_fraction": [
+            0.028271920645654623,
+            0.06213574691803445,
+            0.007673330028775875
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 80.0,
+            "centre": 731.0,
+            "explained_fraction": 0.9816878585530431,
+            "residual_rms": 41.27847931291902
+          },
+          "paired_finite_width": {
+            "radius": 80.25,
+            "centre": 731.5,
+            "explained_fraction": 0.9841653313029433,
+            "residual_rms": 38.43168840248749
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 80.75,
+            "centre": 1171.5,
+            "explained_fraction": 0.9530179117260399,
+            "residual_rms": 60.20913836343254
+          },
+          "paired_finite_width": {
+            "radius": 81.25,
+            "centre": 1171.0,
+            "explained_fraction": 0.9544884847225261,
+            "residual_rms": 58.85185635439237
+          }
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "radius": 87.875,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 87.875,
+        "paired_finite_width": 88.0
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.963440447583806,
+        "paired_finite_width": 0.963291740534574
+      },
+      "paired_gain": -0.00014870704923197753,
+      "line_spread": 1.25,
+      "confidence": "medium",
+      "flags": [
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 88.5,
+            "explained_fraction": 0.9824413202436267
+          },
+          "paired_finite_width": {
+            "radius": 88.75,
+            "explained_fraction": 0.9821439061451629
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 87.25,
+            "explained_fraction": 0.9444395749239852
+          },
+          "paired_finite_width": {
+            "radius": 87.25,
+            "explained_fraction": 0.9444395749239852
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            61.512499999999996,
+            87.875,
+            114.2375
+          ],
+          "explained_fraction": [
+            0.024931815308229053,
+            0.05560767645279095,
+            0.005648230072379869
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 87.25,
+            "centre": 730.0,
+            "explained_fraction": 0.9804117485466523,
+            "residual_rms": 37.18665293196329
+          },
+          "paired_finite_width": {
+            "radius": 87.25,
+            "centre": 729.5,
+            "explained_fraction": 0.9831096908050024,
+            "residual_rms": 34.5820780058322
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 88.5,
+            "centre": 1170.5,
+            "explained_fraction": 0.9438957235237575,
+            "residual_rms": 56.17647932984825
+          },
+          "paired_finite_width": {
+            "radius": 88.75,
+            "centre": 1170.5,
+            "explained_fraction": 0.945383392967969,
+            "residual_rms": 54.93368102279698
+          }
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "radius": 94.5,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 94.5,
+        "paired_finite_width": 94.5
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.956743281472646,
+        "paired_finite_width": 0.956743281472646
+      },
+      "paired_gain": 0.0,
+      "line_spread": 1.5,
+      "confidence": "medium",
+      "flags": [
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 95.25,
+            "explained_fraction": 0.9810498702091748
+          },
+          "paired_finite_width": {
+            "radius": 95.25,
+            "explained_fraction": 0.9810498702091748
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 93.75,
+            "explained_fraction": 0.9324366927361171
+          },
+          "paired_finite_width": {
+            "radius": 93.75,
+            "explained_fraction": 0.9324366927361171
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            66.14999999999999,
+            94.5,
+            122.85000000000001
+          ],
+          "explained_fraction": [
+            0.015861005810801992,
+            0.037684212899574576,
+            0.00338683992870804
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 93.75,
+            "centre": 726.5,
+            "explained_fraction": 0.9797890971404283,
+            "residual_rms": 34.40069142000459
+          },
+          "paired_finite_width": {
+            "radius": 93.75,
+            "centre": 726.5,
+            "explained_fraction": 0.9819780538715148,
+            "residual_rms": 32.563677640002865
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 95.25,
+            "centre": 1171.0,
+            "explained_fraction": 0.9325360572431434,
+            "residual_rms": 56.08438409854567
+          },
+          "paired_finite_width": {
+            "radius": 95.25,
+            "centre": 1170.0,
+            "explained_fraction": 0.9335302061423743,
+            "residual_rms": 55.17762602417505
+          }
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "radius": 101.125,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 101.125,
+        "paired_finite_width": 101.0
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9499455273702551,
+        "paired_finite_width": 0.9502671878521216
+      },
+      "paired_gain": 0.00032166048186654805,
+      "line_spread": 3.25,
+      "confidence": "medium",
+      "flags": [
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 102.75,
+            "explained_fraction": 0.9759900544035722
+          },
+          "paired_finite_width": {
+            "radius": 102.5,
+            "explained_fraction": 0.9766333753673052
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 99.5,
+            "explained_fraction": 0.923901000336938
+          },
+          "paired_finite_width": {
+            "radius": 99.5,
+            "explained_fraction": 0.923901000336938
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            70.7875,
+            101.125,
+            131.4625
+          ],
+          "explained_fraction": [
+            0.013312471354314117,
+            0.03665139512636176,
+            0.0029267869732936044
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 99.5,
+            "centre": 724.5,
+            "explained_fraction": 0.9783186344334472,
+            "residual_rms": 32.78818056620749
+          },
+          "paired_finite_width": {
+            "radius": 99.5,
+            "centre": 725.0,
+            "explained_fraction": 0.9804772580314737,
+            "residual_rms": 31.233263300541363
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 102.75,
+            "centre": 1169.5,
+            "explained_fraction": 0.9280670290736401,
+            "residual_rms": 52.00732072350356
+          },
+          "paired_finite_width": {
+            "radius": 102.5,
+            "centre": 1168.0,
+            "explained_fraction": 0.9288281806555204,
+            "residual_rms": 51.06209690667356
+          }
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "radius": 119.0,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 119.0,
+        "paired_finite_width": 118.875
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.9287745786306452,
+        "paired_finite_width": 0.9284886438162034
+      },
+      "paired_gain": -0.00028593481444172397,
+      "line_spread": 3.5,
+      "confidence": "medium",
+      "flags": [
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 120.75,
+            "explained_fraction": 0.9670078050055277
+          },
+          "paired_finite_width": {
+            "radius": 120.75,
+            "explained_fraction": 0.9670078050055277
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 117.25,
+            "explained_fraction": 0.8905413522557627
+          },
+          "paired_finite_width": {
+            "radius": 117.0,
+            "explained_fraction": 0.8899694826268791
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            83.3,
+            119.0,
+            154.70000000000002
+          ],
+          "explained_fraction": [
+            0.008021821104795835,
+            0.02318042091758419,
+            0.001180999043687704
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 117.25,
+            "centre": 720.0,
+            "explained_fraction": 0.9701004644049559,
+            "residual_rms": 22.542760771111
+          },
+          "paired_finite_width": {
+            "radius": 117.0,
+            "centre": 720.0,
+            "explained_fraction": 0.9723289827278968,
+            "residual_rms": 21.75509887007958
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 120.75,
+            "centre": 1169.0,
+            "explained_fraction": 0.8945060318209632,
+            "residual_rms": 36.866161078488915
+          },
+          "paired_finite_width": {
+            "radius": 120.75,
+            "centre": 1170.5,
+            "explained_fraction": 0.8946281845863918,
+            "residual_rms": 36.46635677330972
+          }
+        }
+      ]
+    },
+    {
+      "step": 16,
+      "radius": 139.75,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 139.75,
+        "paired_finite_width": 139.75
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.8827616369155014,
+        "paired_finite_width": 0.8827616369155014
+      },
+      "paired_gain": 0.0,
+      "line_spread": 4.0,
+      "confidence": "medium",
+      "flags": [
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 141.75,
+            "explained_fraction": 0.9529300496610926
+          },
+          "paired_finite_width": {
+            "radius": 141.75,
+            "explained_fraction": 0.9529300496610926
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 137.75,
+            "explained_fraction": 0.81259322416991
+          },
+          "paired_finite_width": {
+            "radius": 137.75,
+            "explained_fraction": 0.81259322416991
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            97.82499999999999,
+            139.75,
+            181.675
+          ],
+          "explained_fraction": [
+            0.005792187320326523,
+            0.016538336180865566,
+            0.0006119037932513098
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 137.75,
+            "centre": 712.5,
+            "explained_fraction": 0.9565962797725656,
+            "residual_rms": 18.829140503321174
+          },
+          "paired_finite_width": {
+            "radius": 137.75,
+            "centre": 712.5,
+            "explained_fraction": 0.9594218604563325,
+            "residual_rms": 18.275047025444152
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 141.75,
+            "centre": 1167.5,
+            "explained_fraction": 0.8252901889290299,
+            "residual_rms": 31.648949947555742
+          },
+          "paired_finite_width": {
+            "radius": 141.75,
+            "centre": 1168.5,
+            "explained_fraction": 0.8219798859855837,
+            "residual_rms": 31.440657168719483
+          }
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "radius": 158.5,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 158.5,
+        "paired_finite_width": 158.75
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.8120544205322331,
+        "paired_finite_width": 0.8134651713685199
+      },
+      "paired_gain": 0.0014107508362868337,
+      "line_spread": 4.0,
+      "confidence": "medium",
+      "flags": [
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 160.5,
+            "explained_fraction": 0.9257465401578058
+          },
+          "paired_finite_width": {
+            "radius": 160.25,
+            "explained_fraction": 0.926421033687892
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 156.5,
+            "explained_fraction": 0.6983623009066604
+          },
+          "paired_finite_width": {
+            "radius": 157.25,
+            "explained_fraction": 0.7005093090491479
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            110.94999999999999,
+            158.5,
+            206.05
+          ],
+          "explained_fraction": [
+            0.0028266622794528382,
+            0.009687780202944566,
+            0.00028544182680289876
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 156.5,
+            "centre": 705.5,
+            "explained_fraction": 0.9261150686118363,
+            "residual_rms": 18.557991574792343
+          },
+          "paired_finite_width": {
+            "radius": 157.25,
+            "centre": 706.5,
+            "explained_fraction": 0.9302222124688853,
+            "residual_rms": 18.101383272010374
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 160.5,
+            "centre": 1165.5,
+            "explained_fraction": 0.7142111265337783,
+            "residual_rms": 31.021227111040872
+          },
+          "paired_finite_width": {
+            "radius": 160.25,
+            "centre": 1166.5,
+            "explained_fraction": 0.7044277751715617,
+            "residual_rms": 30.89161645104253
+          }
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "radius": 186.875,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 186.875,
+        "paired_finite_width": 184.75
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.6808688174875146,
+        "paired_finite_width": 0.6821453974051885
+      },
+      "paired_gain": 0.0012765799176739367,
+      "line_spread": 3.75,
+      "confidence": "medium",
+      "flags": [
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 188.75,
+            "explained_fraction": 0.8794186493108288
+          },
+          "paired_finite_width": {
+            "radius": 188.0,
+            "explained_fraction": 0.8827990729248447
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 185.0,
+            "explained_fraction": 0.4823189856642004
+          },
+          "paired_finite_width": {
+            "radius": 184.75,
+            "explained_fraction": 0.48149172188553224
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            130.8125,
+            186.875,
+            242.9375
+          ],
+          "explained_fraction": [
+            0.001241001562119226,
+            0.005303619731016195,
+            6.575306818502501e-05
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 185.0,
+            "centre": 702.0,
+            "explained_fraction": 0.8843663763137909,
+            "residual_rms": 11.740708356925063
+          },
+          "paired_finite_width": {
+            "radius": 184.75,
+            "centre": 702.5,
+            "explained_fraction": 0.8888907612255721,
+            "residual_rms": 11.544432927417713
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 188.75,
+            "centre": 1161.0,
+            "explained_fraction": 0.5021451437159279,
+            "residual_rms": 23.471048507574835
+          },
+          "paired_finite_width": {
+            "radius": 188.0,
+            "centre": 1162.5,
+            "explained_fraction": 0.48734932190193136,
+            "residual_rms": 23.410540762395108
+          }
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "radius": 201.5,
+      "selected": "cam02_thin_line",
+      "candidates": {
+        "cam02_thin_line": 201.5,
+        "paired_finite_width": 201.5
+      },
+      "held_out_score": {
+        "cam02_thin_line": 0.612497412550415,
+        "paired_finite_width": 0.611882259935713
+      },
+      "paired_gain": -0.0006151526147020192,
+      "line_spread": 2.5,
+      "confidence": "low",
+      "flags": [
+        "weak_line_fit",
+        "weak_dot_signal"
+      ],
+      "folds": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 204.0,
+            "explained_fraction": 0.8546361370375621
+          },
+          "paired_finite_width": {
+            "radius": 204.25,
+            "explained_fraction": 0.853405831808158
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 201.5,
+            "explained_fraction": 0.3703586880632679
+          },
+          "paired_finite_width": {
+            "radius": 201.5,
+            "explained_fraction": 0.3703586880632679
+          }
+        }
+      ],
+      "dots": [
+        {
+          "font": "Times",
+          "radii": [
+            141.04999999999998,
+            201.5,
+            261.95
+          ],
+          "explained_fraction": [
+            0.0006608093422303618,
+            0.004963576002633396,
+            0.00020682982538622815
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "font": "Times",
+          "target": "LSF_X",
+          "cam02_thin_line": {
+            "radius": 201.5,
+            "centre": 699.5,
+            "explained_fraction": 0.855485044648725,
+            "residual_rms": 10.078893542236576
+          },
+          "paired_finite_width": {
+            "radius": 201.5,
+            "centre": 699.5,
+            "explained_fraction": 0.860214887799581,
+            "residual_rms": 9.946545548005655
+          }
+        },
+        {
+          "font": "Times",
+          "target": "LSF_Y",
+          "cam02_thin_line": {
+            "radius": 204.0,
+            "centre": 1157.5,
+            "explained_fraction": 0.38912328889894854,
+            "residual_rms": 23.01837015455011
+          },
+          "paired_finite_width": {
+            "radius": 204.25,
+            "centre": 1158.0,
+            "explained_fraction": 0.3755897399447793,
+            "residual_rms": 22.976398641273487
+          }
+        }
+      ]
+    }
+  ]
+}
