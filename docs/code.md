@@ -19,11 +19,11 @@ What each file does. How they fit together: `pipeline.md`.
 | `restore/learned_wiener.py` | Slot 1 for method (d): loads a trained filter (`params/it<N>.json`), estimates the radius of each photograph and deconvolves it with `frontend/wiener.py`. |
 | `frontend/wiener.py` | Method (d): `LearnedWiener`, a Wiener filter with a disc PSF of the estimated radius, a learned regularisation K(f; r) and a learned radius correction s(r), stored as two small tables; saved and loaded as JSON. |
 | `frontend/pairs.py` | Method (d): the training/validation split (same rule as method (c)), the radius cache, and a loader of full-resolution pairs with their estimated radius and transcription. |
-| `frontend/train.py` | Method (d): the losses (`feature_loss`, `pixel_loss`, and the text loss of `vlm/text_loss.py`), validation through the evaluation path, and the training loop. |
+| `frontend/train.py` | Method (d): the losses (`feature_loss`, `pixel_loss`, and the text loss of `vlm/text_loss.py`), validation through the evaluation path, and the training loop. An optional `model.lora` trains the filter for a VLM with a fixed adapter (E2). |
 | `frontend/checks.py` | Method (d): correctness checks run before training (split, filter, slot module, input path, gradients). |
 | `adapt/distill.py` | Method (c): `add_lora` puts a LoRA adapter into the vision encoder; `distill_loss` is the feature-distillation loss (adapted encoder on the blurred photograph against the original encoder on the sharp one). |
-| `adapt/pairs.py` | Method (c): the training/validation split and a loader of sharp/blurred pairs as the PIL images the VLM reads, with their transcription. |
-| `adapt/train.py` | Method (c): the training loop with the feature or the text loss, and validation through the evaluation path; saves the adapter at each validation. |
+| `adapt/pairs.py` | Method (c): the training/validation split and a loader of sharp/blurred pairs as the PIL images the VLM reads, with their transcription; an optional slot-1 restorer is applied to the blurred photograph first (E1). |
+| `adapt/train.py` | Method (c): the training loop with the feature or the text loss, and validation through the evaluation path; saves the adapter at each validation. An optional `restore` section puts a fixed slot 1 before the VLM (E1). |
 | `utils/run.py` | `load_config` reads a YAML config; `new_run` creates the run folder and records the config, machine, Slurm job and git commit; `defocus_root` finds `$DEFOCUS_ROOT`. |
 
 ## `scripts/`: entry points
@@ -50,6 +50,9 @@ What each file does. How they fit together: `pipeline.md`.
 | `train_c_real_text*.yaml` | Training of method (c), real pairs, with the text loss: three learning rates, otherwise as `train_c_real.yaml`. |
 | `c_real.yaml` | Evaluation of method (c), real pairs: `baseline_a.yaml` with slot 2 set to the chosen adapter. |
 | `c_real_text.yaml` | Evaluation of method (c), real pairs, trained with the text loss: `c_real.yaml` with slot 2 set to that adapter. |
+| `e_cd_feature.yaml`, `e_cd_text.yaml` | Evaluation of E0, (c) and (d) combined without retraining: `d_text.yaml` with slot 2 set to the adapter of `c_real.yaml` or `c_real_text.yaml` (`docs/cd-combination.md`). |
+| `train_e1_cfeature.yaml`, `train_e1_ctext.yaml` | Training of E1: a new adapter on the output of the fixed (d) filter, otherwise as the chosen (c) run with feature distillation or the text loss. |
+| `train_e2_cfeature.yaml`, `train_e2_ctext.yaml` | Training of E2: a new filter through the VLM with the fixed adapter of `c_real.yaml` or `c_real_text.yaml`, otherwise as `train_d_text_2k.yaml`. |
 | `train_d_text.yaml`, `train_d_text_2k.yaml` | Training of method (d) with the text loss, 8 pairs per step (4 batches accumulated), 500 and 2000 steps. |
 | `d_feature.yaml`, `d_pixel.yaml` | Evaluation of method (d): `baseline_a.yaml` with slot 1 set to the trained filter in `assets/d_<loss>/params.json`. |
 

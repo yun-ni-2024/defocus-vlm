@@ -6,6 +6,10 @@ Two losses, selected by the config's `loss` (default feature):
   text:    cross-entropy of the correct transcription under the VLM with the adapter, reading the
            blurred photograph (src/vlm/text_loss.py); the sharp photograph is not used.
 Everything else is the same for both.
+
+An optional `restore` section (the slot-1 format of the evaluation configs, src/restore/) puts a
+fixed image-processing step before the VLM, at training and at validation: E1 trains the adapter on
+the output of the (d) filter. Without it the adapter reads the blurred photographs, as in (c).
 """
 import csv
 import time
@@ -16,12 +20,13 @@ from src.adapt.distill import add_lora, distill_loss
 from src.adapt.pairs import endless_batches, split_pairs
 from src.data.image import load_tif, to_pil
 from src.eval.metrics import char_accuracy
+from src.restore import build_restorer
 from src.utils.run import defocus_root
 from src.vlm.qwen import QwenReader
 from src.vlm.text_loss import TextLoss
 
 
-def validate(reader, samples, image_cfg, batch_size):
+def validate(reader, samples, image_cfg, batch_size, restorer=None):
     """Read the blurred validation photographs with the current adapter and score them.
 
     Args:
@@ -29,6 +34,7 @@ def validate(reader, samples, image_cfg, batch_size):
         samples: list of Sample held out for validation.
         image_cfg: the config's image section (white_percentile, long_side).
         batch_size: images per VLM call.
+        restorer: slot-1 restorer applied before to_pil(), or None for an empty slot.
 
     Returns:
         List of dicts, one per image: step, font, number, truth, prediction, accuracy.
@@ -36,9 +42,13 @@ def validate(reader, samples, image_cfg, batch_size):
     rows = []
     for i in range(0, len(samples), batch_size):
         batch = samples[i:i + batch_size]
-        # same preprocessing as the evaluation pipeline
-        images = [to_pil(load_tif(s.blurred, image_cfg["white_percentile"]), image_cfg["long_side"])
-                  for s in batch]
+        # same preprocessing as the evaluation pipeline: load_tif, slot 1, to_pil
+        images = []
+        for s in batch:
+            a = load_tif(s.blurred, image_cfg["white_percentile"])
+            if restorer is not None:
+                a = restorer(a, s)
+            images.append(to_pil(a, image_cfg["long_side"]))
         preds = reader.read(images)
         # score with the same metric as the evaluation (whitespace ignored)
         for s, p in zip(batch, preds):
@@ -106,11 +116,14 @@ def train(cfg, run):
     print(f"trainable parameters: {sum(p.numel() for p in params) / 1e6:.2f} M", flush=True)
     opt = torch.optim.AdamW(params, lr=t["learning_rate"], weight_decay=0.0)
 
+    # optional fixed slot 1 (E1: the (d) filter); it runs in the loading processes, on the CPU
+    restorer = build_restorer(cfg.get("restore"))
+    slot1 = (cfg.get("restore") or {}).get("name", "none")
     # training and validation pairs
     train_set, val_set = split_pairs(d["source"], d.get("steps"), d["val_every"])
-    print(f"{len(train_set)} training pairs, {len(val_set)} validation pairs", flush=True)
+    print(f"{len(train_set)} training pairs, {len(val_set)} validation pairs, slot 1: {slot1}", flush=True)
     batches = endless_batches(train_set, cfg["image"], t["batch_size"], t["seed"], t.get("workers", 0),
-                              load_sharp=loss_name == "feature")
+                              load_sharp=loss_name == "feature", restorer=restorer)
     # the text loss prepares its token layout once, for photographs of the training size
     text_loss = None
     if loss_name == "text":
@@ -133,7 +146,7 @@ def train(cfg, run):
             lr: current learning rate, or None before training.
         """
         student.eval()
-        rows = validate(reader, val_set, cfg["image"], v["batch_size"])
+        rows = validate(reader, val_set, cfg["image"], v["batch_size"], restorer)
         write_csv(run / "val" / f"it{it}.csv", rows)
         acc = sum(r["accuracy"] for r in rows) / len(rows)
         # before training the adapter is zero, so there is nothing to save
@@ -145,7 +158,7 @@ def train(cfg, run):
         print(f"iteration {it}: validation accuracy {acc:.3f}", flush=True)
         student.train()
 
-    # starting point: the original encoder (a new adapter changes nothing)
+    # starting point: the original encoder (a new adapter changes nothing), after slot 1 if set
     checkpoint(0, None, None)
 
     for it in range(1, t["iterations"] + 1):

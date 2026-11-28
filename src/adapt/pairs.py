@@ -1,4 +1,8 @@
-"""Training pairs for method (c): which sharp/blurred photographs to train on, and loading them."""
+"""Training pairs for method (c): which sharp/blurred photographs to train on, and loading them.
+
+An optional slot-1 restorer (src/restore/) is applied to the blurred photograph before to_pil(),
+as in the evaluation pipeline; E1 uses it to train the adapter on the output of the (d) filter.
+"""
 import torch
 from torch.utils.data import DataLoader, Dataset
 
@@ -32,7 +36,7 @@ def split_pairs(source, steps=None, val_every=10):
 class PairDataset(Dataset):
     """Loads the sharp and the blurred photograph of a sample as the images the VLM reads, and its text."""
 
-    def __init__(self, samples, white_percentile=99.5, long_side=1024, load_sharp=True):
+    def __init__(self, samples, white_percentile=99.5, long_side=1024, load_sharp=True, restorer=None):
         """Keep the samples and the image settings.
 
         Args:
@@ -40,11 +44,15 @@ class PairDataset(Dataset):
             white_percentile: passed to load_tif().
             long_side: passed to to_pil().
             load_sharp: False skips the sharp photograph (the text loss does not use it).
+            restorer: slot-1 restorer(a, sample) from build_restorer(), applied to the blurred
+                photograph, or None for an empty slot. It runs in the loading processes, so it
+                must work on the CPU.
         """
         self.samples = samples
         self.white_percentile = white_percentile
         self.long_side = long_side
         self.load_sharp = load_sharp
+        self.restorer = restorer
 
     def __len__(self):
         """Return the number of pairs."""
@@ -58,12 +66,16 @@ class PairDataset(Dataset):
 
         Returns:
             (sharp, blurred, text): two PIL images, processed exactly as in the evaluation (sharp is
-            None when load_sharp is False), and the correct transcription.
+            None when load_sharp is False; blurred has passed through the restorer if one is set),
+            and the correct transcription.
         """
         s = self.samples[i]
-        # the same two steps as the evaluation pipeline with an empty slot 1
+        # the steps of the evaluation pipeline: load_tif, slot 1 (blurred photograph only), to_pil
         sharp = to_pil(load_tif(s.sharp, self.white_percentile), self.long_side) if self.load_sharp else None
-        blurred = to_pil(load_tif(s.blurred, self.white_percentile), self.long_side)
+        a = load_tif(s.blurred, self.white_percentile)
+        if self.restorer is not None:
+            a = self.restorer(a, s)
+        blurred = to_pil(a, self.long_side)
         return sharp, blurred, s.text
 
 
@@ -79,7 +91,7 @@ def _collate(batch):
     return [b[0] for b in batch], [b[1] for b in batch], [b[2] for b in batch]
 
 
-def endless_batches(samples, image_cfg, batch_size, seed=0, workers=0, load_sharp=True):
+def endless_batches(samples, image_cfg, batch_size, seed=0, workers=0, load_sharp=True, restorer=None):
     """Yield batches of pairs forever, in a new random order every pass over the data.
 
     Args:
@@ -89,11 +101,12 @@ def endless_batches(samples, image_cfg, batch_size, seed=0, workers=0, load_shar
         seed: seed of the shuffling, so a run can be repeated.
         workers: processes that load images in the background; 0 loads in the main process.
         load_sharp: False skips the sharp photographs (they are then None).
+        restorer: slot-1 restorer applied to the blurred photographs, or None (see PairDataset).
 
     Yields:
         (sharp images, blurred images, texts): three lists of length batch_size.
     """
-    ds = PairDataset(samples, image_cfg["white_percentile"], image_cfg["long_side"], load_sharp)
+    ds = PairDataset(samples, image_cfg["white_percentile"], image_cfg["long_side"], load_sharp, restorer)
     # a seeded generator fixes the order of the shuffles
     g = torch.Generator().manual_seed(seed)
     loader = DataLoader(ds, batch_size=batch_size, shuffle=True, drop_last=True, generator=g,
